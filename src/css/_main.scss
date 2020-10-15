@@ -13,10 +13,18 @@ html {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
+  background-color: #194707;
+  background: linear-gradient( to bottom, #194707, #0b2e03);
+  background-attachment: fixed;
+  color: white;
 }
 
 body {
+  background-color: #194707;
+  background: linear-gradient( to bottom, #194707, #0b2e03);
+  background-attachment: fixed;
   transition: background-color 0.3s ease-out;
+  color: white;
 }
 
 // button from
@@ -42,21 +50,3 @@ a.btn-primary {
   }
 }
 
-// dark mode
-body.dark {
-  background-color: $darkBody;
-
-  a.btn-primary {
-    background: $navBG-dark;
-    border-color: $navBG-dark;
-    color: white;
-  
-    &:hover,
-    &:focus,
-    &:not(:disabled):not(.disabled):active {
-      background: $darkerBlue;
-      outline: none !important;
-      border-color: $navBG-dark;
-    }
-  }
-}

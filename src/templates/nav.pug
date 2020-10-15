@@ -5,8 +5,7 @@ include mixins
 nav.navbar.navbar-expand-xl.fixed-top
   .container.d-flex.justify-content-between
     a.navbar-brand.d-lg-inline-block(href=urlPrefix)
-      span iGEM 
-      | MIT_MAHE
+      span HOME
 
     button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNav' 
                 aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
@@ -27,11 +26,3 @@ nav.navbar.navbar-expand-xl.fixed-top
               .dropdown-menu(aria-labelledby="navbar"+section['section']+"Dropdown")
                 each item in section['items']
                   a.dropdown-item(href= urlPrefix + item.link.replace(/ /g,'_'))= item.title
-
-    #themeSwitchWrapper.d-flex
-      i.far.fa-sun
-      #themeSwitch
-        label.switch(for='themeSwitchInput')
-          input(type='checkbox')#themeSwitchInput
-          span.slider.round
-      i.far.fa-moon

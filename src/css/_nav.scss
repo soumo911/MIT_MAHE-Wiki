@@ -2,7 +2,7 @@
 * Navbar 
 **/
 
-$navBG: #2c3e50;
+$navBG: #051e016e;
 $navItem: white;
 $navItemHover: #18bc9c;
 
@@ -19,15 +19,23 @@ $dropdown-border-dark: rgb(68, 68, 68);
 
   .navbar-brand {
     font-size: 1.75rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.07em;
     position: relative;
     z-index: 200;
     transition: transform 0.3s;
     color: white;
 
     span {
-      font-weight: 600;
+      font-size: 1rem;
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      letter-spacing: 0.07em;
+      position: relative;
+      z-index: 200;
+      transition: transform 0.3s;
+      color: white;
     }
 
     &:hover {
@@ -40,17 +48,19 @@ $dropdown-border-dark: rgb(68, 68, 68);
   }
 
   .navbar-collapse {
-    background-color: $navBG;
     transition: all 0.3s ease, transform 0.5s ease;
   }
 
   li {
     padding: 0 0.25rem;
+    text-transform: uppercase;
   }
 
   a {
     font-family: "Lato", sans-serif;
-    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+    font-size: 1rem;
     color: $navItem;
 
     &:hover {
@@ -59,40 +69,18 @@ $dropdown-border-dark: rgb(68, 68, 68);
   }
 
   .dropdown-menu {
-    a {
-      color: $navBG;
-
-      &:hover {
-        background-color: $navBG;
-        color: white;
-      }
-    }
-  }
-}
-
-// dark mode
-body.dark {
-  .navbar {
-    background-color: $navBG-dark
-  }
-  
-  .navbar-collapse {
-    background-color: $navBG-dark;
-  }
-
-  .dropdown-menu {
-    background-color: $body-dark;
-    border: 1px solid $dropdown-border-dark;
+    background-color: $navBG;
     a {
       color: white;
 
       &:hover {
-        background-color: $navBG-dark;
-        color: white;
+        background-color: $navBG;
+        color: $navItemHover;
       }
     }
   }
 }
+
 
 @include respond-below(lg) {
   .navbar {
@@ -152,84 +140,5 @@ body.dark {
   }
   #themeSwitchWrapper {
     display: none !important;
-  }
-}
-
-/**
-Dark Mode Toggle Switch
-**/
-
-#themeSwitchWrapper {
-  margin-left: 1rem;
-  padding-bottom: 20px;
-  height: 20px;
-
-  svg {
-    margin-top: 2px;
-  }
-
-  #themeSwitch {
-    display: inline-block;
-
-    label.switch {
-      display: inline-block;
-      position: relative;
-      width: 50px;
-      height: 20px;
-      margin: 0 1rem;
-
-      input {
-        opacity: 0;
-        width: 0;
-        height: 0;
-      }
-    }
-
-    .slider {
-      position: absolute;
-      cursor: pointer;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: #ccc;
-      -webkit-transition: 0.4s;
-      transition: 0.4s;
-    }
-
-    .slider:before {
-      position: absolute;
-      content: "";
-      height: 14px;
-      width: 14px;
-      left: 3px;
-      top: 3px;
-      background-color: $navBG;
-      -webkit-transition: 0.4s;
-      transition: 0.4s;
-    }
-
-    input:checked + .slider:before {
-      background-color: $navBG-dark;
-    }
-
-    input:focus + .slider {
-      box-shadow: 0 0 1px $navBG-dark;
-    }
-
-    input:checked + .slider:before {
-      -webkit-transform: translateX(29px);
-      -ms-transform: translateX(29px);
-      transform: translateX(29px);
-    }
-
-    /* Rounded sliders */
-    .slider.round {
-      border-radius: 34px;
-    }
-
-    .slider.round:before {
-      border-radius: 50%;
-    }
   }
 }
