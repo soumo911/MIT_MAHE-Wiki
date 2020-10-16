@@ -49,26 +49,26 @@ main {
     }
 
     .thefront {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    backface-visibility: hidden;
-    overflow: hidden;
-    background: #d5e48f;
-    color: #222222;
-    }
+     width: 100%;
+     height: 100%;
+     border-radius: 10px;
+     backface-visibility: hidden;
+     overflow: hidden;
+     background: #d5e48f;
+     color: #222222;
+     }
 
     .theback {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    backface-visibility: hidden;
-    overflow: hidden;
-    background: #d5e48f;
-    color: #222222;
-    text-align: center;
-    transform: rotateY(180deg);
-    }
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     border-radius: 10px;
+     backface-visibility: hidden;
+     overflow: hidden;
+     background: #d5e48f;
+     color: #222222;
+     transform: rotateY(180deg);
+     }
 
     .row {
       scroll-margin-top: 150px;
