@@ -18,31 +18,22 @@ $dropdown-border-dark: rgb(68, 68, 68);
   padding: 0;
 
   .navbar-brand {
-    font-size: 1.75rem;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    letter-spacing: 0.07em;
+    font-size: 1.50rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
     position: relative;
     z-index: 200;
     transition: transform 0.3s;
     color: white;
 
     span {
-      font-size: 1rem;
-      font-family: "Lato", sans-serif;
-      font-weight: 400;
-      letter-spacing: 0.07em;
-      position: relative;
-      z-index: 200;
-      transition: transform 0.3s;
-      color: white;
+      font-weight: 600;
     }
 
     &:hover {
-      color: white;
+      color: $navItemHover;
     }
   }
-
   .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   }
@@ -69,7 +60,7 @@ $dropdown-border-dark: rgb(68, 68, 68);
   }
 
   .dropdown-menu {
-    background-color: $navBG;
+    background-color: #051e01e7;
     a {
       color: white;
 
