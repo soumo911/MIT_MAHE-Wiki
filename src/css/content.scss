@@ -376,7 +376,7 @@ header {
     }
 
     a {
-      color: $dark-green;
+      color: $whitey;
 
       &:hover {
         text-decoration: underline;
@@ -384,6 +384,7 @@ header {
     }
 
     caption {
+      color: #e2e2e3;
       text-align: center;
       font-style: italic;
       margin-top: 15px;

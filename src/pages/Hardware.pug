@@ -2,139 +2,104 @@ extends ../templates/contents.pug
 
 block headVars
     - var title = "Hardware"
-    - var tagline = "A sample page for the theme."
+    - var tagline = "SAUL - Systematic Analysis of Underlying Limitations. (It)'s all gut!"
     - var requireMathJax = true
 
 block article
 
     :markdown-it(html)
 
-        # Headings
-        ## Level 2 Heading
-        ### Level 3 Heading
-        #### Level 4 Heading
+        # Introduction
+        The small intestine is a complex dynamic environment with a variety of physiological and mechanical stresses in play. These properties play an important role in determining the viability of the probiotic drug components. In vivo studies are too complicated and expensive to be used for the initial screening processes like studying the chassis to be used, checking the effectiveness of the probiotic in a variable dynamic environment and/or in optimization of the capsule for appropriate delivery. Current lab scale methodologies involve a relatively oversimplified static system which would not replicate most properties of its target site environment. **Systematic Analyzer of Underlying Limitations (SAUL)** is a bioreactor that aims to provide more variable conditions to combat as well as study the underlying limitations of current static methodologies.
 
-        # Emphasis
-        This is regular text.
-
-        **This is bold text.**
-        __This is also bold text.__
-
-        *This is italic text.*
-        _This is also italix text.*
-
-        ***This text is bold and italic both.***
-        ___This text is bold and italic both.___
-
-        ~~Strikethrough~~
-
-        # Lists
-        1. This is item one.
-        1. This is item two.
-        1. It's okay to number every item as 1.
-            * This is a nested list.
-            * Use asterisk for an unordered list,
-            * Further nesting?
-            + Plus sign also works.
-            - And so does minus.
-        1. ~~Birds aren't real.~~
-
-        # Links
-        [Google](https://google.com)
-
-        [Text goes in square brackets](Link-goes-in-parenthesis)
-
-        # Blockquote
-
-        > This is a blockquote.
-        > This continues in the same paragraph.
-        >
-        > To change the paragraph, you have to leave a line.
-
-        > This is another blockquote.
-        > 
-        > **Pranav Ballaney, 2020**
-
-        # Images
-
-        This is a regular paragraph. 
-        #### This is a level 4 heading. 
-        [This is a link](google.com)
+        # Components of the GI Tract modelled
+        ### Stomach
+        This model focuses only on two types of stomach movement i.e Peristalsis and Ancillary. The pH is maintained at 2. The pipe dimensions are not in scale to the stomach geometry, hence the flow pattern would differ in the stomach. 
+        ### Duodenum
+        Duodenum is the first part of the small intestine located between the stomach and the jejunum. It is the first site of action of our probiotic where our capsule would dissolve, and the probiotic would be released into the gut environment. Like stomach, the main types of muscle movement contributing to intestine motility are peristalsis and segmentation. In duodenum there is a sudden change in pH to 6. Presence of bile juices contributes to the viability of the probiotic.
+        
+        # Setup
 
     - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
-    +image(1, imgpath, "Caption", 100)
+    +image(1, imgpath, "Note - Incubator is not shown.", 100)
+    
+    :markdown-it(html)
+        All required reagents are stored in HDPE container bottles, and transported to the inlet of the dialysis tube inside the bioreactor by use of diaphragm pumps. The pumps are fitted with one-way valves to prevent back-flow of fluid when containers are changed. The capsule containing the probiotic bacteria and the powdered dye are added through a separate dry inlet in close proximity to the start of dialysis tube. when the fluids reach the inlet of the bioreactor, the DC geared motor that controls peristaltic motion of the tube inside is switched on. The contents of the tube travel through the bioreactor, pushed by peristalsis. The fluids then come out of the bioreactor and are collected into a container bottle or directed back towards the inlet as a recycle stream. The fluids in the basolateral chamber (inside the bioreactor case, outside of the dialysis tube) are recirculated using a closed loop of silicon tubes. A pH sensor is provided in the outlet container for measurement of pH, and temperature is maintained by enclosing the whole setup in an incubator.
+
+        # Parameters under consideration
+    
+    :markdown-it(html plugins=['markdown-it-multimd-table'])
+        |Parameter     |          Conditions           |
+        | :------------ |         :-----------         |
+        |Density       |          Water at 37°C- 0.99997 g/cm3 (Used as control), density of food substitute will depend on the amount of guar gum added         |
+        |Viscosity     |   0.1-3.0 Pa.s                    |                                 
+        |Temperature   |     37°C                      |
+        |pH range      | 2 (for stomach); 6-7.4 (for small intestine)                    |
+        |Peristaltic frequency|          3 per minute in the stomach, then 12 per minute in the duodenum, 9 per minute in the ileum          |
+        |Flow rate       |   2.5 mL/min to 20 mL/min (Intestine)                   |                                 
+        |Shear stress   |    200 Pa                      |
+        |Capsule Diameter      | 5.31mm and 4.91mm                    |
+        [Table 1: Process conditions for various parameters.]        
 
     :markdown-it(html)
-        Back to regular text.
+        # Bioreactor Design
 
-        # Tables
+    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
+    +image(2, imgpath, "Design of Bioreactor", 100)
 
-        This is a regular paragraph, which precedes the table.
-        When you want to insert a table, indent one level back and specify the plugin.
-        Then indent inside again and start writing the table.
+    :markdown-it(html)
+        The model of the bioreactor was created using CATIA.
+        
+        A semi permeable dialysis tube (made of regenerated cellulose) is used as the apical chamber of the intestine. Imitation of peristalsis is achieved through periodic compression of the dialysis tube by three ball bearings. The bearings are actuated using a DC motor. The dialysis tube is fitted into a 3D printed case, which mimics the basolateral chamber. The bottom part of the case holds the motor in place and acts as a stand when the bioreactor is in a vertical configuration. Silicon tubes are used as recirculation channels for the basolateral fluids. 
+        
+        Structural analysis of the dialysis tube was performed on ANSYS in order to determine the appropriate tube diameter that would incur shear stresses as close as possible to the stresses experienced in the intestine.
+
+        # Expected Results
+        A comprehensive set of experiments were formulated to accomplish the following objectives -
+
+        * To check whether the bacteria can tolerate bile salts and hence effectively colonize in the gut. 
+        * To optimize the thickness of the capsule used to deliver the probiotic.
+        * To optimize capsule acid coating (sodium alginate, hypromellose and gellan gum), and determine tolerance time. 
+        * To check the overall efficiency of the capsule by subjecting it to stresses experienced in stomach and gut (due to flow rate, temperature, pressure, pH, etc), and thus finalize capsule formulation.  
+        * To map drug distribution using a powdered dye.
+        * To check viability of the bacteria in the presence and absence of bile.
+        * To check efficiency of probiotic bacteria in converting methylmercury to elemental mercury.
+        * To check inflammatory response of probiotic bacteria in a dynamic system.
+
+        # Estimated Cost
 
     :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | This is | the table | header row |
-        | ------  | --------- | ---------- |
-        | 1       | 2         | 3          |
-        | 4       | 5         | 6          |
-        [Table 1: Caption goes here.]
+        | Component       | Rate Per Unit  | Number of Units| Cost in INR    | Cost in USD   |
+        | :-----------    | :------------: | :------------: | :------------: |:------------: |
+        | ABS Filament    | 995 per kg     | 0.5 kg         | 498            | 6.79          |
+        | Pump            | 260            | 5              | 1300           | 17.73         |
+        | Valve           | 85             | 6              | 510            | 6.96          |
+        | Dialysis Tube   | 18992.42/100ft | 300 mm         | 187            | 2.55          |
+        | Silicon Tube    | 186.29/ft      | 3.28 ft        | 608            | 8.29          |
+        | Container Bottle| 830 per pack   | 5              | 830            | 11.32         |
+        | Bearings        | 50             | 3              | 150            | 2.05          |
+        | Fasteners       | 4              | 15             | 60             | 0.82          |
+        | Motor           | 2000           | 1              | 2000           | 27.28         |
+        
+    //- :markdown-it(html)
 
-    :markdown-it(html)
-        And when you're done, go back to the regular markdown filter.
+    //-     # Definitions
 
-    :markdown-it(html)
-        **Example 2:**
+    //-     <dfn>Peristalsis ~ A type of movement that requires radial contraction of blah blah.</dfn>
 
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | Left aligned | Center aligned | Right aligned |
-        | :----------- | :------------: | ------------: |
-        | 1 | 2 | 3 |
-        | 4 | 5 | 6 |
+    //-     This can come <dfn>anywhere in ~ the text</dfn>.
 
-    :markdown-it(html)
-        **Example 3:**
+    //-     # Citations
 
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        |              |          Grouping           ||
-        |First Header  | Second Header | Third Header |
-        | ------------ | :-----------: | -----------: |
-        |Content       |          *Long Cell*        ||
-        |Content       |   **Cell**    |         Cell |                                               
-        |New section   |     More      |[Data](https://google.com) |
-        |And more      | With an escaped '\|'       ||
+    //-     In text citation for a research article with a DOI. [Rosano et al., 2019](#citation2)
 
-        [Table 3: Caption goes here.]
+    //-     In text citation for another research article with a DOI. [Allen & Sheridan, 2015](#citation1)
 
-    :markdown-it(html)
+    //-     In text citation for a book with no DOI. [Ingalls, 2013](#citation3)
 
-        # Definitions
+    //-     In text citation for a website with institutional author. [TNAU Agritech Portal, n.d.](#citation4)
 
-        <dfn>Peristalsis ~ A type of movement that requires radial contraction of blah blah.</dfn>
-
-        This can come <dfn>anywhere in ~ the text</dfn>.
-
-        # MathJax
-
-        $$\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$
-
-        $$-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$$
-
-        $$i\hbar\gamma^\mu\partial_\mu\psi = mc\psi$$
-
-        $$y_k = \frac{1}{\sqrt{N}}\sum_{n=0}^{N-1}x_n\omega_N^{kn}$$
-
-        # Citations
-
-        In text citation for a research article with a DOI. [Rosano et al., 2019](#citation2)
-
-        In text citation for another research article with a DOI. [Allen & Sheridan, 2015](#citation1)
-
-        In text citation for a book with no DOI. [Ingalls, 2013](#citation3)
-
-        In text citation for a website with institutional author. [TNAU Agritech Portal, n.d.](#citation4)
-
-        In text citation for a website with an author. [Author, n.d.](#citation5)
+    //-     In text citation for a website with an author. [Author, n.d.](#citation5)
 
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 
