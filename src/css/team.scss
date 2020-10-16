@@ -73,6 +73,12 @@ main {
      transform: rotateY(180deg);
      }
 
+    .thefront h5, .theback h5{
+      font-family: 'piazzolla', sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
     .row {
       scroll-margin-top: 150px;
     }
