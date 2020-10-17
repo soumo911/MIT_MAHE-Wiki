@@ -2,139 +2,65 @@ extends ../templates/contents.pug
 
 block headVars
     - var title = "Experimentation"
-    - var tagline = "A sample page for the theme."
+    - var tagline = "This page outlines the experiments that have been designed by the team."
     - var requireMathJax = true
 
 block article
 
     :markdown-it(html)
 
-        # Headings
-        ## Level 2 Heading
-        ### Level 3 Heading
-        #### Level 4 Heading
+        # Introduction
+        We have planned the experiments to find the threshold concentration of methylmercury required by the transformed bacteria to generate a response and a test to analyse the tolerance of the bacteria to high levels of methylmercury chloride as part of the preliminary experiments. Further experiments have been broken down to the study of the two biobricks we have designed, to characterize the different parts of the plasmids, to determine the most efficient combination of parts, to understand the amount of stress required to activate the parts, to show the efficiency of the system and to recognize the compatibility  and working of the two plasmids without disregarding any safety concerns and upholding good lab practices. To replicate the gut environment the experiments will be performed at a pH of 6-7 and 37° degrees and the circuits will be assembled using Gibson assembly.
 
-        # Emphasis
-        This is regular text.
-
-        **This is bold text.**
-        __This is also bold text.__
-
-        *This is italic text.*
-        _This is also italix text.*
-
-        ***This text is bold and italic both.***
-        ___This text is bold and italic both.___
-
-        ~~Strikethrough~~
-
-        # Lists
-        1. This is item one.
-        1. This is item two.
-        1. It's okay to number every item as 1.
-            * This is a nested list.
-            * Use asterisk for an unordered list,
-            * Further nesting?
-            + Plus sign also works.
-            - And so does minus.
-        1. ~~Birds aren't real.~~
-
-        # Links
-        [Google](https://google.com)
-
-        [Text goes in square brackets](Link-goes-in-parenthesis)
-
-        # Blockquote
-
-        > This is a blockquote.
-        > This continues in the same paragraph.
-        >
-        > To change the paragraph, you have to leave a line.
-
-        > This is another blockquote.
-        > 
-        > **Pranav Ballaney, 2020**
-
-        # Images
-
-        This is a regular paragraph. 
-        #### This is a level 4 heading. 
-        [This is a link](google.com)
+        # Escherichia coli Nissle 1917
+        
+        We have designed experiments to show that the strain used for the probiotic to be made, Escherichia coli Nissle 1917 can survive under oxidative stress, varying pH and is safe.
 
     - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
-    +image(1, imgpath, "Caption", 100)
-
-    :markdown-it(html)
-        Back to regular text.
-
-        # Tables
-
-        This is a regular paragraph, which precedes the table.
-        When you want to insert a table, indent one level back and specify the plugin.
-        Then indent inside again and start writing the table.
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | This is | the table | header row |
-        | ------  | --------- | ---------- |
-        | 1       | 2         | 3          |
-        | 4       | 5         | 6          |
-        [Table 1: Caption goes here.]
-
-    :markdown-it(html)
-        And when you're done, go back to the regular markdown filter.
-
-    :markdown-it(html)
-        **Example 2:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | Left aligned | Center aligned | Right aligned |
-        | :----------- | :------------: | ------------: |
-        | 1 | 2 | 3 |
-        | 4 | 5 | 6 |
-
-    :markdown-it(html)
-        **Example 3:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        |              |          Grouping           ||
-        |First Header  | Second Header | Third Header |
-        | ------------ | :-----------: | -----------: |
-        |Content       |          *Long Cell*        ||
-        |Content       |   **Cell**    |         Cell |                                               
-        |New section   |     More      |[Data](https://google.com) |
-        |And more      | With an escaped '\|'       ||
-
-        [Table 3: Caption goes here.]
+    +image(1, imgpath, "Escherichia coli Nissle 1917", 100)    
 
     :markdown-it(html)
 
-        # Definitions
+        # Methylmercury and methylmercury chloride concentrations
+        _Escherichia coli_ DH5α inoculated with Bio-Brick 1 is to be induced with mercuric chloride and the fluorescence of the GFP is to be measured on a spectrofluorometer (excitation-350nm, emission-500nm wavelength). We measure O.D and GFP intensity at intervals of 60 minutes until 4.5 hours. We check for minimum and maximum accumulation of mercury inside the cell using gas chromatography. In this preliminary experiment we obtain the threshold response to be used as the minimum limit and the limit of tolerance of the bacteria is noted and used as the maximum limit for characterization experiments. Even though the methylmercury concentration that harms humans differs from that of mice, for experimental purposes we have referred to literature consisting of the impact of methylmercury on both these species.
 
-        <dfn>Term ~ Definition</dfn>
+        # Characterizing MerR
+        We test the response of MerR to methylmercury using 2 control circuits which do not have the MerR gene present in them. E. coli cells inoculated with methylmercury chloride are grown for the required amount of time according to the results of the preliminary experiment. We check for GFP intensities expecting an exponential increase in fluorescence with an increase in methylmercury concentration for the circuit with MerR present. For the control with PmerT, transcription is initiated but at a lower level than the circuit to be tested. The plot of fluorescence and methylmercury concentration indicates that MerR contributes significantly in methylmercury response.
 
-        This can come <dfn>anywhere in ~ the text</dfn>.
+        # Characterizing the transport system of Bio-Brick 1
+        To determine the final transport design, we test three circuits consisting of a combination of genes among MerP, MerC, MerT and MerE. Through literature survey we found out three circuit designs are possible. The circuit showing the most effective results and can most efficiently reduce metabolic burden will be chosen as the bio-brick for the transport system for our first plasmid.
+        Circuits we test for the final transport design system:
+        1. MerP-MerT-MerC-MerE
+        2. MerC-MerE
+        3. MerP-MerT -MerE
+        
+        To test the efficiency and characterize each of the 4 parts separately we carry out experiments with each of the parts making use of 2 test circuits and 2 controls.
+        
+        Circuits:
+        1. The final transport design system
+        2. Constitutive Promoter- RBS – (The part to be tested, i.e. MerP, MerC, MerT or MerE) -RBS-Double Terminator
+        
+        Controls:
+        1. Final circuit design without the part to be tested
+        2. Wild type Escherichia coli DH5alpha
+        
+        E. coli cells inoculated with methylmercury chloride are grown for the required amount of time according to the results of the preliminary experiment respectively for the 2 circuits to be tested and 2 controls. The cell suspension is centrifuged and the mercury concentration in the supernatant for each to set is determined with gas chromatography. Plots of concentration vs time for each of the sets are analysed to understand the efficiency of the parts in transporting methylmercury.
 
-        # MathJax
+        # Characterization of MerA and MerB
 
-        $$\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$
+        We check for methylmercury concentrations in the presence and absence of MerA and MerB with 3 circuits. The first with presence of both MerA and MerB, the second with deletion of either MerA or MerB respectively and the third with absence of both MerA and MerB. We test to see the increase in the Mer spectrum with the introduction of MerB and MerA to conclude that the addition of the two genes confer to a better resistance to methylmercury. We perform the MTT assay to map the resistance provided by each gene MerA and MerB to show that the introduction of MerB and MerA increases the Mer spectrum, hence implying that the addition of the two genes confers better resistance to methylmercury.
+        
+        We test the overall working of Bio-Brick 1 to show its efficiency in converting methylmercury to elemental mercury as compared to natural systems.
 
-        $$-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$$
+        # Characterization of SoxR and SoxS
 
-        $$i\hbar\gamma^\mu\partial_\mu\psi = mc\psi$$
+        Escherichia coli Nissle 1917 transformed with SoxR and SoxS genes is tested to analyse the relationship between the amount of oxidative stress and transcription rates of the genes in response to methyl viologen dichloride hydrate which acts as an inducer by measuring GFP intensity. The intensity of GFP increases with time indicating that even if the concentration of the oxidative stress inducer is constant, the rate of activation of SoxR and thus the rate of transcription of SoxS promoter increases and then stabilizes to a constant rate with a higher transcription rate of SoxS promoter with a higher inducer concentration. We test to understand the amount of oxidative stress required to activate SoxR and in turn activate SoxS promoter occurs even at low oxidative stress, preventing any unwanted inflammation due to our probiotic thus getting an anti-inflammatory response activation by composite bio-brick 2. We also check for the basal level of transcription of SoxS promoter so that unwanted anti-inflammatory substances will not be released without the presence of oxidative stress.
 
-        $$y_k = \frac{1}{\sqrt{N}}\sum_{n=0}^{N-1}x_n\omega_N^{kn}$$
+        # Efficiency of the Hemolysin Secretion System
 
-        # Citations
-
-        In text citation for a research article with a DOI. [Rosano et al., 2019](#citation2)
-
-        In text citation for another research article with a DOI. [Allen & Sheridan, 2015](#citation1)
-
-        In text citation for a book with no DOI. [Ingalls, 2013](#citation3)
-
-        In text citation for a website with institutional author. [TNAU Agritech Portal, n.d.](#citation4)
-
-        In text citation for a website with an author. [Author, n.d.](#citation5)
+        We test for the efficiency of the control system consisting of HlyB, HlyD, TolC and HlyA against a control with HlyB, HlyD and TolC absent. We analyse the HlyA + GFP transported outside the cells, HlyA + GFP remaining inside the cells and the total HlyA + GFP produced with absorbance vs time graphs to show to efficiency in getting the anti-inflammatory cytokines outside the cell to the target site.
+        
+        Finally, we test the overall working of Bio-Brick 2 to show that it will work only in the conditions of methylmercury induced inflammation.
 
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 
