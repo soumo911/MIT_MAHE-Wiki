@@ -2,141 +2,62 @@ extends ../templates/contents.pug
 
 block headVars
     - var title = "Collaborations"
-    - var tagline = "A sample page for the theme."
+    - var tagline = "This page outlines the collaborations our team had for this iGEM season."
     - var requireMathJax = true
 
 block article
 
     :markdown-it(html)
+        # Introduction
+        Collaborations are an integral part of iGEM - because it's fun to work with others and there's a lot more that we can achieve together. Our many successful collaborations with iGEM Teams and other organizations have been listed here. These amazing collaborations brought to life a regional meet-up, a national level biology cum SDG summit, an iGEM proceedings journal and even our wiki! You can refer this page to know about our collaborations this year.
 
-        # Headings
-        ## Level 2 Heading
-        ### Level 3 Heading
-        #### Level 4 Heading
+        # All India iGEM Meet
+        We co-hosted **All India iGEM Meetup 2020** in collaboration with **IISER Bhopal**, **IISER Berhampur**, **IISER Tirupati**, **BITS Goa** and **IIT Roorkee**, which was sponsored by Promega. Two fun-filled days - _31st July_ and _1st August 2020_ featured fifteen potential teams from India apart from the hosting teams registered for this competition (Not all of these teams were able to participate in iGEM 2020). The event had a series of talks by scientists from multiple fields, project presentations by participating teams, ‘Fireside chat’ sessions with iGEM alumnis and a lot more. Our team had a lot of fun collaborating and coordinating with five other competing iGEM teams who helped successfully conduct this massive event with resounding success.
 
-        # Emphasis
-        This is regular text.
+    - var imgpath = "" + require("../assets/img/Collaborations--AIIM.png")["default"]
+    +image(1, imgpath, "AIIM Banner", 100)
 
-        **This is bold text.**
-        __This is also bold text.__
-
-        *This is italic text.*
-        _This is also italix text.*
-
-        ***This text is bold and italic both.***
-        ___This text is bold and italic both.___
-
-        ~~Strikethrough~~
-
-        # Lists
-        1. This is item one.
-        1. This is item two.
-        1. It's okay to number every item as 1.
-            * This is a nested list.
-            * Use asterisk for an unordered list,
-            * Further nesting?
-            + Plus sign also works.
-            - And so does minus.
-        1. ~~Birds aren't real.~~
-
-        # Links
-        [Google](https://google.com)
-
-        [Text goes in square brackets](Link-goes-in-parenthesis)
-
-        # Blockquote
-
-        > This is a blockquote.
-        > This continues in the same paragraph.
-        >
-        > To change the paragraph, you have to leave a line.
-
-        > This is another blockquote.
-        > 
-        > **Pranav Ballaney, 2020**
-
-        # Images
-
-        This is a regular paragraph. 
-        #### This is a level 4 heading. 
-        [This is a link](google.com)
-
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
-    +image(1, imgpath, "Caption", 100)
+    - var imgpath = "" + require("../assets/img/Collaborations--teams.png")["default"]
+    +image(2, imgpath, "Team Logos", 100)
 
     :markdown-it(html)
-        Back to regular text.
+        # iGEM India BIOSUMMIT 2020
+        In collaboration with **The Dais** India, **EMERGE**, **BITSMUN** Goa, and **iGEM BITS Goa**, we organized the *first-ever national-level* ***iGEM India BIOSUMMIT 2020*** on *25th July 2020*. The BIOSUMMIT focused on an interdisciplinary interaction for synthetic biology and its relevance cum impact value in the achievement of the _Sustainable Development Goals of the United Nations_. Our aim was to lead a healthy discussion revolving around these goals which were discussed in brief in four committees namely - _Ethics of Terraforming, Medical Data Privacy, Prevention of Biowarfare, and Genetic Cosmetic Treatments._
+        
+        The BIOSUMMIT boasted international judges from the USA to Japan - including iGEM UN CBD 2018 delegates - *Aiswarya Prasad* and *Janina Lüders* and iGEM 2020 ambassadors - *Varsha Jaisimha* and *Kaavya Ashok*. We also had *Georgios Kostakos*, who served as the secretariat of the UN Secretary General's High-level panel on Global sustainability. We also saw substantial outstation participation. Each committee had a fruitful discussion about their respective agendas and the judges and moderators gave interesting insights and ensured the smooth flow of events. Each participant contributed to the discussion by adding on to each other’s information, identifying problems, and providing solutions in a healthy collaborative manner which led to interesting conclusions from each committee.
 
-        # Tables
-
-        This is a regular paragraph, which precedes the table.
-        When you want to insert a table, indent one level back and specify the plugin.
-        Then indent inside again and start writing the table.
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | This is | the table | header row |
-        | ------  | --------- | ---------- |
-        | 1       | 2         | 3          |
-        | 4       | 5         | 6          |
-        [Table 1: Caption goes here.]
+    - var imgpath = "" + require("../assets/img/Collaborations--biosummit.png")["default"]
+    +image(3, imgpath, "Biosummit Banner", 100)
 
     :markdown-it(html)
-        And when you're done, go back to the regular markdown filter.
+        # iGEM Proceedings Journal
+        We participated in the journal initiative by **iGEM MSP-Maastricht** and published three research articles (which includes two in the printed version of the same). The journal functioned exactly like a regular scientific journal, including peer review. This was a great opportunity for our team to train our academic writing and actually publish our work! All articles were peer-reviewed by other teams that participated. Therefore, we not only got the chance to be the authors of peer-reviewed articles, but lived the experience of being a peer reviewer as well.
+
+    - var imgpath = "" + require("../assets/img/Collaborations--msp.png")["default"]
+    +image(4, imgpath, "iGEM Proceedings Journal Initiative", 100)
 
     :markdown-it(html)
-        **Example 2:**
+        # Research Society of Manipal
+        On the _20th of September_, in collaboration with the __Research Society of Manipal__ - we invited Harish Narasimhan, a Masters Graduate from Johns Hopkins Bloomberg School of Public Health, currently pursuing his PhD in Immunology from Mayo Clinic Graduate School to share his experience working on convalescent plasma therapy of COVID-19. He also helped curb the spread of misinformation and debunked myths about the novel coronavirus and guided students for their careers in the field of biological sciences.
 
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | Left aligned | Center aligned | Right aligned |
-        | :----------- | :------------: | ------------: |
-        | 1 | 2 | 3 |
-        | 4 | 5 | 6 |
+    - var imgpath = "" + require("../assets/img/Collaborations--rsm.jpeg")["default"]
+    +image(5, imgpath, "Alumni Webinar Session", 100)
 
     :markdown-it(html)
-        **Example 3:**
+        # TEDx MAHE Countdown
+        The independently organized Climate Change conference - **TEDx MAHE Countdown** invited proposals for live projects to reduce the carbon footprint of the Manipal campus. Our proposal was selected amongst few to be presented on the live edition of TEDx MAHE Countdown event which was hosted virtually on the _25th of October_. We got the chance to witness stalwarts for the cause and to present our  project to a large audience - creating awareness about how climate change is pushing up the levels of mercury in the fishes and mercury poisoning in general.
 
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        |              |          Grouping           ||
-        |First Header  | Second Header | Third Header |
-        | ------------ | :-----------: | -----------: |
-        |Content       |          *Long Cell*        ||
-        |Content       |   **Cell**    |         Cell |                                               
-        |New section   |     More      |[Data](https://google.com) |
-        |And more      | With an escaped '\|'       ||
-
-        [Table 3: Caption goes here.]
+    - var imgpath = "" + require("../assets/img/Collaborations--tedx.png")["default"]
+    +image(6, imgpath, "TEDx MAHE Countdown Collaboration", 100)
 
     :markdown-it(html)
+        # Wiki Starter Pack
+        ___iGEM BITS Goa___ developed three amazing tools to make the process of making the wiki so much easier for the upcoming teams. Our wiki utilizes their starter pack and we wish to thank them for this brilliant tool that made it possible for us to build this wiki. A special shoutout to _Pranav Ballaney_ from the _iGEM BITS Goa_ team for helping us out throughout the process of making this wiki.
 
-        # Definitions
-
-        <dfn>Term ~ Definition</dfn>
-
-        This can come <dfn>anywhere in ~ the text</dfn>.
-
-        # MathJax
-
-        $$\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$
-
-        $$-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$$
-
-        $$i\hbar\gamma^\mu\partial_\mu\psi = mc\psi$$
-
-        $$y_k = \frac{1}{\sqrt{N}}\sum_{n=0}^{N-1}x_n\omega_N^{kn}$$
-
-        # Citations
-
-        In text citation for a research article with a DOI. [Rosano et al., 2019](#citation2)
-
-        In text citation for another research article with a DOI. [Allen & Sheridan, 2015](#citation1)
-
-        In text citation for a book with no DOI. [Ingalls, 2013](#citation3)
-
-        In text citation for a website with institutional author. [TNAU Agritech Portal, n.d.](#citation4)
-
-        In text citation for a website with an author. [Author, n.d.](#citation5)
-
+    - var imgpath = "" + require("../assets/img/Collaborations--wiki.png")["default"]
+    +image(7, imgpath, "Wiki Starter Pack", 100)
+       
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 
-prepend citations
-    - var citations = [{"authors": "Allen, M. J., & Sheridan, S. C. (2015). ", "doi": "https://doi.org/10.1007/s00484-015-1117-4", "journal": "International Journal of Biometeorology", "numbers": "62(1), 57-67. ", "title": "Mortality risks during extreme temperature events (ETEs) using a distributed lag non-linear model.", "type": "article"}, {"authors": "Rosano, A., Bella, A., Gesualdo, F., Acampora, A., Pezzotti, P., Marchetti, S., ... & Rizzo, C. (2019). ", "doi": "https://doi.org/10.1016/j.ijid.2019.08.003", "journal": "International Journal of Infectious Diseases", "numbers": "88, 127-134. ", "title": "Investigating the impact of influenza on excess mortality in all ages in Italy during recent seasons (2013/14-2016/17 seasons).", "type": "article"}, {"Google_Books_URL": "https://books.google.co.in/books?id=OYr6AQAAQBAJ", "authors": "Ingalls, B. P.", "publisher": "MIT Press.", "title": "Mathematical modeling in systems biology: An introduction.", "type": "book", "year_published": "(2013)."}, {"details": "(March 15, 2019). Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}, {"authors": "Author Name. (n.d.).", "details": "Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}]
+//- prepend citations
+//-     - var citations = [{"authors": "Allen, M. J., & Sheridan, S. C. (2015). ", "doi": "https://doi.org/10.1007/s00484-015-1117-4", "journal": "International Journal of Biometeorology", "numbers": "62(1), 57-67. ", "title": "Mortality risks during extreme temperature events (ETEs) using a distributed lag non-linear model.", "type": "article"}, {"authors": "Rosano, A., Bella, A., Gesualdo, F., Acampora, A., Pezzotti, P., Marchetti, S., ... & Rizzo, C. (2019). ", "doi": "https://doi.org/10.1016/j.ijid.2019.08.003", "journal": "International Journal of Infectious Diseases", "numbers": "88, 127-134. ", "title": "Investigating the impact of influenza on excess mortality in all ages in Italy during recent seasons (2013/14-2016/17 seasons).", "type": "article"}, {"Google_Books_URL": "https://books.google.co.in/books?id=OYr6AQAAQBAJ", "authors": "Ingalls, B. P.", "publisher": "MIT Press.", "title": "Mathematical modeling in systems biology: An introduction.", "type": "book", "year_published": "(2013)."}, {"details": "(March 15, 2019). Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}, {"authors": "Author Name. (n.d.).", "details": "Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}]
