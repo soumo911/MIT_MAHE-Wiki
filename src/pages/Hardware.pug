@@ -2,7 +2,7 @@ extends ../templates/contents.pug
 
 block headVars
     - var title = "Hardware"
-    - var tagline = "SAUL - Systematic Analysis of Underlying Limitations. (It)'s all gut!"
+    - var tagline = "This page outlines a bioreactor we designed to simulate the gut environment."
     - var requireMathJax = true
 
 block article
@@ -11,6 +11,8 @@ block article
 
         # Introduction
         The small intestine is a complex dynamic environment with a variety of physiological and mechanical stresses in play. These properties play an important role in determining the viability of the probiotic drug components. In vivo studies are too complicated and expensive to be used for the initial screening processes like studying the chassis to be used, checking the effectiveness of the probiotic in a variable dynamic environment and/or in optimization of the capsule for appropriate delivery. Current lab scale methodologies involve a relatively oversimplified static system which would not replicate most properties of its target site environment. **Systematic Analyzer of Underlying Limitations (SAUL)** is a bioreactor that aims to provide more variable conditions to combat as well as study the underlying limitations of current static methodologies. [Sumeri et al., 2008](#citation1)
+        
+        (It)'s all gut!
 
         # Components of the GI Tract modelled
         ### Stomach
@@ -19,11 +21,19 @@ block article
         Duodenum is the first part of the small intestine located between the stomach and the jejunum. It is the first site of action of our probiotic where our capsule would dissolve, and the probiotic would be released into the gut environment. Like stomach, the main types of muscle movement contributing to intestine motility are peristalsis and segmentation. In duodenum there is a sudden change in pH to 6. Presence of bile juices contributes to the viability of the probiotic.
         
         # Setup
-
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
-    +image(1, imgpath, "Note - Incubator is not shown.", 100)
+    .row
+        .col-md
+         - var imgpath = "" + require("../assets/img/Hardware--bioreactor--horizontal.jpg")["default"]
+         +image(1, imgpath, "Horizontal Configuration. (To simulate small intestine)", 100)
+    
+        .col-md
+         - var imgpath = "" + require("../assets/img/Hardware--bioreactor--vertical.jpg")["default"]
+         +image(2, imgpath, "Vertical Configuration. (To simulate stomach)", 100)
     
     :markdown-it(html)
+
+        _Note - Incubator is not shown._
+
         All required reagents are stored in HDPE container bottles, and transported to the inlet of the dialysis tube inside the bioreactor by use of diaphragm pumps. The pumps are fitted with one-way valves to prevent back-flow of fluid when containers are changed. The capsule containing the probiotic bacteria and the powdered dye are added through a separate dry inlet in close proximity to the start of dialysis tube. when the fluids reach the inlet of the bioreactor, the DC geared motor that controls peristaltic motion of the tube inside is switched on. The contents of the tube travel through the bioreactor, pushed by peristalsis. The fluids then come out of the bioreactor and are collected into a container bottle or directed back towards the inlet as a recycle stream. The fluids in the basolateral chamber (inside the bioreactor case, outside of the dialysis tube) are recirculated using a closed loop of silicon tubes. A pH sensor is provided in the outlet container for measurement of pH, and temperature is maintained by enclosing the whole setup in an incubator.
 
         # Parameters under consideration
@@ -44,12 +54,17 @@ block article
 
     :markdown-it(html)
         # Bioreactor Design
-
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
-    +image(2, imgpath, "Design of Bioreactor", 100)
-
+    .row
+        .col-md
+         - var imgpath = "" + require("../assets/img/Hardware--bioreactor--model.png")["default"]
+         +image(3, imgpath, "Model", 109)
+    
+        .col-md
+         - var imgpath = "" + require("../assets/img/Hardware--bioreactor--assembly.png")["default"]
+         +image(4, imgpath, "Assembly", 100)
+    
     :markdown-it(html)
-        The model of the bioreactor was created using CATIA.
+        _The model of the bioreactor was created using CATIA._
         
         A semi permeable dialysis tube (made of regenerated cellulose) is used as the apical chamber of the intestine. Imitation of peristalsis is achieved through periodic compression of the dialysis tube by three ball bearings. The bearings are actuated using a DC motor. The dialysis tube is fitted into a 3D printed case, which mimics the basolateral chamber. The bottom part of the case holds the motor in place and acts as a stand when the bioreactor is in a vertical configuration. Silicon tubes are used as recirculation channels for the basolateral fluids. 
         
