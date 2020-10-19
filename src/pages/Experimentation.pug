@@ -10,21 +10,36 @@ block article
     :markdown-it(html)
 
         # Introduction
-        We have planned the experiments to find the threshold concentration of methylmercury required by the transformed bacteria to generate a response and a test to analyse the tolerance of the bacteria to high levels of methylmercury chloride as part of the preliminary experiments. Further experiments have been broken down to the study of the two biobricks we have designed, to characterize the different parts of the plasmids, to determine the most efficient combination of parts, to understand the amount of stress required to activate the parts, to show the efficiency of the system and to recognize the compatibility  and working of the two plasmids without disregarding any safety concerns and upholding good lab practices. To replicate the gut environment the experiments will be performed at a pH of 6-7 and 37° degrees and the circuits will be assembled using Gibson assembly.
+        Validation and testing of all aspects of a design can be done through experimentation. We have brainstormed several experiments after thorough research and questioning, keeping in mind all the risks that could be involved but due to lack of access to laboratory facilities, we are yet to actually perform and troubleshoot them. 
 
-        # Escherichia coli Nissle 1917
+        We have divided our experiments into three types: **Chassis**, **Composite BioBrick 1** and **Composite BioBrick 2** experiments. These experiments should enable us to test the efficiency, relevance and safety aspects of each gene and the overall project. 
+
+        Experiments to find the threshold concentration of methylmercury required by the transformed bacteria to generate a response and a test to analyse the tolerance of the bacteria to high levels of methylmercury chloride, pH and paraquat (oxidative stress) have been designed as part of the chassis and preliminary experiments. Further experiments have been broken down to the study of the two biobricks we have designed. Characterization of the different parts of the plasmids, determination of the most efficient combination of parts, Understanding the amount of stress required to activate the parts, showing the efficiency of the system and recognition of the compatibility and working of the two plasmids are some the several aspects and considerations we have looked into. All of the experiments were designed without disregarding any safety concerns and keeping in mind good lab practices. To replicate the gut environment the experiments should be performed at a **pH of 6-7** and **37° celsius** and circuits assembled using Gibson assembly. All the measurement equipment used should be **calibrated** before each experiment.
+
+        Even though the methylmercury concentration that harms humans differs in different individuals, for experimental purposes we have referred to literature and chosen concentrations with **known physiological effects** on mice and humans [Ashner M., 2012](#citation1).  
+
+        # Chassis
         
-        We have designed experiments to show that the strain used for the probiotic to be made, Escherichia coli Nissle 1917 can survive under oxidative stress, varying pH and is safe.
-
+        We have decided on _Escherichia Coli_ Nissle 1917 as our chassis. It is a known probiotic non-pathogenic strain. We have designed experiments to show that the strain used for the probiotic to be made, _Escherichia coli_ Nissle 1917 can survive under **oxidative stress**, **varying pH** and is **safe** [iGEM Uppsala, 2013](#citation2) [iGEM Tuebingen, 2019](#citation3). 
     - var imgpath = "" + require("../assets/img/Experimentation--strain.png")["default"]
     +image(1, imgpath, "Escherichia coli Nissle 1917", 100)    
 
     :markdown-it(html)
 
-        # Methylmercury and methylmercury chloride concentrations
-        _Escherichia coli_ DH5α inoculated with Bio-Brick 1 is to be induced with mercuric chloride and the fluorescence of the GFP is to be measured on a spectrofluorometer (excitation-350nm, emission-500nm wavelength). We measure O.D and GFP intensity at intervals of 60 minutes until 4.5 hours. We check for minimum and maximum accumulation of mercury inside the cell using gas chromatography. In this preliminary experiment we obtain the threshold response to be used as the minimum limit and the limit of tolerance of the bacteria is noted and used as the maximum limit for characterization experiments. Even though the methylmercury concentration that harms humans differs from that of mice, for experimental purposes we have referred to literature consisting of the impact of methylmercury on both these species.
+        # Composite Bio-Brick 1
+    - var imgpath = "" + require("../assets/img/Experimentation--strain.png")["default"]
+    +image(2, imgpath, "Plasmids holding hands.", 100)    
 
-        # Characterizing MerR
+    :markdown-it(html)
+
+        ### Preliminary Experiments
+        _Escherichia coli_ DH5α inoculated with Composite Bio-Brick 1 should be induced with methylmercuric chloride and the fluorescence of the GFP must be measured on a spectrofluorometer (excitation - 350nm, emission - 500nm wavelength) post calibration. Measurement of O.D and GFP intensity should be done at intervals of 60 minutes for 4.5 hours post which minimum and maximum accumulation of mercury inside the cell must be estimated using Gas Chromatography _(Detailed protocol given in handbook)_. In this preliminary experiment one would obtain the **threshold** response - which can be used as the **minimum** limit, and the limit of **tolerance** of the bacteria - to be used as the **maximum limit** for other experiments.
+
+        ### Control Mechanism
+    - var imgpath = "" + require("../assets/img/Experimentation--bb1.jpg")["default"]
+    +image(3, imgpath, "Control mechanism for Bio-Brick 1.", 80)    
+
+    :markdown-it(html)
         We test the response of MerR to methylmercury using 2 control circuits which do not have the MerR gene present in them. E. coli cells inoculated with methylmercury chloride are grown for the required amount of time according to the results of the preliminary experiment. We check for GFP intensities expecting an exponential increase in fluorescence with an increase in methylmercury concentration for the circuit with MerR present. For the control with PmerT, transcription is initiated but at a lower level than the circuit to be tested. The plot of fluorescence and methylmercury concentration indicates that MerR contributes significantly in methylmercury response.
 
         # Characterizing the transport system of Bio-Brick 1

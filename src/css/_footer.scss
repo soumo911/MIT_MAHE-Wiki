@@ -7,10 +7,15 @@ $background-dark: #375A7F;
 $link: #18bc9c;
 
 footer {
-  background-color: $background;
-  transition: background-color 0.3s ease;
-  margin: 5rem 0 0 0;
-  padding: 3rem 0 4rem 0;
+  background: url(../assets/img/Footer--bg.png);
+  background-position: center;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 150px;
   color: white;
   font-family: "Lato";
   font-size: 1rem;
