@@ -1,3 +1,10 @@
+http://dx.doi.org/10.1136/gut.41.2.274:
+  authors: 'SCHREIBER, S. (1997). '
+  doi: http://dx.doi.org/10.1136/gut.41.2.274
+  journal: Gut
+  numbers: '41(2), 274-275. '
+  title: Interleukin-10 in the intestine.
+  type: article
 https://doi.org/10.1002/masy.200651211:
   authors: 'Adusumali, R.-B., Reifferscheid, M., Weber, H., Roeder, T., Sixta, H.,
     & Gindl, W. (2006). '
@@ -103,6 +110,13 @@ https://doi.org/10.1093/emboj/17.9.2629:
   title: The redox-regulated SoxR protein acts from a single DNA site as a repressor
     and an allosteric activator.
   type: article
+https://doi.org/10.1128/mBio.01470-20:
+  authors: 'Pradhan, S., & Weiss, A. A. (2020). '
+  doi: https://doi.org/10.1128/mBio.01470-20
+  journal: mBio
+  numbers: '11(4). '
+  title: Probiotic Properties of Escherichia coli Nissle in Human Intestinal Organoids.
+  type: article
 https://doi.org/10.1248/bpb.b13-00554:
   authors: 'Sone, Y., Nakamura, R., Pan-Hou, H., Itoh, T., & Kiyono, M. (2013). '
   doi: https://doi.org/10.1248/bpb.b13-00554
@@ -110,4 +124,13 @@ https://doi.org/10.1248/bpb.b13-00554:
   numbers: '36(11), 1835-1841. '
   title: Role of MerC, MerE, MerF, MerT, and/or MerP in Resistance to Mercurials and
     the Transport of Mercurials in Escherichia coli.
+  type: article
+https://doi.org/10.1371/journal.pone.0007121:
+  authors: 'Dace, D. S., Khan, A. A., Stark, J. L., Kelly, J., Cross, A. H., & Apte,
+    R. S. (2009). '
+  doi: https://doi.org/10.1371/journal.pone.0007121
+  journal: PLoS ONE
+  numbers: '4(9), e7121. '
+  title: Interleukin-10 Overexpression Promotes Fas-Ligand-Dependent Chronic Macrophage-Mediated
+    Demyelinating Polyneuropathy.
   type: article
