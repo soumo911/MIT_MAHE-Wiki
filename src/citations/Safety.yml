@@ -1,0 +1,93 @@
+# 1
+- webpage:
+    published: "2020"
+    title: "iGEM safety risk groups"
+    accessed: "June 22, 2020"
+    site_name: "iGEM safety risk groups"
+    url: 'https://2020.igem.org/Safety/Risk_Groups'
+
+# 2
+- doi: https://doi.org/10.1128/mBio.01470-20
+
+# 3
+- webpage:
+    published: "September 18, 2015"
+    title: "iGEM Bielefeld-CeBiTec Dual use report. "
+    accessed: "June 22, 2020"
+    site_name: "iGEM Bielefeld-CeBiTec 2015 wiki "
+    url: 'http://2015.igem.org/wiki/images/b/be/Bielefeld-CeBiTec_Dual-Use_Report.pdf'
+
+# 4
+- doi: http://dx.doi.org/10.1136/gut.41.2.274
+
+# 5
+- doi: https://doi.org/10.1371/journal.pone.0007121
+
+# 6
+- webpage:
+    published: "February 2010"
+    title: "Responsible life sciences research for global health security "
+    accessed: "June 22, 2020"
+    site_name: "WHO-Responsible life sciences research for global health security "
+    url: 'https://apps.who.int/iris/bitstream/handle/10665/70507/WHO_HSE_GAR_BDP_2010.2_eng.pdf;jsessionid=0E512B112DB502435919D159DEB546EC?sequence=1'
+
+# 7
+- webpage:
+    published: "March 31, 2017"
+    title: "Mercury and health"
+    accessed: "September 22, 2020"
+    site_name: "World health organization "
+    url: 'https://www.who.int/news-room/fact-sheets/detail/mercury-and-health'
+
+# 8
+- webpage:
+    published: "October 15, 2019"
+    title: "Paraquat Dichloride"
+    accessed: "September 15, 2020"
+    site_name: "Environmental protection agency"
+    url: 'https://www.epa.gov/ingredients-used-pesticide-products/paraquat-dichloride#:~:text=Paraquat%20is%20highly%20toxic%20to,caused%20several%20deaths%20since%202000'
+
+# 9
+- webpage:
+    published: "April 2015"
+    title: "CONDITIONS OF PARAQUAT USE IN INDIA"
+    Author: Dileep Kumar A D
+    accessed: "September 25, 2020"
+    site_name: "Pan-India"
+    url: 'http://www.pan-india.org/wp-content/uploads/2017/03/PAN-India_paraquat_4-15_def-WEB.pdf'
+
+# 10
+- webpage:
+    published: "April 2019"
+    title: "Identification of worst case in cleaning validation"
+    Author: Ankur Choudhary
+    accessed: "September 2, 2020"
+    site_name: "Pharmaceutical guidelines"
+    url: 'https://www.pharmaguideline.com/2019/04/identification-of-worst-case-in-cleaning-validation.html'
+
+# 11
+- webpage:
+    published: "June 2018"
+    title: "Prevention of microbial contamination in manufacturing"
+    Author: Ankur Choudhary
+    accessed: "September 2, 2020"
+    site_name: "Pharmaceutical guidelines"
+    url: 'https://www.pharmaguideline.com/2018/06/prevention-of-microbial-contamination-in-manufacturing.html'
+
+# 12
+- webpage:
+    published: "May 2017"
+    title: "Controlled area in sterile manufacturing"
+    Author: Ankur Choudhary
+    accessed: "September 2, 2020"
+    site_name: "Pharmaceutical guidelines"
+    url: 'https://www.pharmaguideline.com/2017/05/controlled-areas-in-sterile-manufacturing.html'
+
+# 13
+- webpage:
+    published: "February 24, 2017"
+    title: "An overview of waste management in pharmaceutical industry "
+    Author: Muhammed Jaseem, Pramod Kumar and Remya Mariam John
+    accessed: "September 4, 2020"
+    site_name: "The pharma journal"
+    url: 'https://www.thepharmajournal.com/archives/2017/vol6issue3/PartC/6-2-9-174.pdf'

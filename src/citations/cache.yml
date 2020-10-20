@@ -15,6 +15,14 @@ https://doi.org/10.1002/polb.10771:
   numbers: '42(7), 1206-1211. '
   title: Poisson's ratio of cellulose I? and cellulose II.
   type: article
+https://doi.org/10.1007/s00203-011-0751-4:
+  authors: 'Mathema, V. B., Thakuri, B. C., & Sillanp    , M. (2011). '
+  doi: https://doi.org/10.1007/s00203-011-0751-4
+  journal: Archives of Microbiology
+  numbers: '193(12), 837-844. '
+  title: 'Bacterial mer operon-mediated detoxification of mercurial compounds: a short
+    review.'
+  type: article
 https://doi.org/10.1007/s00253-008-1553-8:
   authors: 'Sumeri, I., Arike, L., Adamberg, K., & Paalme, T. (2008). '
   doi: https://doi.org/10.1007/s00253-008-1553-8
@@ -39,6 +47,29 @@ https://doi.org/10.1007/s11431-018-9428-4:
   title: Experimental study on the effects of shear stress on viscoelastic properties
     of the intestines.
   type: article
+https://doi.org/10.1016/B978-0-08-099953-1.00006-5:
+  authors: 'Stanbury, P. F., Whitaker, A., & Hall, S. J. (2017). '
+  doi: https://doi.org/10.1016/B978-0-08-099953-1.00006-5
+  journal: Principles of Fermentation Technology
+  numbers: '335-399. '
+  title: Culture preservation and inoculum development.
+  type: article
+https://doi.org/10.1016/S0168-6445(03)00051-2:
+  authors: 'Brown, N. L., Stoyanov, J. V., Kidd, S. P., & Hobman, J. L. (2003). '
+  doi: https://doi.org/10.1016/S0168-6445(03)00051-2
+  journal: FEMS Microbiology Reviews
+  numbers: '27(2-3), 145-163. '
+  title: The MerR family of transcriptional regulators.
+  type: article
+https://doi.org/10.1016/S0966-842X(01)02259-4:
+  authors: 'Gentschev, I., Dietrich, G., & Goebel, W. (2002). The E. coli   -hemolysin
+    secretion system and its use in vaccine development. Trends in Microbiology, 10(1),
+    39-45. '
+  doi: https://doi.org/10.1016/S0966-842X(01)02259-4
+  journal: Trends in Microbiology
+  numbers: '10(1), 39-45. '
+  title: The E. coli  -hemolysin secretion system and its use in vaccine development.
+  type: article
 https://doi.org/10.1016/j.ijid.2019.08.003:
   authors: 'Rosano, A., Bella, A., Gesualdo, F., Acampora, A., Pezzotti, P., Marchetti,
     S., ... & Rizzo, C. (2019). '
@@ -47,4 +78,36 @@ https://doi.org/10.1016/j.ijid.2019.08.003:
   numbers: '88, 127-134. '
   title: Investigating the impact of influenza on excess mortality in all ages in
     Italy during recent seasons (2013/14-2016/17 seasons).
+  type: article
+https://doi.org/10.1016/j.neuro.2012.05.002:
+  authors: 'Aschner, M. (2012). '
+  doi: https://doi.org/10.1016/j.neuro.2012.05.002
+  journal: NeuroToxicology
+  numbers: '33(3), 512-513. '
+  title: Considerations on methylmercury (MeHg) treatments in in vitro studies.
+  type: article
+https://doi.org/10.1021/ja9016123:
+  authors: 'Parks, J. M., Guo, H., Momany, C., Liang, L., Miller, S. M., Summers,
+    A. O., & Smith, J. C. (2009). Mechanism of Hg- C Protonolysis in the Organomercurial
+    Lyase MerB. Journal of the American Chemical Society, 131(37), 13278-13285. '
+  doi: https://doi.org/10.1021/ja9016123
+  journal: Journal of the American Chemical Society
+  numbers: '131(37), 13278-13285. '
+  title: Mechanism of Hg C Protonolysis in the Organomercurial Lyase MerB.
+  type: article
+https://doi.org/10.1093/emboj/17.9.2629:
+  authors: 'Hidalgo, E. (1998). '
+  doi: https://doi.org/10.1093/emboj/17.9.2629
+  journal: The EMBO Journal
+  numbers: '17(9), 2629-2636. '
+  title: The redox-regulated SoxR protein acts from a single DNA site as a repressor
+    and an allosteric activator.
+  type: article
+https://doi.org/10.1248/bpb.b13-00554:
+  authors: 'Sone, Y., Nakamura, R., Pan-Hou, H., Itoh, T., & Kiyono, M. (2013). '
+  doi: https://doi.org/10.1248/bpb.b13-00554
+  journal: Biological and Pharmaceutical Bulletin
+  numbers: '36(11), 1835-1841. '
+  title: Role of MerC, MerE, MerF, MerT, and/or MerP in Resistance to Mercurials and
+    the Transport of Mercurials in Escherichia coli.
   type: article
