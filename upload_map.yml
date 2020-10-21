@@ -1,0 +1,381 @@
+assets:
+  assets/fonts/lato-v16-latin/lato-v16-latin-300.eot:
+    link_URL: https://2020.igem.org/wiki/images/6/66/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.eot
+    md5: 1b8f8afa9b4ba60fbcf9936eae918ec6
+    upload_filename: T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.eot
+  assets/fonts/lato-v16-latin/lato-v16-latin-300.ttf:
+    link_URL: https://2020.igem.org/wiki/images/8/8a/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.ttf
+    md5: 483a27c988018f92133995b7d1453248
+    upload_filename: T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.ttf
+  assets/fonts/lato-v16-latin/lato-v16-latin-300.woff:
+    link_URL: https://2020.igem.org/wiki/images/3/33/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.woff
+    md5: 656963c4beb814e754e38478fcaa0439
+    upload_filename: T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.woff
+  assets/fonts/lato-v16-latin/lato-v16-latin-700.eot:
+    link_URL: https://2020.igem.org/wiki/images/1/1b/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.eot
+    md5: f9203469f750b4284c62aa49f9496cb0
+    upload_filename: T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.eot
+  assets/fonts/lato-v16-latin/lato-v16-latin-700.svg:
+    link_URL: https://2020.igem.org/wiki/images/7/7c/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.svg
+    md5: 596223f7bff9598c852e949e9d2b1aa0
+    upload_filename: T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.svg
+  assets/fonts/lato-v16-latin/lato-v16-latin-700.ttf:
+    link_URL: https://2020.igem.org/wiki/images/6/61/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.ttf
+    md5: fe7d53e4cac8f5b946a9e25f004efc8c
+    upload_filename: T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.ttf
+  assets/fonts/lato-v16-latin/lato-v16-latin-700.woff:
+    link_URL: https://2020.igem.org/wiki/images/7/75/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.woff
+    md5: 874b8e7bc7e8d1507b50f56bc6c9b536
+    upload_filename: T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.woff
+  assets/fonts/lato-v16-latin/lato-v16-latin-regular.eot:
+    link_URL: https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.eot
+    md5: 056a373d808ada4f12a2d6538e88823c
+    upload_filename: T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.eot
+  assets/fonts/lato-v16-latin/lato-v16-latin-regular.svg:
+    link_URL: https://2020.igem.org/wiki/images/4/48/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.svg
+    md5: 9087e4a6aceecc9b2914823044951a3a
+    upload_filename: T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.svg
+  assets/fonts/lato-v16-latin/lato-v16-latin-regular.ttf:
+    link_URL: https://2020.igem.org/wiki/images/7/7f/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.ttf
+    md5: d1d5e30aa8bb081cad8f409f27861672
+    upload_filename: T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.ttf
+  assets/fonts/lato-v16-latin/lato-v16-latin-regular.woff:
+    link_URL: https://2020.igem.org/wiki/images/8/83/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.woff
+    md5: b8ee546acd6cc0c49f42ad3d48ef244f
+    upload_filename: T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.woff
+  assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.eot:
+    link_URL: https://2020.igem.org/wiki/images/6/6b/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.eot
+    md5: 86f6cbd269e0c5a26f038a4d5ffc9cf1
+    upload_filename: T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.eot
+  assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.svg:
+    link_URL: https://2020.igem.org/wiki/images/9/9f/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.svg
+    md5: a6924a5e072a58911c8588859f6825d5
+    upload_filename: T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.svg
+  assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.ttf:
+    link_URL: https://2020.igem.org/wiki/images/0/0a/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.ttf
+    md5: acb878a397bf674d7baa32a3267e5a3c
+    upload_filename: T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.ttf
+  assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.woff:
+    link_URL: https://2020.igem.org/wiki/images/b/b2/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.woff
+    md5: 7c839d15a6f54e7025ba8c0c4b333e8f
+    upload_filename: T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.woff
+  assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.eot:
+    link_URL: https://2020.igem.org/wiki/images/1/18/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.eot
+    md5: 5cc74ef8a4c422084726eb9dd1163b82
+    upload_filename: T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.eot
+  assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.svg:
+    link_URL: https://2020.igem.org/wiki/images/4/49/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.svg
+    md5: f3fef7e587e6c436df1d7985b2a90ada
+    upload_filename: T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.svg
+  assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.ttf:
+    link_URL: https://2020.igem.org/wiki/images/8/81/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.ttf
+    md5: 6a9e85ac9247f5848db957b873c62e0c
+    upload_filename: T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.ttf
+  assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff:
+    link_URL: https://2020.igem.org/wiki/images/d/d9/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.woff
+    md5: 8102c4838f9e3d08dad644290a9cb701
+    upload_filename: T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.woff
+  assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.eot:
+    link_URL: https://2020.igem.org/wiki/images/f/f1/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.eot
+    md5: 819cf04d794ea65ee1d58a689149767d
+    upload_filename: T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.eot
+  assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.svg:
+    link_URL: https://2020.igem.org/wiki/images/c/c7/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.svg
+    md5: 61e73d320e2d189e1d5c795e771c9f21
+    upload_filename: T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.svg
+  assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.ttf:
+    link_URL: https://2020.igem.org/wiki/images/7/77/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.ttf
+    md5: b7f4d4430c6aee2f128a195134943484
+    upload_filename: T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.ttf
+  assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.woff:
+    link_URL: https://2020.igem.org/wiki/images/4/41/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.woff
+    md5: 588edd9d828f7c95e2a294b6da9dff4d
+    upload_filename: T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.woff
+  assets/icons/link-solid.svg:
+    link_URL: https://2020.igem.org/wiki/images/2/21/T--MIT_MAHE--icons--link-solid.svg
+    md5: 6af56728888d9074aaf4d8261a3eceda
+    upload_filename: T--MIT_MAHE--icons--link-solid.svg
+  assets/img/Collaborations--AIIM.png:
+    link_URL: https://2020.igem.org/wiki/images/5/5f/T--MIT_MAHE--img--Collaborations--AIIM.png
+    md5: 2c12ac2facf6998944d6185f67a99580
+    upload_filename: T--MIT_MAHE--img--Collaborations--AIIM.png
+  assets/img/Collaborations--biosummit.png:
+    link_URL: https://2020.igem.org/wiki/images/7/75/T--MIT_MAHE--img--Collaborations--biosummit.png
+    md5: c828e622e57a7b60396d0bb5b74286da
+    upload_filename: T--MIT_MAHE--img--Collaborations--biosummit.png
+  assets/img/Collaborations--msp.png:
+    link_URL: https://2020.igem.org/wiki/images/8/8a/T--MIT_MAHE--img--Collaborations--msp.png
+    md5: f405a16ff9195acc8cf500a53e5850b0
+    upload_filename: T--MIT_MAHE--img--Collaborations--msp.png
+  assets/img/Collaborations--rsm.jpeg:
+    link_URL: https://2020.igem.org/wiki/images/e/e1/T--MIT_MAHE--img--Collaborations--rsm.jpeg
+    md5: 8927486742f121fc8288a405f13eb9e3
+    upload_filename: T--MIT_MAHE--img--Collaborations--rsm.jpeg
+  assets/img/Collaborations--teams.png:
+    link_URL: https://2020.igem.org/wiki/images/d/d7/T--MIT_MAHE--img--Collaborations--teams.png
+    md5: 454f768c467cb39abf601b730d93bf4f
+    upload_filename: T--MIT_MAHE--img--Collaborations--teams.png
+  assets/img/Collaborations--tedx.png:
+    link_URL: https://2020.igem.org/wiki/images/9/9a/T--MIT_MAHE--img--Collaborations--tedx.png
+    md5: 8533fdfdb3a273ae7d0153bce7c275f6
+    upload_filename: T--MIT_MAHE--img--Collaborations--tedx.png
+  assets/img/Collaborations--wiki.png:
+    link_URL: https://2020.igem.org/wiki/images/e/ed/T--MIT_MAHE--img--Collaborations--wiki.png
+    md5: 25bf627c641b2d9fef1348da44194464
+    upload_filename: T--MIT_MAHE--img--Collaborations--wiki.png
+  assets/img/Description--josh-withers.jpg:
+    link_URL: https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--img--Description--josh-withers.jpg
+    md5: 6f01f4181229ec565a9c1a20fe302fec
+    upload_filename: T--MIT_MAHE--img--Description--josh-withers.jpg
+  assets/img/Experimentation--age.png:
+    link_URL: https://2020.igem.org/wiki/images/a/ab/T--MIT_MAHE--img--Experimentation--age.png
+    md5: 042ffdf2d797d12386f7ac04c4d6f8e2
+    upload_filename: T--MIT_MAHE--img--Experimentation--age.png
+  assets/img/Experimentation--bb1.jpg:
+    link_URL: https://2020.igem.org/wiki/images/3/30/T--MIT_MAHE--img--Experimentation--bb1.jpg
+    md5: 5b51ec89f2cd536e34f24f9adf35f506
+    upload_filename: T--MIT_MAHE--img--Experimentation--bb1.jpg
+  assets/img/Experimentation--bb2.jpg:
+    link_URL: https://2020.igem.org/wiki/images/2/2b/T--MIT_MAHE--img--Experimentation--bb2.jpg
+    md5: 67a5cc8a1796a19e896cb1ce58d26d8a
+    upload_filename: T--MIT_MAHE--img--Experimentation--bb2.jpg
+  assets/img/Experimentation--hlyail10transport.png:
+    link_URL: https://2020.igem.org/wiki/images/0/0e/T--MIT_MAHE--img--Experimentation--hlyail10transport.png
+    md5: a5d6856077d0fe201fa431445c3549fd
+    upload_filename: T--MIT_MAHE--img--Experimentation--hlyail10transport.png
+  assets/img/Experimentation--mehgtransport.png:
+    link_URL: https://2020.igem.org/wiki/images/d/df/T--MIT_MAHE--img--Experimentation--mehgtransport.png
+    md5: d5463c9402bc629dddc92a47c4aa84fe
+    upload_filename: T--MIT_MAHE--img--Experimentation--mehgtransport.png
+  assets/img/Experimentation--plasmid--1.png:
+    link_URL: https://2020.igem.org/wiki/images/f/f9/T--MIT_MAHE--img--Experimentation--plasmid--1.png
+    md5: 1e6a541367d6ec496fd283f441034b71
+    upload_filename: T--MIT_MAHE--img--Experimentation--plasmid--1.png
+  assets/img/Experimentation--plasmid--2.png:
+    link_URL: https://2020.igem.org/wiki/images/b/bc/T--MIT_MAHE--img--Experimentation--plasmid--2.png
+    md5: 4018a8de5bd432da36e50df95a43fb4e
+    upload_filename: T--MIT_MAHE--img--Experimentation--plasmid--2.png
+  assets/img/Experimentation--strain.png:
+    link_URL: https://2020.igem.org/wiki/images/6/61/T--MIT_MAHE--img--Experimentation--strain.png
+    md5: 52da98853b34d894229d18747c9b6a52
+    upload_filename: T--MIT_MAHE--img--Experimentation--strain.png
+  assets/img/Hardware--bioreactor--assembly.png:
+    link_URL: https://2020.igem.org/wiki/images/9/97/T--MIT_MAHE--img--Hardware--bioreactor--assembly.png
+    md5: 3fd16f6dd365fb388220e5052dd57257
+    upload_filename: T--MIT_MAHE--img--Hardware--bioreactor--assembly.png
+  assets/img/Hardware--bioreactor--horizontal.jpg:
+    link_URL: https://2020.igem.org/wiki/images/7/79/T--MIT_MAHE--img--Hardware--bioreactor--horizontal.jpg
+    md5: d853dbfacb2671a93ab9076552348dc5
+    upload_filename: T--MIT_MAHE--img--Hardware--bioreactor--horizontal.jpg
+  assets/img/Hardware--bioreactor--model.png:
+    link_URL: https://2020.igem.org/wiki/images/a/a4/T--MIT_MAHE--img--Hardware--bioreactor--model.png
+    md5: c17e5c0cc500f48cd63f38f2bbfa6eb2
+    upload_filename: T--MIT_MAHE--img--Hardware--bioreactor--model.png
+  assets/img/Hardware--bioreactor--vertical.jpg:
+    link_URL: https://2020.igem.org/wiki/images/5/5b/T--MIT_MAHE--img--Hardware--bioreactor--vertical.jpg
+    md5: 1307251d7509b608bda0233e9ab56f6b
+    upload_filename: T--MIT_MAHE--img--Hardware--bioreactor--vertical.jpg
+  assets/img/Home--design.jpeg:
+    link_URL: https://2020.igem.org/wiki/images/4/4a/T--MIT_MAHE--img--Home--design.jpeg
+    md5: ed0934090a519c89a6f20a6a7536f106
+    upload_filename: T--MIT_MAHE--img--Home--design.jpeg
+  assets/img/Home--human-practices.jpg:
+    link_URL: https://2020.igem.org/wiki/images/a/a2/T--MIT_MAHE--img--Home--human-practices.jpg
+    md5: d8868623ad0836fa39578405ed7af42a
+    upload_filename: T--MIT_MAHE--img--Home--human-practices.jpg
+  assets/img/Home--model.jpeg:
+    link_URL: https://2020.igem.org/wiki/images/d/da/T--MIT_MAHE--img--Home--model.jpeg
+    md5: c82687e5546e45634c36870a7e7f3aa3
+    upload_filename: T--MIT_MAHE--img--Home--model.jpeg
+  assets/img/Home--poster.png:
+    link_URL: https://2020.igem.org/wiki/images/5/50/T--MIT_MAHE--img--Home--poster.png
+    md5: 1d5ffa76cf5f1912f013023e2385d8d3
+    upload_filename: T--MIT_MAHE--img--Home--poster.png
+  assets/img/Safety--angel--coli.jpg:
+    link_URL: https://2020.igem.org/wiki/images/e/ec/T--MIT_MAHE--img--Safety--angel--coli.jpg
+    md5: b90e14d622f8eee1d5031a877b22bca6
+    upload_filename: T--MIT_MAHE--img--Safety--angel--coli.jpg
+  assets/img/Safety--dual--use.png:
+    link_URL: https://2020.igem.org/wiki/images/3/3e/T--MIT_MAHE--img--Safety--dual--use.png
+    md5: 9b964d0dbeb47896bcdf3c36054a8ba3
+    upload_filename: T--MIT_MAHE--img--Safety--dual--use.png
+  assets/img/Safety--equipment.jpg:
+    link_URL: https://2020.igem.org/wiki/images/6/60/T--MIT_MAHE--img--Safety--equipment.jpg
+    md5: 82695ae531e2f3d4e98cde49989c417e
+    upload_filename: T--MIT_MAHE--img--Safety--equipment.jpg
+  assets/img/Safety--garbage--can.jpg:
+    link_URL: https://2020.igem.org/wiki/images/5/5f/T--MIT_MAHE--img--Safety--garbage--can.jpg
+    md5: 03b0a4d3f7034de0f3c1291b3a5901a1
+    upload_filename: T--MIT_MAHE--img--Safety--garbage--can.jpg
+  assets/img/Safety--gloves.jpg:
+    link_URL: https://2020.igem.org/wiki/images/7/7e/T--MIT_MAHE--img--Safety--gloves.jpg
+    md5: 84a91704f06b4b7f215e896161b444b1
+    upload_filename: T--MIT_MAHE--img--Safety--gloves.jpg
+  assets/img/Safety--packaging.png:
+    link_URL: https://2020.igem.org/wiki/images/d/da/T--MIT_MAHE--img--Safety--packaging.png
+    md5: eef2948e9030494ce357428c2c7fcfa0
+    upload_filename: T--MIT_MAHE--img--Safety--packaging.png
+  assets/img/Safety--toxic.png:
+    link_URL: https://2020.igem.org/wiki/images/7/79/T--MIT_MAHE--img--Safety--toxic.png
+    md5: da2e415ac8697f05c2b30c9e6b81ac9e
+    upload_filename: T--MIT_MAHE--img--Safety--toxic.png
+  assets/img/Team--Aayush.png:
+    link_URL: https://2020.igem.org/wiki/images/f/fe/T--MIT_MAHE--img--Team--Aayush.png
+    md5: 1dc57dbac4ce9724ec03c47e32fc2173
+    upload_filename: T--MIT_MAHE--img--Team--Aayush.png
+  assets/img/Team--Adithi.png:
+    link_URL: https://2020.igem.org/wiki/images/b/bd/T--MIT_MAHE--img--Team--Adithi.png
+    md5: 20c930dd57dfa5af359eb3e6c2cee133
+    upload_filename: T--MIT_MAHE--img--Team--Adithi.png
+  assets/img/Team--Aniket.png:
+    link_URL: https://2020.igem.org/wiki/images/f/fd/T--MIT_MAHE--img--Team--Aniket.png
+    md5: 769b278254f6441c54bb05aec618bc90
+    upload_filename: T--MIT_MAHE--img--Team--Aniket.png
+  assets/img/Team--Ankur.png:
+    link_URL: https://2020.igem.org/wiki/images/d/d3/T--MIT_MAHE--img--Team--Ankur.png
+    md5: cb3aa7e74ebb7374dc49297df9198d9e
+    upload_filename: T--MIT_MAHE--img--Team--Ankur.png
+  assets/img/Team--Anushka.png:
+    link_URL: https://2020.igem.org/wiki/images/9/92/T--MIT_MAHE--img--Team--Anushka.png
+    md5: d1c77fac644b3bd9ef538fcbf2460e79
+    upload_filename: T--MIT_MAHE--img--Team--Anushka.png
+  assets/img/Team--Apoorva.png:
+    link_URL: https://2020.igem.org/wiki/images/5/52/T--MIT_MAHE--img--Team--Apoorva.png
+    md5: cbc3cfe7a344f40dbf86b34c1e8d010d
+    upload_filename: T--MIT_MAHE--img--Team--Apoorva.png
+  assets/img/Team--Bhumika.png:
+    link_URL: https://2020.igem.org/wiki/images/8/8c/T--MIT_MAHE--img--Team--Bhumika.png
+    md5: 8febf57ca1d4ca5eaaa72b6ad29dd7c3
+    upload_filename: T--MIT_MAHE--img--Team--Bhumika.png
+  assets/img/Team--Lavanya.png:
+    link_URL: https://2020.igem.org/wiki/images/c/cf/T--MIT_MAHE--img--Team--Lavanya.png
+    md5: 21fd5a6f1bf31b0a0b5b4e99055ce986
+    upload_filename: T--MIT_MAHE--img--Team--Lavanya.png
+  assets/img/Team--Naman.png:
+    link_URL: https://2020.igem.org/wiki/images/1/1f/T--MIT_MAHE--img--Team--Naman.png
+    md5: 56f8531e782612f8d1d5a4d58a74df33
+    upload_filename: T--MIT_MAHE--img--Team--Naman.png
+  assets/img/Team--Niyati.png:
+    link_URL: https://2020.igem.org/wiki/images/2/22/T--MIT_MAHE--img--Team--Niyati.png
+    md5: cc64725281567527e91f3067081dbea9
+    upload_filename: T--MIT_MAHE--img--Team--Niyati.png
+  assets/img/Team--Pavithra.png:
+    link_URL: https://2020.igem.org/wiki/images/f/f4/T--MIT_MAHE--img--Team--Pavithra.png
+    md5: 0cedcbd3b12f12c326f740f510f402c6
+    upload_filename: T--MIT_MAHE--img--Team--Pavithra.png
+  assets/img/Team--Pradyumna.png:
+    link_URL: https://2020.igem.org/wiki/images/9/94/T--MIT_MAHE--img--Team--Pradyumna.png
+    md5: 12fb5c8a545f50dd7fbf9fc2916d3d9a
+    upload_filename: T--MIT_MAHE--img--Team--Pradyumna.png
+  assets/img/Team--Raksha.png:
+    link_URL: https://2020.igem.org/wiki/images/2/29/T--MIT_MAHE--img--Team--Raksha.png
+    md5: 45b646ad14e0e2a42cfcf63ad0797d08
+    upload_filename: T--MIT_MAHE--img--Team--Raksha.png
+  assets/img/Team--Sanya.png:
+    link_URL: https://2020.igem.org/wiki/images/3/36/T--MIT_MAHE--img--Team--Sanya.png
+    md5: 8c60756602cb4404c7f2246c2882f323
+    upload_filename: T--MIT_MAHE--img--Team--Sanya.png
+  assets/img/Team--Shameshwar.png:
+    link_URL: https://2020.igem.org/wiki/images/0/03/T--MIT_MAHE--img--Team--Shameshwar.png
+    md5: f91c38982468c385831cd47fbe25bc89
+    upload_filename: T--MIT_MAHE--img--Team--Shameshwar.png
+  assets/img/Team--Shravan.png:
+    link_URL: https://2020.igem.org/wiki/images/a/a3/T--MIT_MAHE--img--Team--Shravan.png
+    md5: 0d34cbf16d77acff55dc9371f9631158
+    upload_filename: T--MIT_MAHE--img--Team--Shravan.png
+  assets/img/Team--Soumodeep.png:
+    link_URL: https://2020.igem.org/wiki/images/e/ef/T--MIT_MAHE--img--Team--Soumodeep.png
+    md5: 53b04f34b14fb0f590c865391486927e
+    upload_filename: T--MIT_MAHE--img--Team--Soumodeep.png
+  assets/img/Team--Urvi.png:
+    link_URL: https://2020.igem.org/wiki/images/d/dc/T--MIT_MAHE--img--Team--Urvi.png
+    md5: f0bf7c5397ae3d3d50322d29506961e0
+    upload_filename: T--MIT_MAHE--img--Team--Urvi.png
+  assets/img/Team--Utkarsh.png:
+    link_URL: https://2020.igem.org/wiki/images/0/02/T--MIT_MAHE--img--Team--Utkarsh.png
+    md5: 38bea24271f56704b79a9a1f168c5cc6
+    upload_filename: T--MIT_MAHE--img--Team--Utkarsh.png
+  assets/img/Team--Vaishnavi.png:
+    link_URL: https://2020.igem.org/wiki/images/f/f8/T--MIT_MAHE--img--Team--Vaishnavi.png
+    md5: 2077fa45d9ee95852d338b309e3cc3b0
+    upload_filename: T--MIT_MAHE--img--Team--Vaishnavi.png
+  assets/img/Team--Varun.png:
+    link_URL: https://2020.igem.org/wiki/images/4/44/T--MIT_MAHE--img--Team--Varun.png
+    md5: ed344160607d216fd148d96f61c78bef
+    upload_filename: T--MIT_MAHE--img--Team--Varun.png
+  assets/img/Team--member.jpeg:
+    link_URL: https://2020.igem.org/wiki/images/f/fe/T--MIT_MAHE--img--Team--member.jpeg
+    md5: cf6026cd2f684dd57f932b6bb319d4da
+    upload_filename: T--MIT_MAHE--img--Team--member.jpeg
+css:
+  css/content.css:
+    link_URL: https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css
+    md5: 9de59aa4eccfa98eb87f8ba0bcc41043
+  css/index.css:
+    link_URL: https://2020.igem.org/Template:MIT_MAHE/css/indexCSS?action=raw&ctype=text/css
+    md5: 95a71e0d2d17732b47fbdefdd75477d1
+  css/team.css:
+    link_URL: https://2020.igem.org/Template:MIT_MAHE/css/teamCSS?action=raw&ctype=text/css
+    md5: 4699e380b96cbf0b5f1c8b8ad49e0a13
+html:
+  Attributions/index.html:
+    link_URL: https://2020.igem.org/Team:MIT_MAHE/Attributions
+    md5: 046a899c91e9b15ee2a4a910c5024144
+  Collaborations/index.html:
+    link_URL: https://2020.igem.org/Team:MIT_MAHE/Collaborations
+    md5: 30569422bf792182f34928cfbdc49b11
+  Contribution/index.html:
+    link_URL: https://2020.igem.org/Team:MIT_MAHE/Contribution
+    md5: 6b0d9ef8f4b04e25a6cf406adfbb7491
+  Description/index.html:
+    link_URL: https://2020.igem.org/Team:MIT_MAHE/Description
+    md5: fa32e484a334c85a10f1b43eeba0bec0
+  Engineering/index.html:
+    link_URL: https://2020.igem.org/Team:MIT_MAHE/Engineering
+    md5: ba09398f25fc5b527728a7c722c6406a
+  Experimentation/index.html:
+    link_URL: https://2020.igem.org/Team:MIT_MAHE/Experimentation
+    md5: 0d02ac7d84f2b150d55e5f9f6df26341
+  Hardware/index.html:
+    link_URL: https://2020.igem.org/Team:MIT_MAHE/Hardware
+    md5: 3a9f1ab84c4950b9f783e29e7cf1c515
+  Human_Practices/index.html:
+    link_URL: https://2020.igem.org/Team:MIT_MAHE/Human_Practices
+    md5: 66d61fbcc8159eaeae5919d5608f7dd6
+  Implementation/index.html:
+    link_URL: https://2020.igem.org/Team:MIT_MAHE/Implementation
+    md5: aacc5c9b8f7e23fc5463dbdd01d84ec2
+  Judging_Form/index.html:
+    link_URL: https://2020.igem.org/Team:MIT_MAHE/Judging_Form
+    md5: b631eda90f29c57384b917696a6cfd38
+  Medals/index.html:
+    link_URL: https://2020.igem.org/Team:MIT_MAHE/Medals
+    md5: 2a6b893824a561fb7a7641102ab73ed5
+  Model/index.html:
+    link_URL: https://2020.igem.org/Team:MIT_MAHE/Model
+    md5: 2495f4b8641416fedbb3cdf52cf85998
+  Parts/index.html:
+    link_URL: https://2020.igem.org/Team:MIT_MAHE/Parts
+    md5: 13d4e22c2108f06fcb6fd6f0c020127c
+  Safety/index.html:
+    link_URL: https://2020.igem.org/Team:MIT_MAHE/Safety
+    md5: 8922063c0bf97753607183a9b4044b1e
+  Special_Prizes/index.html:
+    link_URL: https://2020.igem.org/Team:MIT_MAHE/Special_Prizes
+    md5: d3d68c1278478cd56ed22fd666e3a32f
+  Team/index.html:
+    link_URL: https://2020.igem.org/Team:MIT_MAHE/Team
+    md5: 2f08a23e190723fcd7ad8bfad70ce227
+  index.html:
+    link_URL: https://2020.igem.org/Team:MIT_MAHE
+    md5: b7c3993b4a0e2f8e71d232c4914ef0da
+js:
+  content.bundle.js:
+    link_URL: https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript
+    md5: 84f933c697ec05dce61b148c9d81bf6e
+  index.bundle.js:
+    link_URL: https://2020.igem.org/Template:MIT_MAHE/index-bundleJS?action=raw&ctype=text/javascript
+    md5: 90fa76ee8790fee1450167027c563da3
+  team.bundle.js:
+    link_URL: https://2020.igem.org/Template:MIT_MAHE/team-bundleJS?action=raw&ctype=text/javascript
+    md5: f57384e28b20ef024cd9c384707694fa
