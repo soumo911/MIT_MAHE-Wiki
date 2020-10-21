@@ -1,19 +1,19 @@
-- Sample
-- Team:
-  - Team
-  - Attributions
-  - Collaborations
-- Project:
-  - Contribution
-  - Description
-  - Experiments
-  - Model
-  - Parts
-  - Safety
-- Entrepreneurship:
-  - Entrepreneurship
-  - Implementation
+- TEAM:
+  - TEAM: Team
+  - ATTRIBUTIONS: Attributions
+  - COLLABORATIONS: Collaborations
+- PROJECT:
+  - CONTRIBUTION: Contribution
+  - DESCRIPTION: Description
+  - ENGINEERING: Engineering
+  - EXPERIMENTATION: Experimentation
+  - HARDWARE: Hardware
+  - MODEL: Model
+  - PARTS: Parts
+  - SAFETY: Safety
+- Implementation
 - Human Practices
-- Awards:
-  - Medals
-  - Special Prizes
+- AWARDS:
+  - MEDALS: Medals
+  - SPECIAL PRIZES: Special_Prizes
+- Judging Form

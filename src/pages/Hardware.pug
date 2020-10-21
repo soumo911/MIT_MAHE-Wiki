@@ -1,0 +1,138 @@
+extends ../templates/contents.pug
+
+block headVars
+    - var title = "Hardware"
+    - var tagline = "This page outlines a bioreactor we designed to simulate the gut environment."
+    - var requireMathJax = true
+
+block article
+
+    :markdown-it(html)
+
+        # Introduction
+        The small intestine is a complex dynamic environment with a variety of physiological and mechanical stresses in play. These properties play an important role in determining the viability of the probiotic drug components. In vivo studies are too complicated and expensive to be used for the initial screening processes like studying the chassis to be used, checking the effectiveness of the probiotic in a variable dynamic environment and/or in optimization of the capsule for appropriate delivery. Current lab scale methodologies involve a relatively oversimplified static system which would not replicate most properties of its target site environment. **Systematic Analyzer of Underlying Limitations (SAUL)** is a bioreactor that aims to provide more variable conditions to combat as well as study the underlying limitations of current static methodologies. [Sumeri et al., 2008](#citation1)
+        
+        (It)'s all gut!
+
+        # Components of the GI Tract modelled
+        ### Stomach
+        This model focuses only on two types of stomach movement i.e Peristalsis and Ancillary. The pH is maintained at 2. The pipe dimensions are not in scale to the stomach geometry, hence the flow pattern would differ in the stomach. 
+        ### Duodenum
+        Duodenum is the first part of the small intestine located between the stomach and the jejunum. It is the first site of action of our probiotic where our capsule would dissolve, and the probiotic would be released into the gut environment. Like stomach, the main types of muscle movement contributing to intestine motility are peristalsis and segmentation. In duodenum there is a sudden change in pH to 6. Presence of bile juices contributes to the viability of the probiotic.
+        
+        # Setup
+    .row
+        .col-md
+         - var imgpath = "" + require("../assets/img/Hardware--bioreactor--horizontal.jpg")["default"]
+         +image(1, imgpath, "Horizontal Configuration. (To simulate small intestine)", 100)
+    
+        .col-md
+         - var imgpath = "" + require("../assets/img/Hardware--bioreactor--vertical.jpg")["default"]
+         +image(2, imgpath, "Vertical Configuration. (To simulate stomach)", 100)
+    
+    :markdown-it(html)
+
+        _Note - Incubator is not shown._
+
+        All required reagents are stored in HDPE container bottles, and transported to the inlet of the dialysis tube inside the bioreactor by use of diaphragm pumps. The pumps are fitted with one-way valves to prevent back-flow of fluid when containers are changed. The capsule containing the probiotic bacteria and the powdered dye are added through a separate dry inlet in close proximity to the start of dialysis tube. when the fluids reach the inlet of the bioreactor, the DC geared motor that controls peristaltic motion of the tube inside is switched on. The contents of the tube travel through the bioreactor, pushed by peristalsis. The fluids then come out of the bioreactor and are collected into a container bottle or directed back towards the inlet as a recycle stream. The fluids in the basolateral chamber (inside the bioreactor case, outside of the dialysis tube) are recirculated using a closed loop of silicon tubes. A pH sensor is provided in the outlet container for measurement of pH, and temperature is maintained by enclosing the whole setup in an incubator.
+
+        # Parameters under consideration
+        All these parameters were chosen on the basis of insights from available literature. [Fonseca, M.R. (2012). An engineering understanding of the small intestine.](#citation2)
+    
+    :markdown-it(html plugins=['markdown-it-multimd-table'])
+        |Parameter     |          Conditions           |
+        | :------------ |         :-----------         |
+        |Density       |          Water at 37°C- 0.99997 g/cm3 (Used as control), density of food substitute will depend on the amount of guar gum added         |
+        |Viscosity     |   0.1-3.0 Pa.s                    |                                 
+        |Temperature   |     37°C                      |
+        |pH range      | 2 (for stomach); 6-7.4 (for small intestine)                    |
+        |Peristaltic frequency|          3 per minute in the stomach, then 12 per minute in the duodenum, 9 per minute in the ileum          |
+        |Flow rate       |   2.5 mL/min to 20 mL/min (Intestine)                   |                                 
+        |Shear stress   |    200 Pa  [Li, J. et al., 2019](#citation3)                    |
+        |Capsule Diameter      | 5.31mm and 4.91mm                    |
+        [Table 1: Process conditions for various parameters.]        
+
+    :markdown-it(html)
+        # Bioreactor Design
+    .row
+        .col-md
+         - var imgpath = "" + require("../assets/img/Hardware--bioreactor--model.png")["default"]
+         +image(3, imgpath, "Model", 109)
+    
+        .col-md
+         - var imgpath = "" + require("../assets/img/Hardware--bioreactor--assembly.png")["default"]
+         +image(4, imgpath, "Assembly", 100)
+    
+    :markdown-it(html)
+        _The model of the bioreactor was created using CATIA._
+        
+        A semi permeable dialysis tube (made of regenerated cellulose) is used as the apical chamber of the intestine. Imitation of peristalsis is achieved through periodic compression of the dialysis tube by three ball bearings. The bearings are actuated using a DC motor. The dialysis tube is fitted into a 3D printed case, which mimics the basolateral chamber. The bottom part of the case holds the motor in place and acts as a stand when the bioreactor is in a vertical configuration. Silicon tubes are used as recirculation channels for the basolateral fluids. 
+        
+        Structural analysis of the dialysis tube was performed on ANSYS in order to determine the appropriate tube diameter that would incur shear stresses as close as possible to the stresses experienced in the intestine.
+        
+        # Design specifications
+
+    :markdown-it(html plugins=['markdown-it-multimd-table'])
+        |         | OD        | ID         |
+        | ------  | --------- | ---------- |
+        | Dialysis Tube  | 6.4 mm         | 6.385 mm          |
+        | Silicon Tube   | 12.7 mm        | 9.525 mm          |
+        | Reactor Casing | 110 mm         | 100 mm            |
+        | Bearings       | 19 mm          | 5 mm              |
+        
+        [Table 2: Dimensions of components]
+
+        | Motor          | Pump           |
+        | -----------    | -----------    |
+        | Worm Gearbox   | Voltage = 3 V to 4.5 V        |
+        | No load speed = 1 RPM | Current = 650 mA       |
+        | Stall Torque = 12 kgcm| Flow rate = 0.8-1.2 L/min |
+        | Rated Voltage = 6 V (DC)| Limit head = 1.5 m |
+        | Current = 0.1 A| Operating Temperature = below 80 C |
+
+        [Table 3: Process Variables]
+
+    :markdown-it(html)
+        NOTE: The speeds of both the DC motor and the pump will be reduced using PWM (Pulse Width Modulation) to match our low RPM and flow rate requirements.
+
+        Dialysis Tube Material Properties (for shear stress analysis)
+        
+        REGENERATED CELLULOSE
+        * Young’s Modulus = 10.8 GPa [Adusumali et al., 2006](#citation4)
+        * Poisson’s Ratio = 0.297  [Nakamura et al., 2004](#citation5)
+
+        # Expected Results
+        A comprehensive set of experiments were formulated to accomplish the following objectives [Sumeri et al., 2008](#citation1)  -
+
+        * To check whether the bacteria can tolerate bile salts and hence effectively colonize in the gut. 
+        * To optimize the thickness of the capsule used to deliver the probiotic.
+        * To optimize capsule acid coating (sodium alginate, hypromellose and gellan gum), and determine tolerance time. 
+        * To check the overall efficiency of the capsule by subjecting it to stresses experienced in stomach and gut (due to flow rate, temperature, pressure, pH, etc), and thus finalize capsule formulation.  
+        * To map drug distribution using a powdered dye.
+        * To check viability of the bacteria in the presence and absence of bile.
+        * To check efficiency of probiotic bacteria in converting methylmercury to elemental mercury.
+        * To check inflammatory response of probiotic bacteria in a dynamic system.
+
+        # Estimated Cost
+
+    :markdown-it(html plugins=['markdown-it-multimd-table'])
+        | Component       | Rate Per Unit  | Number of Units| Cost in INR    | Cost in USD   |
+        | :-----------    | :------------: | :------------: | :------------: |:------------: |
+        | ABS Filament    | 995 per kg     | 0.5 kg         | 498            | 6.79          |
+        | Pump            | 260            | 5              | 1300           | 17.73         |
+        | Valve           | 85             | 6              | 510            | 6.96          |
+        | Dialysis Tube   | 18992.42/100ft | 300 mm         | 187            | 2.55          |
+        | Silicon Tube    | 186.29/ft      | 3.28 ft        | 608            | 8.29          |
+        | Container Bottle| 830 per pack   | 1              | 830            | 11.32         |
+        | Bearings        | 50             | 3              | 150            | 2.05          |
+        | Fasteners       | 4              | 15             | 60             | 0.82          |
+        | Motor           | 2000           | 1              | 2000           | 27.28         |
+
+        [Table 4: Cost Table]
+
+    :markdown-it(html)
+        _You can read the full documentation on our __SAUL Handbook.___
+//- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
+
+prepend citations
+    - var citations = [{"authors": "Sumeri, I., Arike, L., Adamberg, K., & Paalme, T. (2008). ", "doi": "https://doi.org/10.1007/s00253-008-1553-8", "journal": "Applied Microbiology and Biotechnology", "numbers": "80(2), 317-324. ", "title": "Single bioreactor gastrointestinal tract simulator for study of survival of probiotic bacteria.", "type": "article"}, {"details": "(March 15, 2019). Retrieved on September 11, 2020. from ", "title": "An Engineering Understanding of the Small Intestine by Monica Rosalia Jaime Fonseca. CORE.", "type": "webpage", "url": "https://core.ac.uk/download/pdf/8780062.pdf"}, {"authors": "Li, J., Bi, X., Zhang, K., Zhang, C., & Liu, H. (2019). ", "doi": "https://doi.org/10.1007/s11431-018-9428-4", "journal": "Science China Technological Sciences", "numbers": "62(6), 1028-1034. ", "title": "Experimental study on the effects of shear stress on viscoelastic properties of the intestines.", "type": "article"}, {"authors": "Adusumali, R.-B., Reifferscheid, M., Weber, H., Roeder, T., Sixta, H., & Gindl, W. (2006). ", "doi": "https://doi.org/10.1002/masy.200651211", "journal": "Macromolecular Symposia", "numbers": "244(1), 119-125. ", "title": "Mechanical Properties of Regenerated Cellulose Fibres for Composites.", "type": "article"}, {"authors": "Nakamura, K., Wada, M., Kuga, S., & Okano, T. (2004). Poisson-s ratio of cellulose I? and cellulose II. Journal of Polymer Science Part B: Polymer Physics, 42(7), 1206-1211. ", "doi": "https://doi.org/10.1002/polb.10771", "journal": "Journal of Polymer Science Part B: Polymer Physics", "numbers": "42(7), 1206-1211. ", "title": "Poisson's ratio of cellulose I? and cellulose II.", "type": "article"}]

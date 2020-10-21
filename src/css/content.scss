@@ -12,7 +12,7 @@ $dark-green: #12bc84;
 $white: #ffffff;
 $yellow: #ffdb59;
 $orange: #ffb454;
-$black: #3d3d3d;
+$whitish: #f0f0f0;
 $grey: #dadada;
 $light-grey: #f7f7f7;
 $dark-grey: #8e8e8e;
@@ -20,7 +20,7 @@ $selection-color: rgba(255, 233, 0, 0.4);
 
 $darkBlue: #2c3e50;
 $darkerBlue: #1e2b37;
-$linkHover: #18bc9c;
+$linkHover: #b2d31e;
 $tableBorder: #dee2e6;
 
 // dark mode
@@ -108,7 +108,7 @@ header {
         text-decoration: none;
         padding-bottom: 6px;
         transition: color 0.5s;
-        color: black;
+        color: white;
 
         // from https://codepen.io/devilishalchemist/pen/ZYLZay
 
@@ -218,7 +218,7 @@ header {
     font-size: $h1size * 1rem;
     margin: 2rem 0 1rem 0;
     word-spacing: 0.3rem;
-    color: $darkBlue;
+    color: #f0f0f0;
 
     &:first-of-type {
       margin-top: 0;
@@ -266,7 +266,7 @@ header {
   }
 
   p {
-    color: black;
+    color: white;
     text-align: justify;
 
     .MathJax_Display {
@@ -302,7 +302,7 @@ header {
     p {
       text-align: center;
       font-style: italic;
-      color: $black;
+      color: $whitish;
     }
   }
 
@@ -311,7 +311,7 @@ header {
     width: 75%;
     margin: 50px auto;
     font-style: italic;
-    color: #555555;
+    color: #e2e2e3;
     padding: 1.2em 30px 0.7em 60px;
     border-left: 6px solid $linkHover;
     line-height: 1.6;
@@ -333,7 +333,7 @@ header {
 
     strong {
       display: block;
-      color: #333333;
+      color: #e2e2e3;
       font-style: normal;
       font-weight: bold;
       margin-top: 1em;
@@ -376,7 +376,7 @@ header {
     }
 
     a {
-      color: $dark-green;
+      color: $whitey;
 
       &:hover {
         text-decoration: underline;
@@ -384,6 +384,7 @@ header {
     }
 
     caption {
+      color: #e2e2e3;
       text-align: center;
       font-style: italic;
       margin-top: 15px;
@@ -398,7 +399,7 @@ header {
   }
 
   a.citation {
-    color: $dark-grey;
+    color: lightgray;
     scroll-margin-top: 200px;
 
     &:target {
@@ -422,7 +423,7 @@ header {
 .content p,
 #references li {
   a:not(.citation) {
-    color: $black;
+    color: $whitish;
     position: relative;
     text-decoration: none;
     display: inline-block;
@@ -453,7 +454,7 @@ header {
 
     &:hover {
       text-decoration: none;
-      // color: $black;
+      // color: $whitish;
 
       &::before {
         width: 100%;
@@ -497,7 +498,7 @@ header {
     font-size: 1.1rem;
     line-height: 1.75;
     word-spacing: 0.1rem;
-    color: #3d3d3d;
+    color: #f0f0f0;
   }
   a {
     margin-right: 15px;
@@ -514,10 +515,10 @@ footer {
     background-color: $green-background;
 
     h1 {
-      color: $black;
+      color: $whitish;
     }
     a {
-      color: $black;
+      color: $whitish;
     }
   }
 }

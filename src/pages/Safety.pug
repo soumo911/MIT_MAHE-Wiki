@@ -2,141 +2,180 @@ extends ../templates/contents.pug
 
 block headVars
     - var title = "Safety"
-    - var tagline = "A sample page for the theme."
+    - var tagline = "Safety considerations for our project."
     - var requireMathJax = true
 
 block article
 
     :markdown-it(html)
 
-        # Headings
-        ## Level 2 Heading
-        ### Level 3 Heading
-        #### Level 4 Heading
+        # Introduction
+        Safety of the **researcher, environment, manufacturer** and the **consumer** is of utmost importance in each of the processes from strain development experiments to manufacturing and packaging of the final product. To ensure the same consideration of all the precautions and safety measures must be taken to make the work environment, manufacturing environment and consumer product safe and to prevent any hazardous situations. **Material safety data sheets** for all reagents should be kept handy (List of reagents used have been given in the handbook).
 
-        # Emphasis
-        This is regular text.
-
-        **This is bold text.**
-        __This is also bold text.__
-
-        *This is italic text.*
-        _This is also italix text.*
-
-        ***This text is bold and italic both.***
-        ___This text is bold and italic both.___
-
-        ~~Strikethrough~~
-
-        # Lists
-        1. This is item one.
-        1. This is item two.
-        1. It's okay to number every item as 1.
-            * This is a nested list.
-            * Use asterisk for an unordered list,
-            * Further nesting?
-            + Plus sign also works.
-            - And so does minus.
-        1. ~~Birds aren't real.~~
-
-        # Links
-        [Google](https://google.com)
-
-        [Text goes in square brackets](Link-goes-in-parenthesis)
-
-        # Blockquote
-
-        > This is a blockquote.
-        > This continues in the same paragraph.
-        >
-        > To change the paragraph, you have to leave a line.
-
-        > This is another blockquote.
-        > 
-        > **Pranav Ballaney, 2020**
-
-        # Images
-
-        This is a regular paragraph. 
-        #### This is a level 4 heading. 
-        [This is a link](google.com)
-
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
-    +image(1, imgpath, "Caption", 100)
+        # Bacteria
+    - var imgpath = "" + require("../assets/img/Safety--angel--coli.jpg")["default"]
+    +image(1, imgpath, "Safe chassis bacteria", 30)
 
     :markdown-it(html)
-        Back to regular text.
+        Our entire project requires a Biosafety Level 1 (BSL-1) laboratory. This is because our project has proposed the use of Biosafety level 1 bacteria (___Escherichia coli_ DH5alpha__ and ___Escherichia coli_ Nissle 1917__) as our probiotic chassis [iGEM - safety risk groups](#citation1) and therefore we consider our project to be harmless to researchers in this aspect. None of the designed experiments are expected to increase the pathogenicity of the bacteria.
+        
+        The bacteria _Escherichia coli_ Nissle 1917 is an extremely well studied probiotic strain with __no known negative effects__ on health [Pradhan, S., & Weiss, A. A., 2020](#citation2). It __does not__ have the ability to become an __aerosol__ and has __no known pathogenic effects__ on __animals__ and __plants__ as well. It is responsible for producing fitness factors called ‘colicins’ that are toxic to other __Escherichia coli__ strains. In our case, it would be an advantage as we want our bacteria to compete while it stays in the gut. Furthermore, its ability to form biofilms increases its long-term persistence in the gut.
 
-        # Tables
+        We would not reveal important information like activation mechanisms, etc to ensure that **dual use** would not occur. (unless it has all the required clearances)
 
-        This is a regular paragraph, which precedes the table.
-        When you want to insert a table, indent one level back and specify the plugin.
-        Then indent inside again and start writing the table.
+        # Biosafety & Biosecurity
+    - var imgpath = "" + require("../assets/img/Safety--dual--use.png")["default"]
+    +image(2, imgpath, "Dual Use", 90)
+
+    :markdown-it(html)
+        Team Bielefeld-CeBiTec 2015 proposed a detailed analysis of biosecurity, particularly the **dual use** issue, with respect to the iGEM competition in which they have mentioned several aspects and questions to be considered [Bielefeld-CeBiTec, 2015](#citation3). Some of the questions which we have answered are given below (More can be found in the handbook).
+
+        **Can you imagine any malevolent use of the knowledge and sequences published on your team’s wiki? Could the knowledge you provide be used for the creation of products or organisms that pose a danger to humans or the environment?**
+
+        Our project involves the release of an anti-inflammatory cytokine (IL-10) whose release is regulated by a control mechanism involving SoxS and SoxR genes. The SoxR gene is also regulated to be released only in the presence of methylmercury using the MerR-PmerT mercury responsive genes.
+
+        Selective mutation of any of these control mechanisms could lead to release of IL-10. This could lead to reduced immune response to pathogens. IL-10 also down regulates transcription and secretion of IL-1β, IL-6, IL-8, TNF-α, and G-CSF by activated monocytes and macro- phages. This could lead to cancer [Schreiber S, 1997](#citation4) . IL-10 upregulates ICAM-1 within neural tissues. This promotes massive macrophage influx, demyelination due to inflammation and subsequent loss of neural tissue, resulting in muscle weakness and paralysis [Dru S., 2009](#citation5).
+
+        **Who will use your product? If your product is successful, who will receive benefits and who will be harmed?**
+
+        Our product if successful will be used by people who are at risk for methylmercury poisoning. we have made sure to not use any allergens or preservatives which could potentially harm consumers.
+
+        ### WHO Questionnaire
+        **WHO also has a self-assessment questionnaire** to ensure good quality, ethical research activities are conducted in safe and secure facilities. Some of the important question relevant to biosecurity and biosafety aspects have been answered below (more in handbook) [WHO - Responsible life sciences research for global health security](#citation6) :
 
     :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | This is | the table | header row |
-        | ------  | --------- | ---------- |
-        | 1       | 2         | 3          |
-        | 4       | 5         | 6          |
-        [Table 1: Caption goes here.]
+        | Pillar 3: **BIOSAFETY AND LABORATORY BIOSECURITY**  ||
+        | :------:  | :---------: |
+        | An assessment of the risk associated with research activities is conducted   | Yes. The team has documented a Safety Handbook that covers various safety aspects and a detailed risk assessment for each experiment        |
+        | Risk assessments are able to identify requirements for risk reduction measures including the level of containment required   | Yes. The Safety Handbook covers not only the risk reduction measures but also the level of containment required for each stage of the research that will be conducted.         |
+        | Legislation/regulations regarding hazardous waste disposal are followed | Yes. The team will strictly follow the regulations pertaining to hazardous waste disposal. (No Lab Experiments were performed this year)|
+        | Valuable biological material is safely and securely stored        | Yes. The team will ensure that the valuable biological material is safely and securely stored for future use. (No Lab Experiments were performed this year) |
+        
+        [Table 1: WHO Self Assessment]
+
+        # Toxic chemicals
+        ### Methylmercury
+ 
+    - var imgpath = "" + require("../assets/img/Safety--toxic.png")["default"]
+    +image(3, imgpath, "Methylmercury is extremely toxic.", 50)
 
     :markdown-it(html)
-        And when you're done, go back to the regular markdown filter.
+        All forms of mercury, both organic and inorganic are highly toxic. Exposure to mercury even in small amounts can causes severe health issues and can even affect the development of the child in utero and early in life [WHO - Mercury and health](#citation7).
+
+        - To avoid mercury poisoning by accidental inhalation, ingestion, injection or absorption through the skin while working with it, the use of appropriate type of gloves **(Nitrile (8 mil) over Silver Shield)** and other essential lab attire like **Chemical goggles/face shield, lab coat with full sleeves, full-length pants, and closed toe shoes** must be ensured. 
+        - Mercury spill kits must be kept handy in the lab in case of an emergency. 
+        - All mercury containing waste must be disposed of separately by packing in a container with a hazardous waste label and chemical name on it. 
+        - We have taken into consideration all the hazardous waste disposal laws in India and have also enlisted the ones in the US for reference in our safety manual.
+
+        ### Paraquat
+
+        **In the USA**: Paraquat is categorized under ‘restricted use’ by the US Environmental Protection Agency. Only those with a license are allowed to use this chemical. A blue dye and sharp odor are added as a warning, and another agent is added to induce vomiting in case of ingestion [Paraquat dichloride-EPA](#citation8).
+        
+        **In India**: CIBRC (**Central Insecticide Board and Registration Committee**) has categorized paraquat dichloride as highly toxic [Conditions of paraquat use in India - Pan-India](#citation9).
+        
+        To ensure safety while handling paraquat **protective clothing, including gloves, safety glasses, respiratory equipment, full-sleeved lab coat, full-length pants,** and **closed-toe shoes** must be worn. During disposal suitable incineration and chemical treatment, in accordance with local regulations must be followed (by a licensed professional). 
+        
+        # Experimentation
+        ### Wet Lab
+    - var imgpath = "" + require("../assets/img/Safety--gloves.jpg")["default"]
+    +image(4, imgpath, "Gloves", 20)
 
     :markdown-it(html)
-        **Example 2:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | Left aligned | Center aligned | Right aligned |
-        | :----------- | :------------: | ------------: |
-        | 1 | 2 | 3 |
-        | 4 | 5 | 6 |
-
-    :markdown-it(html)
-        **Example 3:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        |              |          Grouping           ||
-        |First Header  | Second Header | Third Header |
-        | ------------ | :-----------: | -----------: |
-        |Content       |          *Long Cell*        ||
-        |Content       |   **Cell**    |         Cell |                                               
-        |New section   |     More      |[Data](https://google.com) |
-        |And more      | With an escaped '\|'       ||
-
-        [Table 3: Caption goes here.]
+        To maintain aseptic conditions, all experiments must be performed inside the __laminar flow chamber__ while ensuring the UV light doesn’t cause any problems to the person performing the experiment.
+        
+        Precautions must be taken while working with the autoclave and handling of hot autoclaved equipment must be done using appropriate __heat proof gloves__. Aseptic conditions must be maintained in order to __prevent contamination__ by unwanted DNA or organisms. Gloves must be used not only for handling hot equipment and chemicals but also for cold samples taken out of the freezer to __avoid cold burns__. The stains and other hazardous substances should be handled with care during gel electrophoresis, sonication and gas chromatography.
+        
+        Labs must be equipped with an __emergency shower, eyewash station,__ and a __first aid kit__ and workstation must be cleaned. Disposal of all waste materials must be done properly.
+        
+        ### SAUL
+        **Isolation** of all **electronic components** from any conducting media should be ensured.  All wiring connections should be **insulated properly**, and care must be taken to __avoid spilling__ or leakage of chemicals or fluids onto the motors.
+        
+        After experiments which involve methylmercury and paraquat, the dialysis tube must be __discarded__ and other equipment components should be thoroughly cleaned following the handling protocols. Any leakage into the incubator should be prevented by placing the entire set up in a __closed air tight container__. All of the components used in the design are checked for __temperature__ and __pH resistance.__
+    - var imgpath = "" + require("../assets/img/Safety--garbage--can.jpg")["default"]
+    +image(5, imgpath, "Specialized disposal", 40)
 
     :markdown-it(html)
+        ### Product Development
+        All the experiments designed are __relatively safe__. The bacteria used should be highly tested for any safety concerns. However, any __unexpected results__ or modifications must be handled with __extreme care.__ 
+        
+        Media experiments which utilizes a few hazardous substances like mercuric oxide, concentrated HCl etc must be handled in the __fume hood__ in rooms with __adequate ventilation__. Protective equipment must be worn at all times. Disposal of inorganic peroxides and oxidants as well as bromine and iodine should be done by __rendering them harmless__ by reduction with acidic thiosulphate solution. Disposal of contaminants should be done separately with adequate labeling.
 
-        # Definitions
+        # Implementation
+        Initially, we identified the worst cases in pharmaceutical cleaning validation [Identification of worst case in cleaning validation- Pharmaceutical guidelines](#citation10).
 
-        <dfn>Term ~ Definition</dfn>
+        - Potency of product 
+        - Solubility of Active Pharmaceutical Ingredient (API) in water 
+        - Toxicity of API 
+        - Concentration of API 
+        - Contact surface area 
+        - Product excipients
+        - Manufacturing process
 
-        This can come <dfn>anywhere in ~ the text</dfn>.
+        The quality and quantity of the API (bacteria) must be maintained at **recommended safe levels** (CFU count) ensuring optimal potency. The water released during drying or other process must be **sterilized** before discarding. The API in our case is _Escherichia coli_ Nissle 1917 which is a __non-pathogenic known probiotic strain__. The API concentration must be at recommended levels for a probiotic. The equipment used must have minimum surface area and should be sterilized regularly with non-harmful substances. The **excipients** used must **not contain** any known **allergens** as well as **preservatives**. Contamination of the product must be prevented by repeated cleaning and **sterilization** of all components including **air, equipment, media etc.**
 
-        # MathJax
+        ### Powder Design
+        Since the volume of the microorganisms present in bioreactors is much larger, extreme care must be taken to prevent the contamination of the bioreactor itself and also the surrounding environment.
+        
+        There is a possibility of liquid spills and aerosol formation for some of the bacteria which could be used. However, the bacteria we have proposed is _Escherichia coli_ Nissle 1917 which is a risk 1 __non-pathogenic organism__ and does not have the capability to form aerosols.
+        
+        The proximity of large volumes of liquid and mains electrical equipment (eg, from heaters, aerators, sensors, etc) presents a hazard. Commercially-designed equipment from a reliable source should prevent access to live conductors.
+        
+        In case of any gas production, the gases must be __vented out__ to prevent high pressure build up as well as any igniting substance should be kept away.
+        
+        The quality and safety of the manufactured product should be a key concern in order to ensure the client’s safety [Prevention of microbial contamination during manufacturing- Pharmaceutical guidelines](#citation11).
 
-        $$\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$
+        ### Plant Hygiene
+        - Air filtration and air change rates must be set and done regularly.
+        - In case of contamination in one area, the plant should have a HVAC system which would remove and prevent contaminants from spreading to other areas. 
+        - Ventilation dampers should also be positioned away from the production area for maintenance purposes. 
 
-        $$-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$$
+        ### Personnel Hygiene
+    - var imgpath = "" + require("../assets/img/Safety--equipment.jpg")["default"]
+    +image(6, imgpath, "Personal Protective Equipment", 40)
 
-        $$i\hbar\gamma^\mu\partial_\mu\psi = mc\psi$$
+    :markdown-it(html)
 
-        $$y_k = \frac{1}{\sqrt{N}}\sum_{n=0}^{N-1}x_n\omega_N^{kn}$$
+        - The personnel handling the production must be __trained on the importance of hygiene__ and it should be ensured that they would wear protective clothing such as __hair cover, overshoes, over garments, beard covers,__ etc. to prevent any sort of contamination.
+        - It is required to ensure that direct contact with the product or an equipment which comes in contact with the product is avoided.
 
-        # Citations
+        ### Cleaning
+        - Cleaning agents must be of a **suitable grade** to minimize any health risks. Cleaning and disinfection should be done regularly. **Rotation of different disinfectants** should be done to prevent any resistance development. The **disinfectant must be sterilized** using a 0.2 micron membrane filter in sterile conditions. The **hold time** of the disinfectants must also be validated.
+        - The equipment for cleaning **should not have direct contact** with the pharmaceutical product. 
+        - The cleaning practice must be **validated.**
 
-        In text citation for a research article with a DOI. [Rosano et al., 2019](#citation2)
+        Equipment maintenance and cleanliness must be ensured and all guidelines must be followed. 
 
-        In text citation for another research article with a DOI. [Allen & Sheridan, 2015](#citation1)
+        ### Process Design
+        A controlled area for pharmaceutical manufacturing would be maintained. Any harm to the manufacturers due to dust particles or micro-organisms should be avoided by providing **quality equipment, adequate hygiene training** and **regular cleaning and sterilization.** The capsule integrity and sterility must be ensured during filling. **Quality control of capsules** should be done at each key stage. Different processes must be performed at different sections of the plant preventing contamination. 
+        
+        There are **four different levels** that a sterile pharmaceutical company should grade its control production: A B C and D. Grade A should be the zone for **high risk operations** like filling zone and zone for making aseptic connections; this zone should have laminar airflow systems with homogeneous airspeeds. Grade B is the **background environment** for grade A that allows for aseptic preparation and filling. Grade C and D are **classified areas** that handle the less critical stages of SPM [Controlled areas in sterile manufacturing - pharmaceutical guidelines](#citation12).
+        
+        ### Packaging
+    - var imgpath = "" + require("../assets/img/Safety--packaging.png")["default"]
+    +image(7, imgpath, "Packaging", 90)
 
-        In text citation for a book with no DOI. [Ingalls, 2013](#citation3)
+    :markdown-it(html)
+        Blister punching machine is closed at the manufacturing part, thus remaining **tamper resistant**. The packaging must maintain the integrity and safety of the product. 
 
-        In text citation for a website with institutional author. [TNAU Agritech Portal, n.d.](#citation4)
+        ### Waste Management & Recycling
+        Pharmaceutical waste is categorized into 2 categories [An overview of waste management in pharmaceutical industry - pharma journal](#citation13)
+        1. Hazardous waste (any contaminants or chemicals).
+        2. Non-hazardous waste  
 
-        In text citation for a website with an author. [Author, n.d.](#citation5)
+        The following strategies must be used to manage the hazardous waste that reduces the waste materials generated
+
+        #### Waste Minimization
+        An important method of waste management is the prevention of waste material being created, also known as waste reduction. Before processing **any unnecessary waste generation** must be checked and adequate measures should be taken.
+
+        #### Reuse
+        Re-use means the use of a product on more than one occasion, either for the same purpose or for a different purpose, without the need for reprocessing. Re-use avoids discarding a material to a waste stream when its initial use has concluded. The integrity of the product or equipment must not be sacrificed. 
+
+        #### Recycling
+        Recycling involves the treatment or reprocessing of a discarded waste material to make it suitable for subsequent reuse either for its original form or for other purposes. **Unused or haphazardly filled capsules** should be **recycled** keeping in mind sterility. Discard water must be sterilized and used for some other purposes. 
+
+        Please refer to the full safety handbook for all details.
 
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 
 prepend citations
-    - var citations = [{"authors": "Allen, M. J., & Sheridan, S. C. (2015). ", "doi": "https://doi.org/10.1007/s00484-015-1117-4", "journal": "International Journal of Biometeorology", "numbers": "62(1), 57-67. ", "title": "Mortality risks during extreme temperature events (ETEs) using a distributed lag non-linear model.", "type": "article"}, {"authors": "Rosano, A., Bella, A., Gesualdo, F., Acampora, A., Pezzotti, P., Marchetti, S., ... & Rizzo, C. (2019). ", "doi": "https://doi.org/10.1016/j.ijid.2019.08.003", "journal": "International Journal of Infectious Diseases", "numbers": "88, 127-134. ", "title": "Investigating the impact of influenza on excess mortality in all ages in Italy during recent seasons (2013/14-2016/17 seasons).", "type": "article"}, {"Google_Books_URL": "https://books.google.co.in/books?id=OYr6AQAAQBAJ", "authors": "Ingalls, B. P.", "publisher": "MIT Press.", "title": "Mathematical modeling in systems biology: An introduction.", "type": "book", "year_published": "(2013)."}, {"details": "(March 15, 2019). Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}, {"authors": "Author Name. (n.d.).", "details": "Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}]
+    - var citations = [{"details": "(2020). Retrieved on June 22, 2020. from ", "title": "iGEM safety risk groups. iGEM safety risk groups.", "type": "webpage", "url": "https://2020.igem.org/Safety/Risk_Groups"}, {"authors": "Pradhan, S., & Weiss, A. A. (2020). ", "doi": "https://doi.org/10.1128/mBio.01470-20", "journal": "mBio", "numbers": "11(4). ", "title": "Probiotic Properties of Escherichia coli Nissle in Human Intestinal Organoids.", "type": "article"}, {"details": "(September 18, 2015). Retrieved on June 22, 2020. from ", "title": "iGEM Bielefeld-CeBiTec Dual use report. iGEM Bielefeld-CeBiTec 2015 wiki.", "type": "webpage", "url": "http://2015.igem.org/wiki/images/b/be/Bielefeld-CeBiTec_Dual-Use_Report.pdf"}, {"authors": "SCHREIBER, S. (1997). ", "doi": "http://dx.doi.org/10.1136/gut.41.2.274", "journal": "Gut", "numbers": "41(2), 274-275. ", "title": "Interleukin-10 in the intestine.", "type": "article"}, {"authors": "Dace, D. S., Khan, A. A., Stark, J. L., Kelly, J., Cross, A. H., & Apte, R. S. (2009). ", "doi": "https://doi.org/10.1371/journal.pone.0007121", "journal": "PLoS ONE", "numbers": "4(9), e7121. ", "title": "Interleukin-10 Overexpression Promotes Fas-Ligand-Dependent Chronic Macrophage-Mediated Demyelinating Polyneuropathy.", "type": "article"}, {"details": "(February 2010). Retrieved on June 22, 2020. from ", "title": "Responsible life sciences research for global health security. WHO-Responsible life sciences research for global health security.", "type": "webpage", "url": "https://apps.who.int/iris/bitstream/handle/10665/70507/WHO_HSE_GAR_BDP_2010.2_eng.pdf;jsessionid=0E512B112DB502435919D159DEB546EC?sequence=1"}, {"details": "(March 31, 2017). Retrieved on September 22, 2020. from ", "title": "Mercury and health. World health organization.", "type": "webpage", "url": "https://www.who.int/news-room/fact-sheets/detail/mercury-and-health"}, {"details": "(October 15, 2019). Retrieved on September 15, 2020. from ", "title": "Paraquat Dichloride. Environmental protection agency.", "type": "webpage", "url": "https://www.epa.gov/ingredients-used-pesticide-products/paraquat-dichloride#:~:text=Paraquat%20is%20highly%20toxic%20to,caused%20several%20deaths%20since%202000"}, {"details": "(April 2015). Retrieved on September 25, 2020. from ", "title": "CONDITIONS OF PARAQUAT USE IN INDIA. Pan-India.", "type": "webpage", "url": "http://www.pan-india.org/wp-content/uploads/2017/03/PAN-India_paraquat_4-15_def-WEB.pdf"}, {"details": "(April 2019). Retrieved on September 2, 2020. from ", "title": "Identification of worst case in cleaning validation. Pharmaceutical guidelines.", "type": "webpage", "url": "https://www.pharmaguideline.com/2019/04/identification-of-worst-case-in-cleaning-validation.html"}, {"details": "(June 2018). Retrieved on September 2, 2020. from ", "title": "Prevention of microbial contamination in manufacturing. Pharmaceutical guidelines.", "type": "webpage", "url": "https://www.pharmaguideline.com/2018/06/prevention-of-microbial-contamination-in-manufacturing.html"}, {"details": "(May 2017). Retrieved on September 2, 2020. from ", "title": "Controlled area in sterile manufacturing. Pharmaceutical guidelines.", "type": "webpage", "url": "https://www.pharmaguideline.com/2017/05/controlled-areas-in-sterile-manufacturing.html"}, {"details": "(February 24, 2017). Retrieved on September 4, 2020. from ", "title": "An overview of waste management in pharmaceutical industry. The pharma journal.", "type": "webpage", "url": "https://www.thepharmajournal.com/archives/2017/vol6issue3/PartC/6-2-9-174.pdf"}]

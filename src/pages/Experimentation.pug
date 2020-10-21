@@ -2,141 +2,138 @@ extends ../templates/contents.pug
 
 block headVars
     - var title = "Experimentation"
-    - var tagline = "A sample page for the theme."
+    - var tagline = "This page outlines the experiments that have been designed by the team."
     - var requireMathJax = true
 
 block article
 
     :markdown-it(html)
 
-        # Headings
-        ## Level 2 Heading
-        ### Level 3 Heading
-        #### Level 4 Heading
+        # Introduction
+        Validation and testing of all aspects of a design can be done through experimentation. We have brainstormed several experiments after thorough research and questioning, keeping in mind all the risks that could be involved but due to lack of access to laboratory facilities, we were unable to actually perform and troubleshoot them.
 
-        # Emphasis
-        This is regular text.
+        We have divided our experiments into three types: **Chassis**, **Composite Bio-Brick 1** and **Composite Bio-Brick 2** experiments. The efficiency, relevance and safety aspects of each gene and the overall project must be tested using these. 
 
-        **This is bold text.**
-        __This is also bold text.__
+        Experiments to find the threshold concentration of methylmercury required by the transformed bacteria to generate a response and a test to analyse the tolerance of the bacteria to high levels of methylmercury chloride, pH and paraquat (oxidative stress) have been designed as part of the chassis and preliminary experiments. Further experiments have been broken down to the study of the two Bio-Bricks we have designed. Characterization of the different parts of the plasmids, determination of the most efficient combination of parts, Understanding the amount of stress required to activate the parts, showing the efficiency of the system and recognition of the compatibility and working of the two plasmids are some the several aspects and considerations we have looked into. All of the experiments were designed without disregarding any safety concerns and keeping in mind good lab practices. To **replicate the gut environment** the experiments should be performed at a **pH of 6-7** and **37° celsius** and circuits assembled using Gibson assembly. All the measurement equipment used should be **calibrated** before each experiment.
 
-        *This is italic text.*
-        _This is also italix text.*
+        Even though the methylmercury concentration that harms humans differs in different individuals, for experimental purposes we have referred to literature and chosen concentrations with **known physiological effects** on mice and humans [Ashner M., 2012](#citation1).   
 
-        ***This text is bold and italic both.***
-        ___This text is bold and italic both.___
-
-        ~~Strikethrough~~
-
-        # Lists
-        1. This is item one.
-        1. This is item two.
-        1. It's okay to number every item as 1.
-            * This is a nested list.
-            * Use asterisk for an unordered list,
-            * Further nesting?
-            + Plus sign also works.
-            - And so does minus.
-        1. ~~Birds aren't real.~~
-
-        # Links
-        [Google](https://google.com)
-
-        [Text goes in square brackets](Link-goes-in-parenthesis)
-
-        # Blockquote
-
-        > This is a blockquote.
-        > This continues in the same paragraph.
-        >
-        > To change the paragraph, you have to leave a line.
-
-        > This is another blockquote.
-        > 
-        > **Pranav Ballaney, 2020**
-
-        # Images
-
-        This is a regular paragraph. 
-        #### This is a level 4 heading. 
-        [This is a link](google.com)
-
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
-    +image(1, imgpath, "Caption", 100)
+        # Chassis
+        
+       We have proposed _Escherichia coli_ Nissle 1917 as our chassis. It is a known probiotic non-pathogenic strain. We have designed experiments to show that the strain used for the probiotic to be made, _Escherichia coli_ Nissle 1917 can survive under **oxidative stress**, **varying pH** and **is safe** [iGEM Uppsala, 2013](#citation2) [iGEM Tuebingen, 2019](#citation3). 
+    - var imgpath = "" + require("../assets/img/Experimentation--strain.png")["default"]
+    +image(1, imgpath, "Escherichia coli Nissle 1917", 100)    
 
     :markdown-it(html)
-        Back to regular text.
 
-        # Tables
+        # Composite Bio-Brick 1
+    - var imgpath = "" + require("../assets/img/Experimentation--plasmid--1.png")["default"]
+    +image(2, imgpath, "Composite Bio-Brick 1 - working together!", 100)
 
-        This is a regular paragraph, which precedes the table.
-        When you want to insert a table, indent one level back and specify the plugin.
-        Then indent inside again and start writing the table.
+    :markdown-it(html)
+
+        ### Preliminary Experiments
+        _Escherichia coli_ DH5α inoculated with Composite Bio-Brick 1 should be induced with methylmercuric chloride and the fluorescence of the GFP must be measured on a spectrofluorometer (excitation-350nm, emission-500nm wavelength) after calibration. Measurement of O.D and GFP intensity should be done at intervals of 60 minutes for 4.5 hours after which minimum and maximum accumulation of mercury inside the cell must be estimated using gas chromatography _(Detailed protocol is given in the handbooks in the download section)_. In this preliminary experiment one would obtain the threshold response - which can be used as the minimum limit, and the limit of tolerance of the bacteria - to be used as the maximum limit for other experiments.
+
+        ### Control Mechanism
+    - var imgpath = "" + require("../assets/img/Experimentation--bb1.jpg")["default"]
+    +image(3, imgpath, "Control mechanism for Bio-Brick 1.", 70)
+
+    :markdown-it(html)
+        We propose to use the MerR-PmerT system as the control mechanism for the project  [Brown et al., 2003](#citation4). Response of MerR to methylmercury should be tested using 2 control circuits which do not have the MerR gene present in them. E. coli cells inoculated with methylmercury chloride are to be grown for the required amount of time according to the results of the preliminary experiment. GFP intensities must then be checked where we expect an exponential increase in fluorescence with an increase in methylmercury concentration for the circuit with MerR present. For the control with PmerT, we expect that the transcription would be initiated but at a lower level than the test circuit. We hypothesize that the plot of fluorescence and methylmercury concentration would indicate that **MerR contributes significantly in methylmercury response**.
+
+        ### Transport
+    - var imgpath = "" + require("../assets/img/Experimentation--mehgtransport.png")["default"]
+    +image(4, imgpath, "Transport of Methylmercury", 70)
+
+    :markdown-it(html)
+        To determine the final transport design, we propose three circuits consisting of a combination of genes among MerP, MerC, MerT and MerE which should be tested. Through literature survey we have found out that three circuit designs are possible [Sone Y., et al., 2013](#citation5). The circuit showing the **most effective results** must be chosen. If the circuit with smaller length shows similar results as the main circuit , it must be chosen as it will result in **reduced metabolic burden** during implementation (i.e. scale-up).
+
+        Circuits we test for the final transport design system:
+        1. MerP-MerT-MerC-MerE
+        2. MerC-MerE
+        3. MerP-MerT -MerE
+        
+        To test the efficiency and characterize each of the 4 parts separately we have designed experiments with each of the parts making use of 2 test circuits and 2 controls. This should enable us to **map the contribution of each gene** to the overall system.
+        
+        Circuits:
+        1. The final transport design system
+        2. Constitutive Promoter – RBS – (The part to be tested, i.e. MerP, MerC, MerT or MerE) – RBS – Double Terminator
+        
+        Controls:
+        1. Final circuit design without the part to be tested
+        2. Wild type _Escherichia coli_ DH5α
+        
+        _Escherichia coli_ cells inoculated with methylmercury chloride should be grown for the required amount of time for the 2 circuits to be tested and 2 controls. After centrifugation of the cell suspension, the mercury concentration in the supernatant for each set must be mapped with gas chromatography. Plots of concentration vs time for each of the sets must be used to analyze the **efficiency** of the parts in **transporting** methylmercury.
+
+        ### Enzymes and working
+    - var imgpath = "" + require("../assets/img/Experimentation--bb1.jpg")["default"]
+    +image(5, imgpath, "Enzymes Illustration", 70)
+
+    :markdown-it(html)
+        We propose to use alkyl mercurial lyase and mercuric reductase to convert methylmercury to elemental mercury [Mathema et al., 2011](#citation6) [Parks et al., 2009](#citation7). The effects of methylmercury concentrations to the bacterial resistance in the presence and absence of MerA and MerB with 3 circuits must be checked - The first with presence of both MerA and MerB, the second with deletion of either MerA or MerB respectively and the third with absence of both MerA and MerB. The increase in the Mer spectrum with the introduction of MerB and MerA should be checked with the expected conclusion being that the addition of the two genes confer to a **better resistance to methylmercury** [iGEM UFAM-UAE, 2016](#citation8). MTT assay must be performed to quantify the resistance provided by each gene MerA and MerB.
+        
+        Overall working of Composite Bio-Brick 1 must be tested to show its efficiency in converting methylmercury to elemental mercury as compared to natural systems.
+
+        # Composite Bio-Brick 2
+    - var imgpath = "" + require("../assets/img/Experimentation--plasmid--2.png")["default"]
+    +image(6, imgpath, "Composite Bio-Brick 2 - working together!", 100)
+
+    :markdown-it(html)
+        ### Control Mechanism
+    - var imgpath = "" + require("../assets/img/Experimentation--bb2.jpg")["default"]
+    +image(7, imgpath, "Control mechanism for Bio-Brick 2.", 70)
+    :markdown-it(html)
+        The SoxS-SoxR system is proposed as the control mechanism for Composite Bio-Brick 2 [Demple, Hidalgo & Leautaud, 1998](#citation9). To create an environment of oxidative stress, transformed _Escherichia coli_ Nissle 1917 must be induced with **methyl viologen dichloride (paraquat)**.
+
+        We test for the efficiency of the control system consisting of HlyB, HlyD, TolC and HlyA against a control with HlyB, HlyD and TolC absent. We analyse the HlyA + GFP transported outside the cells, HlyA + GFP remaining inside the cells and the total HlyA + GFP produced with absorbance vs time graphs to show to efficiency in getting the anti-inflammatory cytokines outside the cell to the target site.
+        
+        The relationship between the amount of oxidative stress and transcription rates of the genes must then be measured by mapping GFP intensity after calibration. The intensity of GFP is expected to increase with time indicating that even if the concentration of the oxidative stress inducer is constant, the **rate of activation of SoxR** and thus the **rate of transcription** of SoxS promoter would **increase** and then **stabilize** to a constant rate. It is also expected that there would be a **higher transcription rate** of SoxS promoter as the **concentration of the inducer increases**.
+
+        The **threshold** of oxidative stress required to **activate SoxR** and in turn **activate SoxS promoter** must be checked with expected result being that the activation occurs even at **low oxidative stress**, preventing any unwanted inflammation due to our probiotic by **effective release** of anti-inflammatory substances.
+
+        ### Transport and working
+    - var imgpath = "" + require("../assets/img/Experimentation--hlyail10transport.png")["default"]
+    +image(8, imgpath, "Transport of IL-10 fused with HlyA.", 70)
+
+    :markdown-it(html)
+        The HlyA transport system is proposed as the mechanism of transport of IL-10 outside the cell [Gentschev et al., 2002](#citation10). Efficiency of the transport system consisting of HlyB, HlyD, TolC and HlyA should be checked by comparison against a control with HlyB, HlyD and TolC absent. Analysis of the HlyA + GFP transported outside the cells, HlyA + GFP remaining inside the cells and the total HlyA + GFP produced with absorbance vs time graphs must be done to show the **efficiency** of the system to transport the IL-10 outside the cell. 
+
+        Finally, the overall working of composite Bio-Brick 2 must be tested to show that it will work only in the conditions of methylmercury induced inflammation.
+
+        # Inoculum Development
+
+        Keeping in mind the importance of being able to efficiently produce the bacteria on a larger scale, we must test out factors that play an **important role** in the **effective growth** of the microbe. **Inoculum properties** and **media components** are the major contributing factors to attain optimal growth.
+
+        The main objective of inoculum development for unicellular bacterial fermentations is to produce an active inoculum, which will give as **short** a **lag phase** as possible in subsequent cultures. A long lag phase is disadvantageous in that not only time is wasted but also medium constituents are consumed in maintaining a viable culture prior to growth. The length of the lag phase is affected by the **size of the inoculum** and its **physiological condition** with mid exponential cultures tending to reduce the length of the lag phase [Stanbury et al., 2017](#citation11).
+
+        We have premeditated experiments which should help in the determination of the **inoculum percentage**, **inoculum time** and **inoculum age** which would enable us to obtain an optimal growth curve for our process. We must also test the effects of **pH** and **temperature** on the inoculum. In addition we must also calculate the **doubling time** of our organism in order to determine the fermentation time in the bioreactor.
+
+    - var imgpath = "" + require("../assets/img/Experimentation--age.png")["default"]
+    +image(9, imgpath, "Age of culture", 100)
+    :markdown-it(html)
+        
+        ### Preserving the plasmid
+        Low-copy-number plasmids risk plasmid loss during cell division. This will lead to our probiotic to lose its therapeutic ability. Hence, we must calculate the plasmid loss rate so that we can modify the manufacturing process to generate the finest generation time for the therapeutic effect.
+
+        # Growth Media
+        **Terrific broth, an enriched media** is proposed as a suitable media for cell culture. The media contains glycerol which will be used as the main carbon source. Its composition is given below:
 
     :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | This is | the table | header row |
-        | ------  | --------- | ---------- |
-        | 1       | 2         | 3          |
-        | 4       | 5         | 6          |
-        [Table 1: Caption goes here.]
+        | Component  | Amount    |
+        | ------  | --------- |
+        | Yeast Extract  | 24 g        |
+        | Glycerol   | 10 ml        |
+        | Potassium phosphate (0.17 M monobasic, 0.72 M dibasic) | 100 ml         |
+        | Bacto Agar (Optional)       | 15 g          |
+        
+        [Table 1: Media Composition]
 
     :markdown-it(html)
-        And when you're done, go back to the regular markdown filter.
+        However, we should test **different media compositions** to determine the most efficient media formulation.
 
-    :markdown-it(html)
-        **Example 2:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | Left aligned | Center aligned | Right aligned |
-        | :----------- | :------------: | ------------: |
-        | 1 | 2 | 3 |
-        | 4 | 5 | 6 |
-
-    :markdown-it(html)
-        **Example 3:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        |              |          Grouping           ||
-        |First Header  | Second Header | Third Header |
-        | ------------ | :-----------: | -----------: |
-        |Content       |          *Long Cell*        ||
-        |Content       |   **Cell**    |         Cell |                                               
-        |New section   |     More      |[Data](https://google.com) |
-        |And more      | With an escaped '\|'       ||
-
-        [Table 3: Caption goes here.]
-
-    :markdown-it(html)
-
-        # Definitions
-
-        <dfn>Term ~ Definition</dfn>
-
-        This can come <dfn>anywhere in ~ the text</dfn>.
-
-        # MathJax
-
-        $$\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$
-
-        $$-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$$
-
-        $$i\hbar\gamma^\mu\partial_\mu\psi = mc\psi$$
-
-        $$y_k = \frac{1}{\sqrt{N}}\sum_{n=0}^{N-1}x_n\omega_N^{kn}$$
-
-        # Citations
-
-        In text citation for a research article with a DOI. [Rosano et al., 2019](#citation2)
-
-        In text citation for another research article with a DOI. [Allen & Sheridan, 2015](#citation1)
-
-        In text citation for a book with no DOI. [Ingalls, 2013](#citation3)
-
-        In text citation for a website with institutional author. [TNAU Agritech Portal, n.d.](#citation4)
-
-        In text citation for a website with an author. [Author, n.d.](#citation5)
-
+        The nitrogen content in the different formulations must be quantified using **spectrophotometric methods** or **Kjeldahls method** enabling the mapping of the **nitrogen requirements** and **availability**.
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 
 prepend citations
-    - var citations = [{"authors": "Allen, M. J., & Sheridan, S. C. (2015). ", "doi": "https://doi.org/10.1007/s00484-015-1117-4", "journal": "International Journal of Biometeorology", "numbers": "62(1), 57-67. ", "title": "Mortality risks during extreme temperature events (ETEs) using a distributed lag non-linear model.", "type": "article"}, {"authors": "Rosano, A., Bella, A., Gesualdo, F., Acampora, A., Pezzotti, P., Marchetti, S., ... & Rizzo, C. (2019). ", "doi": "https://doi.org/10.1016/j.ijid.2019.08.003", "journal": "International Journal of Infectious Diseases", "numbers": "88, 127-134. ", "title": "Investigating the impact of influenza on excess mortality in all ages in Italy during recent seasons (2013/14-2016/17 seasons).", "type": "article"}, {"Google_Books_URL": "https://books.google.co.in/books?id=OYr6AQAAQBAJ", "authors": "Ingalls, B. P.", "publisher": "MIT Press.", "title": "Mathematical modeling in systems biology: An introduction.", "type": "book", "year_published": "(2013)."}, {"details": "(March 15, 2019). Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}, {"authors": "Author Name. (n.d.).", "details": "Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}]
+    - var citations = [{"authors": "Aschner, M. (2012). ", "doi": "https://doi.org/10.1016/j.neuro.2012.05.002", "journal": "NeuroToxicology", "numbers": "33(3), 512-513. ", "title": "Considerations on methylmercury (MeHg) treatments in in vitro studies.", "type": "article"}, {"details": "(October 4, 2013). Retrieved on August 20, 2020. from ", "title": "iGEM Uppsala Wiki Safety. iGEM Uppsala 2013 Wiki.", "type": "webpage", "url": "http://2013.igem.org/Team:Uppsala/safety-experiment"}, {"details": "(October 21, 2019). Retrieved on August 22, 2020. from ", "title": "iGEM Tuebingen Wiki Safety. iGEM Tuebingen 2019 Wiki.", "type": "webpage", "url": "https://2019.igem.org/Team:Tuebingen"}, {"authors": "Brown, N. L., Stoyanov, J. V., Kidd, S. P., & Hobman, J. L. (2003). ", "doi": "https://doi.org/10.1016/S0168-6445(03)00051-2", "journal": "FEMS Microbiology Reviews", "numbers": "27(2-3), 145-163. ", "title": "The MerR family of transcriptional regulators.", "type": "article"}, {"authors": "Sone, Y., Nakamura, R., Pan-Hou, H., Itoh, T., & Kiyono, M. (2013). ", "doi": "https://doi.org/10.1248/bpb.b13-00554", "journal": "Biological and Pharmaceutical Bulletin", "numbers": "36(11), 1835-1841. ", "title": "Role of MerC, MerE, MerF, MerT, and/or MerP in Resistance to Mercurials and the Transport of Mercurials in Escherichia coli.", "type": "article"}, {"authors": "Mathema, V. B., Thakuri, B. C., & Sillanp    , M. (2011). ", "doi": "https://doi.org/10.1007/s00203-011-0751-4", "journal": "Archives of Microbiology", "numbers": "193(12), 837-844. ", "title": "Bacterial mer operon-mediated detoxification of mercurial compounds: a short review.", "type": "article"}, {"authors": "Parks, J. M., Guo, H., Momany, C., Liang, L., Miller, S. M., Summers, A. O., & Smith, J. C. (2009). Mechanism of Hg- C Protonolysis in the Organomercurial Lyase MerB. Journal of the American Chemical Society, 131(37), 13278-13285. ", "doi": "https://doi.org/10.1021/ja9016123", "journal": "Journal of the American Chemical Society", "numbers": "131(37), 13278-13285. ", "title": "Mechanism of Hg C Protonolysis in the Organomercurial Lyase MerB.", "type": "article"}, {"details": "(October 19, 2016). Retrieved on August 16, 2020. from ", "title": "iGEM UFAM-UEA_Brazil Wiki. iGEM UFAM-UEA_Brazil 2016 Wiki.", "type": "webpage", "url": "http://2016.igem.org/Team:UFAM-UEA_Brazil"}, {"authors": "Hidalgo, E. (1998). ", "doi": "https://doi.org/10.1093/emboj/17.9.2629", "journal": "The EMBO Journal", "numbers": "17(9), 2629-2636. ", "title": "The redox-regulated SoxR protein acts from a single DNA site as a repressor and an allosteric activator.", "type": "article"}, {"authors": "Gentschev, I., Dietrich, G., & Goebel, W. (2002). The E. coli   -hemolysin secretion system and its use in vaccine development. Trends in Microbiology, 10(1), 39-45. ", "doi": "https://doi.org/10.1016/S0966-842X(01)02259-4", "journal": "Trends in Microbiology", "numbers": "10(1), 39-45. ", "title": "The E. coli  -hemolysin secretion system and its use in vaccine development.", "type": "article"}, {"authors": "Stanbury, P. F., Whitaker, A., & Hall, S. J. (2017). ", "doi": "https://doi.org/10.1016/B978-0-08-099953-1.00006-5", "journal": "Principles of Fermentation Technology", "numbers": "335-399. ", "title": "Culture preservation and inoculum development.", "type": "article"}]
