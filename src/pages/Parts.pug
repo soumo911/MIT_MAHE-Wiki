@@ -10,140 +10,48 @@ block article
     :markdown-it(html)
 
         # Introduction
-        We have made use of two plasmids for our therapeutic project.
+        Two plasmid or composite Bio-Brick designs have been proposed to bring our therapeutic project to life. 
         
-        Plasmid 1 is responsible for the transport of methylmercury inside the bacterial system, production of mercury (II) reductase enzyme and alkylmercury lyase, along with its regulation, and the production of SoxR which controls the release of Interleukin-10 (IL-10) in Plasmid 2. It features a modified Mer operon with an SYFP2 reporter downstream to all coding regions and control elements in a pSB3K5 vector.
+        **Plasmid 1** is a modified mer operon designed for the efficient regulation, transport and enzyme production with the control mechanism for Composite Bio-Brick 2 and a reporter gene(SYFP2) present downstream to it on a pSB3K5 vector. It is primarily responsible for detection of methylmercury(or other mercury compounds) using a homodimer protein (merR), its transport into the bacterial system and production of mercury (II) reductase enzyme and alkylmercury lyase. The gene responsible for the production of SoxR protein which controls the release of Interleukin-10 (IL-10) in Composite Bio-Brick 2 has been integrated into this Bio-Brick to ensure release of anti-inflammatory cytokines(IL-10) only during methylmercury induced inflammation. 
         
-        Plasmid 2 will have the anti-inflammatory IL-10 and the associated transport and the regulatory system assembled into the pSB4C15 vector.
+        **Plasmid 2** is designed for the safe and efficient release of  the anti-inflammatory IL-10. It would contain the control (SoxS promoter), transport(HlyA transport system) and production gene for IL-10 (fused with the signal peptide of the transport) with the reporter gene(GFP) present downstream to it. 
         
-        For the two plasmids that will be taken up by our probiotic bacterium we have gathered and assembled the parts from iGEM’s registry. The parts have been cloned together by Gibson assembly.
+        The two plasmids transformed into our probiotic bacteria are proposed to have therapeutic properties for methylmercury poisoning. The individual Bio-Brick sequences are taken from iGEM registry of standard biological parts with the gibson cloning mechanism proposed for ligation. 
         
         We have listed the parts derived from different species separately.
 
-
-        # Emphasis
-        This is regular text.
-
-        **This is bold text.**
-        __This is also bold text.__
-
-        *This is italic text.*
-        _This is also italix text.*
-
-        ***This text is bold and italic both.***
-        ___This text is bold and italic both.___
-
-        ~~Strikethrough~~
-
-        # Lists
-        1. This is item one.
-        1. This is item two.
-        1. It's okay to number every item as 1.
-            * This is a nested list.
-            * Use asterisk for an unordered list,
-            * Further nesting?
-            + Plus sign also works.
-            - And so does minus.
-        1. ~~Birds aren't real.~~
-
-        # Links
-        [Google](https://google.com)
-
-        [Text goes in square brackets](Link-goes-in-parenthesis)
-
-        # Blockquote
-
-        > This is a blockquote.
-        > This continues in the same paragraph.
-        >
-        > To change the paragraph, you have to leave a line.
-
-        > This is another blockquote.
-        > 
-        > **Pranav Ballaney, 2020**
-
-        # Images
-
-        This is a regular paragraph. 
-        #### This is a level 4 heading. 
-        [This is a link](google.com)
-
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
-    +image(1, imgpath, "Caption", 100)
-
-    :markdown-it(html)
-        Back to regular text.
-
-        # Tables
-
-        This is a regular paragraph, which precedes the table.
-        When you want to insert a table, indent one level back and specify the plugin.
-        Then indent inside again and start writing the table.
+        # Parts Table
 
     :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | This is | the table | header row |
-        | ------  | --------- | ---------- |
-        | 1       | 2         | 3          |
-        | 4       | 5         | 6          |
-        [Table 1: Caption goes here.]
+        | Parts/Bio-Brick       |   Working Principle  |
+        | ------  | :---------: |
+        || ___Escherichia coli_ K-12__ ||
+        | SoxR [(K554003)](http://parts.igem.org/Part:BBa_K554003)| SoxR is a transcription factor, under conditions of oxidative stress (presence of nitric oxide (NO) a pro-inflammatory signal) by reversible one-electron oxidation of its [2Fe-2S] cluster. In the active state, it activates the SoxS promoter by untwisting the promoter DNA by binding to the long spacer DNA.
+        | Double Terminator [(B0015)](http://parts.igem.org/Part:BBa_B0015) | It functions to signal the termination of transcription |
+        || ___Shigella flexneri___ ||
+        | MerR + RBS [(K346001)](http://parts.igem.org/Part:BBa_K346001) | MerR is a homodimer and the regulatory factor of the Mer operon. It acts as an activator in the presence of Hg (II) and a weak repressor in its absence, maintaining its expression at a certain level. It binds to the operator site of mercury inducible promoter PmerT. The Hg- bound MerR dimer causes a structural distortion of PmerT, which allows the RNA polymerase to bind, leading to the transcription of genes downstream to it. |
+        | PmerT promoter [(K346002)](http://parts.igem.org/Part:BBa_K346002) | PmerT is the mercury inducible promoter of Mer operon. The threshold of PmerT depends on the expression level of MerR. |
+        || ___Serratia marcescens___ ||
+        | MerT [(K1420005)](http://parts.igem.org/Part:BBa_K1420005) | MerT is a transmembrane protein which receives mercury from MerP at its first transmembrane helix and transports it into the cytoplasm of the bacterial cell. |
+        | MerP [(K1420003)](http://parts.igem.org/Part:BBa_K1420003) | MerP is the periplasmic component of the Mer transport system which helps in the uptake of mercury inside the cell. It binds to a single Hg (II) ion using its two conserved cysteine residues, which define its metal-binding motif. It detaches attached ligands before passing the Hg (II) on to MerT transmembrane protein. |
+        | MerA [(K1420001)](http://parts.igem.org/Part:BBa_K1420001) | MerA encodes the mercury reductase enzyme. It reduces Hg (II) to relatively inert and volatile Hg (0) in an NADPH dependent reaction. |
+        | MerB [(K1420002)](http://parts.igem.org/Part:BBa_K1420002) | MerB encodes the organomercurial lyase enzyme and is usually found immediately downstream to MerA. It catalyses breaking the bond between carbon and mercury through the protonolysis of compounds such as methylmercury. |
+        || ___Aequoria victoria___ ||
+        | Bright Yellow Fluorescent Protein SYFP2 [(K864100)](http://parts.igem.org/Part:BBa_K864100) | SYFP2 is a GFP based monomeric protein with optimized folding, maturation, and a narrow fluorescence emission spectrum with a maximum of 515 nm. |
+        | GFP/ Green Fluorescent Protein [(E0040)](http://parts.igem.org/Part:BBa_E0040) | Green Fluorescent Protein (GFP) acts as a critical reporter gene to assess the functioning of plasmid by emitting green fluorescence when excited by light in the blue-UV spectrum. Typically, the excitation wavelength measurement range is 430-520 (nm) and the emission wavelength measurement range is 490-580 (nm). |
+        || ___Pseudomonas nitroreducens___ ||
+        | SoxS promoter [(K554000)](http://parts.igem.org/Part:BBa_K554000) | SoxS is a conditional promoter, regulated by the SoxR transcription factor. In the active state, SoxR activates the SoxS promoter and starts the transcription of the genes downstream to it. |
+        || ___Escherichia coli_ O157 H7 strain EDL 933__ ||
+        | HlyB/ Hemolysin B [(K554007)](http://parts.igem.org/Part:BBa_K554007) | HlyB acts as an ATP-binding cassette and recognizes the substrate via its secretion signal peptide (HlyA). It exports proteins (like IL-10) fused to the secretion signal produced inside the bacteria that must act on targets outside and is responsible for the specificity of the secretion system process |
+        | HlyD/ Hemolysin D [(K554008)](http://parts.igem.org/Part:BBa_K554008) | It acts as a membrane fusion or adaptor protein by linking the HlyB and TolC domains of the Hemolysin transport system and helps with the transportation of proteins. |
+        | TolC [(K554009)](http://parts.igem.org/Part:BBa_K554009) | TolC is a specific outer membrane protein which forms a long channel throughout the periplasm and the outer membrane. |
+        | HlyA/ Hemolysin A [(K554002)](http://parts.igem.org/Part:BBa_K554002) | HlyA is a signal sequence that interacts with the cytoplasmic region of the HlyB–D complex. After the binding of the HlyA secretion signal by the HlyB–D complex, HlyD induces the interaction with TolC which then transports it out of the cell. |
+        || ___Homo sapiens_ (Th1 cell)__ ||
+        | IL-10/ Interleukin 10 [(K554004)](http://parts.igem.org/Part:BBa_K554004) | Interleukin 10 (IL-10) is an anti-inflammatory cytokine which plays a role in limiting the host immune response so that the host does not harm its own cells and maintains normal tissue homeostasis.  |
+        || ___Parts without a natural comparator___||
+        | Constitutive Promoter [(J23100)](http://parts.igem.org/Part:BBa_J23100) | Constitutive promoter helps tune the expression levels of constitutively (continuously) expressed parts. |
+        | MerC + RBS [(K346088)](http://parts.igem.org/Part:BBa_K346088) | MerC is a transmembrane component of the Mer transport system which helps in the uptake of mercury inside the cell.  |
+        | RBS with MerE [(K1471002)](http://parts.igem.org/Part:BBa_K1471002) | MerE is a transmembrane component of the Mer transport system which helps in the uptake of mercury inside the cell and transport of organomercury compounds. |
+        | RBS [(B0034)](http://parts.igem.org/Part:BBa_B0034) | A ribosomal binding site, or ribosome binding site (RBS), is a short sequence of nucleotides present upstream of the start codon of a gene in mRNA.  |
 
-    :markdown-it(html)
-        And when you're done, go back to the regular markdown filter.
-
-    :markdown-it(html)
-        **Example 2:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | Left aligned | Center aligned | Right aligned |
-        | :----------- | :------------: | ------------: |
-        | 1 | 2 | 3 |
-        | 4 | 5 | 6 |
-
-    :markdown-it(html)
-        **Example 3:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        |              |          Grouping           ||
-        |First Header  | Second Header | Third Header |
-        | ------------ | :-----------: | -----------: |
-        |Content       |          *Long Cell*        ||
-        |Content       |   **Cell**    |         Cell |                                               
-        |New section   |     More      |[Data](https://google.com) |
-        |And more      | With an escaped '\|'       ||
-
-        [Table 3: Caption goes here.]
-
-    :markdown-it(html)
-
-        # Definitions
-
-        <dfn>Term ~ Definition</dfn>
-
-        This can come <dfn>anywhere in ~ the text</dfn>.
-
-        # MathJax
-
-        $$\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$
-
-        $$-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$$
-
-        $$i\hbar\gamma^\mu\partial_\mu\psi = mc\psi$$
-
-        $$y_k = \frac{1}{\sqrt{N}}\sum_{n=0}^{N-1}x_n\omega_N^{kn}$$
-
-        # Citations
-
-        In text citation for a research article with a DOI. [Rosano et al., 2019](#citation2)
-
-        In text citation for another research article with a DOI. [Allen & Sheridan, 2015](#citation1)
-
-        In text citation for a book with no DOI. [Ingalls, 2013](#citation3)
-
-        In text citation for a website with institutional author. [TNAU Agritech Portal, n.d.](#citation4)
-
-        In text citation for a website with an author. [Author, n.d.](#citation5)
-
-//- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
-
-prepend citations
-    - var citations = [{"authors": "Allen, M. J., & Sheridan, S. C. (2015). ", "doi": "https://doi.org/10.1007/s00484-015-1117-4", "journal": "International Journal of Biometeorology", "numbers": "62(1), 57-67. ", "title": "Mortality risks during extreme temperature events (ETEs) using a distributed lag non-linear model.", "type": "article"}, {"authors": "Rosano, A., Bella, A., Gesualdo, F., Acampora, A., Pezzotti, P., Marchetti, S., ... & Rizzo, C. (2019). ", "doi": "https://doi.org/10.1016/j.ijid.2019.08.003", "journal": "International Journal of Infectious Diseases", "numbers": "88, 127-134. ", "title": "Investigating the impact of influenza on excess mortality in all ages in Italy during recent seasons (2013/14-2016/17 seasons).", "type": "article"}, {"Google_Books_URL": "https://books.google.co.in/books?id=OYr6AQAAQBAJ", "authors": "Ingalls, B. P.", "publisher": "MIT Press.", "title": "Mathematical modeling in systems biology: An introduction.", "type": "book", "year_published": "(2013)."}, {"details": "(March 15, 2019). Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}, {"authors": "Author Name. (n.d.).", "details": "Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}]
+        [Table: List of Parts and their source organisms.]
