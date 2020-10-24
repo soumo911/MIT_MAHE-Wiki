@@ -15,8 +15,7 @@ header {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
-  width: 100vw;
-  height: 100vh;
+  height: 100%;
 
   h1 {
     font-family: "Lato", sans-serif;
@@ -71,6 +70,7 @@ article {
   }
 
   p {
+    text-align: justify;
     font-size: 1.1rem;
   }
 
@@ -83,8 +83,19 @@ article {
   }
 
   .card {
-    margin: 0 0 1.5rem 0;
+    perspective: 1000px;
+    color: #222222;
+    background: #D5E48F;
+    margin: 1.5rem 0.5rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.637);
+
+    h5 {
+      font-family: 'piazzolla', sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+    }
   }
+
   .card-img-top {
     img {
       width: 100%;
@@ -92,20 +103,8 @@ article {
   }
 
   p.card-text {
+    text-align: left;
+    font-family: "Piazzolla", sans-serif;
     font-size: 1rem;
-  }
-}
-
-body.dark {
-  article {
-    color: white;
-
-    h1 {
-      color: white;
-    }
-  }
-
-  .card {
-    background: #303030;
   }
 }
