@@ -48,7 +48,7 @@ module.exports = merge(common, {
         },
       },
       {
-        test: /\.(png|jpg|jpeg)$/i,
+        test: /\.(png|jpg|jpeg|pdf)$/i,
         use: [
           {
             loader: "file-loader",

@@ -84,3 +84,10 @@ mixin citation_book(citation, count)
 // # TODO: #6 Fix table caption font
 
 // # TODO: #7 Fix citations links font size
+
+mixin pdf(url, description)
+  p
+    | To download this document, click 
+    a(href=url) here
+    | .
+  embed(src=url type="application/pdf" title=description)
