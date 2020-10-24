@@ -287,7 +287,13 @@ header {
   }
 
   ul {
+    font-size: medium;
     padding-left: 25px;
+
+    a {
+      color: $linkHover;
+    }
+
   }
 
   mark {

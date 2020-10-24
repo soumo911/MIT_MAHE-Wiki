@@ -32,11 +32,11 @@ block article
     
     :markdown-it(html)
 
-        _Note - Incubator is not shown._
+        <p style="text-align: center;"> Note - Incubator is not shown. </p>
 
         All required reagents are stored in HDPE container bottles, and transported to the inlet of the dialysis tube inside the bioreactor by use of diaphragm pumps. The pumps are fitted with one-way valves to prevent back-flow of fluid when containers are changed. The capsule containing the probiotic bacteria and the powdered dye are added through a separate dry inlet in close proximity to the start of dialysis tube. when the fluids reach the inlet of the bioreactor, the DC geared motor that controls peristaltic motion of the tube inside is switched on. The contents of the tube travel through the bioreactor, pushed by peristalsis. The fluids then come out of the bioreactor and are collected into a container bottle or directed back towards the inlet as a recycle stream. The fluids in the basolateral chamber (inside the bioreactor case, outside of the dialysis tube) are recirculated using a closed loop of silicon tubes. A pH sensor is provided in the outlet container for measurement of pH, and temperature is maintained by enclosing the whole setup in an incubator.
 
-        # Parameters under consideration
+        ### Parameters under consideration
         All these parameters were chosen on the basis of insights from available literature. [Fonseca, M.R. (2012). An engineering understanding of the small intestine.](#citation2)
     
     :markdown-it(html plugins=['markdown-it-multimd-table'])
@@ -150,7 +150,11 @@ block article
         [Table 4: Cost Table]
 
     :markdown-it(html)
+        # Handbook
         _You can read the full documentation on our __SAUL Handbook.___
+
+    +pdf(require("../assets/docs/iGEM-MIT_MAHE-SAUL-Handbook.pdf")['default'], "iGEM-MIT_MAHE-SAUL-Handbook")
+
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 
 prepend citations
