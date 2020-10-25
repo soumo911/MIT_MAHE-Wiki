@@ -6,6 +6,9 @@ block headVars
     - var requireMathJax = true
 
 block article
+    
+    video(controls width=720)
+      source(src= urlPrefix + require("../assets/vid/Home--bgvideo.mp4")['default'].substr(2), type='video/mp4')
 
     :markdown-it(html)
 
