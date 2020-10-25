@@ -8,13 +8,13 @@ html(lang="en")
   body
     include templates/nav.pug
     header.d-flex.justify-content-center.align-items-center
-      //- video(autoplay="true" muted)
-      //-     source(src= urlPrefix + require("./assets/vid/Home--bgvideo.mp4")['default'].substr(2), type='video/mp4')
+      video(autoplay="true" muted loop)
+        source(src= require("./assets/vid/Home--bgvideo.mp4")['default'].substr(2), type='video/mp4')
 
     article
       .container
         h1 Project Abstract
-        p Pollution is a direct result of man’s ever-increasing need for natural resources and energy, one of the notorious pollutants being – mercury. Mercury in water bodies is converted by anaerobic microbes into methylmercury. This toxic compound, gets Biomagnified and Bioaccumulated through the aquatic trophic levels. At the level of humans, it can be dangerously high. It is no coincidence that this was responsible for one of the world’s worst environmental disasters, i.e. the Minamata Disease. Previous projects attempted to solve the problem of methylmercury poisoning using bioremediation - converting free methylmercury (95% absorption) to elemental mercury (<0.01% absorption). However, these don’t account for the methylmercury already inside millions of fish. We wish to develop a probiotic bacterium with similar capabilities, this exploits the fact that Hg is inert in the gut and prevents absorption of organic mercury. We will also have a system that will help in reducing mercury-induced inflammations.
+        p Pollution is a direct result of man's ever-increasing need for natural resources and energy, one of the notorious pollutants being – mercury. Mercury in water bodies is converted by anaerobic microbes into methylmercury. This toxic compound, gets Biomagnified and Bioaccumulated through the aquatic trophic levels. At the level of humans, it can be dangerously high. It is no coincidence that this was responsible for one of the world's worst environmental disasters, i.e. the Minamata Disease. Previous projects attempted to solve the problem of methylmercury poisoning using bioremediation - converting free methylmercury (95% absorption) to elemental mercury (&lt0.01% absorption). However, these don't account for the methylmercury already inside millions of fish. We wish to develop a probiotic bacterium with similar capabilities, this exploits the fact that Hg is inert in the gut and prevents absorption of organic mercury. We will also have a system that will help in reducing mercury-induced inflammations.
 
         br
 
@@ -51,7 +51,7 @@ html(lang="en")
                 p.card-text
                   | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
                 a.btn.btn-primary(href='Human_Practices') Read more
-      
+
       .container1
         h1 
           center Sponsors
