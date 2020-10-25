@@ -1,4 +1,24 @@
 assets:
+  assets/docs/iGEM-MIT_MAHE-Composite-Bio-Brick-1.pdf:
+    link_URL: https://2020.igem.org/wiki/images/a/a9/T--MIT_MAHE--docs--iGEM-MIT_MAHE-Composite-Bio-Brick-1.pdf
+    md5: ff94bee9a17e4fa18f6e2e0b062c6d04
+    upload_filename: T--MIT_MAHE--docs--iGEM-MIT_MAHE-Composite-Bio-Brick-1.pdf
+  assets/docs/iGEM-MIT_MAHE-Composite-Bio-Brick-2.pdf:
+    link_URL: https://2020.igem.org/wiki/images/4/48/T--MIT_MAHE--docs--iGEM-MIT_MAHE-Composite-Bio-Brick-2.pdf
+    md5: 3617959b7346c5ba3ed4b192fde2565d
+    upload_filename: T--MIT_MAHE--docs--iGEM-MIT_MAHE-Composite-Bio-Brick-2.pdf
+  assets/docs/iGEM-MIT_MAHE-Product-Development-Experiments-Handbook.pdf:
+    link_URL: https://2020.igem.org/wiki/images/2/29/T--MIT_MAHE--docs--iGEM-MIT_MAHE-Product-Development-Experiments-Handbook.pdf
+    md5: 7c0db5f72cb79cbb16e6e1a985372ce3
+    upload_filename: T--MIT_MAHE--docs--iGEM-MIT_MAHE-Product-Development-Experiments-Handbook.pdf
+  assets/docs/iGEM-MIT_MAHE-SAUL-Handbook.pdf:
+    link_URL: https://2020.igem.org/wiki/images/5/58/T--MIT_MAHE--docs--iGEM-MIT_MAHE-SAUL-Handbook.pdf
+    md5: 265f97c45b1cc67ff03ba80e9e2eb071
+    upload_filename: T--MIT_MAHE--docs--iGEM-MIT_MAHE-SAUL-Handbook.pdf
+  assets/docs/iGEM-MIT_MAHE-Safety-Handbook.pdf:
+    link_URL: https://2020.igem.org/wiki/images/6/63/T--MIT_MAHE--docs--iGEM-MIT_MAHE-Safety-Handbook.pdf
+    md5: 6863d61fc71e92116b940bafc1cd474f
+    upload_filename: T--MIT_MAHE--docs--iGEM-MIT_MAHE-Safety-Handbook.pdf
   assets/fonts/lato-v16-latin/lato-v16-latin-300.eot:
     link_URL: https://2020.igem.org/wiki/images/6/66/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.eot
     md5: 1b8f8afa9b4ba60fbcf9936eae918ec6
@@ -143,6 +163,10 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--img--Description--josh-withers.jpg
     md5: 6f01f4181229ec565a9c1a20fe302fec
     upload_filename: T--MIT_MAHE--img--Description--josh-withers.jpg
+  assets/img/Engineering--flow.png:
+    link_URL: https://2020.igem.org/wiki/images/7/70/T--MIT_MAHE--img--Engineering--flow.png
+    md5: eb64bb9616c70ab34a1e4248c6157e6b
+    upload_filename: T--MIT_MAHE--img--Engineering--flow.png
   assets/img/Experimentation--age.png:
     link_URL: https://2020.igem.org/wiki/images/a/ab/T--MIT_MAHE--img--Experimentation--age.png
     md5: 042ffdf2d797d12386f7ac04c4d6f8e2
@@ -195,6 +219,22 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/5/5b/T--MIT_MAHE--img--Hardware--bioreactor--vertical.jpg
     md5: e53b8274e144260493a86d600cb895e0
     upload_filename: T--MIT_MAHE--img--Hardware--bioreactor--vertical.jpg
+  assets/img/Hardware--force.png:
+    link_URL: https://2020.igem.org/wiki/images/e/e8/T--MIT_MAHE--img--Hardware--force.png
+    md5: ba42bba78625ebe81745cd356ceab78e
+    upload_filename: T--MIT_MAHE--img--Hardware--force.png
+  assets/img/Hardware--mesh.png:
+    link_URL: https://2020.igem.org/wiki/images/6/6a/T--MIT_MAHE--img--Hardware--mesh.png
+    md5: f2658b9d0dd4155d29a9c09a5f43ff84
+    upload_filename: T--MIT_MAHE--img--Hardware--mesh.png
+  assets/img/Hardware--result.png:
+    link_URL: https://2020.igem.org/wiki/images/9/92/T--MIT_MAHE--img--Hardware--result.png
+    md5: 9e3df48688bd7c574b9e628be6ffd668
+    upload_filename: T--MIT_MAHE--img--Hardware--result.png
+  assets/img/Hardware--support.png:
+    link_URL: https://2020.igem.org/wiki/images/f/fb/T--MIT_MAHE--img--Hardware--support.png
+    md5: 693b33e64825e5669e25bd0ca9e698b1
+    upload_filename: T--MIT_MAHE--img--Hardware--support.png
   assets/img/Home--design.jpeg:
     link_URL: https://2020.igem.org/wiki/images/4/4a/T--MIT_MAHE--img--Home--design.jpeg
     md5: ed0934090a519c89a6f20a6a7536f106
@@ -239,6 +279,26 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/7/79/T--MIT_MAHE--img--Safety--toxic.png
     md5: da2e415ac8697f05c2b30c9e6b81ac9e
     upload_filename: T--MIT_MAHE--img--Safety--toxic.png
+  assets/img/Sponsor--Benchling.png:
+    link_URL: https://2020.igem.org/wiki/images/9/94/T--MIT_MAHE--img--Sponsor--Benchling.png
+    md5: 9c1adb683f9aa0ab32579a57338ff389
+    upload_filename: T--MIT_MAHE--img--Sponsor--Benchling.png
+  assets/img/Sponsor--IDT.png:
+    link_URL: https://2020.igem.org/wiki/images/3/34/T--MIT_MAHE--img--Sponsor--IDT.png
+    md5: 740f7c95676c1561f6ae6bab6252c917
+    upload_filename: T--MIT_MAHE--img--Sponsor--IDT.png
+  assets/img/Sponsor--MAHE.png:
+    link_URL: https://2020.igem.org/wiki/images/b/b1/T--MIT_MAHE--img--Sponsor--MAHE.png
+    md5: fed676e0bdd4326d526ff8b1e4cac2d0
+    upload_filename: T--MIT_MAHE--img--Sponsor--MAHE.png
+  assets/img/Sponsor--NEB.png:
+    link_URL: https://2020.igem.org/wiki/images/9/9c/T--MIT_MAHE--img--Sponsor--NEB.png
+    md5: 7f79be2db64fe79527835b5a3e420d10
+    upload_filename: T--MIT_MAHE--img--Sponsor--NEB.png
+  assets/img/Sponsor--Twist.png:
+    link_URL: https://2020.igem.org/wiki/images/5/55/T--MIT_MAHE--img--Sponsor--Twist.png
+    md5: 75cf2544a0d37419c2912f4f60991ea8
+    upload_filename: T--MIT_MAHE--img--Sponsor--Twist.png
   assets/img/Team--Aayush.png:
     link_URL: https://2020.igem.org/wiki/images/f/fe/T--MIT_MAHE--img--Team--Aayush.png
     md5: 1dc57dbac4ce9724ec03c47e32fc2173
@@ -287,10 +347,18 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/9/94/T--MIT_MAHE--img--Team--Pradyumna.png
     md5: 12fb5c8a545f50dd7fbf9fc2916d3d9a
     upload_filename: T--MIT_MAHE--img--Team--Pradyumna.png
+  assets/img/Team--Praveen.png:
+    link_URL: https://2020.igem.org/wiki/images/b/b9/T--MIT_MAHE--img--Team--Praveen.png
+    md5: 5b6ea3a92cba27ecf09de4008e66059a
+    upload_filename: T--MIT_MAHE--img--Team--Praveen.png
   assets/img/Team--Raksha.png:
     link_URL: https://2020.igem.org/wiki/images/2/29/T--MIT_MAHE--img--Team--Raksha.png
     md5: 45b646ad14e0e2a42cfcf63ad0797d08
     upload_filename: T--MIT_MAHE--img--Team--Raksha.png
+  assets/img/Team--Ritu.png:
+    link_URL: https://2020.igem.org/wiki/images/c/cb/T--MIT_MAHE--img--Team--Ritu.png
+    md5: bf05b5f263cc973b8adaf1efed686c39
+    upload_filename: T--MIT_MAHE--img--Team--Ritu.png
   assets/img/Team--Sanya.png:
     link_URL: https://2020.igem.org/wiki/images/3/36/T--MIT_MAHE--img--Team--Sanya.png
     md5: 8c60756602cb4404c7f2246c2882f323
@@ -307,6 +375,10 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/e/ef/T--MIT_MAHE--img--Team--Soumodeep.png
     md5: 53b04f34b14fb0f590c865391486927e
     upload_filename: T--MIT_MAHE--img--Team--Soumodeep.png
+  assets/img/Team--Ugne.png:
+    link_URL: https://2020.igem.org/wiki/images/1/14/T--MIT_MAHE--img--Team--Ugne.png
+    md5: 6e4550422afb29a3f4e3c9977d1562e7
+    upload_filename: T--MIT_MAHE--img--Team--Ugne.png
   assets/img/Team--Urvi.png:
     link_URL: https://2020.igem.org/wiki/images/d/dc/T--MIT_MAHE--img--Team--Urvi.png
     md5: f0bf7c5397ae3d3d50322d29506961e0
@@ -327,68 +399,75 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/f/fe/T--MIT_MAHE--img--Team--member.jpeg
     md5: cf6026cd2f684dd57f932b6bb319d4da
     upload_filename: T--MIT_MAHE--img--Team--member.jpeg
+  assets/vid/Home--bgvideo.mp4:
+    link_URL: https://2020.igem.org/wiki/images/d/d0/T--MIT_MAHE--vid--Home--bgvideo.mp4
+    md5: ed379ebf95d9a83d1133e57a506c6d56
+    upload_filename: T--MIT_MAHE--vid--Home--bgvideo.mp4
 css:
   css/content.css:
     link_URL: https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css
-    md5: 24c971c7177768da290607cf386592ed
+    md5: 47271923e91711ea8b7a5968b964d42a
   css/index.css:
     link_URL: https://2020.igem.org/Template:MIT_MAHE/css/indexCSS?action=raw&ctype=text/css
-    md5: d66eb4a9f5963b6bff23ac801c276274
+    md5: c9277b99195b9172a1f37a125355c9b5
   css/team.css:
     link_URL: https://2020.igem.org/Template:MIT_MAHE/css/teamCSS?action=raw&ctype=text/css
-    md5: fa14ac42d533f95cbae7252a184d1a2c
+    md5: d3d99c48447869bbe8076ac5be26d4e7
 html:
   Attributions/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Attributions
-    md5: 7cef2ecb42566addec6dcb79faa6f0c7
+    md5: 5f040ed5c5551e3cd05e27ba60bdea8e
   Collaborations/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Collaborations
-    md5: 48e34f2a4f840609a2605b8d09075305
+    md5: c8bf8acdf475bd91b70e91bc63d0d7b8
   Contribution/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Contribution
-    md5: 2284e6db380484540162621e845e77a0
+    md5: 98a52ad9b10442df08dc9d0aa766e25b
   Description/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Description
-    md5: 1bdf6814550a1aebd2bd4973399613e7
+    md5: 7f8caf5b404cef2bb4e1a23dba571111
+  Design/index.html:
+    link_URL: https://2020.igem.org/Team:MIT_MAHE/Design
+    md5: 7f8caf5b404cef2bb4e1a23dba571111
   Engineering/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Engineering
-    md5: f7df3ca5be6ff7dc309d44f51cad8ee2
+    md5: a5eee2051e778867be48896ad0988610
   Experimentation/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Experimentation
-    md5: 2e6f69c309bf060742987b02352ce19a
+    md5: c1c594ae946f2350008d596f082ed237
   Hardware/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Hardware
-    md5: 9fd3734d0ccba8fcd5f7d339ae9647b1
+    md5: 31dd0fc9d7457be440418f6c6449f7a5
   Human_Practices/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Human_Practices
-    md5: c8f3ae91a0fc79925d78a32384380a6f
+    md5: 4832111a78e9b250a8f6ac6742bd539e
   Implementation/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Implementation
-    md5: 0baa2b6a43089580acea79e56c77360c
+    md5: 639d965457a3356a1dff98539aa314ec
   Judging_Form/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Judging_Form
-    md5: cd3be9c8d348e3370aa5d96e090535e1
+    md5: aa040b56e757870f54c4e538ec7537d8
   Medals/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Medals
-    md5: ca7383fc712d798301507cdc3ab34725
+    md5: 31accf867524aba1f57868cde6a4d9d5
   Model/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Model
-    md5: 1ff94bb2dfef3abd82dc33b93a12987a
+    md5: ba16e2d25e9dc3ddc0c20cbdcefe4957
   Parts/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Parts
-    md5: eefda4390fa2737a2844ab1b4cee3ef8
+    md5: a3f44f5704d259c732468d7afd60cc04
   Safety/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Safety
-    md5: ae3985abc84faf172669280105534201
+    md5: 39a9176caa8412e49098ecd8aad9cff7
   Special_Prizes/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Special_Prizes
-    md5: 2a28b30e379ceffcdcd32fa2bde7b3a9
+    md5: 116885a5adb79204e3048390c9a29edd
   Team/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Team
-    md5: be7a8e2ec3e2eeab1ee29eb6d3b2b43d
+    md5: 5768d43358bd401e395a548e784be0cc
   index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE
-    md5: cff1550ec85b07e58149331f1f6074cc
+    md5: 4e290b8952b9626729e2b16113ed8eb0
 js:
   content.bundle.js:
     link_URL: https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript
