@@ -1,0 +1,37 @@
+#1
+- webpage:
+    published: "November 1, 2008"
+    title: "Probiotics "
+    accessed: "September 14, 2020"
+    site_name: "American Family Physician"
+    url: 'https://www.aafp.org/afp/2008/1101/p1073.html'
+
+#2
+- webpage:
+    published: "2020"
+    title: "Capsule size chart"
+    accessed: "September 15, 2020"
+    site_name: "Capsule Supplies"
+    url: 'https://www.capsulesupplies.com/capsule-size-chart/'
+
+#3
+- doi: "https://doi.org/10.1211/jpp.62.02.0003"
+
+#4
+- doi: "https://doi.org/10.1016/j.ijpharm.2014.03.038"
+
+#5
+- webpage:
+    published: "September 29, 2020"
+    title: "Manufacture of Hard Gelatin Capsules"
+    accessed: "September 20, 2020"
+    site_name: "Pharma approach"
+    url: 'https://www.pharmapproach.com/manufacture-of-hard-gelatin-capsules/'
+
+#6
+- webpage:
+    published: "June 6, 2019"
+    title: "Automatic capsule filling machine working principle"
+    accessed: "September 21, 2020"
+    site_name: "iPharma-machines"
+    url: 'https://www.ipharmachine.com/automatic-capsule-filling-machine-working-principle'

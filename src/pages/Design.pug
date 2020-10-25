@@ -1,0 +1,36 @@
+extends ../templates/contents.pug
+
+block headVars
+    - var title = "Project Description"
+    - var tagline = "Describe how and why you chose your iGEM project."
+    - var requireMathJax = false
+
+block article
+    :markdown-it(html)
+
+        # Introduction
+        More than 3 billion people across the world consume seafood. Throughout the years we have come up with mouth-watering seafood dishes making use of a variety of organisms from our oceans and inland water bodies. As delicious as these delicacies would look on our platter, they do come with a few risks. Fish and shellfish have a natural tendency to concentrate inorganic and organic toxins and pollutants in their bodies such as methylmercury (MeHg). Bioaccumulation of mercury in the environment due to natural or anthropogenic sources gets biomagnified through the food chain. When we consume this contaminated seafood, the mercury present that is highly absorbable in the MeHg form is taken up by our body. We could also be exposed to mercury by some fewer probable ways such as inhalation of Hg vapours in the air, ingestion of drinking water and exposure to Hg from dental amalgams and medical treatments. 
+
+        # Methylmercury threat
+        Most of the symptoms of MeHg poisoning include high threats to the central nervous system. The severity depends largely on the magnitude of the dose of MeHg. Minamata disease, a neurological syndrome, was one of the world’s worst environmental disasters and was an effect of methylmercury poisoning.  It not only affected the generation that accidently consumed the toxin but also the future generation as MeHg could cross the blood placenta barrier. Ingestion of this deadly compound can lead to mental retardation, seizure disorders, cerebral palsy, cardiovascular malfunctions, blindness and deafness with paralysis, coma, insanity, and death occurring in extreme cases.
+
+        # Our Proposal
+        The primary route for human exposure to methylmercury (MeHg) is widely considered as absorption through the Gastro-Intestinal Tract. Our project ‘Breaking Bond’ is designed to make an addition to the gut fauna, a genetically engineered probiotic bacterium that is capable of converting methylmercury to elemental mercury, a less toxic form. A novel probiotic bacterium will serve as a long term and efficient solution to this problem of global importance and can be made accessible to many people, in terms of cost as well as usability. 
+        The mercury released in the human gut after being broken down from MeHg may cause inflammation. We also entail a mechanism to deal with the inflammation to not have the positive effects of our probiotic be overshadowed. 
+
+        # Project Inspiration
+
+        # Engineered Probiotic
+        We make use of the strain _Escherichia coli_ Nissle 1917, a well studied non-pathogenic probiotic chassis, which will contain our two plasmids Bio-Brick 1 and Bio-Brick 2 as its aides. Bio-Brick 1 will be responsible for the transport of MeHg inside the bacteria and breaking the bond between methyl and mercury and the other will be accountable for control of inflammation inside the gut. Bio-Brick 1 will also regulate Bio-Brick 2 to prevent unwanted release of anti-inflammatory substances.
+    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
+    +image(1, imgpath, "Picture by Josh Withers on Unsplash")
+
+    :markdown-it
+        # Recording References
+
+        iGEM teams are encouraged to record references you use during the course of your research. They
+        should be posted somewhere on your wiki so that judges and other visitors can see how you thought 
+        about your project and what works inspired you.
+
+
+//- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.

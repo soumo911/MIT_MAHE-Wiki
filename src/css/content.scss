@@ -62,6 +62,9 @@ header {
 
 @include respond-below(md) {
   header {
+    h1 {
+      font-size: 3rem;
+    }
     margin-bottom: 4rem;
     min-height: unset !important;
   }
@@ -284,7 +287,13 @@ header {
   }
 
   ul {
+    font-size: medium;
     padding-left: 25px;
+
+    a {
+      color: $linkHover;
+    }
+
   }
 
   mark {
@@ -677,71 +686,5 @@ footer {
 @include respond-below(xxxs) {
   header #heading h1 {
     font-size: 2.5rem;
-  }
-}
-
-body.dark {
-  header {
-    color: white;
-  }
-
-  .sidebar {
-    color: white;
-
-    #contents li a {
-      color: white;
-    }
-  }
-
-  .content {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    li,
-    a,
-    strong,
-    p {
-      color: white;
-    }
-
-    table {
-      border-color: $tableBorder-dark;
-      color: white;
-
-      thead {
-        th,
-        td {
-          border-color: $tableBorder-dark;
-        }
-      }
-
-      tbody {
-        th,
-        td {
-          border-color: $tableBorder-dark;
-        }
-      }
-
-      th,
-      td {
-        border-color: $tableBorder-dark;
-      }
-    }
-
-    main .content {
-      embed {
-        height: 350px;
-      }
-    }
-  }
-
-  #references {
-    cite,
-    a {
-      color: white;
-    }
   }
 }

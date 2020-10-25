@@ -31,22 +31,21 @@ body {
 // https://codepen.io/kathykato/pen/rZRaNe
 
 
-$darkBlue: #2c3e50;
-$darkerBlue: #1E2B37;
 
 $darkBody: #222222;
 
 a.btn-primary {
-  background: $darkBlue;
-  border-color: $darkBlue;
-  color: white;
+  background: #0c2402;
+  border-color: #0c2402;
+  color: #D5E48F;
+  font-family: "Piazzolla", sans-serif;
 
   &:hover,
   &:focus,
   &:not(:disabled):not(.disabled):active {
-    background: $darkerBlue;
+    background: #041a01;
     outline: none !important;
-    border-color: $darkBlue;
+    border-color: #041a01;
   }
 }
 

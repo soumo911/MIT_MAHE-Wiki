@@ -2,20 +2,49 @@ extends ../templates/contents.pug
 
 block headVars
     - var title = "Implementation"
-    - var tagline = "A sample page for the theme."
+    - var tagline = "This page outlines our proposed implementation of the project."
     - var requireMathJax = true
 
 block article
 
     :markdown-it(html)
 
-        # Headings
-        ## Level 2 Heading
-        ### Level 3 Heading
-        #### Level 4 Heading
+        # Introduction
+        An **enteric two-piece capsule** has been proposed for the delivery of the probiotic to its target site, the gut. A plan of implementation has been proposed which includes three stages.
+        
+        **Upstream processes** in development of a probiotic involves 
+        - Selection and modification of a strain according to requirements.
+        - Selection and optimization of media used to grow the strain.
+        - Selection of a capsule formulation and testing. 
+        - Selection of excipients.
+        
+        During this phase the active pharmaceutical ingredient (API) (in our case the modified probiotic) is determined. This includes stages up to clinical trials and industrial production.
+        
+        **Bioprocesses** involve growing the bacteria in a bioreactor. 
+        
+        **Downstream processes** involves 
+        - Separation: Separation of the API from other components.
+        - Purification: Purification of the API to ensure there are no impurities or contaminants.
+        - Manufacturing of the required capsule: For the drug delivery process. 
+        - Recycling and waste management:
+        
+        Then the finished product is sent for packaging which involves covering our product with a packing material (cold form film in our case) to ensure the integrity of the product. 
+        
+        Our process for the manufacturing is divided into **5 parts**,
+        - Powder manufacturing process. 
+        - Empty capsule manufacturing process. 
+        - Capsule filling process. 
+        - Packaging process. 
+        - Recycling, waste management, and safety process.
+
+        > The best big idea is only going to be as good as its implementation
+        > 
+        > **Jay Samit**
 
         # Emphasis
-        This is regular text.
+        The strain development process involves the preparation and testing of recombinant plasmids in the Escherichia coli Nissle 1917 with the insert described in the design part of the project. Each plasmid will have a different antibiotic resistance gene which will help us ensure that no plasmid loss occurs during the production. The final recombinant bacteria must be preserved using cryopreservation techniques. 
+        
+        Upon the suggestion of Dr. Keyur Raval, we decided to formulate a metabolic stoichiometric equation as well as design bioreactors to enable manufacturing. 
 
         **This is bold text.**
         __This is also bold text.__

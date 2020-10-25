@@ -13,9 +13,8 @@ html(lang="en")
 
     article
       .container
-        h1 Styling your Wiki
-        p You may style this page as you like or you can simply leave the style as it is. You can easily keep the styling and edit the content of these default wiki pages with your project information and completely fulfill the requirement to document your project.
-        p While you may not win Best Wiki with this styling, your team is still eligible for all other awards. This default wiki meets the requirements, it improves navigability and ease of use for visitors, and you should not feel it is necessary to style beyond what has been provided.
+        h1 Project Abstract
+        p Pollution is a direct result of man’s ever-increasing need for natural resources and energy, one of the notorious pollutants being – mercury. Mercury in water bodies is converted by anaerobic microbes into methylmercury. This toxic compound, gets Biomagnified and Bioaccumulated through the aquatic trophic levels. At the level of humans, it can be dangerously high. It is no coincidence that this was responsible for one of the world’s worst environmental disasters, i.e. the Minamata Disease. Previous projects attempted to solve the problem of methylmercury poisoning using bioremediation - converting free methylmercury (95% absorption) to elemental mercury (<0.01% absorption). However, these don’t account for the methylmercury already inside millions of fish. We wish to develop a probiotic bacterium with similar capabilities, this exploits the fact that Hg is inert in the gut and prevents absorption of organic mercury. We will also have a system that will help in reducing mercury-induced inflammations.
 
         br
 
@@ -26,10 +25,10 @@ html(lang="en")
                 img(src=require('./assets/img/Home--design.jpeg')['default'])
 
               .card-body
-                h5.card-title Design
+                h5.card-title Description
                 p.card-text
                   | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
-                a.btn.btn-primary(href='Design') Read more
+                a.btn.btn-primary(href='Description') Read more
 
           .col
             .card(style='width: 18rem;')
@@ -37,10 +36,10 @@ html(lang="en")
                 img(src=require('./assets/img/Home--model.jpeg')['default'])
 
               .card-body
-                h5.card-title Model
+                h5.card-title Design
                 p.card-text
                   | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
-                a.btn.btn-primary(href='Model') Read More
+                a.btn.btn-primary(href='Design') Read More
 
           .col
             .card(style='width: 18rem;')
@@ -52,6 +51,57 @@ html(lang="en")
                 p.card-text
                   | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
                 a.btn.btn-primary(href='Human_Practices') Read more
+      
+      .container1
+        h1 
+          center Sponsors
+        p 
+          center We thank the following organizations for their financial and material support, without which this project could not have come to fruition.
+        .row.d-flex.justify-content-center
+          .col-xl-3.col-lg-4.col-md-6.col-xs-12
+            .card
+              .card-img-top
+                img(src=require('./assets/img/Sponsor--Benchling.png')['default'])
 
+              .card-body
+                h5.card-title Benchling Molecular Biology Workbench
+                a.btn.btn-primary(href='https://www.benchling.com') Learn more
+
+          .col-xl-3.col-lg-4.col-md-6.col-xs-12
+            .card
+              .card-img-top
+                img(src=require('./assets/img/Sponsor--MAHE.png')['default'])
+
+              .card-body
+                h5.card-title Manipal Academy of Higher Education
+                a.btn.btn-primary(href='https://manipal.edu/mu.html') Learn More
+
+          .col-xl-3.col-lg-4.col-md-6.col-xs-12
+            .card
+              .card-img-top
+                img(src=require('./assets/img/Sponsor--IDT.png')['default'])
+
+              .card-body
+                h5.card-title Integrated DNA Technology
+                a.btn.btn-primary(href='https://www.idtdna.com') Learn more
+
+        .row.d-flex.justify-content-center
+          .col-xl-3.col-lg-4.col-md-6.col-xs-12
+            .card
+              .card-img-top
+                img(src=require('./assets/img/Sponsor--NEB.png')['default'])
+
+              .card-body
+                h5.card-title New England Biolabs
+                a.btn.btn-primary(href='https://www.neb.com') Learn More
+
+          .col-xl-3.col-lg-4.col-md-6.col-xs-12
+            .card
+              .card-img-top
+                img(src=require('./assets/img/Sponsor--Twist.png')['default'])
+
+              .card-body
+                h5.card-title Twist Bioscience
+                a.btn.btn-primary(href='https://www.twistbioscience.com') Learn more     
 
     include templates/footer.pug
