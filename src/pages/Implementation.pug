@@ -41,129 +41,225 @@ block article
         > 
         > **Jay Samit**
 
-        # Emphasis
-        The strain development process involves the preparation and testing of recombinant plasmids in the Escherichia coli Nissle 1917 with the insert described in the design part of the project. Each plasmid will have a different antibiotic resistance gene which will help us ensure that no plasmid loss occurs during the production. The final recombinant bacteria must be preserved using cryopreservation techniques. 
+        # Powder Design
+        The strain development process involves the preparation and testing of recombinant plasmids in the _Escherichia coli_ Nissle 1917 with the insert described in the design part of the project. Initially, in order to ensure safety, we had proposed a design where the antibiotic resistance gene was removed from the bacteria so that any unnecessary resistances would not be imparted to the natural gut biota. 
+
+        However, **Dr. Keyur Raval** said that the presence of antibiotic-resistance genes would create a plasmid conservation pressure during production which would ensure that plasmid loss would not occur as well as prevent contamination of media.  Hence, each plasmid will have a different antibiotic resistance gene in the final strain developed for production. The final recombinant bacteria must be preserved using cryopreservation techniques. 
         
-        Upon the suggestion of Dr. Keyur Raval, we decided to formulate a metabolic stoichiometric equation as well as design bioreactors to enable manufacturing. 
+        However, inclusion of such genes in the final strain design poses the threat of imparting unnecessary antibiotic resistance to the natural gut microbiome. When we voiced our concerns about this, he suggested the usage of CRISPR-Cas-9 technology to integrate our design to the genome of the bacteria. However, we decided against it as the long term effects of this technology is not known. In addition, _Escherichia coli_ Nissle 1917 does not have the ability to undergo conjugation and thus cannot participate in Horizontal Gene Transfer which made us more confident about the traditional method. 
+        
+        Furthermore, he provided guidance on how we should formulate a **metabolic stoichiometric equation** as well as **design bioreactors** based on need and availability as opposed to keeping a restrictive approach. He helped us identify the different aspects that need to be looked into like media formulation, biomass equations, bioreactor design, etc.  Initially, we considered only yeast extract as our proposed nitrogen source. 
 
-        **This is bold text.**
-        __This is also bold text.__
-
-        *This is italic text.*
-        _This is also italix text.*
-
-        ***This text is bold and italic both.***
-        ___This text is bold and italic both.___
-
-        ~~Strikethrough~~
-
-        # Lists
-        1. This is item one.
-        1. This is item two.
-        1. It's okay to number every item as 1.
-            * This is a nested list.
-            * Use asterisk for an unordered list,
-            * Further nesting?
-            + Plus sign also works.
-            - And so does minus.
-        1. ~~Birds aren't real.~~
-
-        # Links
-        [Google](https://google.com)
-
-        [Text goes in square brackets](Link-goes-in-parenthesis)
-
-        # Blockquote
-
-        > This is a blockquote.
-        > This continues in the same paragraph.
-        >
-        > To change the paragraph, you have to leave a line.
-
-        > This is another blockquote.
+        > The largest cost driver in any bioprocess are raw material costs. The cost and availability of nitrogen sources depends on the industries present in that area
         > 
-        > **Pranav Ballaney, 2020**
+        > **Dr. Keyur Raval**
+        
+        Hence, we found several cheap nitrogen sources like **soyabean liquor, corn steep liquor, cotton seed flour, groundnut meal, yeast extract,** etc.
+        We then curated **a list of the cheapest nitrogen sources** for different states of India to ensure the cheapest possible production (Refer to handbook given below). Hence the media formulation would vary from location to location depending on availability. The nitrogen content of each source must be calculated using the experiments mentioned in **iGEM MIT_MAHE Product Development Experiments Handbook.**
+        
+        Depending on the nitrogen content in the source and the stoichiometry, the amount of nitrogen source to be added must be calculated. Using the stoichiometric equation, media must be formulated
 
-        # Images
+        <center>C<sub>3</sub>H<sub>8</sub>O<sub>3</sub> + 1.7092O <sub>2</sub> + 0.4224 NH<sub>3</sub> → 1.76 CH<sub>1.77</sub>O<sub>0.49</sub>N<sub>0.24</sub> + 1.24 CO<sub>2</sub> + 3.076 H<sub>2</sub>O</center>
+       
+        <center> Final metabolic stoichiometry </center>
+        
+        With __respiratory coefficient__ of **0.72676** and __theoretical oxygen demand__ of **0.5945g oxygen/g glycerol.**
+        
+        Initially, the carbon source proposed was **glucose** and **tryptone**. 
 
-        This is a regular paragraph. 
-        #### This is a level 4 heading. 
-        [This is a link](google.com)
+        > Avoid using Tryptone in large scale processes, as it is expensive. Moreover try exploring glycerol as the carbon-source instead of glucose as the uptake rate for glycerol is lower and it avoids by-products like acetic acid.
+        > 
+        > **Dr. Keyur Raval**
 
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
-    +image(1, imgpath, "Caption", 100)
+        Hence, **glycerol** was chosen - it is also cheap and readily available across all regions of India.
 
-    :markdown-it(html)
-        Back to regular text.
+        At first, we considered designing a bioreactor having a volume of 10000L which we changed to a more need based approach, taking in his advice. Thus, based on the amount of fish consumed per region, the amount of pills to be manufactured per region was estimated and listed (refer to handbook). Therefore, to reduce **costs** and **wastage**, **three bioreactors** of **different sizes** were designed based on **low, moderate** and **high** requirements.
 
-        # Tables
+        > Submerged cultures are favourable for biomass production. _Escherichia coli_ is a very robust cell and thus a stirred tank fermentor can be used.
+        > 
+        > **Dr. Vytla Ramachandra Murty**
 
-        This is a regular paragraph, which precedes the table.
-        When you want to insert a table, indent one level back and specify the plugin.
-        Then indent inside again and start writing the table.
+        ### Bioreactor Design
 
     :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | This is | the table | header row |
+        | Volume (L) | Diameter (mm) | Height (mm) | Number of impellers | Position of impellers (mm) || Baffle width (mm) | Number of baffles |
+        | :------:   | :---------:   | :----------:| :------: | :------: | :-----: | :------: | :------: |
+        | 100     | 700       | 2600       | 2 | 700  | 1400 | 70  | 4 |
+        | 1000    | 1550      | 5300       | 2 | 1550 | 3100 | 155 | 4 |
+        | 10000   | 3300      | 11700      | 2 | 3300 | 6600 | 33  | 4 |
+
+        [Table 1: Bioreactor Design Specifications]
+
+    :markdown-it(html)
+
+        > The impeller you use can have a large impact on productivity - currently SCaBa serves as the industry standard.
+        > 
+        > **Dr. Keyur Raval**
+
+    .row
+        .col-md
+         - var imgpath = "" + require("../assets/img/Implementation--tank.png")["default"]
+         +image(1, imgpath, "Tank", 100)
+    
+        .col-md
+         - var imgpath = "" + require("../assets/img/Implementation--assembly.png")["default"]
+         +image(2, imgpath, "Assembly", 106)
+
+        .col-md
+         - var imgpath = "" + require("../assets/img/Implementation--baffles.png")["default"]
+         +image(3, imgpath, "Baffles", 79)
+    
+    - var imgpath = "" + require("../assets/img/Implementation--impeller.png")["default"]
+    +image(4, imgpath, "Impeller", 60)
+    
+    :markdown-it(html)
+        **Type of impeller**: 6 blade curved blade impeller -> **SCaBa 6SRGT**
+
+        > Given a product and a desired annual production rate bioprocess design endeavors to answer several questions.
+        > 
+        > **Ms. Archana Mahadev Rao**
+
+        - What are the required amounts of raw materials and utilities?
+        - What is the required size of process equipment and supporting utilities?
+        - What is the manufacturing cost?
+        - What is the optimum batch size?
+        - How long does a single batch take?
+        - How much product can be generated per year?
+        - What is the demand for resources in the course of a batch?
+        - What is the amount of resources consumed?
+        - Bottlenecks?
+        - Environmental impact?
+
+        Our **powder development plan** has been formulated considering these aspects and involves several steps:
+
+        - Media preparation
+        - Sterilization of the media
+        - Fermentation in the bioreactor
+
+        Using the estimated number of generations - 20 and estimated doubling time of the probiotic - 25 minutes; 8 hours of  fermentation has been proposed.
+
+        - Centrifugation for separation
+        - Cryo and lyo protectant addition
+          
+          For our needs we had initially decided upon,
+             - Cryoprotectant- Sucrose and sodium phosphates in water
+             - Lyoprotectant- Sucrose
+          
+          However, as Dr. Keyur Raval suggested to refrain from using such carbon sources (as mentioned above), we have changed to,
+             - Cryoprotectant- Glycerol and sodium phosphates in water
+             - Lyoprotectant- Glycerol
+
+        - Pelletizing the prepared mixture
+        - Freeze drying 
+        - Milling into powder
+
+    - var imgpath = "" + require("../assets/img/Implementation--powder.png")["default"]
+    +image(5, imgpath, "Powder Production Process Design", 100)
+    
+    :markdown-it(html)
+        A quality control system must be present just after the milling process to ensure no significant genetic drift has occurred due to several factors such as metabolic burden.
+        
+        The probiotic powder must then be mixed with the appropriate amounts of fillers. It must be ensured that the fillers would not contain any known allergens to ensure high usability. The filler which is proposed is cellulose.
+
+        # Product Design
+
+        The probiotic enteric 2-piece capsule filled with recombinant bacteria along with other fillers as mentioned, is proposed to have two variants;
+        
+        - **Child** variant containing 8 billion CFU per capsule.
+        - **Adult** variant containing 15 billion CFU per capsule.
+        
+        **_Note:_** The numbers are based on the safe and required number of CFU for a probiotic product [Probiotics - American family physician](#citation1). However, experimental results must be obtained to validate the same.  
+        
+        Based on the amount of API, the best suitable capsule size must be selected from the **standard capsule size chart** [Capsule Size Chart - Capsule supplies](#citation2). The filler must be mixed with the API so that the total product being filled into the capsule is considerably close to the typical fill weight as per the capsule size. 
+        
+        Capsule formulation [Smith, A. M. et al., 2010](#citation3):
+
+    :markdown-it(html plugins=['markdown-it-multimd-table'])
+        | Component | Role | %(w/w) |
         | ------  | --------- | ---------- |
-        | 1       | 2         | 3          |
-        | 4       | 5         | 6          |
-        [Table 1: Caption goes here.]
+        | HPMC (Hypromellose/hydroxypropyl methylcellulose) | Base material for our capsule. Protects the contents from degradation or product changes, which means insulating against temperature fluctuations, moisture exposure, etc. Helps in preserving the integrity of the product. | 17   |
+        | Gellan gum | Acts as gelling agents on addition of calcium ions. | 0.2    |
+        | Sodium Alginate | Acts as viscosity enhancement, stabilizer, matrixing agent, encapsulation polymer, bio adhesive [Osmałek, T. et al., 2009](#citation4). Provides an acid resistant coating to probiotic capsules. | 2      |
+        | Sodium Chloride | Helps in the gelling of gellan gum | 0.2      |
+
+        [Table 2: Capsule Components.]
 
     :markdown-it(html)
-        And when you're done, go back to the regular markdown filter.
+        The capsule was tested by Smith, A. M. et al. and the following results were obtained
+        - approached the 2-h intact requirement with a rupture time of 75 min and 85 min, respectively. 
+        - passed the enteric test and remained intact for the 2 h timeframe. 
+        - loaded with 100 mg diclofenac were also subjected to an enteric test using the USP I apparatus (baskets). Both capsule formulations passed the enteric test retaining their shape. 
+
+        # Product Development
+        There are several processes involved in empty capsule preparation [Manufacture of hard gelatin capsules - Pharma approach](#citation5):
+        - **Preparation of the dipping solution**: The dipping solution must be prepared in two batches with different colours to ensure that the cap and body will attain different colors. Each batch must contain required quantities of gellan gum, sodium alginate, and NaCl dissolved in deionized water and HPMC.
+        - **Dip coating process**: Capsules shells must be manufactured under strict climatic conditions by dipping the standardized steel pins arranged in rows on a metal bar into the dipping solution.
+        - **Rotating of the dip-coated pins**: To make an even coating ensuring an evenly thick capsule, the bar containing the steel pins must be rotated multiple times.
+        - **Drying**: After the rotation process, the pins must be dried under a blast of cool air, until the required moisture content is achieved.
+        - **Stripping and trimming**: After the capsules have dried, they must be stripped from the pins and trimmed to a proper length. 
+        - **Joining of the trimmed capsule shell**: Two pieces of the capsule shell produced must be joined.
+        - **Printing**: Name of the product and total amount of powder that will be filled (active substance and the fillers) must then be printed.
+
+    - var imgpath = "" + require("../assets/img/Implementation--emptycap.jpg")["default"]
+    +image(6, imgpath, "Empty Capsule Filling.", 100)
 
     :markdown-it(html)
-        **Example 2:**
+        An **automatic capsule filling machine** that can separate, fill, and bolt capsules sequentially has been proposed to ensure safe and efficient produce production as well as decrease labour costs. The seven internal steps involved in capsule filling are[Automatic capsule filling machine working principle - iPharmamachine](#citation6):
 
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | Left aligned | Center aligned | Right aligned |
-        | :----------- | :------------: | ------------: |
-        | 1 | 2 | 3 |
-        | 4 | 5 | 6 |
+        - Capsule rectification
+        - Separation of capsules
+        - Filling medications
+        - Wasted capsules rejection
+        - Capsule Locking
+        - Capsule Ejection
+        - Cleaning
 
-    :markdown-it(html)
-        **Example 3:**
+        **Each step takes a short time**, and the rational circular layout enables all steps to continue at the same time. As a result, the automated capsule filling system can fill **12k-450k capsules per hour** at the fastest speed and would be the best option for large-volume capsule development.
+        
+        This machine will be presented as a single unit further on as seen below,
 
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        |              |          Grouping           ||
-        |First Header  | Second Header | Third Header |
-        | ------------ | :-----------: | -----------: |
-        |Content       |          *Long Cell*        ||
-        |Content       |   **Cell**    |         Cell |                                               
-        |New section   |     More      |[Data](https://google.com) |
-        |And more      | With an escaped '\|'       ||
-
-        [Table 3: Caption goes here.]
+    - var imgpath = "" + require("../assets/img/Implementation--auto.png")["default"]
+    +image(7, imgpath, "Automatic Capsule Filler", 40)
 
     :markdown-it(html)
 
-        # Definitions
+        # Packaging
 
-        <dfn>Term ~ Definition</dfn>
+        The packaging material is an important aspect of the product development process as it helps protect the integrity of the product. Hence, we propose **cold form film** as the forming film to form a blister pack. Cold form film is a multi-layered film made using **PVC, aluminium foil**, and **polyamide like nylon** each of them layered on upon the other and fixed in place by using an adhesive layer in between each of them. The PVC side is on the inside in contact with the product.
+        
+        For the lidding material, a **paper** and **an aluminium foil** would be attached using an adhesive layer with the aluminium being the inner side. A layer of **heat seal coating** would be added to the region where the lidding material will be attached to the blisters to form a good seal.
+    .row
+        .col-md
+         - var imgpath = "" + require("../assets/img/Safety--packaging.png")["default"]
+         +image(8, imgpath, "Cold Form Film", 100)
+    
+        .col-md
+         - var imgpath = "" + require("../assets/img/Implementation--lidding.png")["default"]
+         +image(9, imgpath, "Lidding", 100)
+    
+    :markdown-it(html)
+        The aluminium used in the cold form film packaging provides a complete barrier to **moisture, temperature, oxygen etc.** and thus **increases** the effective **shelf life** of the product. This will also help in **preventing the probiotic to grow** as there would not be oxygen for them to propagate and hence helping in preventing any possible genetic drift.
 
-        This can come <dfn>anywhere in ~ the text</dfn>.
+    - var imgpath = "" + require("../assets/img/Implementation--pack.png")["default"]
+    +image(10, imgpath, "Packaging", 100)
+    
+    :markdown-it(html)
+        In few of the processes involved, there will be **recycling of the defective and/or by products.** Other by products and/or discards which cannot be recycled will be disposed of in an effective and eco-friendly way. The **permeate, filtrate, water or any other discard** in the powder manufacturing will be **sterilized** so that no recombinant bacteria is present, chemically treated to remove all possible metabolites and then will be discarded.
+ 
+    - var imgpath = "" + require("../assets/img/Implementation--full.png")["default"]
+    +image(11, imgpath, "Implementation Full Flow Diagram", 115)
+    
+    :markdown-it(html)
+        # Challenges
+        Even though the Escherichia coli Nissle 1917 does not have the ability to undergo conjugation, the safety aspects of presence antibiotic resistance gene in the final product would have to be considered. Dr Keyur Raval suggested the usage of CRISPR-Cas-9 technology, integrating our design to the genome of the bacteria. 
+        
+        The recombinant plasmid size is expected to be about 16kB, which might have a significant genetic burden. Our team couldn’t conduct any studies regarding the same, and this might be a significant challenge while scaling-up the process. Future teams can try to estimate the loss of function with generation for our probiotic.
 
-        # MathJax
+        # Handbook
+        You can read the full documentation on our ___Implementation Handbook.___
+        The implementation handbook consists information about the various upstream and downstream process involved in powder and capsule development, detailed design and working of our production bioreactor (entire bioprocess), packaging processes and materials, waste management and recycling methodologies as well as information about various nitrogen sources of different regions in India, market analysis and fish consumption analysis.
 
-        $$\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$
-
-        $$-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$$
-
-        $$i\hbar\gamma^\mu\partial_\mu\psi = mc\psi$$
-
-        $$y_k = \frac{1}{\sqrt{N}}\sum_{n=0}^{N-1}x_n\omega_N^{kn}$$
-
-        # Citations
-
-        In text citation for a research article with a DOI. [Rosano et al., 2019](#citation2)
-
-        In text citation for another research article with a DOI. [Allen & Sheridan, 2015](#citation1)
-
-        In text citation for a book with no DOI. [Ingalls, 2013](#citation3)
-
-        In text citation for a website with institutional author. [TNAU Agritech Portal, n.d.](#citation4)
-
-        In text citation for a website with an author. [Author, n.d.](#citation5)
+    +pdf(require("../assets/docs/iGEM-MIT_MAHE-Product-Development-Handbook.pdf")['default'], "iGEM-MIT_MAHE-Product-Development-Handbook")
 
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 

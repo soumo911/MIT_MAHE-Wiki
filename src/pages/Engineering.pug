@@ -38,4 +38,24 @@ block article
         > **Henry Petroski**
 
         # Model
-        As part of modelling, we considered the two aspects of our proteins: structure and function. Through extensive literature studies, we found out the bonds, bond length, residues etc to enable structural analysis as well as equations, rate constants, concentrations etc for functional analysis. We designed VMD and matlab models in order to understand these aspects. After overcoming several challenges, we improved upon the models and obtained graphs, atom placements etc. In addition, we curated a detailed handbook including all facets of the final models. 
+        As part of modelling, we considered the two aspects of our proteins: structure and function. Through extensive literature studies, we found out the bonds, bond length, residues etc to enable structural analysis as well as equations, rate constants, concentrations etc for functional analysis. We designed VMD and matlab models in order to understand these aspects. After overcoming several challenges, we improved upon the models and obtained graphs, atom placements etc. In addition, we curated a detailed handbook including all facets of the final models.
+
+        # Part Collection
+        In order to assess the activity of our dual enzyme system, we have designed an experiment which includes three stages - purification, extraction and testing. To enable extraction and purification of the proteins, we have designed three parts:
+
+    :markdown-it(html plugins=['markdown-it-multimd-table'])
+        | Part Number |  Part Name  |
+        | ------      | :---------: |
+        | [BBa_K3470022](http://parts.igem.org/Part:BBa_K3470022) | MerA + His-tag   |
+        | [BBa_K3470023](http://parts.igem.org/Part:BBa_K3470023) | MerB + His-tag |
+        | [BBa_K3470024](http://parts.igem.org/Part:BBa_K3470024) | MerA + MerB + His-tag |
+
+        [Table 1: List of Composite Parts designed for experimentation.]
+
+    :markdown-it(html)
+        This experiment would provide three graphs,
+        - Mercury concentration vs time is obtained for constant concentration of enzyme
+        - Enzyme concentration vs activity is obtained.
+        - Number of cells vs enzyme concentration graph is obtained.
+        
+        Using the graphs we can estimate the optimal amount of enzyme required to be produced for optimal activity and thus, estimate the optimum CFU/mL to be used to get maximum activity during implementation. According to our MATLAB - SimBiology simulation, enzyme concentration of about 10<sup>-4</sup> would give optimal activity. However, this needs to be validated experimentally. 

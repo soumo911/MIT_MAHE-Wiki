@@ -1,518 +1,609 @@
-2020-10-23 12:27:44,106 : INFO : iGEM_login : Successfully logged in as Soumo_sarkar.
-2020-10-23 12:27:44,113 : ERROR : cache_files : assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.woff2 has an unsupported file extension. Skipping.
-2020-10-23 12:27:44,264 : INFO : iGEM_URL : css/index.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/indexCSS?action=raw&ctype=text/css in index.html.
-2020-10-23 12:27:44,264 : INFO : iGEM_URL : index.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/index-bundleJS?action=raw&ctype=text/javascript in index.html.
-2020-10-23 12:27:44,265 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in index.html.
-2020-10-23 12:27:44,265 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in index.html.
-2020-10-23 12:27:44,265 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in index.html.
-2020-10-23 12:27:44,266 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in index.html.
-2020-10-23 12:27:44,266 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in index.html.
-2020-10-23 12:27:44,266 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in index.html.
-2020-10-23 12:27:44,266 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in index.html.
-2020-10-23 12:27:44,266 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in index.html.
-2020-10-23 12:27:44,266 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in index.html.
-2020-10-23 12:27:44,267 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in index.html.
-2020-10-23 12:27:44,267 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in index.html.
-2020-10-23 12:27:44,267 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in index.html.
-2020-10-23 12:27:44,267 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in index.html.
-2020-10-23 12:27:44,267 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in index.html.
-2020-10-23 12:27:44,268 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in index.html.
-2020-10-23 12:27:44,268 : INFO : iGEM_URL : /Judging_Form was changed to https://2020.igem.org/Team:MIT_MAHE/Judging_Form in index.html.
-2020-10-23 12:27:44,268 : WARNING : iGEM_URL : dist/Design/index.html is referenced in dist/index.html but was not found.
-2020-10-23 12:27:44,268 : INFO : iGEM_URL : Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in index.html.
-2020-10-23 12:27:44,268 : INFO : iGEM_URL : Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in index.html.
-2020-10-23 12:27:44,268 : INFO : iGEM_URL : Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in index.html.
-2020-10-23 12:27:44,271 : INFO : iGEM_URL : assets/img/Home--design.jpeg was changed to https://2020.igem.org/wiki/images/4/4a/T--MIT_MAHE--img--Home--design.jpeg in index.html.
-2020-10-23 12:27:44,272 : INFO : iGEM_URL : assets/img/Home--model.jpeg was changed to https://2020.igem.org/wiki/images/d/da/T--MIT_MAHE--img--Home--model.jpeg in index.html.
-2020-10-23 12:27:44,272 : INFO : iGEM_URL : assets/img/Home--human-practices.jpg was changed to https://2020.igem.org/wiki/images/a/a2/T--MIT_MAHE--img--Home--human-practices.jpg in index.html.
-2020-10-23 12:27:44,931 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE&action=edit.
-2020-10-23 12:27:44,942 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Engineering/index.html.
-2020-10-23 12:27:44,942 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Engineering/index.html.
-2020-10-23 12:27:44,943 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Engineering/index.html.
-2020-10-23 12:27:44,943 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Engineering/index.html.
-2020-10-23 12:27:44,943 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Engineering/index.html.
-2020-10-23 12:27:44,943 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Engineering/index.html.
-2020-10-23 12:27:44,943 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Engineering/index.html.
-2020-10-23 12:27:44,944 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Engineering/index.html.
-2020-10-23 12:27:44,944 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Engineering/index.html.
-2020-10-23 12:27:44,944 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Engineering/index.html.
-2020-10-23 12:27:44,944 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Engineering/index.html.
-2020-10-23 12:27:44,944 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Engineering/index.html.
-2020-10-23 12:27:44,944 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Engineering/index.html.
-2020-10-23 12:27:44,945 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Engineering/index.html.
-2020-10-23 12:27:44,945 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Engineering/index.html.
-2020-10-23 12:27:44,945 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Engineering/index.html.
-2020-10-23 12:27:44,945 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Engineering/index.html.
-2020-10-23 12:27:44,945 : INFO : iGEM_URL : /Judging_Form was changed to https://2020.igem.org/Team:MIT_MAHE/Judging_Form in Engineering/index.html.
-2020-10-23 12:27:45,553 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Engineering&action=edit.
-2020-10-23 12:27:45,571 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Collaborations/index.html.
-2020-10-23 12:27:45,572 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Collaborations/index.html.
-2020-10-23 12:27:45,574 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Collaborations/index.html.
-2020-10-23 12:27:45,575 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Collaborations/index.html.
-2020-10-23 12:27:45,575 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Collaborations/index.html.
-2020-10-23 12:27:45,575 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Collaborations/index.html.
-2020-10-23 12:27:45,575 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Collaborations/index.html.
-2020-10-23 12:27:45,576 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Collaborations/index.html.
-2020-10-23 12:27:45,576 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Collaborations/index.html.
-2020-10-23 12:27:45,576 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Collaborations/index.html.
-2020-10-23 12:27:45,576 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Collaborations/index.html.
-2020-10-23 12:27:45,577 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Collaborations/index.html.
-2020-10-23 12:27:45,577 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Collaborations/index.html.
-2020-10-23 12:27:45,577 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Collaborations/index.html.
-2020-10-23 12:27:45,578 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Collaborations/index.html.
-2020-10-23 12:27:45,578 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Collaborations/index.html.
-2020-10-23 12:27:45,578 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Collaborations/index.html.
-2020-10-23 12:27:45,578 : INFO : iGEM_URL : /Judging_Form was changed to https://2020.igem.org/Team:MIT_MAHE/Judging_Form in Collaborations/index.html.
-2020-10-23 12:27:45,583 : INFO : iGEM_URL : ../assets/img/Collaborations--AIIM.png was changed to https://2020.igem.org/wiki/images/5/5f/T--MIT_MAHE--img--Collaborations--AIIM.png in Collaborations/index.html.
-2020-10-23 12:27:45,584 : INFO : iGEM_URL : ../assets/img/Collaborations--teams.png was changed to https://2020.igem.org/wiki/images/d/d7/T--MIT_MAHE--img--Collaborations--teams.png in Collaborations/index.html.
-2020-10-23 12:27:45,584 : INFO : iGEM_URL : ../assets/img/Collaborations--biosummit.png was changed to https://2020.igem.org/wiki/images/7/75/T--MIT_MAHE--img--Collaborations--biosummit.png in Collaborations/index.html.
-2020-10-23 12:27:45,584 : INFO : iGEM_URL : ../assets/img/Collaborations--msp.png was changed to https://2020.igem.org/wiki/images/8/8a/T--MIT_MAHE--img--Collaborations--msp.png in Collaborations/index.html.
-2020-10-23 12:27:45,584 : INFO : iGEM_URL : ../assets/img/Collaborations--rsm.jpeg was changed to https://2020.igem.org/wiki/images/e/e1/T--MIT_MAHE--img--Collaborations--rsm.jpeg in Collaborations/index.html.
-2020-10-23 12:27:45,584 : INFO : iGEM_URL : ../assets/img/Collaborations--tedx.png was changed to https://2020.igem.org/wiki/images/9/9a/T--MIT_MAHE--img--Collaborations--tedx.png in Collaborations/index.html.
-2020-10-23 12:27:45,584 : INFO : iGEM_URL : ../assets/img/Collaborations--wiki.png was changed to https://2020.igem.org/wiki/images/e/ed/T--MIT_MAHE--img--Collaborations--wiki.png in Collaborations/index.html.
-2020-10-23 12:27:46,185 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Collaborations&action=edit.
-2020-10-23 12:27:46,211 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Attributions/index.html.
-2020-10-23 12:27:46,212 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Attributions/index.html.
-2020-10-23 12:27:46,213 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Attributions/index.html.
-2020-10-23 12:27:46,214 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Attributions/index.html.
-2020-10-23 12:27:46,214 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Attributions/index.html.
-2020-10-23 12:27:46,214 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Attributions/index.html.
-2020-10-23 12:27:46,214 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Attributions/index.html.
-2020-10-23 12:27:46,214 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Attributions/index.html.
-2020-10-23 12:27:46,214 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Attributions/index.html.
-2020-10-23 12:27:46,215 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Attributions/index.html.
-2020-10-23 12:27:46,215 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Attributions/index.html.
-2020-10-23 12:27:46,215 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Attributions/index.html.
-2020-10-23 12:27:46,215 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Attributions/index.html.
-2020-10-23 12:27:46,215 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Attributions/index.html.
-2020-10-23 12:27:46,216 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Attributions/index.html.
-2020-10-23 12:27:46,216 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Attributions/index.html.
-2020-10-23 12:27:46,216 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Attributions/index.html.
-2020-10-23 12:27:46,216 : INFO : iGEM_URL : /Judging_Form was changed to https://2020.igem.org/Team:MIT_MAHE/Judging_Form in Attributions/index.html.
-2020-10-23 12:27:46,216 : WARNING : iGEM_URL : dist/Attributions/Link-goes-in-parenthesis/index.html is referenced in dist/Attributions/index.html but was not found.
-2020-10-23 12:27:46,217 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions/Link-goes-in-parenthesis in Attributions/index.html.
-2020-10-23 12:27:46,217 : WARNING : iGEM_URL : dist/Attributions/google.com is referenced in dist/Attributions/index.html but was not found.
-2020-10-23 12:27:46,217 : WARNING : iGEM_URL : google.com is referenced in Attributions/index.html but was not found.
-2020-10-23 12:27:46,226 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--img--Description--josh-withers.jpg in Attributions/index.html.
-2020-10-23 12:27:46,875 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Attributions&action=edit.
-2020-10-23 12:27:46,900 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Special_Prizes/index.html.
-2020-10-23 12:27:46,901 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Special_Prizes/index.html.
-2020-10-23 12:27:46,902 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Special_Prizes/index.html.
-2020-10-23 12:27:46,903 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Special_Prizes/index.html.
-2020-10-23 12:27:46,903 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Special_Prizes/index.html.
-2020-10-23 12:27:46,903 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Special_Prizes/index.html.
-2020-10-23 12:27:46,903 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Special_Prizes/index.html.
-2020-10-23 12:27:46,903 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Special_Prizes/index.html.
-2020-10-23 12:27:46,903 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Special_Prizes/index.html.
-2020-10-23 12:27:46,904 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Special_Prizes/index.html.
-2020-10-23 12:27:46,904 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Special_Prizes/index.html.
-2020-10-23 12:27:46,904 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Special_Prizes/index.html.
-2020-10-23 12:27:46,904 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Special_Prizes/index.html.
-2020-10-23 12:27:46,904 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Special_Prizes/index.html.
-2020-10-23 12:27:46,904 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Special_Prizes/index.html.
-2020-10-23 12:27:46,905 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Special_Prizes/index.html.
-2020-10-23 12:27:46,905 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Special_Prizes/index.html.
-2020-10-23 12:27:46,905 : INFO : iGEM_URL : /Judging_Form was changed to https://2020.igem.org/Team:MIT_MAHE/Judging_Form in Special_Prizes/index.html.
-2020-10-23 12:27:46,905 : WARNING : iGEM_URL : dist/Special_Prizes/Link-goes-in-parenthesis/index.html is referenced in dist/Special_Prizes/index.html but was not found.
-2020-10-23 12:27:46,905 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes/Link-goes-in-parenthesis in Special_Prizes/index.html.
-2020-10-23 12:27:46,905 : WARNING : iGEM_URL : dist/Special_Prizes/google.com is referenced in dist/Special_Prizes/index.html but was not found.
-2020-10-23 12:27:46,905 : WARNING : iGEM_URL : google.com is referenced in Special_Prizes/index.html but was not found.
-2020-10-23 12:27:46,914 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--img--Description--josh-withers.jpg in Special_Prizes/index.html.
-2020-10-23 12:27:47,561 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Special_Prizes&action=edit.
-2020-10-23 12:27:47,584 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Implementation/index.html.
-2020-10-23 12:27:47,585 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Implementation/index.html.
-2020-10-23 12:27:47,586 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Implementation/index.html.
-2020-10-23 12:27:47,586 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Implementation/index.html.
-2020-10-23 12:27:47,586 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Implementation/index.html.
-2020-10-23 12:27:47,587 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Implementation/index.html.
-2020-10-23 12:27:47,587 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Implementation/index.html.
-2020-10-23 12:27:47,587 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Implementation/index.html.
-2020-10-23 12:27:47,587 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Implementation/index.html.
-2020-10-23 12:27:47,587 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Implementation/index.html.
-2020-10-23 12:27:47,587 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Implementation/index.html.
-2020-10-23 12:27:47,588 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Implementation/index.html.
-2020-10-23 12:27:47,588 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Implementation/index.html.
-2020-10-23 12:27:47,588 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Implementation/index.html.
-2020-10-23 12:27:47,588 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Implementation/index.html.
-2020-10-23 12:27:47,588 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Implementation/index.html.
-2020-10-23 12:27:47,588 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Implementation/index.html.
-2020-10-23 12:27:47,589 : INFO : iGEM_URL : /Judging_Form was changed to https://2020.igem.org/Team:MIT_MAHE/Judging_Form in Implementation/index.html.
-2020-10-23 12:27:47,589 : WARNING : iGEM_URL : dist/Implementation/Link-goes-in-parenthesis/index.html is referenced in dist/Implementation/index.html but was not found.
-2020-10-23 12:27:47,589 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation/Link-goes-in-parenthesis in Implementation/index.html.
-2020-10-23 12:27:47,590 : WARNING : iGEM_URL : dist/Implementation/google.com is referenced in dist/Implementation/index.html but was not found.
-2020-10-23 12:27:47,590 : WARNING : iGEM_URL : google.com is referenced in Implementation/index.html but was not found.
-2020-10-23 12:27:47,599 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--img--Description--josh-withers.jpg in Implementation/index.html.
-2020-10-23 12:27:48,320 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Implementation&action=edit.
-2020-10-23 12:27:48,351 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Hardware/index.html.
-2020-10-23 12:27:48,352 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Hardware/index.html.
-2020-10-23 12:27:48,353 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Hardware/index.html.
-2020-10-23 12:27:48,353 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Hardware/index.html.
-2020-10-23 12:27:48,354 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Hardware/index.html.
-2020-10-23 12:27:48,354 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Hardware/index.html.
-2020-10-23 12:27:48,354 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Hardware/index.html.
-2020-10-23 12:27:48,354 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Hardware/index.html.
-2020-10-23 12:27:48,354 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Hardware/index.html.
-2020-10-23 12:27:48,354 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Hardware/index.html.
-2020-10-23 12:27:48,355 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Hardware/index.html.
-2020-10-23 12:27:48,355 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Hardware/index.html.
-2020-10-23 12:27:48,355 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Hardware/index.html.
-2020-10-23 12:27:48,355 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Hardware/index.html.
-2020-10-23 12:27:48,355 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Hardware/index.html.
-2020-10-23 12:27:48,355 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Hardware/index.html.
-2020-10-23 12:27:48,356 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Hardware/index.html.
-2020-10-23 12:27:48,356 : INFO : iGEM_URL : /Judging_Form was changed to https://2020.igem.org/Team:MIT_MAHE/Judging_Form in Hardware/index.html.
-2020-10-23 12:27:48,367 : INFO : iGEM_URL : ../assets/img/Hardware--bioreactor--horizontal.jpg was changed to https://2020.igem.org/wiki/images/7/79/T--MIT_MAHE--img--Hardware--bioreactor--horizontal.jpg in Hardware/index.html.
-2020-10-23 12:27:48,367 : INFO : iGEM_URL : ../assets/img/Hardware--bioreactor--vertical.jpg was changed to https://2020.igem.org/wiki/images/5/5b/T--MIT_MAHE--img--Hardware--bioreactor--vertical.jpg in Hardware/index.html.
-2020-10-23 12:27:48,367 : INFO : iGEM_URL : ../assets/img/Hardware--bioreactor--model.png was changed to https://2020.igem.org/wiki/images/a/a4/T--MIT_MAHE--img--Hardware--bioreactor--model.png in Hardware/index.html.
-2020-10-23 12:27:48,367 : INFO : iGEM_URL : ../assets/img/Hardware--bioreactor--assembly.png was changed to https://2020.igem.org/wiki/images/9/97/T--MIT_MAHE--img--Hardware--bioreactor--assembly.png in Hardware/index.html.
-2020-10-23 12:27:49,194 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Hardware&action=edit.
-2020-10-23 12:27:49,228 : INFO : iGEM_URL : ../css/team.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/teamCSS?action=raw&ctype=text/css in Team/index.html.
-2020-10-23 12:27:49,229 : INFO : iGEM_URL : ../team.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/team-bundleJS?action=raw&ctype=text/javascript in Team/index.html.
-2020-10-23 12:27:49,230 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Team/index.html.
-2020-10-23 12:27:49,231 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Team/index.html.
-2020-10-23 12:27:49,231 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Team/index.html.
-2020-10-23 12:27:49,231 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Team/index.html.
-2020-10-23 12:27:49,231 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Team/index.html.
-2020-10-23 12:27:49,231 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Team/index.html.
-2020-10-23 12:27:49,232 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Team/index.html.
-2020-10-23 12:27:49,232 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Team/index.html.
-2020-10-23 12:27:49,232 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Team/index.html.
-2020-10-23 12:27:49,232 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Team/index.html.
-2020-10-23 12:27:49,232 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Team/index.html.
-2020-10-23 12:27:49,232 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Team/index.html.
-2020-10-23 12:27:49,233 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Team/index.html.
-2020-10-23 12:27:49,233 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Team/index.html.
-2020-10-23 12:27:49,233 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Team/index.html.
-2020-10-23 12:27:49,233 : INFO : iGEM_URL : /Judging_Form was changed to https://2020.igem.org/Team:MIT_MAHE/Judging_Form in Team/index.html.
-2020-10-23 12:27:49,243 : INFO : iGEM_URL : ../assets/img/Team--member.jpeg was changed to https://2020.igem.org/wiki/images/f/fe/T--MIT_MAHE--img--Team--member.jpeg in Team/index.html.
-2020-10-23 12:27:49,243 : INFO : iGEM_URL : ../assets/img/Team--member.jpeg was changed to https://2020.igem.org/wiki/images/f/fe/T--MIT_MAHE--img--Team--member.jpeg in Team/index.html.
-2020-10-23 12:27:49,243 : INFO : iGEM_URL : ../assets/img/Team--member.jpeg was changed to https://2020.igem.org/wiki/images/f/fe/T--MIT_MAHE--img--Team--member.jpeg in Team/index.html.
-2020-10-23 12:27:49,244 : INFO : iGEM_URL : ../assets/img/Team--Aayush.png was changed to https://2020.igem.org/wiki/images/f/fe/T--MIT_MAHE--img--Team--Aayush.png in Team/index.html.
-2020-10-23 12:27:49,244 : INFO : iGEM_URL : ../assets/img/Team--Adithi.png was changed to https://2020.igem.org/wiki/images/b/bd/T--MIT_MAHE--img--Team--Adithi.png in Team/index.html.
-2020-10-23 12:27:49,244 : INFO : iGEM_URL : ../assets/img/Team--Aniket.png was changed to https://2020.igem.org/wiki/images/f/fd/T--MIT_MAHE--img--Team--Aniket.png in Team/index.html.
-2020-10-23 12:27:49,244 : INFO : iGEM_URL : ../assets/img/Team--Ankur.png was changed to https://2020.igem.org/wiki/images/d/d3/T--MIT_MAHE--img--Team--Ankur.png in Team/index.html.
-2020-10-23 12:27:49,244 : INFO : iGEM_URL : ../assets/img/Team--Anushka.png was changed to https://2020.igem.org/wiki/images/9/92/T--MIT_MAHE--img--Team--Anushka.png in Team/index.html.
-2020-10-23 12:27:49,245 : INFO : iGEM_URL : ../assets/img/Team--Apoorva.png was changed to https://2020.igem.org/wiki/images/5/52/T--MIT_MAHE--img--Team--Apoorva.png in Team/index.html.
-2020-10-23 12:27:49,245 : INFO : iGEM_URL : ../assets/img/Team--Bhumika.png was changed to https://2020.igem.org/wiki/images/8/8c/T--MIT_MAHE--img--Team--Bhumika.png in Team/index.html.
-2020-10-23 12:27:49,245 : INFO : iGEM_URL : ../assets/img/Team--Lavanya.png was changed to https://2020.igem.org/wiki/images/c/cf/T--MIT_MAHE--img--Team--Lavanya.png in Team/index.html.
-2020-10-23 12:27:49,245 : INFO : iGEM_URL : ../assets/img/Team--Naman.png was changed to https://2020.igem.org/wiki/images/1/1f/T--MIT_MAHE--img--Team--Naman.png in Team/index.html.
-2020-10-23 12:27:49,245 : INFO : iGEM_URL : ../assets/img/Team--Niyati.png was changed to https://2020.igem.org/wiki/images/2/22/T--MIT_MAHE--img--Team--Niyati.png in Team/index.html.
-2020-10-23 12:27:49,245 : INFO : iGEM_URL : ../assets/img/Team--Pavithra.png was changed to https://2020.igem.org/wiki/images/f/f4/T--MIT_MAHE--img--Team--Pavithra.png in Team/index.html.
-2020-10-23 12:27:49,246 : INFO : iGEM_URL : ../assets/img/Team--Pradyumna.png was changed to https://2020.igem.org/wiki/images/9/94/T--MIT_MAHE--img--Team--Pradyumna.png in Team/index.html.
-2020-10-23 12:27:49,246 : INFO : iGEM_URL : ../assets/img/Team--Raksha.png was changed to https://2020.igem.org/wiki/images/2/29/T--MIT_MAHE--img--Team--Raksha.png in Team/index.html.
-2020-10-23 12:27:49,246 : INFO : iGEM_URL : ../assets/img/Team--Sanya.png was changed to https://2020.igem.org/wiki/images/3/36/T--MIT_MAHE--img--Team--Sanya.png in Team/index.html.
-2020-10-23 12:27:49,246 : INFO : iGEM_URL : ../assets/img/Team--Shameshwar.png was changed to https://2020.igem.org/wiki/images/0/03/T--MIT_MAHE--img--Team--Shameshwar.png in Team/index.html.
-2020-10-23 12:27:49,246 : INFO : iGEM_URL : ../assets/img/Team--Shravan.png was changed to https://2020.igem.org/wiki/images/a/a3/T--MIT_MAHE--img--Team--Shravan.png in Team/index.html.
-2020-10-23 12:27:49,246 : INFO : iGEM_URL : ../assets/img/Team--Soumodeep.png was changed to https://2020.igem.org/wiki/images/e/ef/T--MIT_MAHE--img--Team--Soumodeep.png in Team/index.html.
-2020-10-23 12:27:49,247 : INFO : iGEM_URL : ../assets/img/Team--Urvi.png was changed to https://2020.igem.org/wiki/images/d/dc/T--MIT_MAHE--img--Team--Urvi.png in Team/index.html.
-2020-10-23 12:27:49,247 : INFO : iGEM_URL : ../assets/img/Team--Utkarsh.png was changed to https://2020.igem.org/wiki/images/0/02/T--MIT_MAHE--img--Team--Utkarsh.png in Team/index.html.
-2020-10-23 12:27:49,247 : INFO : iGEM_URL : ../assets/img/Team--Vaishnavi.png was changed to https://2020.igem.org/wiki/images/f/f8/T--MIT_MAHE--img--Team--Vaishnavi.png in Team/index.html.
-2020-10-23 12:27:49,247 : INFO : iGEM_URL : ../assets/img/Team--Varun.png was changed to https://2020.igem.org/wiki/images/4/44/T--MIT_MAHE--img--Team--Varun.png in Team/index.html.
-2020-10-23 12:27:49,996 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Team&action=edit.
-2020-10-23 12:27:50,019 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Parts/index.html.
-2020-10-23 12:27:50,020 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Parts/index.html.
-2020-10-23 12:27:50,022 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Parts/index.html.
-2020-10-23 12:27:50,022 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Parts/index.html.
-2020-10-23 12:27:50,022 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Parts/index.html.
-2020-10-23 12:27:50,022 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Parts/index.html.
-2020-10-23 12:27:50,022 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Parts/index.html.
-2020-10-23 12:27:50,022 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Parts/index.html.
-2020-10-23 12:27:50,023 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Parts/index.html.
-2020-10-23 12:27:50,023 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Parts/index.html.
-2020-10-23 12:27:50,023 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Parts/index.html.
-2020-10-23 12:27:50,023 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Parts/index.html.
-2020-10-23 12:27:50,023 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Parts/index.html.
-2020-10-23 12:27:50,023 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Parts/index.html.
-2020-10-23 12:27:50,024 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Parts/index.html.
-2020-10-23 12:27:50,024 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Parts/index.html.
-2020-10-23 12:27:50,024 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Parts/index.html.
-2020-10-23 12:27:50,024 : INFO : iGEM_URL : /Judging_Form was changed to https://2020.igem.org/Team:MIT_MAHE/Judging_Form in Parts/index.html.
-2020-10-23 12:27:50,763 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Parts&action=edit.
-2020-10-23 12:27:50,785 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Human_Practices/index.html.
-2020-10-23 12:27:50,786 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Human_Practices/index.html.
-2020-10-23 12:27:50,787 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Human_Practices/index.html.
-2020-10-23 12:27:50,787 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Human_Practices/index.html.
-2020-10-23 12:27:50,788 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Human_Practices/index.html.
-2020-10-23 12:27:50,788 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Human_Practices/index.html.
-2020-10-23 12:27:50,788 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Human_Practices/index.html.
-2020-10-23 12:27:50,788 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Human_Practices/index.html.
-2020-10-23 12:27:50,788 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Human_Practices/index.html.
-2020-10-23 12:27:50,788 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Human_Practices/index.html.
-2020-10-23 12:27:50,789 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Human_Practices/index.html.
-2020-10-23 12:27:50,789 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Human_Practices/index.html.
-2020-10-23 12:27:50,789 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Human_Practices/index.html.
-2020-10-23 12:27:50,789 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Human_Practices/index.html.
-2020-10-23 12:27:50,789 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Human_Practices/index.html.
-2020-10-23 12:27:50,789 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Human_Practices/index.html.
-2020-10-23 12:27:50,790 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Human_Practices/index.html.
-2020-10-23 12:27:50,790 : INFO : iGEM_URL : /Judging_Form was changed to https://2020.igem.org/Team:MIT_MAHE/Judging_Form in Human_Practices/index.html.
-2020-10-23 12:27:50,790 : WARNING : iGEM_URL : dist/Human_Practices/Link-goes-in-parenthesis/index.html is referenced in dist/Human_Practices/index.html but was not found.
-2020-10-23 12:27:50,790 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices/Link-goes-in-parenthesis in Human_Practices/index.html.
-2020-10-23 12:27:50,790 : WARNING : iGEM_URL : dist/Human_Practices/google.com is referenced in dist/Human_Practices/index.html but was not found.
-2020-10-23 12:27:50,790 : WARNING : iGEM_URL : google.com is referenced in Human_Practices/index.html but was not found.
-2020-10-23 12:27:50,799 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--img--Description--josh-withers.jpg in Human_Practices/index.html.
-2020-10-23 12:27:51,482 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Human_Practices&action=edit.
-2020-10-23 12:27:51,505 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Model/index.html.
-2020-10-23 12:27:51,506 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Model/index.html.
-2020-10-23 12:27:51,507 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Model/index.html.
-2020-10-23 12:27:51,508 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Model/index.html.
-2020-10-23 12:27:51,508 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Model/index.html.
-2020-10-23 12:27:51,509 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Model/index.html.
-2020-10-23 12:27:51,509 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Model/index.html.
-2020-10-23 12:27:51,509 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Model/index.html.
-2020-10-23 12:27:51,509 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Model/index.html.
-2020-10-23 12:27:51,510 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Model/index.html.
-2020-10-23 12:27:51,510 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Model/index.html.
-2020-10-23 12:27:51,511 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Model/index.html.
-2020-10-23 12:27:51,511 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Model/index.html.
-2020-10-23 12:27:51,511 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Model/index.html.
-2020-10-23 12:27:51,511 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Model/index.html.
-2020-10-23 12:27:51,512 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Model/index.html.
-2020-10-23 12:27:51,512 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Model/index.html.
-2020-10-23 12:27:51,512 : INFO : iGEM_URL : /Judging_Form was changed to https://2020.igem.org/Team:MIT_MAHE/Judging_Form in Model/index.html.
-2020-10-23 12:27:51,513 : WARNING : iGEM_URL : dist/Model/Link-goes-in-parenthesis/index.html is referenced in dist/Model/index.html but was not found.
-2020-10-23 12:27:51,514 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:MIT_MAHE/Model/Link-goes-in-parenthesis in Model/index.html.
-2020-10-23 12:27:51,514 : WARNING : iGEM_URL : dist/Model/google.com is referenced in dist/Model/index.html but was not found.
-2020-10-23 12:27:51,514 : WARNING : iGEM_URL : google.com is referenced in Model/index.html but was not found.
-2020-10-23 12:27:51,524 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--img--Description--josh-withers.jpg in Model/index.html.
-2020-10-23 12:27:52,153 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Model&action=edit.
-2020-10-23 12:27:52,175 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Judging_Form/index.html.
-2020-10-23 12:27:52,176 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Judging_Form/index.html.
-2020-10-23 12:27:52,177 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Judging_Form/index.html.
-2020-10-23 12:27:52,177 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Judging_Form/index.html.
-2020-10-23 12:27:52,177 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Judging_Form/index.html.
-2020-10-23 12:27:52,178 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Judging_Form/index.html.
-2020-10-23 12:27:52,178 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Judging_Form/index.html.
-2020-10-23 12:27:52,178 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Judging_Form/index.html.
-2020-10-23 12:27:52,178 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Judging_Form/index.html.
-2020-10-23 12:27:52,178 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Judging_Form/index.html.
-2020-10-23 12:27:52,178 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Judging_Form/index.html.
-2020-10-23 12:27:52,179 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Judging_Form/index.html.
-2020-10-23 12:27:52,179 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Judging_Form/index.html.
-2020-10-23 12:27:52,179 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Judging_Form/index.html.
-2020-10-23 12:27:52,179 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Judging_Form/index.html.
-2020-10-23 12:27:52,179 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Judging_Form/index.html.
-2020-10-23 12:27:52,179 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Judging_Form/index.html.
-2020-10-23 12:27:52,180 : INFO : iGEM_URL : /Judging_Form was changed to https://2020.igem.org/Team:MIT_MAHE/Judging_Form in Judging_Form/index.html.
-2020-10-23 12:27:52,180 : WARNING : iGEM_URL : dist/Judging_Form/Link-goes-in-parenthesis/index.html is referenced in dist/Judging_Form/index.html but was not found.
-2020-10-23 12:27:52,180 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:MIT_MAHE/Judging_Form/Link-goes-in-parenthesis in Judging_Form/index.html.
-2020-10-23 12:27:52,180 : WARNING : iGEM_URL : dist/Judging_Form/google.com is referenced in dist/Judging_Form/index.html but was not found.
-2020-10-23 12:27:52,180 : WARNING : iGEM_URL : google.com is referenced in Judging_Form/index.html but was not found.
-2020-10-23 12:27:52,189 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--img--Description--josh-withers.jpg in Judging_Form/index.html.
-2020-10-23 12:27:52,910 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Judging_Form&action=edit.
-2020-10-23 12:27:52,933 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Medals/index.html.
-2020-10-23 12:27:52,934 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Medals/index.html.
-2020-10-23 12:27:52,935 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Medals/index.html.
-2020-10-23 12:27:52,936 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Medals/index.html.
-2020-10-23 12:27:52,936 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Medals/index.html.
-2020-10-23 12:27:52,936 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Medals/index.html.
-2020-10-23 12:27:52,936 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Medals/index.html.
-2020-10-23 12:27:52,936 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Medals/index.html.
-2020-10-23 12:27:52,937 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Medals/index.html.
-2020-10-23 12:27:52,937 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Medals/index.html.
-2020-10-23 12:27:52,937 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Medals/index.html.
-2020-10-23 12:27:52,937 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Medals/index.html.
-2020-10-23 12:27:52,937 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Medals/index.html.
-2020-10-23 12:27:52,937 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Medals/index.html.
-2020-10-23 12:27:52,938 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Medals/index.html.
-2020-10-23 12:27:52,938 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Medals/index.html.
-2020-10-23 12:27:52,938 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Medals/index.html.
-2020-10-23 12:27:52,938 : INFO : iGEM_URL : /Judging_Form was changed to https://2020.igem.org/Team:MIT_MAHE/Judging_Form in Medals/index.html.
-2020-10-23 12:27:52,938 : WARNING : iGEM_URL : dist/Medals/Link-goes-in-parenthesis/index.html is referenced in dist/Medals/index.html but was not found.
-2020-10-23 12:27:52,938 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:MIT_MAHE/Medals/Link-goes-in-parenthesis in Medals/index.html.
-2020-10-23 12:27:52,939 : WARNING : iGEM_URL : dist/Medals/google.com is referenced in dist/Medals/index.html but was not found.
-2020-10-23 12:27:52,939 : WARNING : iGEM_URL : google.com is referenced in Medals/index.html but was not found.
-2020-10-23 12:27:52,947 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--img--Description--josh-withers.jpg in Medals/index.html.
-2020-10-23 12:27:53,661 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Medals&action=edit.
-2020-10-23 12:27:53,670 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Description/index.html.
-2020-10-23 12:27:53,670 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Description/index.html.
-2020-10-23 12:27:53,671 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Description/index.html.
-2020-10-23 12:27:53,671 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Description/index.html.
-2020-10-23 12:27:53,671 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Description/index.html.
-2020-10-23 12:27:53,672 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Description/index.html.
-2020-10-23 12:27:53,672 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Description/index.html.
-2020-10-23 12:27:53,672 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Description/index.html.
-2020-10-23 12:27:53,672 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Description/index.html.
-2020-10-23 12:27:53,672 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Description/index.html.
-2020-10-23 12:27:53,672 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Description/index.html.
-2020-10-23 12:27:53,673 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Description/index.html.
-2020-10-23 12:27:53,673 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Description/index.html.
-2020-10-23 12:27:53,673 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Description/index.html.
-2020-10-23 12:27:53,673 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Description/index.html.
-2020-10-23 12:27:53,673 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Description/index.html.
-2020-10-23 12:27:53,673 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Description/index.html.
-2020-10-23 12:27:53,674 : INFO : iGEM_URL : /Judging_Form was changed to https://2020.igem.org/Team:MIT_MAHE/Judging_Form in Description/index.html.
-2020-10-23 12:27:53,677 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--img--Description--josh-withers.jpg in Description/index.html.
-2020-10-23 12:27:54,280 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Description&action=edit.
-2020-10-23 12:27:54,318 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Experimentation/index.html.
-2020-10-23 12:27:54,319 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Experimentation/index.html.
-2020-10-23 12:27:54,321 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Experimentation/index.html.
-2020-10-23 12:27:54,321 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Experimentation/index.html.
-2020-10-23 12:27:54,321 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Experimentation/index.html.
-2020-10-23 12:27:54,321 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Experimentation/index.html.
-2020-10-23 12:27:54,322 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Experimentation/index.html.
-2020-10-23 12:27:54,322 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Experimentation/index.html.
-2020-10-23 12:27:54,322 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Experimentation/index.html.
-2020-10-23 12:27:54,322 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Experimentation/index.html.
-2020-10-23 12:27:54,322 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Experimentation/index.html.
-2020-10-23 12:27:54,322 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Experimentation/index.html.
-2020-10-23 12:27:54,323 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Experimentation/index.html.
-2020-10-23 12:27:54,323 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Experimentation/index.html.
-2020-10-23 12:27:54,323 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Experimentation/index.html.
-2020-10-23 12:27:54,323 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Experimentation/index.html.
-2020-10-23 12:27:54,323 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Experimentation/index.html.
-2020-10-23 12:27:54,323 : INFO : iGEM_URL : /Judging_Form was changed to https://2020.igem.org/Team:MIT_MAHE/Judging_Form in Experimentation/index.html.
-2020-10-23 12:27:54,336 : INFO : iGEM_URL : ../assets/img/Experimentation--strain.png was changed to https://2020.igem.org/wiki/images/6/61/T--MIT_MAHE--img--Experimentation--strain.png in Experimentation/index.html.
-2020-10-23 12:27:54,336 : INFO : iGEM_URL : ../assets/img/Experimentation--plasmid--1.png was changed to https://2020.igem.org/wiki/images/f/f9/T--MIT_MAHE--img--Experimentation--plasmid--1.png in Experimentation/index.html.
-2020-10-23 12:27:54,336 : INFO : iGEM_URL : ../assets/img/Experimentation--bb1.jpg was changed to https://2020.igem.org/wiki/images/3/30/T--MIT_MAHE--img--Experimentation--bb1.jpg in Experimentation/index.html.
-2020-10-23 12:27:54,337 : INFO : iGEM_URL : ../assets/img/Experimentation--mehgtransport.png was changed to https://2020.igem.org/wiki/images/d/df/T--MIT_MAHE--img--Experimentation--mehgtransport.png in Experimentation/index.html.
-2020-10-23 12:27:54,337 : INFO : iGEM_URL : ../assets/img/Experimentation--bb1.jpg was changed to https://2020.igem.org/wiki/images/3/30/T--MIT_MAHE--img--Experimentation--bb1.jpg in Experimentation/index.html.
-2020-10-23 12:27:54,337 : INFO : iGEM_URL : ../assets/img/Experimentation--plasmid--2.png was changed to https://2020.igem.org/wiki/images/b/bc/T--MIT_MAHE--img--Experimentation--plasmid--2.png in Experimentation/index.html.
-2020-10-23 12:27:54,337 : INFO : iGEM_URL : ../assets/img/Experimentation--bb2.jpg was changed to https://2020.igem.org/wiki/images/2/2b/T--MIT_MAHE--img--Experimentation--bb2.jpg in Experimentation/index.html.
-2020-10-23 12:27:54,337 : INFO : iGEM_URL : ../assets/img/Experimentation--hlyail10transport.png was changed to https://2020.igem.org/wiki/images/0/0e/T--MIT_MAHE--img--Experimentation--hlyail10transport.png in Experimentation/index.html.
-2020-10-23 12:27:54,337 : INFO : iGEM_URL : ../assets/img/Experimentation--age.png was changed to https://2020.igem.org/wiki/images/a/ab/T--MIT_MAHE--img--Experimentation--age.png in Experimentation/index.html.
-2020-10-23 12:27:55,110 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Experimentation&action=edit.
-2020-10-23 12:27:55,123 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Contribution/index.html.
-2020-10-23 12:27:55,123 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Contribution/index.html.
-2020-10-23 12:27:55,124 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Contribution/index.html.
-2020-10-23 12:27:55,124 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Contribution/index.html.
-2020-10-23 12:27:55,124 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Contribution/index.html.
-2020-10-23 12:27:55,125 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Contribution/index.html.
-2020-10-23 12:27:55,125 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Contribution/index.html.
-2020-10-23 12:27:55,125 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Contribution/index.html.
-2020-10-23 12:27:55,126 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Contribution/index.html.
-2020-10-23 12:27:55,126 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Contribution/index.html.
-2020-10-23 12:27:55,126 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Contribution/index.html.
-2020-10-23 12:27:55,126 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Contribution/index.html.
-2020-10-23 12:27:55,126 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Contribution/index.html.
-2020-10-23 12:27:55,126 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Contribution/index.html.
-2020-10-23 12:27:55,127 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Contribution/index.html.
-2020-10-23 12:27:55,127 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Contribution/index.html.
-2020-10-23 12:27:55,127 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Contribution/index.html.
-2020-10-23 12:27:55,127 : INFO : iGEM_URL : /Judging_Form was changed to https://2020.igem.org/Team:MIT_MAHE/Judging_Form in Contribution/index.html.
-2020-10-23 12:27:55,127 : WARNING : iGEM_URL : dist/Contribution/link/index.html is referenced in dist/Contribution/index.html but was not found.
-2020-10-23 12:27:55,127 : INFO : iGEM_URL : link was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution/link in Contribution/index.html.
-2020-10-23 12:27:55,128 : WARNING : iGEM_URL : dist/Contribution/Hardware/index.html is referenced in dist/Contribution/index.html but was not found.
-2020-10-23 12:27:55,128 : INFO : iGEM_URL : Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution/Hardware in Contribution/index.html.
-2020-10-23 12:27:55,772 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Contribution&action=edit.
-2020-10-23 12:27:55,815 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Safety/index.html.
-2020-10-23 12:27:55,817 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Safety/index.html.
-2020-10-23 12:27:55,819 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Safety/index.html.
-2020-10-23 12:27:55,819 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Safety/index.html.
-2020-10-23 12:27:55,819 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Safety/index.html.
-2020-10-23 12:27:55,819 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Safety/index.html.
-2020-10-23 12:27:55,819 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Safety/index.html.
-2020-10-23 12:27:55,819 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Safety/index.html.
-2020-10-23 12:27:55,820 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Safety/index.html.
-2020-10-23 12:27:55,820 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Safety/index.html.
-2020-10-23 12:27:55,820 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Safety/index.html.
-2020-10-23 12:27:55,820 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Safety/index.html.
-2020-10-23 12:27:55,820 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Safety/index.html.
-2020-10-23 12:27:55,820 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Safety/index.html.
-2020-10-23 12:27:55,821 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Safety/index.html.
-2020-10-23 12:27:55,821 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Safety/index.html.
-2020-10-23 12:27:55,821 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Safety/index.html.
-2020-10-23 12:27:55,821 : INFO : iGEM_URL : /Judging_Form was changed to https://2020.igem.org/Team:MIT_MAHE/Judging_Form in Safety/index.html.
-2020-10-23 12:27:55,836 : INFO : iGEM_URL : ../assets/img/Safety--angel--coli.jpg was changed to https://2020.igem.org/wiki/images/e/ec/T--MIT_MAHE--img--Safety--angel--coli.jpg in Safety/index.html.
-2020-10-23 12:27:55,836 : INFO : iGEM_URL : ../assets/img/Safety--dual--use.png was changed to https://2020.igem.org/wiki/images/3/3e/T--MIT_MAHE--img--Safety--dual--use.png in Safety/index.html.
-2020-10-23 12:27:55,837 : INFO : iGEM_URL : ../assets/img/Safety--toxic.png was changed to https://2020.igem.org/wiki/images/7/79/T--MIT_MAHE--img--Safety--toxic.png in Safety/index.html.
-2020-10-23 12:27:55,837 : INFO : iGEM_URL : ../assets/img/Safety--gloves.jpg was changed to https://2020.igem.org/wiki/images/7/7e/T--MIT_MAHE--img--Safety--gloves.jpg in Safety/index.html.
-2020-10-23 12:27:55,837 : INFO : iGEM_URL : ../assets/img/Safety--garbage--can.jpg was changed to https://2020.igem.org/wiki/images/5/5f/T--MIT_MAHE--img--Safety--garbage--can.jpg in Safety/index.html.
-2020-10-23 12:27:55,837 : INFO : iGEM_URL : ../assets/img/Safety--equipment.jpg was changed to https://2020.igem.org/wiki/images/6/60/T--MIT_MAHE--img--Safety--equipment.jpg in Safety/index.html.
-2020-10-23 12:27:55,837 : INFO : iGEM_URL : ../assets/img/Safety--packaging.png was changed to https://2020.igem.org/wiki/images/d/da/T--MIT_MAHE--img--Safety--packaging.png in Safety/index.html.
-2020-10-23 12:27:56,649 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Safety&action=edit.
-2020-10-23 12:27:56,650 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.eot was changed to https://2020.igem.org/wiki/images/1/18/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.eot in css/team.css.
-2020-10-23 12:27:56,651 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff was changed to https://2020.igem.org/wiki/images/d/d9/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.woff in css/team.css.
-2020-10-23 12:27:56,651 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.ttf was changed to https://2020.igem.org/wiki/images/8/81/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.ttf in css/team.css.
-2020-10-23 12:27:56,652 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.svg was changed to https://2020.igem.org/wiki/images/4/49/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.svg in css/team.css.
-2020-10-23 12:27:56,652 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.eot was changed to https://2020.igem.org/wiki/images/6/6b/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.eot in css/team.css.
-2020-10-23 12:27:56,652 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.woff was changed to https://2020.igem.org/wiki/images/b/b2/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.woff in css/team.css.
-2020-10-23 12:27:56,652 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.ttf was changed to https://2020.igem.org/wiki/images/0/0a/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.ttf in css/team.css.
-2020-10-23 12:27:56,653 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.svg was changed to https://2020.igem.org/wiki/images/9/9f/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.svg in css/team.css.
-2020-10-23 12:27:56,653 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.eot was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.eot in css/team.css.
-2020-10-23 12:27:56,653 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.woff was changed to https://2020.igem.org/wiki/images/8/83/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.woff in css/team.css.
-2020-10-23 12:27:56,654 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.ttf was changed to https://2020.igem.org/wiki/images/7/7f/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.ttf in css/team.css.
-2020-10-23 12:27:56,654 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.svg was changed to https://2020.igem.org/wiki/images/4/48/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.svg in css/team.css.
-2020-10-23 12:27:56,654 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.eot was changed to https://2020.igem.org/wiki/images/6/66/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.eot in css/team.css.
-2020-10-23 12:27:56,655 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.woff was changed to https://2020.igem.org/wiki/images/3/33/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.woff in css/team.css.
-2020-10-23 12:27:56,655 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.ttf was changed to https://2020.igem.org/wiki/images/8/8a/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.ttf in css/team.css.
-2020-10-23 12:27:56,655 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.eot was changed to https://2020.igem.org/wiki/images/1/1b/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.eot in css/team.css.
-2020-10-23 12:27:56,656 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.woff was changed to https://2020.igem.org/wiki/images/7/75/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.woff in css/team.css.
-2020-10-23 12:27:56,656 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.ttf was changed to https://2020.igem.org/wiki/images/6/61/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.ttf in css/team.css.
-2020-10-23 12:27:56,656 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.svg was changed to https://2020.igem.org/wiki/images/7/7c/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.svg in css/team.css.
-2020-10-23 12:27:56,657 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.eot was changed to https://2020.igem.org/wiki/images/f/f1/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.eot in css/team.css.
-2020-10-23 12:27:56,657 : WARNING : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.woff2 is referenced in css/team.css but was not found.
-2020-10-23 12:27:56,657 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.woff was changed to https://2020.igem.org/wiki/images/4/41/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.woff in css/team.css.
-2020-10-23 12:27:56,657 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.ttf was changed to https://2020.igem.org/wiki/images/7/77/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.ttf in css/team.css.
-2020-10-23 12:27:56,658 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.svg was changed to https://2020.igem.org/wiki/images/c/c7/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.svg in css/team.css.
-2020-10-23 12:27:56,658 : INFO : iGEM_URL : ../assets/img/Footer--logo.svg was changed to https://2020.igem.org/wiki/images/a/a0/T--MIT_MAHE--img--Footer--logo.svg in css/team.css.
-2020-10-23 12:27:56,658 : INFO : iGEM_URL : ../assets/icons/envelope-open-text-solid.svg was changed to https://2020.igem.org/wiki/images/6/60/T--MIT_MAHE--icons--envelope-open-text-solid.svg in css/team.css.
-2020-10-23 12:27:56,659 : INFO : iGEM_URL : ../assets/icons/instagram-brands.svg was changed to https://2020.igem.org/wiki/images/4/46/T--MIT_MAHE--icons--instagram-brands.svg in css/team.css.
-2020-10-23 12:27:56,659 : INFO : iGEM_URL : ../assets/icons/twitter-brands.svg was changed to https://2020.igem.org/wiki/images/3/38/T--MIT_MAHE--icons--twitter-brands.svg in css/team.css.
-2020-10-23 12:27:56,660 : INFO : iGEM_URL : ../assets/icons/facebook.svg was changed to https://2020.igem.org/wiki/images/8/81/T--MIT_MAHE--icons--facebook.svg in css/team.css.
-2020-10-23 12:27:56,660 : INFO : build_and_upload : Contents of css/team.css have been uploaded previously. Skipping.
-2020-10-23 12:27:56,661 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.eot was changed to https://2020.igem.org/wiki/images/1/18/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.eot in css/content.css.
-2020-10-23 12:27:56,661 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff was changed to https://2020.igem.org/wiki/images/d/d9/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.woff in css/content.css.
-2020-10-23 12:27:56,661 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.ttf was changed to https://2020.igem.org/wiki/images/8/81/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.ttf in css/content.css.
-2020-10-23 12:27:56,662 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.svg was changed to https://2020.igem.org/wiki/images/4/49/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.svg in css/content.css.
-2020-10-23 12:27:56,662 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.eot was changed to https://2020.igem.org/wiki/images/6/6b/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.eot in css/content.css.
-2020-10-23 12:27:56,662 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.woff was changed to https://2020.igem.org/wiki/images/b/b2/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.woff in css/content.css.
-2020-10-23 12:27:56,663 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.ttf was changed to https://2020.igem.org/wiki/images/0/0a/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.ttf in css/content.css.
-2020-10-23 12:27:56,663 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.svg was changed to https://2020.igem.org/wiki/images/9/9f/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.svg in css/content.css.
-2020-10-23 12:27:56,663 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.eot was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.eot in css/content.css.
-2020-10-23 12:27:56,664 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.woff was changed to https://2020.igem.org/wiki/images/8/83/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.woff in css/content.css.
-2020-10-23 12:27:56,664 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.ttf was changed to https://2020.igem.org/wiki/images/7/7f/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.ttf in css/content.css.
-2020-10-23 12:27:56,664 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.svg was changed to https://2020.igem.org/wiki/images/4/48/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.svg in css/content.css.
-2020-10-23 12:27:56,664 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.eot was changed to https://2020.igem.org/wiki/images/6/66/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.eot in css/content.css.
-2020-10-23 12:27:56,665 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.woff was changed to https://2020.igem.org/wiki/images/3/33/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.woff in css/content.css.
-2020-10-23 12:27:56,665 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.ttf was changed to https://2020.igem.org/wiki/images/8/8a/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.ttf in css/content.css.
-2020-10-23 12:27:56,665 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.eot was changed to https://2020.igem.org/wiki/images/1/1b/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.eot in css/content.css.
-2020-10-23 12:27:56,666 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.woff was changed to https://2020.igem.org/wiki/images/7/75/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.woff in css/content.css.
-2020-10-23 12:27:56,666 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.ttf was changed to https://2020.igem.org/wiki/images/6/61/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.ttf in css/content.css.
-2020-10-23 12:27:56,666 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.svg was changed to https://2020.igem.org/wiki/images/7/7c/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.svg in css/content.css.
-2020-10-23 12:27:56,667 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.eot was changed to https://2020.igem.org/wiki/images/f/f1/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.eot in css/content.css.
-2020-10-23 12:27:56,667 : WARNING : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.woff2 is referenced in css/content.css but was not found.
-2020-10-23 12:27:56,667 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.woff was changed to https://2020.igem.org/wiki/images/4/41/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.woff in css/content.css.
-2020-10-23 12:27:56,668 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.ttf was changed to https://2020.igem.org/wiki/images/7/77/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.ttf in css/content.css.
-2020-10-23 12:27:56,668 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.svg was changed to https://2020.igem.org/wiki/images/c/c7/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.svg in css/content.css.
-2020-10-23 12:27:56,668 : INFO : iGEM_URL : ../assets/img/Footer--logo.svg was changed to https://2020.igem.org/wiki/images/a/a0/T--MIT_MAHE--img--Footer--logo.svg in css/content.css.
-2020-10-23 12:27:56,669 : INFO : iGEM_URL : ../assets/icons/envelope-open-text-solid.svg was changed to https://2020.igem.org/wiki/images/6/60/T--MIT_MAHE--icons--envelope-open-text-solid.svg in css/content.css.
-2020-10-23 12:27:56,669 : INFO : iGEM_URL : ../assets/icons/instagram-brands.svg was changed to https://2020.igem.org/wiki/images/4/46/T--MIT_MAHE--icons--instagram-brands.svg in css/content.css.
-2020-10-23 12:27:56,669 : INFO : iGEM_URL : ../assets/icons/twitter-brands.svg was changed to https://2020.igem.org/wiki/images/3/38/T--MIT_MAHE--icons--twitter-brands.svg in css/content.css.
-2020-10-23 12:27:56,670 : INFO : iGEM_URL : ../assets/icons/facebook.svg was changed to https://2020.igem.org/wiki/images/8/81/T--MIT_MAHE--icons--facebook.svg in css/content.css.
-2020-10-23 12:27:56,670 : INFO : iGEM_URL : ../assets/icons/link-solid.svg was changed to https://2020.igem.org/wiki/images/2/21/T--MIT_MAHE--icons--link-solid.svg in css/content.css.
-2020-10-23 12:27:56,671 : INFO : build_and_upload : Contents of css/content.css have been uploaded previously. Skipping.
-2020-10-23 12:27:56,671 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.eot was changed to https://2020.igem.org/wiki/images/1/18/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.eot in css/index.css.
-2020-10-23 12:27:56,671 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff was changed to https://2020.igem.org/wiki/images/d/d9/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.woff in css/index.css.
-2020-10-23 12:27:56,672 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.ttf was changed to https://2020.igem.org/wiki/images/8/81/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.ttf in css/index.css.
-2020-10-23 12:27:56,672 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.svg was changed to https://2020.igem.org/wiki/images/4/49/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.svg in css/index.css.
-2020-10-23 12:27:56,672 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.eot was changed to https://2020.igem.org/wiki/images/6/6b/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.eot in css/index.css.
-2020-10-23 12:27:56,673 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.woff was changed to https://2020.igem.org/wiki/images/b/b2/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.woff in css/index.css.
-2020-10-23 12:27:56,673 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.ttf was changed to https://2020.igem.org/wiki/images/0/0a/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.ttf in css/index.css.
-2020-10-23 12:27:56,673 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.svg was changed to https://2020.igem.org/wiki/images/9/9f/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.svg in css/index.css.
-2020-10-23 12:27:56,674 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.eot was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.eot in css/index.css.
-2020-10-23 12:27:56,674 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.woff was changed to https://2020.igem.org/wiki/images/8/83/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.woff in css/index.css.
-2020-10-23 12:27:56,674 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.ttf was changed to https://2020.igem.org/wiki/images/7/7f/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.ttf in css/index.css.
-2020-10-23 12:27:56,674 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.svg was changed to https://2020.igem.org/wiki/images/4/48/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.svg in css/index.css.
-2020-10-23 12:27:56,675 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.eot was changed to https://2020.igem.org/wiki/images/6/66/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.eot in css/index.css.
-2020-10-23 12:27:56,675 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.woff was changed to https://2020.igem.org/wiki/images/3/33/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.woff in css/index.css.
-2020-10-23 12:27:56,675 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.ttf was changed to https://2020.igem.org/wiki/images/8/8a/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.ttf in css/index.css.
-2020-10-23 12:27:56,676 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.eot was changed to https://2020.igem.org/wiki/images/1/1b/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.eot in css/index.css.
-2020-10-23 12:27:56,676 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.woff was changed to https://2020.igem.org/wiki/images/7/75/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.woff in css/index.css.
-2020-10-23 12:27:56,676 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.ttf was changed to https://2020.igem.org/wiki/images/6/61/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.ttf in css/index.css.
-2020-10-23 12:27:56,677 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.svg was changed to https://2020.igem.org/wiki/images/7/7c/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.svg in css/index.css.
-2020-10-23 12:27:56,677 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.eot was changed to https://2020.igem.org/wiki/images/f/f1/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.eot in css/index.css.
-2020-10-23 12:27:56,677 : WARNING : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.woff2 is referenced in css/index.css but was not found.
-2020-10-23 12:27:56,677 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.woff was changed to https://2020.igem.org/wiki/images/4/41/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.woff in css/index.css.
-2020-10-23 12:27:56,678 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.ttf was changed to https://2020.igem.org/wiki/images/7/77/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.ttf in css/index.css.
-2020-10-23 12:27:56,678 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.svg was changed to https://2020.igem.org/wiki/images/c/c7/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.svg in css/index.css.
-2020-10-23 12:27:56,678 : INFO : iGEM_URL : ../assets/img/Footer--logo.svg was changed to https://2020.igem.org/wiki/images/a/a0/T--MIT_MAHE--img--Footer--logo.svg in css/index.css.
-2020-10-23 12:27:56,679 : INFO : iGEM_URL : ../assets/icons/envelope-open-text-solid.svg was changed to https://2020.igem.org/wiki/images/6/60/T--MIT_MAHE--icons--envelope-open-text-solid.svg in css/index.css.
-2020-10-23 12:27:56,679 : INFO : iGEM_URL : ../assets/icons/instagram-brands.svg was changed to https://2020.igem.org/wiki/images/4/46/T--MIT_MAHE--icons--instagram-brands.svg in css/index.css.
-2020-10-23 12:27:56,679 : INFO : iGEM_URL : ../assets/icons/twitter-brands.svg was changed to https://2020.igem.org/wiki/images/3/38/T--MIT_MAHE--icons--twitter-brands.svg in css/index.css.
-2020-10-23 12:27:56,680 : INFO : iGEM_URL : ../assets/icons/facebook.svg was changed to https://2020.igem.org/wiki/images/8/81/T--MIT_MAHE--icons--facebook.svg in css/index.css.
-2020-10-23 12:27:56,680 : INFO : iGEM_URL : ../assets/img/Home--poster.png was changed to https://2020.igem.org/wiki/images/5/50/T--MIT_MAHE--img--Home--poster.png in css/index.css.
-2020-10-23 12:27:57,851 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Template:MIT_MAHE/css/indexCSS&action=edit.
-2020-10-23 12:27:57,860 : INFO : build_and_upload : Contents of index.bundle.js have been uploaded previously. Skipping.
-2020-10-23 12:27:57,869 : INFO : build_and_upload : Contents of team.bundle.js have been uploaded previously. Skipping.
-2020-10-23 12:27:57,876 : INFO : build_and_upload : Contents of content.bundle.js have been uploaded previously. Skipping.
+2020-10-25 22:29:54,711 : INFO : iGEM_login : Successfully logged in as Soumo_sarkar.
+2020-10-25 22:29:54,758 : ERROR : cache_files : assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.woff2 has an unsupported file extension. Skipping.
+2020-10-25 22:29:55,627 : INFO : iGEM_upload_file : Uploaded T--MIT_MAHE--docs--iGEM-MIT_MAHE-Product-Development-Handbook.pdf to https://2020.igem.org/wiki/images/f/fa/T--MIT_MAHE--docs--iGEM-MIT_MAHE-Product-Development-Handbook.pdf.
+2020-10-25 22:29:56,332 : INFO : iGEM_upload_file : Uploaded T--MIT_MAHE--img--Implementation--assembly.png to https://2020.igem.org/wiki/images/c/ca/T--MIT_MAHE--img--Implementation--assembly.png.
+2020-10-25 22:29:56,910 : INFO : iGEM_upload_file : Uploaded T--MIT_MAHE--img--Implementation--pack.png to https://2020.igem.org/wiki/images/8/80/T--MIT_MAHE--img--Implementation--pack.png.
+2020-10-25 22:29:57,437 : INFO : iGEM_upload_file : Uploaded T--MIT_MAHE--img--Implementation--impeller.png to https://2020.igem.org/wiki/images/5/54/T--MIT_MAHE--img--Implementation--impeller.png.
+2020-10-25 22:29:58,019 : INFO : iGEM_upload_file : Uploaded T--MIT_MAHE--img--Implementation--emptycap.jpg to https://2020.igem.org/wiki/images/6/63/T--MIT_MAHE--img--Implementation--emptycap.jpg.
+2020-10-25 22:29:58,628 : INFO : iGEM_upload_file : Uploaded T--MIT_MAHE--img--Implementation--baffles.png to https://2020.igem.org/wiki/images/2/27/T--MIT_MAHE--img--Implementation--baffles.png.
+2020-10-25 22:29:59,650 : INFO : iGEM_upload_file : Uploaded T--MIT_MAHE--img--Footer--logo.svg to https://2020.igem.org/wiki/images/a/a0/T--MIT_MAHE--img--Footer--logo.svg.
+2020-10-25 22:30:00,300 : INFO : iGEM_upload_file : Uploaded T--MIT_MAHE--img--Implementation--lidding.png to https://2020.igem.org/wiki/images/7/71/T--MIT_MAHE--img--Implementation--lidding.png.
+2020-10-25 22:30:01,048 : INFO : iGEM_upload_file : Uploaded T--MIT_MAHE--img--Implementation--powder.png to https://2020.igem.org/wiki/images/2/21/T--MIT_MAHE--img--Implementation--powder.png.
+2020-10-25 22:30:01,785 : INFO : iGEM_upload_file : Uploaded T--MIT_MAHE--img--Implementation--tank.png to https://2020.igem.org/wiki/images/f/f1/T--MIT_MAHE--img--Implementation--tank.png.
+2020-10-25 22:30:02,375 : INFO : iGEM_upload_file : Uploaded T--MIT_MAHE--img--Implementation--auto.png to https://2020.igem.org/wiki/images/0/04/T--MIT_MAHE--img--Implementation--auto.png.
+2020-10-25 22:30:04,155 : INFO : iGEM_upload_file : Uploaded T--MIT_MAHE--img--Implementation--full.png to https://2020.igem.org/wiki/images/f/f2/T--MIT_MAHE--img--Implementation--full.png.
+2020-10-25 22:30:04,228 : INFO : iGEM_URL : css/index.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/indexCSS?action=raw&ctype=text/css in index.html.
+2020-10-25 22:30:04,229 : INFO : iGEM_URL : index.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/index-bundleJS?action=raw&ctype=text/javascript in index.html.
+2020-10-25 22:30:04,230 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in index.html.
+2020-10-25 22:30:04,230 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in index.html.
+2020-10-25 22:30:04,230 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in index.html.
+2020-10-25 22:30:04,230 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in index.html.
+2020-10-25 22:30:04,230 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in index.html.
+2020-10-25 22:30:04,231 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in index.html.
+2020-10-25 22:30:04,231 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in index.html.
+2020-10-25 22:30:04,231 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in index.html.
+2020-10-25 22:30:04,231 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in index.html.
+2020-10-25 22:30:04,231 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in index.html.
+2020-10-25 22:30:04,231 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in index.html.
+2020-10-25 22:30:04,232 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in index.html.
+2020-10-25 22:30:04,232 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in index.html.
+2020-10-25 22:30:04,232 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in index.html.
+2020-10-25 22:30:04,232 : INFO : iGEM_URL : /Education was changed to https://2020.igem.org/Team:MIT_MAHE/Education in index.html.
+2020-10-25 22:30:04,232 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in index.html.
+2020-10-25 22:30:04,232 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in index.html.
+2020-10-25 22:30:04,233 : INFO : iGEM_URL : Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in index.html.
+2020-10-25 22:30:04,233 : INFO : iGEM_URL : Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in index.html.
+2020-10-25 22:30:04,233 : INFO : iGEM_URL : Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in index.html.
+2020-10-25 22:30:04,237 : INFO : iGEM_URL : assets/img/Home--design.jpeg was changed to https://2020.igem.org/wiki/images/4/4a/T--MIT_MAHE--img--Home--design.jpeg in index.html.
+2020-10-25 22:30:04,238 : INFO : iGEM_URL : assets/img/Home--model.jpeg was changed to https://2020.igem.org/wiki/images/d/da/T--MIT_MAHE--img--Home--model.jpeg in index.html.
+2020-10-25 22:30:04,238 : INFO : iGEM_URL : assets/img/Home--human-practices.jpg was changed to https://2020.igem.org/wiki/images/a/a2/T--MIT_MAHE--img--Home--human-practices.jpg in index.html.
+2020-10-25 22:30:04,238 : INFO : iGEM_URL : assets/img/Sponsor--Benchling.png was changed to https://2020.igem.org/wiki/images/9/94/T--MIT_MAHE--img--Sponsor--Benchling.png in index.html.
+2020-10-25 22:30:04,238 : INFO : iGEM_URL : assets/img/Sponsor--MAHE.png was changed to https://2020.igem.org/wiki/images/b/b1/T--MIT_MAHE--img--Sponsor--MAHE.png in index.html.
+2020-10-25 22:30:04,238 : INFO : iGEM_URL : assets/img/Sponsor--IDT.png was changed to https://2020.igem.org/wiki/images/3/34/T--MIT_MAHE--img--Sponsor--IDT.png in index.html.
+2020-10-25 22:30:04,239 : INFO : iGEM_URL : assets/img/Sponsor--NEB.png was changed to https://2020.igem.org/wiki/images/9/9c/T--MIT_MAHE--img--Sponsor--NEB.png in index.html.
+2020-10-25 22:30:04,240 : INFO : iGEM_URL : assets/img/Sponsor--Twist.png was changed to https://2020.igem.org/wiki/images/5/55/T--MIT_MAHE--img--Sponsor--Twist.png in index.html.
+2020-10-25 22:30:04,245 : INFO : iGEM_URL : ./assets/vid/Home--bgvideo.mp4 was changed to https://2020.igem.org/wiki/images/d/d0/T--MIT_MAHE--vid--Home--bgvideo.mp4 in index.html.
+2020-10-25 22:30:04,246 : WARNING : iGEM_URL : dist/Home--poster.png is referenced in dist/index.html but was not found.
+2020-10-25 22:30:04,246 : WARNING : iGEM_URL : Home--poster.png is referenced in index.html but was not found.
+2020-10-25 22:30:04,729 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE&action=edit.
+2020-10-25 22:30:04,739 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Design/index.html.
+2020-10-25 22:30:04,740 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Design/index.html.
+2020-10-25 22:30:04,740 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Design/index.html.
+2020-10-25 22:30:04,741 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Design/index.html.
+2020-10-25 22:30:04,741 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Design/index.html.
+2020-10-25 22:30:04,741 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Design/index.html.
+2020-10-25 22:30:04,741 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Design/index.html.
+2020-10-25 22:30:04,741 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in Design/index.html.
+2020-10-25 22:30:04,741 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Design/index.html.
+2020-10-25 22:30:04,742 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Design/index.html.
+2020-10-25 22:30:04,742 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Design/index.html.
+2020-10-25 22:30:04,742 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Design/index.html.
+2020-10-25 22:30:04,742 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Design/index.html.
+2020-10-25 22:30:04,742 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Design/index.html.
+2020-10-25 22:30:04,742 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Design/index.html.
+2020-10-25 22:30:04,743 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Design/index.html.
+2020-10-25 22:30:04,743 : INFO : iGEM_URL : /Education was changed to https://2020.igem.org/Team:MIT_MAHE/Education in Design/index.html.
+2020-10-25 22:30:04,743 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Design/index.html.
+2020-10-25 22:30:04,743 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Design/index.html.
+2020-10-25 22:30:04,746 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--img--Description--josh-withers.jpg in Design/index.html.
+2020-10-25 22:30:05,228 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Design&action=edit.
+2020-10-25 22:30:05,252 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Education/index.html.
+2020-10-25 22:30:05,253 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Education/index.html.
+2020-10-25 22:30:05,255 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Education/index.html.
+2020-10-25 22:30:05,255 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Education/index.html.
+2020-10-25 22:30:05,255 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Education/index.html.
+2020-10-25 22:30:05,255 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Education/index.html.
+2020-10-25 22:30:05,255 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Education/index.html.
+2020-10-25 22:30:05,256 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in Education/index.html.
+2020-10-25 22:30:05,256 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Education/index.html.
+2020-10-25 22:30:05,256 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Education/index.html.
+2020-10-25 22:30:05,256 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Education/index.html.
+2020-10-25 22:30:05,256 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Education/index.html.
+2020-10-25 22:30:05,256 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Education/index.html.
+2020-10-25 22:30:05,257 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Education/index.html.
+2020-10-25 22:30:05,257 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Education/index.html.
+2020-10-25 22:30:05,257 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Education/index.html.
+2020-10-25 22:30:05,257 : INFO : iGEM_URL : /Education was changed to https://2020.igem.org/Team:MIT_MAHE/Education in Education/index.html.
+2020-10-25 22:30:05,257 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Education/index.html.
+2020-10-25 22:30:05,257 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Education/index.html.
+2020-10-25 22:30:05,258 : WARNING : iGEM_URL : dist/Education/Link-goes-in-parenthesis/index.html is referenced in dist/Education/index.html but was not found.
+2020-10-25 22:30:05,258 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:MIT_MAHE/Education/Link-goes-in-parenthesis in Education/index.html.
+2020-10-25 22:30:05,258 : WARNING : iGEM_URL : dist/Education/google.com is referenced in dist/Education/index.html but was not found.
+2020-10-25 22:30:05,258 : WARNING : iGEM_URL : google.com is referenced in Education/index.html but was not found.
+2020-10-25 22:30:05,267 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--img--Description--josh-withers.jpg in Education/index.html.
+2020-10-25 22:30:05,783 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Education&action=edit.
+2020-10-25 22:30:05,804 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Engineering/index.html.
+2020-10-25 22:30:05,805 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Engineering/index.html.
+2020-10-25 22:30:05,806 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Engineering/index.html.
+2020-10-25 22:30:05,806 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Engineering/index.html.
+2020-10-25 22:30:05,806 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Engineering/index.html.
+2020-10-25 22:30:05,806 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Engineering/index.html.
+2020-10-25 22:30:05,806 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Engineering/index.html.
+2020-10-25 22:30:05,807 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in Engineering/index.html.
+2020-10-25 22:30:05,807 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Engineering/index.html.
+2020-10-25 22:30:05,807 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Engineering/index.html.
+2020-10-25 22:30:05,807 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Engineering/index.html.
+2020-10-25 22:30:05,807 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Engineering/index.html.
+2020-10-25 22:30:05,807 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Engineering/index.html.
+2020-10-25 22:30:05,808 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Engineering/index.html.
+2020-10-25 22:30:05,808 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Engineering/index.html.
+2020-10-25 22:30:05,808 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Engineering/index.html.
+2020-10-25 22:30:05,808 : INFO : iGEM_URL : /Education was changed to https://2020.igem.org/Team:MIT_MAHE/Education in Engineering/index.html.
+2020-10-25 22:30:05,808 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Engineering/index.html.
+2020-10-25 22:30:05,808 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Engineering/index.html.
+2020-10-25 22:30:05,813 : INFO : iGEM_URL : ../assets/img/Engineering--flow.png was changed to https://2020.igem.org/wiki/images/7/70/T--MIT_MAHE--img--Engineering--flow.png in Engineering/index.html.
+2020-10-25 22:30:06,324 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Engineering&action=edit.
+2020-10-25 22:30:06,340 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Collaborations/index.html.
+2020-10-25 22:30:06,340 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Collaborations/index.html.
+2020-10-25 22:30:06,341 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Collaborations/index.html.
+2020-10-25 22:30:06,341 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Collaborations/index.html.
+2020-10-25 22:30:06,342 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Collaborations/index.html.
+2020-10-25 22:30:06,342 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Collaborations/index.html.
+2020-10-25 22:30:06,342 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Collaborations/index.html.
+2020-10-25 22:30:06,342 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in Collaborations/index.html.
+2020-10-25 22:30:06,342 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Collaborations/index.html.
+2020-10-25 22:30:06,342 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Collaborations/index.html.
+2020-10-25 22:30:06,343 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Collaborations/index.html.
+2020-10-25 22:30:06,343 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Collaborations/index.html.
+2020-10-25 22:30:06,343 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Collaborations/index.html.
+2020-10-25 22:30:06,343 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Collaborations/index.html.
+2020-10-25 22:30:06,343 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Collaborations/index.html.
+2020-10-25 22:30:06,343 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Collaborations/index.html.
+2020-10-25 22:30:06,344 : INFO : iGEM_URL : /Education was changed to https://2020.igem.org/Team:MIT_MAHE/Education in Collaborations/index.html.
+2020-10-25 22:30:06,344 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Collaborations/index.html.
+2020-10-25 22:30:06,344 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Collaborations/index.html.
+2020-10-25 22:30:06,349 : INFO : iGEM_URL : ../assets/img/Collaborations--AIIM.png was changed to https://2020.igem.org/wiki/images/5/5f/T--MIT_MAHE--img--Collaborations--AIIM.png in Collaborations/index.html.
+2020-10-25 22:30:06,350 : INFO : iGEM_URL : ../assets/img/Collaborations--teams.png was changed to https://2020.igem.org/wiki/images/d/d7/T--MIT_MAHE--img--Collaborations--teams.png in Collaborations/index.html.
+2020-10-25 22:30:06,350 : INFO : iGEM_URL : ../assets/img/Collaborations--biosummit.png was changed to https://2020.igem.org/wiki/images/7/75/T--MIT_MAHE--img--Collaborations--biosummit.png in Collaborations/index.html.
+2020-10-25 22:30:06,350 : INFO : iGEM_URL : ../assets/img/Collaborations--msp.png was changed to https://2020.igem.org/wiki/images/8/8a/T--MIT_MAHE--img--Collaborations--msp.png in Collaborations/index.html.
+2020-10-25 22:30:06,350 : INFO : iGEM_URL : ../assets/img/Collaborations--rsm.jpeg was changed to https://2020.igem.org/wiki/images/e/e1/T--MIT_MAHE--img--Collaborations--rsm.jpeg in Collaborations/index.html.
+2020-10-25 22:30:06,350 : INFO : iGEM_URL : ../assets/img/Collaborations--tedx.png was changed to https://2020.igem.org/wiki/images/9/9a/T--MIT_MAHE--img--Collaborations--tedx.png in Collaborations/index.html.
+2020-10-25 22:30:06,351 : INFO : iGEM_URL : ../assets/img/Collaborations--wiki.png was changed to https://2020.igem.org/wiki/images/e/ed/T--MIT_MAHE--img--Collaborations--wiki.png in Collaborations/index.html.
+2020-10-25 22:30:06,878 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Collaborations&action=edit.
+2020-10-25 22:30:06,901 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Attributions/index.html.
+2020-10-25 22:30:06,902 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Attributions/index.html.
+2020-10-25 22:30:06,903 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Attributions/index.html.
+2020-10-25 22:30:06,904 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Attributions/index.html.
+2020-10-25 22:30:06,904 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Attributions/index.html.
+2020-10-25 22:30:06,904 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Attributions/index.html.
+2020-10-25 22:30:06,904 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Attributions/index.html.
+2020-10-25 22:30:06,904 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in Attributions/index.html.
+2020-10-25 22:30:06,904 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Attributions/index.html.
+2020-10-25 22:30:06,905 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Attributions/index.html.
+2020-10-25 22:30:06,905 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Attributions/index.html.
+2020-10-25 22:30:06,905 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Attributions/index.html.
+2020-10-25 22:30:06,905 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Attributions/index.html.
+2020-10-25 22:30:06,905 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Attributions/index.html.
+2020-10-25 22:30:06,905 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Attributions/index.html.
+2020-10-25 22:30:06,906 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Attributions/index.html.
+2020-10-25 22:30:06,906 : INFO : iGEM_URL : /Education was changed to https://2020.igem.org/Team:MIT_MAHE/Education in Attributions/index.html.
+2020-10-25 22:30:06,906 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Attributions/index.html.
+2020-10-25 22:30:06,906 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Attributions/index.html.
+2020-10-25 22:30:06,906 : WARNING : iGEM_URL : dist/Attributions/Link-goes-in-parenthesis/index.html is referenced in dist/Attributions/index.html but was not found.
+2020-10-25 22:30:06,907 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions/Link-goes-in-parenthesis in Attributions/index.html.
+2020-10-25 22:30:06,907 : WARNING : iGEM_URL : dist/Attributions/google.com is referenced in dist/Attributions/index.html but was not found.
+2020-10-25 22:30:06,907 : WARNING : iGEM_URL : google.com is referenced in Attributions/index.html but was not found.
+2020-10-25 22:30:06,916 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--img--Description--josh-withers.jpg in Attributions/index.html.
+2020-10-25 22:30:07,413 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Attributions&action=edit.
+2020-10-25 22:30:07,436 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Special_Prizes/index.html.
+2020-10-25 22:30:07,437 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Special_Prizes/index.html.
+2020-10-25 22:30:07,438 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Special_Prizes/index.html.
+2020-10-25 22:30:07,439 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Special_Prizes/index.html.
+2020-10-25 22:30:07,439 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Special_Prizes/index.html.
+2020-10-25 22:30:07,439 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Special_Prizes/index.html.
+2020-10-25 22:30:07,439 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Special_Prizes/index.html.
+2020-10-25 22:30:07,439 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in Special_Prizes/index.html.
+2020-10-25 22:30:07,439 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Special_Prizes/index.html.
+2020-10-25 22:30:07,440 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Special_Prizes/index.html.
+2020-10-25 22:30:07,440 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Special_Prizes/index.html.
+2020-10-25 22:30:07,440 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Special_Prizes/index.html.
+2020-10-25 22:30:07,440 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Special_Prizes/index.html.
+2020-10-25 22:30:07,440 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Special_Prizes/index.html.
+2020-10-25 22:30:07,440 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Special_Prizes/index.html.
+2020-10-25 22:30:07,440 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Special_Prizes/index.html.
+2020-10-25 22:30:07,441 : INFO : iGEM_URL : /Education was changed to https://2020.igem.org/Team:MIT_MAHE/Education in Special_Prizes/index.html.
+2020-10-25 22:30:07,441 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Special_Prizes/index.html.
+2020-10-25 22:30:07,441 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Special_Prizes/index.html.
+2020-10-25 22:30:07,441 : WARNING : iGEM_URL : dist/Special_Prizes/Link-goes-in-parenthesis/index.html is referenced in dist/Special_Prizes/index.html but was not found.
+2020-10-25 22:30:07,442 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes/Link-goes-in-parenthesis in Special_Prizes/index.html.
+2020-10-25 22:30:07,442 : WARNING : iGEM_URL : dist/Special_Prizes/google.com is referenced in dist/Special_Prizes/index.html but was not found.
+2020-10-25 22:30:07,442 : WARNING : iGEM_URL : google.com is referenced in Special_Prizes/index.html but was not found.
+2020-10-25 22:30:07,451 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--img--Description--josh-withers.jpg in Special_Prizes/index.html.
+2020-10-25 22:30:08,010 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Special_Prizes&action=edit.
+2020-10-25 22:30:08,061 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Implementation/index.html.
+2020-10-25 22:30:08,062 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Implementation/index.html.
+2020-10-25 22:30:08,064 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Implementation/index.html.
+2020-10-25 22:30:08,065 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Implementation/index.html.
+2020-10-25 22:30:08,065 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Implementation/index.html.
+2020-10-25 22:30:08,065 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Implementation/index.html.
+2020-10-25 22:30:08,065 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Implementation/index.html.
+2020-10-25 22:30:08,065 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in Implementation/index.html.
+2020-10-25 22:30:08,065 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Implementation/index.html.
+2020-10-25 22:30:08,066 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Implementation/index.html.
+2020-10-25 22:30:08,066 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Implementation/index.html.
+2020-10-25 22:30:08,066 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Implementation/index.html.
+2020-10-25 22:30:08,066 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Implementation/index.html.
+2020-10-25 22:30:08,066 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Implementation/index.html.
+2020-10-25 22:30:08,066 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Implementation/index.html.
+2020-10-25 22:30:08,067 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Implementation/index.html.
+2020-10-25 22:30:08,067 : INFO : iGEM_URL : /Education was changed to https://2020.igem.org/Team:MIT_MAHE/Education in Implementation/index.html.
+2020-10-25 22:30:08,067 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Implementation/index.html.
+2020-10-25 22:30:08,067 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Implementation/index.html.
+2020-10-25 22:30:08,067 : INFO : iGEM_URL : ../assets/docs/iGEM-MIT_MAHE-Product-Development-Handbook.pdf was changed to https://2020.igem.org/wiki/images/f/fa/T--MIT_MAHE--docs--iGEM-MIT_MAHE-Product-Development-Handbook.pdf in Implementation/index.html.
+2020-10-25 22:30:08,084 : INFO : iGEM_URL : ../assets/img/Implementation--tank.png was changed to https://2020.igem.org/wiki/images/f/f1/T--MIT_MAHE--img--Implementation--tank.png in Implementation/index.html.
+2020-10-25 22:30:08,084 : INFO : iGEM_URL : ../assets/img/Implementation--assembly.png was changed to https://2020.igem.org/wiki/images/c/ca/T--MIT_MAHE--img--Implementation--assembly.png in Implementation/index.html.
+2020-10-25 22:30:08,084 : INFO : iGEM_URL : ../assets/img/Implementation--baffles.png was changed to https://2020.igem.org/wiki/images/2/27/T--MIT_MAHE--img--Implementation--baffles.png in Implementation/index.html.
+2020-10-25 22:30:08,084 : INFO : iGEM_URL : ../assets/img/Implementation--impeller.png was changed to https://2020.igem.org/wiki/images/5/54/T--MIT_MAHE--img--Implementation--impeller.png in Implementation/index.html.
+2020-10-25 22:30:08,084 : INFO : iGEM_URL : ../assets/img/Implementation--powder.png was changed to https://2020.igem.org/wiki/images/2/21/T--MIT_MAHE--img--Implementation--powder.png in Implementation/index.html.
+2020-10-25 22:30:08,085 : INFO : iGEM_URL : ../assets/img/Implementation--emptycap.jpg was changed to https://2020.igem.org/wiki/images/6/63/T--MIT_MAHE--img--Implementation--emptycap.jpg in Implementation/index.html.
+2020-10-25 22:30:08,085 : INFO : iGEM_URL : ../assets/img/Implementation--auto.png was changed to https://2020.igem.org/wiki/images/0/04/T--MIT_MAHE--img--Implementation--auto.png in Implementation/index.html.
+2020-10-25 22:30:08,085 : INFO : iGEM_URL : ../assets/img/Safety--packaging.png was changed to https://2020.igem.org/wiki/images/d/da/T--MIT_MAHE--img--Safety--packaging.png in Implementation/index.html.
+2020-10-25 22:30:08,085 : INFO : iGEM_URL : ../assets/img/Implementation--lidding.png was changed to https://2020.igem.org/wiki/images/7/71/T--MIT_MAHE--img--Implementation--lidding.png in Implementation/index.html.
+2020-10-25 22:30:08,085 : INFO : iGEM_URL : ../assets/img/Implementation--pack.png was changed to https://2020.igem.org/wiki/images/8/80/T--MIT_MAHE--img--Implementation--pack.png in Implementation/index.html.
+2020-10-25 22:30:08,086 : INFO : iGEM_URL : ../assets/img/Implementation--full.png was changed to https://2020.igem.org/wiki/images/f/f2/T--MIT_MAHE--img--Implementation--full.png in Implementation/index.html.
+2020-10-25 22:30:08,101 : INFO : iGEM_URL : ../assets/docs/iGEM-MIT_MAHE-Product-Development-Handbook.pdf was changed to https://2020.igem.org/wiki/images/f/fa/T--MIT_MAHE--docs--iGEM-MIT_MAHE-Product-Development-Handbook.pdf in Implementation/index.html.
+2020-10-25 22:30:09,734 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Implementation&action=edit.
+2020-10-25 22:30:09,765 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Hardware/index.html.
+2020-10-25 22:30:09,767 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Hardware/index.html.
+2020-10-25 22:30:09,768 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Hardware/index.html.
+2020-10-25 22:30:09,768 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Hardware/index.html.
+2020-10-25 22:30:09,768 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Hardware/index.html.
+2020-10-25 22:30:09,769 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Hardware/index.html.
+2020-10-25 22:30:09,769 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Hardware/index.html.
+2020-10-25 22:30:09,769 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in Hardware/index.html.
+2020-10-25 22:30:09,769 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Hardware/index.html.
+2020-10-25 22:30:09,769 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Hardware/index.html.
+2020-10-25 22:30:09,769 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Hardware/index.html.
+2020-10-25 22:30:09,770 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Hardware/index.html.
+2020-10-25 22:30:09,770 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Hardware/index.html.
+2020-10-25 22:30:09,770 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Hardware/index.html.
+2020-10-25 22:30:09,770 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Hardware/index.html.
+2020-10-25 22:30:09,770 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Hardware/index.html.
+2020-10-25 22:30:09,770 : INFO : iGEM_URL : /Education was changed to https://2020.igem.org/Team:MIT_MAHE/Education in Hardware/index.html.
+2020-10-25 22:30:09,771 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Hardware/index.html.
+2020-10-25 22:30:09,771 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Hardware/index.html.
+2020-10-25 22:30:09,771 : INFO : iGEM_URL : ../assets/docs/iGEM-MIT_MAHE-SAUL-Handbook.pdf was changed to https://2020.igem.org/wiki/images/5/58/T--MIT_MAHE--docs--iGEM-MIT_MAHE-SAUL-Handbook.pdf in Hardware/index.html.
+2020-10-25 22:30:09,783 : INFO : iGEM_URL : ../assets/img/Hardware--bioreactor--horizontal.jpg was changed to https://2020.igem.org/wiki/images/7/79/T--MIT_MAHE--img--Hardware--bioreactor--horizontal.jpg in Hardware/index.html.
+2020-10-25 22:30:09,783 : INFO : iGEM_URL : ../assets/img/Hardware--bioreactor--vertical.jpg was changed to https://2020.igem.org/wiki/images/5/5b/T--MIT_MAHE--img--Hardware--bioreactor--vertical.jpg in Hardware/index.html.
+2020-10-25 22:30:09,783 : INFO : iGEM_URL : ../assets/img/Hardware--bioreactor--model.png was changed to https://2020.igem.org/wiki/images/a/a4/T--MIT_MAHE--img--Hardware--bioreactor--model.png in Hardware/index.html.
+2020-10-25 22:30:09,783 : INFO : iGEM_URL : ../assets/img/Hardware--bioreactor--assembly.png was changed to https://2020.igem.org/wiki/images/9/97/T--MIT_MAHE--img--Hardware--bioreactor--assembly.png in Hardware/index.html.
+2020-10-25 22:30:09,784 : INFO : iGEM_URL : ../assets/img/Hardware--mesh.png was changed to https://2020.igem.org/wiki/images/6/6a/T--MIT_MAHE--img--Hardware--mesh.png in Hardware/index.html.
+2020-10-25 22:30:09,784 : INFO : iGEM_URL : ../assets/img/Hardware--support.png was changed to https://2020.igem.org/wiki/images/f/fb/T--MIT_MAHE--img--Hardware--support.png in Hardware/index.html.
+2020-10-25 22:30:09,784 : INFO : iGEM_URL : ../assets/img/Hardware--force.png was changed to https://2020.igem.org/wiki/images/e/e8/T--MIT_MAHE--img--Hardware--force.png in Hardware/index.html.
+2020-10-25 22:30:09,784 : INFO : iGEM_URL : ../assets/img/Hardware--result.png was changed to https://2020.igem.org/wiki/images/9/92/T--MIT_MAHE--img--Hardware--result.png in Hardware/index.html.
+2020-10-25 22:30:09,795 : INFO : iGEM_URL : ../assets/docs/iGEM-MIT_MAHE-SAUL-Handbook.pdf was changed to https://2020.igem.org/wiki/images/5/58/T--MIT_MAHE--docs--iGEM-MIT_MAHE-SAUL-Handbook.pdf in Hardware/index.html.
+2020-10-25 22:30:10,379 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Hardware&action=edit.
+2020-10-25 22:30:10,414 : INFO : iGEM_URL : ../css/team.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/teamCSS?action=raw&ctype=text/css in Team/index.html.
+2020-10-25 22:30:10,415 : INFO : iGEM_URL : ../team.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/team-bundleJS?action=raw&ctype=text/javascript in Team/index.html.
+2020-10-25 22:30:10,416 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Team/index.html.
+2020-10-25 22:30:10,417 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Team/index.html.
+2020-10-25 22:30:10,417 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Team/index.html.
+2020-10-25 22:30:10,417 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Team/index.html.
+2020-10-25 22:30:10,417 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Team/index.html.
+2020-10-25 22:30:10,417 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in Team/index.html.
+2020-10-25 22:30:10,417 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Team/index.html.
+2020-10-25 22:30:10,418 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Team/index.html.
+2020-10-25 22:30:10,418 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Team/index.html.
+2020-10-25 22:30:10,418 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Team/index.html.
+2020-10-25 22:30:10,418 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Team/index.html.
+2020-10-25 22:30:10,418 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Team/index.html.
+2020-10-25 22:30:10,418 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Team/index.html.
+2020-10-25 22:30:10,419 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Team/index.html.
+2020-10-25 22:30:10,419 : INFO : iGEM_URL : /Education was changed to https://2020.igem.org/Team:MIT_MAHE/Education in Team/index.html.
+2020-10-25 22:30:10,419 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Team/index.html.
+2020-10-25 22:30:10,419 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Team/index.html.
+2020-10-25 22:30:10,430 : INFO : iGEM_URL : ../assets/img/Team--Ritu.png was changed to https://2020.igem.org/wiki/images/c/cb/T--MIT_MAHE--img--Team--Ritu.png in Team/index.html.
+2020-10-25 22:30:10,430 : INFO : iGEM_URL : ../assets/img/Team--Praveen.png was changed to https://2020.igem.org/wiki/images/b/b9/T--MIT_MAHE--img--Team--Praveen.png in Team/index.html.
+2020-10-25 22:30:10,430 : INFO : iGEM_URL : ../assets/img/Team--Ugne.png was changed to https://2020.igem.org/wiki/images/1/14/T--MIT_MAHE--img--Team--Ugne.png in Team/index.html.
+2020-10-25 22:30:10,431 : INFO : iGEM_URL : ../assets/img/Team--Aayush.png was changed to https://2020.igem.org/wiki/images/f/fe/T--MIT_MAHE--img--Team--Aayush.png in Team/index.html.
+2020-10-25 22:30:10,431 : INFO : iGEM_URL : ../assets/img/Team--Adithi.png was changed to https://2020.igem.org/wiki/images/b/bd/T--MIT_MAHE--img--Team--Adithi.png in Team/index.html.
+2020-10-25 22:30:10,431 : INFO : iGEM_URL : ../assets/img/Team--Aniket.png was changed to https://2020.igem.org/wiki/images/f/fd/T--MIT_MAHE--img--Team--Aniket.png in Team/index.html.
+2020-10-25 22:30:10,431 : INFO : iGEM_URL : ../assets/img/Team--Ankur.png was changed to https://2020.igem.org/wiki/images/d/d3/T--MIT_MAHE--img--Team--Ankur.png in Team/index.html.
+2020-10-25 22:30:10,431 : INFO : iGEM_URL : ../assets/img/Team--Anushka.png was changed to https://2020.igem.org/wiki/images/9/92/T--MIT_MAHE--img--Team--Anushka.png in Team/index.html.
+2020-10-25 22:30:10,432 : INFO : iGEM_URL : ../assets/img/Team--Apoorva.png was changed to https://2020.igem.org/wiki/images/5/52/T--MIT_MAHE--img--Team--Apoorva.png in Team/index.html.
+2020-10-25 22:30:10,432 : INFO : iGEM_URL : ../assets/img/Team--Bhumika.png was changed to https://2020.igem.org/wiki/images/8/8c/T--MIT_MAHE--img--Team--Bhumika.png in Team/index.html.
+2020-10-25 22:30:10,432 : INFO : iGEM_URL : ../assets/img/Team--Lavanya.png was changed to https://2020.igem.org/wiki/images/c/cf/T--MIT_MAHE--img--Team--Lavanya.png in Team/index.html.
+2020-10-25 22:30:10,432 : INFO : iGEM_URL : ../assets/img/Team--Naman.png was changed to https://2020.igem.org/wiki/images/1/1f/T--MIT_MAHE--img--Team--Naman.png in Team/index.html.
+2020-10-25 22:30:10,432 : INFO : iGEM_URL : ../assets/img/Team--Niyati.png was changed to https://2020.igem.org/wiki/images/2/22/T--MIT_MAHE--img--Team--Niyati.png in Team/index.html.
+2020-10-25 22:30:10,433 : INFO : iGEM_URL : ../assets/img/Team--Pavithra.png was changed to https://2020.igem.org/wiki/images/f/f4/T--MIT_MAHE--img--Team--Pavithra.png in Team/index.html.
+2020-10-25 22:30:10,433 : INFO : iGEM_URL : ../assets/img/Team--Pradyumna.png was changed to https://2020.igem.org/wiki/images/9/94/T--MIT_MAHE--img--Team--Pradyumna.png in Team/index.html.
+2020-10-25 22:30:10,433 : INFO : iGEM_URL : ../assets/img/Team--Raksha.png was changed to https://2020.igem.org/wiki/images/2/29/T--MIT_MAHE--img--Team--Raksha.png in Team/index.html.
+2020-10-25 22:30:10,433 : INFO : iGEM_URL : ../assets/img/Team--Sanya.png was changed to https://2020.igem.org/wiki/images/3/36/T--MIT_MAHE--img--Team--Sanya.png in Team/index.html.
+2020-10-25 22:30:10,433 : INFO : iGEM_URL : ../assets/img/Team--Shameshwar.png was changed to https://2020.igem.org/wiki/images/0/03/T--MIT_MAHE--img--Team--Shameshwar.png in Team/index.html.
+2020-10-25 22:30:10,433 : INFO : iGEM_URL : ../assets/img/Team--Shravan.png was changed to https://2020.igem.org/wiki/images/a/a3/T--MIT_MAHE--img--Team--Shravan.png in Team/index.html.
+2020-10-25 22:30:10,434 : INFO : iGEM_URL : ../assets/img/Team--Soumodeep.png was changed to https://2020.igem.org/wiki/images/e/ef/T--MIT_MAHE--img--Team--Soumodeep.png in Team/index.html.
+2020-10-25 22:30:10,434 : INFO : iGEM_URL : ../assets/img/Team--Urvi.png was changed to https://2020.igem.org/wiki/images/d/dc/T--MIT_MAHE--img--Team--Urvi.png in Team/index.html.
+2020-10-25 22:30:10,434 : INFO : iGEM_URL : ../assets/img/Team--Utkarsh.png was changed to https://2020.igem.org/wiki/images/0/02/T--MIT_MAHE--img--Team--Utkarsh.png in Team/index.html.
+2020-10-25 22:30:10,434 : INFO : iGEM_URL : ../assets/img/Team--Vaishnavi.png was changed to https://2020.igem.org/wiki/images/f/f8/T--MIT_MAHE--img--Team--Vaishnavi.png in Team/index.html.
+2020-10-25 22:30:10,434 : INFO : iGEM_URL : ../assets/img/Team--Varun.png was changed to https://2020.igem.org/wiki/images/4/44/T--MIT_MAHE--img--Team--Varun.png in Team/index.html.
+2020-10-25 22:30:10,992 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Team&action=edit.
+2020-10-25 22:30:11,016 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Parts/index.html.
+2020-10-25 22:30:11,017 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Parts/index.html.
+2020-10-25 22:30:11,019 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Parts/index.html.
+2020-10-25 22:30:11,019 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Parts/index.html.
+2020-10-25 22:30:11,019 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Parts/index.html.
+2020-10-25 22:30:11,021 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Parts/index.html.
+2020-10-25 22:30:11,021 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Parts/index.html.
+2020-10-25 22:30:11,022 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in Parts/index.html.
+2020-10-25 22:30:11,022 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Parts/index.html.
+2020-10-25 22:30:11,022 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Parts/index.html.
+2020-10-25 22:30:11,022 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Parts/index.html.
+2020-10-25 22:30:11,022 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Parts/index.html.
+2020-10-25 22:30:11,022 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Parts/index.html.
+2020-10-25 22:30:11,023 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Parts/index.html.
+2020-10-25 22:30:11,023 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Parts/index.html.
+2020-10-25 22:30:11,023 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Parts/index.html.
+2020-10-25 22:30:11,023 : INFO : iGEM_URL : /Education was changed to https://2020.igem.org/Team:MIT_MAHE/Education in Parts/index.html.
+2020-10-25 22:30:11,023 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Parts/index.html.
+2020-10-25 22:30:11,023 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Parts/index.html.
+2020-10-25 22:30:11,610 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Parts&action=edit.
+2020-10-25 22:30:11,634 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Human_Practices/index.html.
+2020-10-25 22:30:11,635 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Human_Practices/index.html.
+2020-10-25 22:30:11,636 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Human_Practices/index.html.
+2020-10-25 22:30:11,636 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Human_Practices/index.html.
+2020-10-25 22:30:11,636 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Human_Practices/index.html.
+2020-10-25 22:30:11,637 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Human_Practices/index.html.
+2020-10-25 22:30:11,637 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Human_Practices/index.html.
+2020-10-25 22:30:11,637 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in Human_Practices/index.html.
+2020-10-25 22:30:11,637 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Human_Practices/index.html.
+2020-10-25 22:30:11,637 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Human_Practices/index.html.
+2020-10-25 22:30:11,637 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Human_Practices/index.html.
+2020-10-25 22:30:11,638 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Human_Practices/index.html.
+2020-10-25 22:30:11,638 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Human_Practices/index.html.
+2020-10-25 22:30:11,638 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Human_Practices/index.html.
+2020-10-25 22:30:11,638 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Human_Practices/index.html.
+2020-10-25 22:30:11,638 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Human_Practices/index.html.
+2020-10-25 22:30:11,638 : INFO : iGEM_URL : /Education was changed to https://2020.igem.org/Team:MIT_MAHE/Education in Human_Practices/index.html.
+2020-10-25 22:30:11,639 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Human_Practices/index.html.
+2020-10-25 22:30:11,639 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Human_Practices/index.html.
+2020-10-25 22:30:11,639 : WARNING : iGEM_URL : dist/Human_Practices/Link-goes-in-parenthesis/index.html is referenced in dist/Human_Practices/index.html but was not found.
+2020-10-25 22:30:11,639 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices/Link-goes-in-parenthesis in Human_Practices/index.html.
+2020-10-25 22:30:11,640 : WARNING : iGEM_URL : dist/Human_Practices/google.com is referenced in dist/Human_Practices/index.html but was not found.
+2020-10-25 22:30:11,640 : WARNING : iGEM_URL : google.com is referenced in Human_Practices/index.html but was not found.
+2020-10-25 22:30:11,649 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--img--Description--josh-withers.jpg in Human_Practices/index.html.
+2020-10-25 22:30:12,180 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Human_Practices&action=edit.
+2020-10-25 22:30:12,206 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Model/index.html.
+2020-10-25 22:30:12,207 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Model/index.html.
+2020-10-25 22:30:12,208 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Model/index.html.
+2020-10-25 22:30:12,209 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Model/index.html.
+2020-10-25 22:30:12,209 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Model/index.html.
+2020-10-25 22:30:12,209 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Model/index.html.
+2020-10-25 22:30:12,209 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Model/index.html.
+2020-10-25 22:30:12,209 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in Model/index.html.
+2020-10-25 22:30:12,210 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Model/index.html.
+2020-10-25 22:30:12,210 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Model/index.html.
+2020-10-25 22:30:12,210 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Model/index.html.
+2020-10-25 22:30:12,210 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Model/index.html.
+2020-10-25 22:30:12,210 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Model/index.html.
+2020-10-25 22:30:12,210 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Model/index.html.
+2020-10-25 22:30:12,211 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Model/index.html.
+2020-10-25 22:30:12,211 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Model/index.html.
+2020-10-25 22:30:12,211 : INFO : iGEM_URL : /Education was changed to https://2020.igem.org/Team:MIT_MAHE/Education in Model/index.html.
+2020-10-25 22:30:12,211 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Model/index.html.
+2020-10-25 22:30:12,211 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Model/index.html.
+2020-10-25 22:30:12,211 : WARNING : iGEM_URL : dist/Model/Link-goes-in-parenthesis/index.html is referenced in dist/Model/index.html but was not found.
+2020-10-25 22:30:12,212 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:MIT_MAHE/Model/Link-goes-in-parenthesis in Model/index.html.
+2020-10-25 22:30:12,212 : WARNING : iGEM_URL : dist/Model/google.com is referenced in dist/Model/index.html but was not found.
+2020-10-25 22:30:12,212 : WARNING : iGEM_URL : google.com is referenced in Model/index.html but was not found.
+2020-10-25 22:30:12,221 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--img--Description--josh-withers.jpg in Model/index.html.
+2020-10-25 22:30:12,231 : INFO : iGEM_URL : ../assets/vid/Home--bgvideo.mp4 was changed to https://2020.igem.org/wiki/images/d/d0/T--MIT_MAHE--vid--Home--bgvideo.mp4 in Model/index.html.
+2020-10-25 22:30:12,779 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Model&action=edit.
+2020-10-25 22:30:12,802 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Medals/index.html.
+2020-10-25 22:30:12,803 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Medals/index.html.
+2020-10-25 22:30:12,805 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Medals/index.html.
+2020-10-25 22:30:12,805 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Medals/index.html.
+2020-10-25 22:30:12,805 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Medals/index.html.
+2020-10-25 22:30:12,805 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Medals/index.html.
+2020-10-25 22:30:12,805 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Medals/index.html.
+2020-10-25 22:30:12,806 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in Medals/index.html.
+2020-10-25 22:30:12,806 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Medals/index.html.
+2020-10-25 22:30:12,806 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Medals/index.html.
+2020-10-25 22:30:12,806 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Medals/index.html.
+2020-10-25 22:30:12,806 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Medals/index.html.
+2020-10-25 22:30:12,806 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Medals/index.html.
+2020-10-25 22:30:12,807 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Medals/index.html.
+2020-10-25 22:30:12,807 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Medals/index.html.
+2020-10-25 22:30:12,807 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Medals/index.html.
+2020-10-25 22:30:12,807 : INFO : iGEM_URL : /Education was changed to https://2020.igem.org/Team:MIT_MAHE/Education in Medals/index.html.
+2020-10-25 22:30:12,807 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Medals/index.html.
+2020-10-25 22:30:12,807 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Medals/index.html.
+2020-10-25 22:30:12,808 : WARNING : iGEM_URL : dist/Medals/Link-goes-in-parenthesis/index.html is referenced in dist/Medals/index.html but was not found.
+2020-10-25 22:30:12,808 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2020.igem.org/Team:MIT_MAHE/Medals/Link-goes-in-parenthesis in Medals/index.html.
+2020-10-25 22:30:12,808 : WARNING : iGEM_URL : dist/Medals/google.com is referenced in dist/Medals/index.html but was not found.
+2020-10-25 22:30:12,808 : WARNING : iGEM_URL : google.com is referenced in Medals/index.html but was not found.
+2020-10-25 22:30:12,817 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--img--Description--josh-withers.jpg in Medals/index.html.
+2020-10-25 22:30:13,351 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Medals&action=edit.
+2020-10-25 22:30:13,361 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Description/index.html.
+2020-10-25 22:30:13,362 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Description/index.html.
+2020-10-25 22:30:13,362 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Description/index.html.
+2020-10-25 22:30:13,362 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Description/index.html.
+2020-10-25 22:30:13,363 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Description/index.html.
+2020-10-25 22:30:13,363 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Description/index.html.
+2020-10-25 22:30:13,363 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Description/index.html.
+2020-10-25 22:30:13,363 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in Description/index.html.
+2020-10-25 22:30:13,363 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Description/index.html.
+2020-10-25 22:30:13,364 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Description/index.html.
+2020-10-25 22:30:13,364 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Description/index.html.
+2020-10-25 22:30:13,364 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Description/index.html.
+2020-10-25 22:30:13,364 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Description/index.html.
+2020-10-25 22:30:13,364 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Description/index.html.
+2020-10-25 22:30:13,364 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Description/index.html.
+2020-10-25 22:30:13,364 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Description/index.html.
+2020-10-25 22:30:13,365 : INFO : iGEM_URL : /Education was changed to https://2020.igem.org/Team:MIT_MAHE/Education in Description/index.html.
+2020-10-25 22:30:13,365 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Description/index.html.
+2020-10-25 22:30:13,365 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Description/index.html.
+2020-10-25 22:30:13,368 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--img--Description--josh-withers.jpg in Description/index.html.
+2020-10-25 22:30:13,894 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Description&action=edit.
+2020-10-25 22:30:13,933 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Experimentation/index.html.
+2020-10-25 22:30:13,934 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Experimentation/index.html.
+2020-10-25 22:30:13,936 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Experimentation/index.html.
+2020-10-25 22:30:13,936 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Experimentation/index.html.
+2020-10-25 22:30:13,936 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Experimentation/index.html.
+2020-10-25 22:30:13,936 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Experimentation/index.html.
+2020-10-25 22:30:13,937 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Experimentation/index.html.
+2020-10-25 22:30:13,937 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in Experimentation/index.html.
+2020-10-25 22:30:13,937 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Experimentation/index.html.
+2020-10-25 22:30:13,937 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Experimentation/index.html.
+2020-10-25 22:30:13,937 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Experimentation/index.html.
+2020-10-25 22:30:13,937 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Experimentation/index.html.
+2020-10-25 22:30:13,938 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Experimentation/index.html.
+2020-10-25 22:30:13,938 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Experimentation/index.html.
+2020-10-25 22:30:13,938 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Experimentation/index.html.
+2020-10-25 22:30:13,938 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Experimentation/index.html.
+2020-10-25 22:30:13,939 : INFO : iGEM_URL : /Education was changed to https://2020.igem.org/Team:MIT_MAHE/Education in Experimentation/index.html.
+2020-10-25 22:30:13,939 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Experimentation/index.html.
+2020-10-25 22:30:13,939 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Experimentation/index.html.
+2020-10-25 22:30:13,939 : INFO : iGEM_URL : ../assets/docs/iGEM-MIT_MAHE-Composite-Bio-Brick-1.pdf was changed to https://2020.igem.org/wiki/images/a/a9/T--MIT_MAHE--docs--iGEM-MIT_MAHE-Composite-Bio-Brick-1.pdf in Experimentation/index.html.
+2020-10-25 22:30:13,939 : INFO : iGEM_URL : ../assets/docs/iGEM-MIT_MAHE-Composite-Bio-Brick-2.pdf was changed to https://2020.igem.org/wiki/images/4/48/T--MIT_MAHE--docs--iGEM-MIT_MAHE-Composite-Bio-Brick-2.pdf in Experimentation/index.html.
+2020-10-25 22:30:13,939 : INFO : iGEM_URL : ../assets/docs/iGEM-MIT_MAHE-Product-Development-Experiments-Handbook.pdf was changed to https://2020.igem.org/wiki/images/2/29/T--MIT_MAHE--docs--iGEM-MIT_MAHE-Product-Development-Experiments-Handbook.pdf in Experimentation/index.html.
+2020-10-25 22:30:13,953 : INFO : iGEM_URL : ../assets/img/Experimentation--strain.png was changed to https://2020.igem.org/wiki/images/6/61/T--MIT_MAHE--img--Experimentation--strain.png in Experimentation/index.html.
+2020-10-25 22:30:13,954 : INFO : iGEM_URL : ../assets/img/Experimentation--plasmid--1.png was changed to https://2020.igem.org/wiki/images/f/f9/T--MIT_MAHE--img--Experimentation--plasmid--1.png in Experimentation/index.html.
+2020-10-25 22:30:13,954 : INFO : iGEM_URL : ../assets/img/Experimentation--bb1.jpg was changed to https://2020.igem.org/wiki/images/3/30/T--MIT_MAHE--img--Experimentation--bb1.jpg in Experimentation/index.html.
+2020-10-25 22:30:13,954 : INFO : iGEM_URL : ../assets/img/Experimentation--mehgtransport.png was changed to https://2020.igem.org/wiki/images/d/df/T--MIT_MAHE--img--Experimentation--mehgtransport.png in Experimentation/index.html.
+2020-10-25 22:30:13,954 : INFO : iGEM_URL : ../assets/img/Experimentation--bb1.jpg was changed to https://2020.igem.org/wiki/images/3/30/T--MIT_MAHE--img--Experimentation--bb1.jpg in Experimentation/index.html.
+2020-10-25 22:30:13,954 : INFO : iGEM_URL : ../assets/img/Experimentation--plasmid--2.png was changed to https://2020.igem.org/wiki/images/b/bc/T--MIT_MAHE--img--Experimentation--plasmid--2.png in Experimentation/index.html.
+2020-10-25 22:30:13,955 : INFO : iGEM_URL : ../assets/img/Experimentation--bb2.jpg was changed to https://2020.igem.org/wiki/images/2/2b/T--MIT_MAHE--img--Experimentation--bb2.jpg in Experimentation/index.html.
+2020-10-25 22:30:13,955 : INFO : iGEM_URL : ../assets/img/Experimentation--hlyail10transport.png was changed to https://2020.igem.org/wiki/images/0/0e/T--MIT_MAHE--img--Experimentation--hlyail10transport.png in Experimentation/index.html.
+2020-10-25 22:30:13,955 : INFO : iGEM_URL : ../assets/img/Experimentation--age.png was changed to https://2020.igem.org/wiki/images/a/ab/T--MIT_MAHE--img--Experimentation--age.png in Experimentation/index.html.
+2020-10-25 22:30:13,967 : INFO : iGEM_URL : ../assets/docs/iGEM-MIT_MAHE-Composite-Bio-Brick-1.pdf was changed to https://2020.igem.org/wiki/images/a/a9/T--MIT_MAHE--docs--iGEM-MIT_MAHE-Composite-Bio-Brick-1.pdf in Experimentation/index.html.
+2020-10-25 22:30:13,968 : INFO : iGEM_URL : ../assets/docs/iGEM-MIT_MAHE-Composite-Bio-Brick-2.pdf was changed to https://2020.igem.org/wiki/images/4/48/T--MIT_MAHE--docs--iGEM-MIT_MAHE-Composite-Bio-Brick-2.pdf in Experimentation/index.html.
+2020-10-25 22:30:13,968 : INFO : iGEM_URL : ../assets/docs/iGEM-MIT_MAHE-Product-Development-Experiments-Handbook.pdf was changed to https://2020.igem.org/wiki/images/2/29/T--MIT_MAHE--docs--iGEM-MIT_MAHE-Product-Development-Experiments-Handbook.pdf in Experimentation/index.html.
+2020-10-25 22:30:14,552 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Experimentation&action=edit.
+2020-10-25 22:30:14,565 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Contribution/index.html.
+2020-10-25 22:30:14,566 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Contribution/index.html.
+2020-10-25 22:30:14,567 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Contribution/index.html.
+2020-10-25 22:30:14,567 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Contribution/index.html.
+2020-10-25 22:30:14,567 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Contribution/index.html.
+2020-10-25 22:30:14,567 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Contribution/index.html.
+2020-10-25 22:30:14,568 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Contribution/index.html.
+2020-10-25 22:30:14,568 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in Contribution/index.html.
+2020-10-25 22:30:14,568 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Contribution/index.html.
+2020-10-25 22:30:14,568 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Contribution/index.html.
+2020-10-25 22:30:14,568 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Contribution/index.html.
+2020-10-25 22:30:14,568 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Contribution/index.html.
+2020-10-25 22:30:14,569 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Contribution/index.html.
+2020-10-25 22:30:14,569 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Contribution/index.html.
+2020-10-25 22:30:14,569 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Contribution/index.html.
+2020-10-25 22:30:14,569 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Contribution/index.html.
+2020-10-25 22:30:14,569 : INFO : iGEM_URL : /Education was changed to https://2020.igem.org/Team:MIT_MAHE/Education in Contribution/index.html.
+2020-10-25 22:30:14,569 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Contribution/index.html.
+2020-10-25 22:30:14,570 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Contribution/index.html.
+2020-10-25 22:30:14,570 : WARNING : iGEM_URL : dist/Contribution/Hardware/index.html is referenced in dist/Contribution/index.html but was not found.
+2020-10-25 22:30:14,570 : INFO : iGEM_URL : Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution/Hardware in Contribution/index.html.
+2020-10-25 22:30:14,570 : WARNING : iGEM_URL : dist/Contribution/Experimentation#CompositeBio-Brick1/index.html is referenced in dist/Contribution/index.html but was not found.
+2020-10-25 22:30:14,570 : INFO : iGEM_URL : Experimentation#CompositeBio-Brick1 was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution/Experimentation#CompositeBio-Brick1 in Contribution/index.html.
+2020-10-25 22:30:14,571 : WARNING : iGEM_URL : dist/Contribution/Experimentation#CompositeBio-Brick2/index.html is referenced in dist/Contribution/index.html but was not found.
+2020-10-25 22:30:14,571 : INFO : iGEM_URL : Experimentation#CompositeBio-Brick2 was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution/Experimentation#CompositeBio-Brick2 in Contribution/index.html.
+2020-10-25 22:30:14,571 : WARNING : iGEM_URL : dist/Contribution/Experimentation#GrowthMedia/index.html is referenced in dist/Contribution/index.html but was not found.
+2020-10-25 22:30:14,571 : INFO : iGEM_URL : Experimentation#GrowthMedia was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution/Experimentation#GrowthMedia in Contribution/index.html.
+2020-10-25 22:30:14,571 : WARNING : iGEM_URL : dist/Contribution/Implementation#Handbook/index.html is referenced in dist/Contribution/index.html but was not found.
+2020-10-25 22:30:14,571 : INFO : iGEM_URL : Implementation#Handbook was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution/Implementation#Handbook in Contribution/index.html.
+2020-10-25 22:30:14,572 : WARNING : iGEM_URL : dist/Contribution/Hardware#Handbook/index.html is referenced in dist/Contribution/index.html but was not found.
+2020-10-25 22:30:14,572 : INFO : iGEM_URL : Hardware#Handbook was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution/Hardware#Handbook in Contribution/index.html.
+2020-10-25 22:30:14,572 : WARNING : iGEM_URL : dist/Contribution/Safety#Handbook/index.html is referenced in dist/Contribution/index.html but was not found.
+2020-10-25 22:30:14,572 : INFO : iGEM_URL : Safety#Handbook was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution/Safety#Handbook in Contribution/index.html.
+2020-10-25 22:30:15,106 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Contribution&action=edit.
+2020-10-25 22:30:15,149 : INFO : iGEM_URL : ../css/content.css was changed to https://2020.igem.org/Template:MIT_MAHE/css/contentCSS?action=raw&ctype=text/css in Safety/index.html.
+2020-10-25 22:30:15,151 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2020.igem.org/Template:MIT_MAHE/content-bundleJS?action=raw&ctype=text/javascript in Safety/index.html.
+2020-10-25 22:30:15,153 : INFO : iGEM_URL : /Team was changed to https://2020.igem.org/Team:MIT_MAHE/Team in Safety/index.html.
+2020-10-25 22:30:15,153 : INFO : iGEM_URL : /Attributions was changed to https://2020.igem.org/Team:MIT_MAHE/Attributions in Safety/index.html.
+2020-10-25 22:30:15,153 : INFO : iGEM_URL : /Collaborations was changed to https://2020.igem.org/Team:MIT_MAHE/Collaborations in Safety/index.html.
+2020-10-25 22:30:15,153 : INFO : iGEM_URL : /Contribution was changed to https://2020.igem.org/Team:MIT_MAHE/Contribution in Safety/index.html.
+2020-10-25 22:30:15,154 : INFO : iGEM_URL : /Description was changed to https://2020.igem.org/Team:MIT_MAHE/Description in Safety/index.html.
+2020-10-25 22:30:15,154 : INFO : iGEM_URL : /Design was changed to https://2020.igem.org/Team:MIT_MAHE/Design in Safety/index.html.
+2020-10-25 22:30:15,154 : INFO : iGEM_URL : /Engineering was changed to https://2020.igem.org/Team:MIT_MAHE/Engineering in Safety/index.html.
+2020-10-25 22:30:15,154 : INFO : iGEM_URL : /Experimentation was changed to https://2020.igem.org/Team:MIT_MAHE/Experimentation in Safety/index.html.
+2020-10-25 22:30:15,154 : INFO : iGEM_URL : /Hardware was changed to https://2020.igem.org/Team:MIT_MAHE/Hardware in Safety/index.html.
+2020-10-25 22:30:15,155 : INFO : iGEM_URL : /Model was changed to https://2020.igem.org/Team:MIT_MAHE/Model in Safety/index.html.
+2020-10-25 22:30:15,155 : INFO : iGEM_URL : /Parts was changed to https://2020.igem.org/Team:MIT_MAHE/Parts in Safety/index.html.
+2020-10-25 22:30:15,155 : INFO : iGEM_URL : /Safety was changed to https://2020.igem.org/Team:MIT_MAHE/Safety in Safety/index.html.
+2020-10-25 22:30:15,155 : INFO : iGEM_URL : /Implementation was changed to https://2020.igem.org/Team:MIT_MAHE/Implementation in Safety/index.html.
+2020-10-25 22:30:15,155 : INFO : iGEM_URL : /Human_Practices was changed to https://2020.igem.org/Team:MIT_MAHE/Human_Practices in Safety/index.html.
+2020-10-25 22:30:15,155 : INFO : iGEM_URL : /Education was changed to https://2020.igem.org/Team:MIT_MAHE/Education in Safety/index.html.
+2020-10-25 22:30:15,156 : INFO : iGEM_URL : /Medals was changed to https://2020.igem.org/Team:MIT_MAHE/Medals in Safety/index.html.
+2020-10-25 22:30:15,156 : INFO : iGEM_URL : /Special_Prizes was changed to https://2020.igem.org/Team:MIT_MAHE/Special_Prizes in Safety/index.html.
+2020-10-25 22:30:15,156 : INFO : iGEM_URL : ../assets/docs/iGEM-MIT_MAHE-Safety-Handbook.pdf was changed to https://2020.igem.org/wiki/images/6/63/T--MIT_MAHE--docs--iGEM-MIT_MAHE-Safety-Handbook.pdf in Safety/index.html.
+2020-10-25 22:30:15,171 : INFO : iGEM_URL : ../assets/img/Safety--angel--coli.jpg was changed to https://2020.igem.org/wiki/images/e/ec/T--MIT_MAHE--img--Safety--angel--coli.jpg in Safety/index.html.
+2020-10-25 22:30:15,172 : INFO : iGEM_URL : ../assets/img/Safety--dual--use.png was changed to https://2020.igem.org/wiki/images/3/3e/T--MIT_MAHE--img--Safety--dual--use.png in Safety/index.html.
+2020-10-25 22:30:15,172 : INFO : iGEM_URL : ../assets/img/Safety--toxic.png was changed to https://2020.igem.org/wiki/images/7/79/T--MIT_MAHE--img--Safety--toxic.png in Safety/index.html.
+2020-10-25 22:30:15,172 : INFO : iGEM_URL : ../assets/img/Safety--gloves.jpg was changed to https://2020.igem.org/wiki/images/7/7e/T--MIT_MAHE--img--Safety--gloves.jpg in Safety/index.html.
+2020-10-25 22:30:15,172 : INFO : iGEM_URL : ../assets/img/Safety--garbage--can.jpg was changed to https://2020.igem.org/wiki/images/5/5f/T--MIT_MAHE--img--Safety--garbage--can.jpg in Safety/index.html.
+2020-10-25 22:30:15,172 : INFO : iGEM_URL : ../assets/img/Safety--equipment.jpg was changed to https://2020.igem.org/wiki/images/6/60/T--MIT_MAHE--img--Safety--equipment.jpg in Safety/index.html.
+2020-10-25 22:30:15,173 : INFO : iGEM_URL : ../assets/img/Safety--packaging.png was changed to https://2020.igem.org/wiki/images/d/da/T--MIT_MAHE--img--Safety--packaging.png in Safety/index.html.
+2020-10-25 22:30:15,187 : INFO : iGEM_URL : ../assets/docs/iGEM-MIT_MAHE-Safety-Handbook.pdf was changed to https://2020.igem.org/wiki/images/6/63/T--MIT_MAHE--docs--iGEM-MIT_MAHE-Safety-Handbook.pdf in Safety/index.html.
+2020-10-25 22:30:15,736 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Team:MIT_MAHE/Safety&action=edit.
+2020-10-25 22:30:15,737 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.eot was changed to https://2020.igem.org/wiki/images/1/18/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.eot in css/team.css.
+2020-10-25 22:30:15,738 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff was changed to https://2020.igem.org/wiki/images/d/d9/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.woff in css/team.css.
+2020-10-25 22:30:15,738 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.ttf was changed to https://2020.igem.org/wiki/images/8/81/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.ttf in css/team.css.
+2020-10-25 22:30:15,739 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.svg was changed to https://2020.igem.org/wiki/images/4/49/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.svg in css/team.css.
+2020-10-25 22:30:15,739 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.eot was changed to https://2020.igem.org/wiki/images/6/6b/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.eot in css/team.css.
+2020-10-25 22:30:15,739 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.woff was changed to https://2020.igem.org/wiki/images/b/b2/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.woff in css/team.css.
+2020-10-25 22:30:15,740 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.ttf was changed to https://2020.igem.org/wiki/images/0/0a/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.ttf in css/team.css.
+2020-10-25 22:30:15,740 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.svg was changed to https://2020.igem.org/wiki/images/9/9f/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.svg in css/team.css.
+2020-10-25 22:30:15,740 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.eot was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.eot in css/team.css.
+2020-10-25 22:30:15,741 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.woff was changed to https://2020.igem.org/wiki/images/8/83/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.woff in css/team.css.
+2020-10-25 22:30:15,741 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.ttf was changed to https://2020.igem.org/wiki/images/7/7f/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.ttf in css/team.css.
+2020-10-25 22:30:15,741 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.svg was changed to https://2020.igem.org/wiki/images/4/48/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.svg in css/team.css.
+2020-10-25 22:30:15,742 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.eot was changed to https://2020.igem.org/wiki/images/6/66/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.eot in css/team.css.
+2020-10-25 22:30:15,742 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.woff was changed to https://2020.igem.org/wiki/images/3/33/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.woff in css/team.css.
+2020-10-25 22:30:15,742 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.ttf was changed to https://2020.igem.org/wiki/images/8/8a/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.ttf in css/team.css.
+2020-10-25 22:30:15,743 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.eot was changed to https://2020.igem.org/wiki/images/1/1b/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.eot in css/team.css.
+2020-10-25 22:30:15,743 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.woff was changed to https://2020.igem.org/wiki/images/7/75/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.woff in css/team.css.
+2020-10-25 22:30:15,743 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.ttf was changed to https://2020.igem.org/wiki/images/6/61/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.ttf in css/team.css.
+2020-10-25 22:30:15,744 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.svg was changed to https://2020.igem.org/wiki/images/7/7c/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.svg in css/team.css.
+2020-10-25 22:30:15,744 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.eot was changed to https://2020.igem.org/wiki/images/f/f1/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.eot in css/team.css.
+2020-10-25 22:30:15,744 : WARNING : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.woff2 is referenced in css/team.css but was not found.
+2020-10-25 22:30:15,744 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.woff was changed to https://2020.igem.org/wiki/images/4/41/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.woff in css/team.css.
+2020-10-25 22:30:15,745 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.ttf was changed to https://2020.igem.org/wiki/images/7/77/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.ttf in css/team.css.
+2020-10-25 22:30:15,745 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.svg was changed to https://2020.igem.org/wiki/images/c/c7/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.svg in css/team.css.
+2020-10-25 22:30:15,745 : INFO : iGEM_URL : ../assets/img/Footer--logo.svg was changed to https://2020.igem.org/wiki/images/a/a0/T--MIT_MAHE--img--Footer--logo.svg in css/team.css.
+2020-10-25 22:30:15,746 : INFO : iGEM_URL : ../assets/icons/envelope-open-text-solid.svg was changed to https://2020.igem.org/wiki/images/6/60/T--MIT_MAHE--icons--envelope-open-text-solid.svg in css/team.css.
+2020-10-25 22:30:15,746 : INFO : iGEM_URL : ../assets/icons/instagram-brands.svg was changed to https://2020.igem.org/wiki/images/4/46/T--MIT_MAHE--icons--instagram-brands.svg in css/team.css.
+2020-10-25 22:30:15,746 : INFO : iGEM_URL : ../assets/icons/twitter-brands.svg was changed to https://2020.igem.org/wiki/images/3/38/T--MIT_MAHE--icons--twitter-brands.svg in css/team.css.
+2020-10-25 22:30:15,747 : INFO : iGEM_URL : ../assets/icons/facebook.svg was changed to https://2020.igem.org/wiki/images/8/81/T--MIT_MAHE--icons--facebook.svg in css/team.css.
+2020-10-25 22:30:16,542 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Template:MIT_MAHE/css/teamCSS&action=edit.
+2020-10-25 22:30:16,543 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.eot was changed to https://2020.igem.org/wiki/images/1/18/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.eot in css/content.css.
+2020-10-25 22:30:16,543 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff was changed to https://2020.igem.org/wiki/images/d/d9/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.woff in css/content.css.
+2020-10-25 22:30:16,544 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.ttf was changed to https://2020.igem.org/wiki/images/8/81/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.ttf in css/content.css.
+2020-10-25 22:30:16,544 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.svg was changed to https://2020.igem.org/wiki/images/4/49/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.svg in css/content.css.
+2020-10-25 22:30:16,545 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.eot was changed to https://2020.igem.org/wiki/images/6/6b/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.eot in css/content.css.
+2020-10-25 22:30:16,548 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.woff was changed to https://2020.igem.org/wiki/images/b/b2/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.woff in css/content.css.
+2020-10-25 22:30:16,548 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.ttf was changed to https://2020.igem.org/wiki/images/0/0a/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.ttf in css/content.css.
+2020-10-25 22:30:16,549 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.svg was changed to https://2020.igem.org/wiki/images/9/9f/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.svg in css/content.css.
+2020-10-25 22:30:16,549 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.eot was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.eot in css/content.css.
+2020-10-25 22:30:16,549 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.woff was changed to https://2020.igem.org/wiki/images/8/83/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.woff in css/content.css.
+2020-10-25 22:30:16,550 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.ttf was changed to https://2020.igem.org/wiki/images/7/7f/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.ttf in css/content.css.
+2020-10-25 22:30:16,550 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.svg was changed to https://2020.igem.org/wiki/images/4/48/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.svg in css/content.css.
+2020-10-25 22:30:16,550 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.eot was changed to https://2020.igem.org/wiki/images/6/66/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.eot in css/content.css.
+2020-10-25 22:30:16,551 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.woff was changed to https://2020.igem.org/wiki/images/3/33/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.woff in css/content.css.
+2020-10-25 22:30:16,551 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.ttf was changed to https://2020.igem.org/wiki/images/8/8a/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.ttf in css/content.css.
+2020-10-25 22:30:16,551 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.eot was changed to https://2020.igem.org/wiki/images/1/1b/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.eot in css/content.css.
+2020-10-25 22:30:16,552 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.woff was changed to https://2020.igem.org/wiki/images/7/75/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.woff in css/content.css.
+2020-10-25 22:30:16,552 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.ttf was changed to https://2020.igem.org/wiki/images/6/61/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.ttf in css/content.css.
+2020-10-25 22:30:16,552 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.svg was changed to https://2020.igem.org/wiki/images/7/7c/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.svg in css/content.css.
+2020-10-25 22:30:16,553 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.eot was changed to https://2020.igem.org/wiki/images/f/f1/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.eot in css/content.css.
+2020-10-25 22:30:16,553 : WARNING : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.woff2 is referenced in css/content.css but was not found.
+2020-10-25 22:30:16,554 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.woff was changed to https://2020.igem.org/wiki/images/4/41/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.woff in css/content.css.
+2020-10-25 22:30:16,554 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.ttf was changed to https://2020.igem.org/wiki/images/7/77/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.ttf in css/content.css.
+2020-10-25 22:30:16,554 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.svg was changed to https://2020.igem.org/wiki/images/c/c7/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.svg in css/content.css.
+2020-10-25 22:30:16,555 : INFO : iGEM_URL : ../assets/img/Footer--logo.svg was changed to https://2020.igem.org/wiki/images/a/a0/T--MIT_MAHE--img--Footer--logo.svg in css/content.css.
+2020-10-25 22:30:16,555 : INFO : iGEM_URL : ../assets/icons/envelope-open-text-solid.svg was changed to https://2020.igem.org/wiki/images/6/60/T--MIT_MAHE--icons--envelope-open-text-solid.svg in css/content.css.
+2020-10-25 22:30:16,555 : INFO : iGEM_URL : ../assets/icons/instagram-brands.svg was changed to https://2020.igem.org/wiki/images/4/46/T--MIT_MAHE--icons--instagram-brands.svg in css/content.css.
+2020-10-25 22:30:16,556 : INFO : iGEM_URL : ../assets/icons/twitter-brands.svg was changed to https://2020.igem.org/wiki/images/3/38/T--MIT_MAHE--icons--twitter-brands.svg in css/content.css.
+2020-10-25 22:30:16,556 : INFO : iGEM_URL : ../assets/icons/facebook.svg was changed to https://2020.igem.org/wiki/images/8/81/T--MIT_MAHE--icons--facebook.svg in css/content.css.
+2020-10-25 22:30:16,556 : INFO : iGEM_URL : ../assets/icons/link-solid.svg was changed to https://2020.igem.org/wiki/images/2/21/T--MIT_MAHE--icons--link-solid.svg in css/content.css.
+2020-10-25 22:30:17,345 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Template:MIT_MAHE/css/contentCSS&action=edit.
+2020-10-25 22:30:17,345 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.eot was changed to https://2020.igem.org/wiki/images/1/18/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.eot in css/index.css.
+2020-10-25 22:30:17,346 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff was changed to https://2020.igem.org/wiki/images/d/d9/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.woff in css/index.css.
+2020-10-25 22:30:17,346 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.ttf was changed to https://2020.igem.org/wiki/images/8/81/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.ttf in css/index.css.
+2020-10-25 22:30:17,346 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.svg was changed to https://2020.igem.org/wiki/images/4/49/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.svg in css/index.css.
+2020-10-25 22:30:17,347 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.eot was changed to https://2020.igem.org/wiki/images/6/6b/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.eot in css/index.css.
+2020-10-25 22:30:17,347 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.woff was changed to https://2020.igem.org/wiki/images/b/b2/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.woff in css/index.css.
+2020-10-25 22:30:17,347 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.ttf was changed to https://2020.igem.org/wiki/images/0/0a/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.ttf in css/index.css.
+2020-10-25 22:30:17,348 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.svg was changed to https://2020.igem.org/wiki/images/9/9f/T--MIT_MAHE--fonts--montserrat-v14-latin--montserrat-v14-latin-600.svg in css/index.css.
+2020-10-25 22:30:17,348 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.eot was changed to https://2020.igem.org/wiki/images/b/b8/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.eot in css/index.css.
+2020-10-25 22:30:17,348 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.woff was changed to https://2020.igem.org/wiki/images/8/83/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.woff in css/index.css.
+2020-10-25 22:30:17,349 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.ttf was changed to https://2020.igem.org/wiki/images/7/7f/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.ttf in css/index.css.
+2020-10-25 22:30:17,349 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.svg was changed to https://2020.igem.org/wiki/images/4/48/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-regular.svg in css/index.css.
+2020-10-25 22:30:17,349 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.eot was changed to https://2020.igem.org/wiki/images/6/66/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.eot in css/index.css.
+2020-10-25 22:30:17,350 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.woff was changed to https://2020.igem.org/wiki/images/3/33/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.woff in css/index.css.
+2020-10-25 22:30:17,350 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.ttf was changed to https://2020.igem.org/wiki/images/8/8a/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-300.ttf in css/index.css.
+2020-10-25 22:30:17,350 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.eot was changed to https://2020.igem.org/wiki/images/1/1b/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.eot in css/index.css.
+2020-10-25 22:30:17,351 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.woff was changed to https://2020.igem.org/wiki/images/7/75/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.woff in css/index.css.
+2020-10-25 22:30:17,351 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.ttf was changed to https://2020.igem.org/wiki/images/6/61/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.ttf in css/index.css.
+2020-10-25 22:30:17,351 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.svg was changed to https://2020.igem.org/wiki/images/7/7c/T--MIT_MAHE--fonts--lato-v16-latin--lato-v16-latin-700.svg in css/index.css.
+2020-10-25 22:30:17,351 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.eot was changed to https://2020.igem.org/wiki/images/f/f1/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.eot in css/index.css.
+2020-10-25 22:30:17,352 : WARNING : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.woff2 is referenced in css/index.css but was not found.
+2020-10-25 22:30:17,352 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.woff was changed to https://2020.igem.org/wiki/images/4/41/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.woff in css/index.css.
+2020-10-25 22:30:17,353 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.ttf was changed to https://2020.igem.org/wiki/images/7/77/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.ttf in css/index.css.
+2020-10-25 22:30:17,353 : INFO : iGEM_URL : ../assets/fonts/piazzolla-v3-latin/piazzolla-v3-latin-regular.svg was changed to https://2020.igem.org/wiki/images/c/c7/T--MIT_MAHE--fonts--piazzolla-v3-latin--piazzolla-v3-latin-regular.svg in css/index.css.
+2020-10-25 22:30:17,353 : INFO : iGEM_URL : ../assets/img/Footer--logo.svg was changed to https://2020.igem.org/wiki/images/a/a0/T--MIT_MAHE--img--Footer--logo.svg in css/index.css.
+2020-10-25 22:30:17,354 : INFO : iGEM_URL : ../assets/icons/envelope-open-text-solid.svg was changed to https://2020.igem.org/wiki/images/6/60/T--MIT_MAHE--icons--envelope-open-text-solid.svg in css/index.css.
+2020-10-25 22:30:17,354 : INFO : iGEM_URL : ../assets/icons/instagram-brands.svg was changed to https://2020.igem.org/wiki/images/4/46/T--MIT_MAHE--icons--instagram-brands.svg in css/index.css.
+2020-10-25 22:30:17,355 : INFO : iGEM_URL : ../assets/icons/twitter-brands.svg was changed to https://2020.igem.org/wiki/images/3/38/T--MIT_MAHE--icons--twitter-brands.svg in css/index.css.
+2020-10-25 22:30:17,355 : INFO : iGEM_URL : ../assets/icons/facebook.svg was changed to https://2020.igem.org/wiki/images/8/81/T--MIT_MAHE--icons--facebook.svg in css/index.css.
+2020-10-25 22:30:17,355 : INFO : iGEM_URL : ../assets/img/Home--poster.png was changed to https://2020.igem.org/wiki/images/5/50/T--MIT_MAHE--img--Home--poster.png in css/index.css.
+2020-10-25 22:30:18,142 : INFO : iGEM_upload_page : Uploaded to https://2020.igem.org/wiki/index.php?title=Template:MIT_MAHE/css/indexCSS&action=edit.
+2020-10-25 22:30:18,150 : INFO : build_and_upload : Contents of index.bundle.js have been uploaded previously. Skipping.
+2020-10-25 22:30:18,159 : INFO : build_and_upload : Contents of team.bundle.js have been uploaded previously. Skipping.
+2020-10-25 22:30:18,167 : INFO : build_and_upload : Contents of content.bundle.js have been uploaded previously. Skipping.

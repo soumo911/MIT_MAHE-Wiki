@@ -2,35 +2,105 @@ extends ../templates/contents.pug
 
 block headVars
     - var title = "Project Description"
-    - var tagline = "Describe how and why you chose your iGEM project."
+    - var tagline = "This page describes our problem statement, its relevance and our solution."
     - var requireMathJax = false
 
 block article
     :markdown-it(html)
 
         # Introduction
-        More than 3 billion people across the world consume seafood. Throughout the years we have come up with mouth-watering seafood dishes making use of a variety of organisms from our oceans and inland water bodies. As delicious as these delicacies would look on our platter, they do come with a few risks. Fish and shellfish have a natural tendency to concentrate inorganic and organic toxins and pollutants in their bodies such as methylmercury (MeHg). Bioaccumulation of mercury in the environment due to natural or anthropogenic sources gets biomagnified through the food chain. When we consume this contaminated seafood, the mercury present that is highly absorbable in the MeHg form is taken up by our body. We could also be exposed to mercury by some fewer probable ways such as inhalation of Hg vapours in the air, ingestion of drinking water and exposure to Hg from dental amalgams and medical treatments. 
+        Sushi! Fish and chips! Tiradito!, seafood with all it's delicious glory has marked it's place in various cultures and platters around the world. According to the Food and Agriculture Organization [FAO, 2020](#citation1), more than 3.3 billion people across the world rely on fish as a significant source (>20%) of animal protein. But what if there’s a catch!
 
-        # Methylmercury threat
-        Most of the symptoms of MeHg poisoning include high threats to the central nervous system. The severity depends largely on the magnitude of the dose of MeHg. Minamata disease, a neurological syndrome, was one of the world's worst environmental disasters and was an effect of methylmercury poisoning.  It not only affected the generation that accidently consumed the toxin but also the future generation as MeHg could cross the blood placenta barrier. Ingestion of this deadly compound can lead to mental retardation, seizure disorders, cerebral palsy, cardiovascular malfunctions, blindness and deafness with paralysis, coma, insanity, and death occurring in extreme cases.
+        # Methylmercury
+    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
+    +image(1, imgpath, "Evil Methylmercury")
+
+    :markdown-it(html)
+        Methylmercury (MeHg) is a highly toxic organometallic compound produced by marine anaerobic microbes which then naturally bioaccumulates to highly toxic levels through the aquatic food chain.
+        Mercury finds it way to the water bodies through various sources, both anthropogenic as well as natural (volcanic activity, etc) - where these microbes methylate it and make it dangerous. [Mercury Emissions: The Global Context - EPA](#citation2).
+
+    :markdown-it(html plugins=['markdown-it-multimd-table'])
+        | Source | Amount (kg) |
+        | ------  | --------- |
+        | Artisanal and Small Scale Mining  | 837,658 |
+        | Stationary Combustion of Coal | 473,777 |
+        | Nonferrous Metals Production | 326,657  |
+        | Cement Production | 233,168 |
+        | Waste from Products | 146,938 |
+        | Vinyl Chloride Monomer | 58,268 |
+        | Biomass Burning | 51,860 |
+        | Ferrous Metals Production | 39,903 |
+        | Chlor-alkali Production | 15,146 |
+        | Waste incineration | 14,944 |
+        | Oil Refining | 14,377 |
+        | Stationary Combustion of Oil and Gas | 7,130 |
+        | Cremation | 3,768 |
+        
+        [Table 1: Anthropogenic sources of mercury release]
+
+    :markdown-it(html)
+        Table Source - [Mercury Emissions: The Global Context - EPA](#citation2)
+
+        > I was aware around 1951 that the color of the sea had changed and that the water had gotten filthy. Oysters and clams died, while small fish were (washed up) ashore.
+        > 
+        > **Tsuginori Hamamoto** in the book _“Fifty Years of Minamata Disease”_
+
+        This principal source of exposure to methylmercury for humans is through consumption of food (primarily but not limited to fish) contaminated with it. [Thackray & Sunderland, 2019](#citation3).
+
+    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
+    +image(2, imgpath, "Evil Methylmercury")
+
+    :markdown-it(html)
+        ### Methylmercury - A threat
+        MeHg is a highly potent neurotoxin with severity depending largely on the magnitude of it's dose. Minamata disease, a neurological syndrome, owes its name to one of the world’s worst environmental disasters and is a direct result of methylmercury poisoning.
+    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
+    +image(3, imgpath, "Evil Methylmercury")
+
+    :markdown-it(html)
+        Ingestion can lead to mental retardation, seizure disorders, cerebral palsy, cardiovascular malfunctions, blindness and deafness with paralysis, coma, insanity, and death occurring in extreme cases [Nogara et al., 2019](#citation4) [Puty et al., 2019](#citation5). Moreover, owing to it's capabilities of crossing the blood placenta barrier, it can even affect foetuses regardless of whether the mother shows any symptoms [Aaseth et al., 2020](#citation6).
+
+        > Crows could not fly after eating such fish, while cats went crazy. And then, human beings fell sick.
+        > 
+        > **Tsuginori Hamamoto** in the book _“Fifty Years of Minamata Disease”_
+
+        ### Current Methods of treatment
+
+        - **Activated Charcoal:** It works by adsorbing chemicals, thus reducing their toxicity, through the entire length of the GI tract.
+        
+           Cons - Extremely expensive, doesn't work with hydrocarbons - methyl group might interfere.  [Rafati-Rahimzadeh M., et al, 2014](#citation7)
+        
+        - **Dimercaprol (Chelation Therapy):** Dimercaprol is a chelating agent that is used to remove a heavy metal from the blood.
+        
+           Cons - This technique is ineffective in treating long-term poisoning (slow poisoning that has occurred over a long period of time) [Flora, S. J., & Pachauri, V. 2010](#citation8)
+        
+        These methods can only be used once the patient starts showing symptoms which is just too late.
+
+        > When disaster strikes, the time to prepare has passed.
+        > 
+        > **Steven Cyros**
 
         # Our Proposal
-        The primary route for human exposure to methylmercury (MeHg) is widely considered as absorption through the Gastro-Intestinal Tract. Our project ‘Breaking Bond' is designed to make an addition to the gut fauna, a genetically engineered probiotic bacterium that is capable of converting methylmercury to elemental mercury, a less toxic form. A novel probiotic bacterium will serve as a long term and efficient solution to this problem of global importance and can be made accessible to many people, in terms of cost as well as usability. 
-        The mercury released in the human gut after being broken down from MeHg may cause inflammation. We also entail a mechanism to deal with the inflammation to not have the positive effects of our probiotic be overshadowed. 
+        The essence of **synthetic biology** is to apply engineering acumen and knowledge in biology to harness the limitless potential of natural systems so that one day, we shall lead healthier and happier lives in a cleaner and greener world. Our project **'Breaking Bond'** aims to utilize synthetic biology to provide a solution to combat this issue of global importance. As the methylmercury absorption occurs through the gut, we have proposed **a novel engineered probiotic bacterium**, capable of **converting methylmercury to elemental mercury** (a less toxic form), as an addition to the gut microbiome. 
+        
+        The **elemental mercury** thus released, is much safer as less than **0.01%** of it is absorbed by the intestines compared to methylmercury of which **95%** gets absorbed [National Research Council, 2000](#citation9). The elemental mercury will thus be **eliminated through faeces.** This will serve as a long term and efficient solution and can be made accessible to many people, both in terms of cost as well as usability.
+        
+        The release of **elemental mercury** has the potential to disturb the gut microbiota and induce **inflammations.** In order to negate this side effect, we have also included a mechanism to tackle the problem.
 
-        # Project Inspiration
-
-        # Engineered Probiotic
-        We make use of the strain _Escherichia coli_ Nissle 1917, a well studied non-pathogenic probiotic chassis, which will contain our two plasmids Bio-Brick 1 and Bio-Brick 2 as its aides. Bio-Brick 1 will be responsible for the transport of MeHg inside the bacteria and breaking the bond between methyl and mercury and the other will be accountable for control of inflammation inside the gut. Bio-Brick 1 will also regulate Bio-Brick 2 to prevent unwanted release of anti-inflammatory substances.
     - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
-    +image(1, imgpath, "Picture by Josh Withers on Unsplash")
+    +image(4, imgpath, "Evil Methylmercury")
 
-    :markdown-it
-        # Recording References
+    :markdown-it(html)
+        # Finding Inspiration
+        Our team leader, Varun Udaya Kumar, heard about the iGEM competition when he was in high school. When he joined our university, Manipal, one of India’s leading academic and research institutions, he noticed that there weren’t any biotechnology-based student projects here, so he decided to start an iGEM team here. Even though this is our first time participating in iGEM, we have received a lot of support from our professors and administration!
+        
+        Our team came up with many different ideas for this year’s project, and narrowing them down to a single topic seemed almost impossible. Varun then suggested we could help tackle the problem of methylmercury poisoning. He had read about this issue in a local newspaper - as it was affecting the coastal town, also his native place - Mangalore, where seafood is highly popular. The rest of the team was almost immediately on board, given that many people in our country consume seafood and rice (which are probable sources of methylmercury poisoning). We felt that it would be highly beneficial if we could find an efficient solution to this problem.
 
-        iGEM teams are encouraged to record references you use during the course of your research. They
-        should be posted somewhere on your wiki so that judges and other visitors can see how you thought 
-        about your project and what works inspired you.
-
+        # COVID-19 and us
+        The COVID-19 pandemic had a major impact on the direction of our project. The beginning of our journey coincided with the start of the lockdowns due to the pandemic, leaving us with a complete lack of access to various facilities and resources.
+        We were left with nothing but a highly enthusiastic team. We missed out on enjoying bonding sessions with the team, going to various schools to share the beauty of biology, frustrating yet fun-filled successes and failures during experimentation and much more. The human practices aspect was probably affected the most as all our appointments with the local fisheries got cancelled.
+        Our team was split apart, true to our project’s name, although our bonds could not be broken. The situation, however, introduced us to a new perspective of biological research. The shift from traditional lab-based work to data-based research helped us appreciate what the proteins are, along with their effects. We hope that future iGEM teams will find this project helpful in furthering knowledge.
 
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
+
+prepend citations
+    - var citations = [{"authors": "Allen, M. J., & Sheridan, S. C. (2015). ", "doi": "https://doi.org/10.1007/s00484-015-1117-4", "journal": "International Journal of Biometeorology", "numbers": "62(1), 57-67. ", "title": "Mortality risks during extreme temperature events (ETEs) using a distributed lag non-linear model.", "type": "article"}, {"authors": "Rosano, A., Bella, A., Gesualdo, F., Acampora, A., Pezzotti, P., Marchetti, S., ... & Rizzo, C. (2019). ", "doi": "https://doi.org/10.1016/j.ijid.2019.08.003", "journal": "International Journal of Infectious Diseases", "numbers": "88, 127-134. ", "title": "Investigating the impact of influenza on excess mortality in all ages in Italy during recent seasons (2013/14-2016/17 seasons).", "type": "article"}, {"Google_Books_URL": "https://books.google.co.in/books?id=OYr6AQAAQBAJ", "authors": "Ingalls, B. P.", "publisher": "MIT Press.", "title": "Mathematical modeling in systems biology: An introduction.", "type": "book", "year_published": "(2013)."}, {"details": "(March 15, 2019). Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}, {"authors": "Author Name. (n.d.).", "details": "Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}]
