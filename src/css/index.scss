@@ -56,7 +56,16 @@ header {
   }
   body {
       background: url('../assets/img/Home--poster.png');
-      background-size: cover;
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      padding: 0;
+      margin: 0;
+      
+      .fullscreen-video-wrap {
+        height: 0;
+      }
   }
 }
 
