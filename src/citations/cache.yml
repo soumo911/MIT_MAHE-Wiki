@@ -54,12 +54,33 @@ https://doi.org/10.1007/s11431-018-9428-4:
   title: Experimental study on the effects of shear stress on viscoelastic properties
     of the intestines.
   type: article
+https://doi.org/10.1016/0006-291X(60)90081-4:
+  authors: 'Nakaya, R., Nakamura, A., & Murata, Y. (1960). '
+  doi: https://doi.org/10.1016/0006-291X(60)90081-4
+  journal: Biochemical and Biophysical Research Communications
+  numbers: '3(6), 654-659. '
+  title: Resistance transfer agents in Shigella.
+  type: article
 https://doi.org/10.1016/B978-0-08-099953-1.00006-5:
   authors: 'Stanbury, P. F., Whitaker, A., & Hall, S. J. (2017). '
   doi: https://doi.org/10.1016/B978-0-08-099953-1.00006-5
   journal: Principles of Fermentation Technology
   numbers: '335-399. '
   title: Culture preservation and inoculum development.
+  type: article
+https://doi.org/10.1016/B978-0-12-817945-1.00006-X:
+  authors: 'Thackray, C. P., & Sunderland, E. M. (2019). '
+  doi: https://doi.org/10.1016/B978-0-12-817945-1.00006-X
+  journal: Predicting Future Oceans
+  numbers: '61-68. '
+  title: Seafood methylmercury in a changing ocean.
+  type: article
+https://doi.org/10.1016/S0168-6445(03)00046-9:
+  authors: 'Barkay, T., Miller, S. M., & Summers, A. O. (2003). '
+  doi: https://doi.org/10.1016/S0168-6445(03)00046-9
+  journal: FEMS Microbiology Reviews
+  numbers: '27(2-3), 355-384. '
+  title: Bacterial mercury resistance from atoms to ecosystems.
   type: article
 https://doi.org/10.1016/S0168-6445(03)00051-2:
   authors: 'Brown, N. L., Stoyanov, J. V., Kidd, S. P., & Hobman, J. L. (2003). '
@@ -77,6 +98,13 @@ https://doi.org/10.1016/S0966-842X(01)02259-4:
   numbers: '10(1), 39-45. '
   title: The E. coli  -hemolysin secretion system and its use in vaccine development.
   type: article
+https://doi.org/10.1016/j.cotox.2020.01.005:
+  authors: 'Aaseth, J., Wallace, D. R., Vejrup, K., & Alexander, J. (2020). '
+  doi: https://doi.org/10.1016/j.cotox.2020.01.005
+  journal: Current Opinion in Toxicology
+  numbers: '19, 80-87. '
+  title: 'Methylmercury and developmental neurotoxicity: A global concern.'
+  type: article
 https://doi.org/10.1016/j.ijid.2019.08.003:
   authors: 'Rosano, A., Bella, A., Gesualdo, F., Acampora, A., Pezzotti, P., Marchetti,
     S., ... & Rizzo, C. (2019). '
@@ -93,12 +121,31 @@ https://doi.org/10.1016/j.ijpharm.2014.03.038:
   numbers: '466(1-2), 328-340. '
   title: Application of gellan gum in pharmacy and medicine.
   type: article
+https://doi.org/10.1016/j.jtemb.2018.12.001:
+  authors: 'Puty, B., Le  o, L. K. R., Crespo-Lopez, M. E., Almeida, A. P. C. P. S.
+    C., Fagundes, N. C. F., Maia, L. C., & Lima, R. R. (2019). '
+  doi: https://doi.org/10.1016/j.jtemb.2018.12.001
+  journal: Journal of Trace Elements in Medicine and Biology
+  numbers: '52, 100-110. '
+  title: 'Association between methylmercury environmental exposure and neurological
+    disorders: A systematic review.'
+  type: article
 https://doi.org/10.1016/j.neuro.2012.05.002:
   authors: 'Aschner, M. (2012). '
   doi: https://doi.org/10.1016/j.neuro.2012.05.002
   journal: NeuroToxicology
   numbers: '33(3), 512-513. '
   title: Considerations on methylmercury (MeHg) treatments in in vitro studies.
+  type: article
+https://doi.org/10.1021/bi050519d:
+  authors: 'Ledwidge, R., Patel, B., Dong, A., Fiedler, D., Falkowski, M., Zelikova,
+    J., ... & Miller, S. M. (2005). '
+  doi: https://doi.org/10.1021/bi050519d
+  journal: Biochemistry
+  numbers: '44(34), 11402-11416. '
+  title: NmerA, the Metal Binding Domain of Mercuric Ion Reductase, Removes Hg2+from
+    Proteins, Delivers It to the Catalytic Core, and Protects Cells under Glutathione-Depleted
+    Conditions , .
   type: article
 https://doi.org/10.1021/ja9016123:
   authors: 'Parks, J. M., Guo, H., Momany, C., Liang, L., Miller, S. M., Summers,
@@ -109,6 +156,23 @@ https://doi.org/10.1021/ja9016123:
   numbers: '131(37), 13278-13285. '
   title: Mechanism of Hg C Protonolysis in the Organomercurial Lyase MerB.
   type: article
+https://doi.org/10.1073/pnas.87.10.3846:
+  authors: 'Ralston, D. M., & O-Halloran, T. V. (1990). '
+  doi: https://doi.org/10.1073/pnas.87.10.3846
+  journal: Proceedings of the National Academy of Sciences
+  numbers: '87(10), 3846-3850. '
+  title: Ultrasensitivity and heavy-metal selectivity of the allosterically modulated
+    MerR transcription complex..
+  type: article
+https://doi.org/10.1074/jbc.M807143200:
+  authors: 'Lafrance-Vanasse, J., Lefebvre, M., Di Lello, P., Sygusch, J., & Omichinski,
+    J. G. (2008). '
+  doi: https://doi.org/10.1074/jbc.M807143200
+  journal: Journal of Biological Chemistry
+  numbers: '284(2), 938-944. '
+  title: Crystal Structures of the Organomercurial Lyase MerB in Its Free and Mercury-bound
+    Forms.
+  type: article
 https://doi.org/10.1093/emboj/17.9.2629:
   authors: 'Hidalgo, E. (1998). '
   doi: https://doi.org/10.1093/emboj/17.9.2629
@@ -117,12 +181,27 @@ https://doi.org/10.1093/emboj/17.9.2629:
   title: The redox-regulated SoxR protein acts from a single DNA site as a repressor
     and an allosteric activator.
   type: article
+https://doi.org/10.1128/jb.174.7.2160-2171.1992:
+  authors: 'Park, S. J., Wireman, J., & Summers, A. O. (1992). '
+  doi: https://doi.org/10.1128/jb.174.7.2160-2171.1992
+  journal: Journal of Bacteriology
+  numbers: '174(7), 2160-2171. '
+  title: Genetic analysis of the Tn21 mer operator-promoter..
+  type: article
 https://doi.org/10.1128/mBio.01470-20:
   authors: 'Pradhan, S., & Weiss, A. A. (2020). '
   doi: https://doi.org/10.1128/mBio.01470-20
   journal: mBio
   numbers: '11(4). '
   title: Probiotic Properties of Escherichia coli Nissle in Human Intestinal Organoids.
+  type: article
+https://doi.org/10.1186/2008-2231-22-46:
+  authors: 'Rafati-Rahimzadeh, M., Rafati-Rahimzadeh, M., Kazemi, S., & Moghadamnia,
+    A. A. (2014). '
+  doi: https://doi.org/10.1186/2008-2231-22-46
+  journal: DARU Journal of Pharmaceutical Sciences
+  numbers: '22(1). '
+  title: 'Current approaches of the management of mercury poisoning: need of the hour.'
   type: article
 https://doi.org/10.1211/jpp.62.02.0003:
   authors: 'Smith, A. M., Ingham, A., Grover, L. M., & Perrie, Y. (2010). '
@@ -147,4 +226,11 @@ https://doi.org/10.1371/journal.pone.0007121:
   numbers: '4(9), e7121. '
   title: Interleukin-10 Overexpression Promotes Fas-Ligand-Dependent Chronic Macrophage-Mediated
     Demyelinating Polyneuropathy.
+  type: article
+https://doi.org/10.3390/ijerph7072745:
+  authors: 'Flora, S. J. S., & Pachauri, V. (2010). '
+  doi: https://doi.org/10.3390/ijerph7072745
+  journal: International Journal of Environmental Research and Public Health
+  numbers: '7(7), 2745-2788. '
+  title: Chelation in Metal Intoxication.
   type: article
