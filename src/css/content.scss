@@ -183,9 +183,16 @@ header {
     padding: calc(1rem + 1.2vw);
   }
 
+  video {
+    align-self: center;
+    padding: 20px;
+  }
+
+
   h1,
   h2,
   h3 {
+    color: white;
     font-family: "Lato", sans-serif;
   }
 
@@ -252,6 +259,12 @@ header {
 
   h3 {
     font-size: $h1size * 0.7rem;
+    word-spacing: 0.3rem;
+    margin-top: 1.5rem;
+  }
+
+  h4 {
+    font-size: $h1size * 0.6rem;
     word-spacing: 0.3rem;
     margin-top: 1.5rem;
   }
