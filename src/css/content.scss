@@ -194,6 +194,7 @@ header {
   h3 {
     color: white;
     font-family: "Lato", sans-serif;
+    font-style: $whitey;
   }
 
   $h1size: 2.15; // rem
@@ -248,6 +249,7 @@ header {
   }
 
   h2 {
+    color: white;
     font-size: $h1size * 0.8rem;
     word-spacing: 0.3rem;
     margin-top: 1.5rem;
@@ -258,12 +260,14 @@ header {
   }
 
   h3 {
+    color: white;
     font-size: $h1size * 0.7rem;
     word-spacing: 0.3rem;
     margin-top: 1.5rem;
   }
 
   h4 {
+    color: white;
     font-size: $h1size * 0.6rem;
     word-spacing: 0.3rem;
     margin-top: 1.5rem;
@@ -380,6 +384,7 @@ header {
     thead {
       th,
       td {
+        color: white;
         vertical-align: bottom;
         border-bottom: 2px solid;
         border-color: $tableBorder;
@@ -389,6 +394,7 @@ header {
     tbody {
       th,
       td {
+        color: white;
         border: 1px solid;
         border-color: $tableBorder;
       }
@@ -400,6 +406,7 @@ header {
 
     th,
     td {
+      color: white;
       padding: 0.75rem;
       vertical-align: center;
       border: 1px solid;

@@ -52,8 +52,6 @@ block article
 
     :markdown-it(html)
         <center>Video 3: Mercuric reductase with mercuric ion. New cartoons representation with residues highlighted in CPK.</center>
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
-    +image(3, imgpath, "Cysteine residue with mercury. Cysteine residues represented in CPK.", 100)
 
     :markdown-it(html)
         Our aim was to show the stability of our enzyme by determining Root Mean Square Deviation of the protein-ligand system.
@@ -76,7 +74,7 @@ block article
         We have used **Michaelis Menten Kinetics** to simulate the kinetics of our two enzymes **alkylmercury lyase** and **mercuric reductase.**
 
     - var imgpath = "" + require("../assets/img/Model--mmeqn.png")["default"]
-    +image(4, imgpath, "Michaelis Menten kinetics-based enzyme reaction mechanism.", 40)
+    +image(3, imgpath, "Michaelis Menten kinetics-based enzyme reaction mechanism.", 40)
 
     :markdown-it(html)
         ___Assumptions to be considered:___
@@ -95,45 +93,45 @@ block article
         #### Enzyme Concentration **10<sup>-4</sup>**
 
     - var imgpath = "" + require("../assets/img/Model--10-4--2.9uM.jpg")["default"]
-    +image(5, imgpath, "2.9 µM", 70)
+    +image(4, imgpath, "2.9 µM", 70)
     
 
     - var imgpath = "" + require("../assets/img/Model--10-4--1.55uM.jpg")["default"]
-    +image(6, imgpath, "1.55 µM", 70)
+    +image(5, imgpath, "1.55 µM", 70)
 
 
     - var imgpath = "" + require("../assets/img/Model--10-4--0.0358nM.jpg")["default"]
-    +image(7, imgpath, "0.0358 nM", 70)
+    +image(6, imgpath, "0.0358 nM", 70)
 
     :markdown-it(html)
         <center>Graphs for the activity for MerA and MerB at [CH<sub>3</sub>Hg] =2.9 µM, 1.55 µM, 0.0358 nM</center>
         
         #### Enzyme Concentration  **10<sup>-5</sup>**
     - var imgpath = "" + require("../assets/img/Model--10-5--2.9uM.jpg")["default"]
-    +image(8, imgpath, "2.9 µM", 70)
+    +image(7, imgpath, "2.9 µM", 70)
     
 
     - var imgpath = "" + require("../assets/img/Model--10-5--1.55uM.jpg")["default"]
-    +image(9, imgpath, "1.55 µM", 70)
+    +image(8, imgpath, "1.55 µM", 70)
 
 
     - var imgpath = "" + require("../assets/img/Model--10-5--0.0358nM.jpg")["default"]
-    +image(10, imgpath, "0.0358 nM", 70)
+    +image(9, imgpath, "0.0358 nM", 70)
 
     :markdown-it(html)
         <center>Graphs for the activity for MerA and MerB at [CH<sub>3</sub>Hg] =2.9 µM, 1.55 µM, 0.0358 nM</center>
 
         #### Enzyme Concentration  **10<sup>-3</sup>**
     - var imgpath = "" + require("../assets/img/Model--10-3--2.9uM.jpg")["default"]
-    +image(11, imgpath, "2.9 µM", 70)
+    +image(10, imgpath, "2.9 µM", 70)
     
 
     - var imgpath = "" + require("../assets/img/Model--10-3--1.55uM.jpg")["default"]
-    +image(12, imgpath, "1.55 µM", 70)
+    +image(11, imgpath, "1.55 µM", 70)
 
 
     - var imgpath = "" + require("../assets/img/Model--10-3--0.0358nM.jpg")["default"]
-    +image(13, imgpath, "0.0358 nM", 70)
+    +image(12, imgpath, "0.0358 nM", 70)
 
     :markdown-it(html)
         <center>Graphs for the activity for MerA and MerB at [CH<sub>3</sub>Hg] =2.9 µM, 1.55 µM, 0.0358 nM</center>
@@ -174,6 +172,12 @@ block article
         $$\[CH_3Hg_{in} = ([MerE-CH_3Hg_{complex}].k_{f6} + [MerT-CH_3Hg_{complex}].k_{f5} - \frac{C1.\exp(-[MerC].k_{r1}.t) + [CH_3Hg_{out}].[MerC].k_{f1})}{([MerC].k_{r1})}\]$$
 
         But due to lack of information about the activities of the protein further analysis could not be performed. Kinetic modelling of these proteins could be a future prospect to enable complete understanding of Mer operon. 
+        
+        # Handbook
+        _You can read the full documentation on our __iGEM MIT_MAHE Model Handbook.___
+        The model handbook has complete information about our MATLAB and VMD models including challenges which we had faced.
+
+    +pdf(require("../assets/docs/iGEM-MIT_MAHE-Model-Handbook.pdf")['default'], "iGEM-MIT_MAHE-Model-Handbook")
 
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 

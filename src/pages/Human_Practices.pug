@@ -2,141 +2,226 @@ extends ../templates/contents.pug
 
 block headVars
     - var title = "Human Practices"
-    - var tagline = "A sample page for the theme."
+    - var tagline = "Science for Humans and Humans for science."
     - var requireMathJax = true
 
 block article
 
     :markdown-it(html)
 
-        # Headings
-        ## Level 2 Heading
-        ### Level 3 Heading
-        #### Level 4 Heading
+        # Something’s fishy
+        Wake up! It's food o’ clock. Cooking is a lot more than just food, it brings people closer together. Throughout history, fish has been utilised by humans as a food source. Fishes are **integrated** into **many traditions** throughout the world being the traditional food for Rosh Hashanah, the Jewish New Year, or through fish festivals etc.
+        It plays a huge role in ceremonial traditions, creating important ties between families and individuals and embodying their symbolic ties to the environment in communities residing in coastlines. Many countries have fishes as a part of their **primary diet**.  
+        
+        However, methylmercury and it's prevalence in seafood is a major deterrent. Hence, in an attempt to create awareness as well as celebrate different recipes from around the world we have curated **Something’s fishy.** 
 
-        # Emphasis
-        This is regular text.
+    +pdf(require("../assets/docs/iGEM-MIT_MAHE-SAUL-Handbook.pdf")['default'], "iGEM-MIT_MAHE-SAUL-Handbook")
+    :markdown-it(html)
+        # Taxonomy of Hanoi
+        In order to spread the beauty of biology during the COVID-19 pandemic, we decided to develop a game. The game developed follows the concept of Tower of Hanoi, one of the most popular puzzles. The aim of the game is to transfer the tower of n disks from the first rack to the third (last) one.
+        This has to be done by ensuring that while stacking the disks, a smaller disk is always placed over a larger disk. The reverse is forbidden. 
+        Our version of the game tries to put out a fun twist to learning taxonomic ranks. The disks represent the rank. Young children can learn the taxonomic classifications for widely known creatures like humans, butterflies and lions.
 
-        **This is bold text.**
-        __This is also bold text.__
+        [Download the game](https://www.google.com)
 
-        *This is italic text.*
-        _This is also italix text.*
+        # Newspaper Article
+        In order to spread information about methylmercury poisoning: it's source, exposure, long term effects, treatment and its prevalence in fishes, we have written a newspaper article in the local language of Kannada which is to be published in a newspaper.
+    +pdf(require("../assets/docs/Newspaper-Article.pdf")['default'], "Newspaper-Article")
+    :markdown-it(html)
+        # Data
+        ### Fish Consumption
+        Having a long coastline, fish is a **staple food** for many people in India. Some of the major fishing communities are the Kolis in Maharashtra, Mogaveeras in Karnataka, Jalaris and Rajbhansis in Orissa, Mukkuvars and Paravas in Tamil Nadu etc. The Tangkhul people of Manipur celebrate Khairi Kashao in the dry months of April or May. This festival is a means to invoke the rain gods, it is also parallelly an occasion for mass fishing. The traditional fishing festival of the Jaunpuri community of Tehri Garhwal, Maund Matsya Mela is what the festival in Uttarakhand is called.
+        This festival was started as a means to reduce exploitative fishing all year in the river. The Chang people of Nagaland celebrate Khiliinyie, which is a week-long harvesting festival. This shows the **high relevance** of our project in our native country. 
 
-        ***This text is bold and italic both.***
-        ___This text is bold and italic both.___
+    .row
+        .col-md
+         - var imgpath = "" + require("../assets/img/HP--High-Bar.png")["default"]
+         +image(1, imgpath, "High Consumption", 100)
+    
+        .col-md
+         - var imgpath = "" + require("../assets/img/HP--Mod-Bar.png")["default"]
+         +image(2, imgpath, "Moderate Consumption", 100)
 
-        ~~Strikethrough~~
-
-        # Lists
-        1. This is item one.
-        1. This is item two.
-        1. It's okay to number every item as 1.
-            * This is a nested list.
-            * Use asterisk for an unordered list,
-            * Further nesting?
-            + Plus sign also works.
-            - And so does minus.
-        1. ~~Birds aren't real.~~
-
-        # Links
-        [Google](https://google.com)
-
-        [Text goes in square brackets](Link-goes-in-parenthesis)
-
-        # Blockquote
-
-        > This is a blockquote.
-        > This continues in the same paragraph.
-        >
-        > To change the paragraph, you have to leave a line.
-
-        > This is another blockquote.
-        > 
-        > **Pranav Ballaney, 2020**
-
-        # Images
-
-        This is a regular paragraph. 
-        #### This is a level 4 heading. 
-        [This is a link](google.com)
-
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
-    +image(1, imgpath, "Caption", 100)
+    - var imgpath = "" + require("../assets/img/HP--Low-Bar.png")["default"]
+         +image(3, imgpath, "Low Consumption", 80)
 
     :markdown-it(html)
-        Back to regular text.
+        ### Complex Nitrogen sources
+        **Nitrogen** is one of the primary nutrients critical for the survival of all living organisms. It is a necessary component of many biomolecules, including **proteins, DNA, and chlorophyll**. There are a variety of complex nitrogen sources available in India.
 
-        # Tables
+        **Corn steep liquor** is a by-product of the corn wet milling industry. It is rich in nutrients and is available at a much cheaper price point than most traditional alternatives such as yeast extract. **Soybean Liquor, Groundnut meal** and **Cottonseed Flour** are all high protein concentrates that are produced as by products of their respective oil productions. **Yeast extract** is one of the most popular nitrogen sources that is used in the industry. It is a by-product of the beer brewing industry.
 
-        This is a regular paragraph, which precedes the table.
-        When you want to insert a table, indent one level back and specify the plugin.
-        Then indent inside again and start writing the table.
+    - var imgpath = "" + require("../assets/img/HP--Map--nitrogen.png")["default"]
+    +image(4, imgpath, "Map of Complex Nitrogen Sources", 100)
+
+    :markdown-it(html)
+        [Census 2011](https://censusindia.gov.in/2011census/population_enumeration.html)
+
+        ### Methylmercury and Fishes
+        Rivers are a high risk source for methylmercury containing fishes due to the presence of industries, mines, etc near them. We have depicted some of the popular fishes in this ecosystem and their methylmercury content.
+
+    - var imgpath = "" + require("../assets/img/Description--fishmehg.png")["default"]
+    +image(5, imgpath, "Affected Ecosystems", 100)
+
+    :markdown-it(html)
+        ### Estimation of production
+
+        In order to design the bioreactor we conducted **a literature study as well as a survey** to estimate the production requirements.
+
+        We estimated the number of people who would consume the pills based on **their location** (rural or urban) and possible **willingness** to take the medication. We used the information we got through the survey about the number of people who would be willing to take the probiotic regularly and modified the values considering that the people who filled our survey were educated.
+
+    - var imgpath = "" + require("../assets/img/HP--Map--fish.png")["default"]
+    +image(4, imgpath, "Map of expected consumption", 100)
 
     :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | This is | the table | header row |
-        | ------  | --------- | ---------- |
-        | 1       | 2         | 3          |
-        | 4       | 5         | 6          |
-        [Table 1: Caption goes here.]
-
-    :markdown-it(html)
-        And when you're done, go back to the regular markdown filter.
-
-    :markdown-it(html)
-        **Example 2:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | Left aligned | Center aligned | Right aligned |
-        | :----------- | :------------: | ------------: |
-        | 1 | 2 | 3 |
-        | 4 | 5 | 6 |
-
-    :markdown-it(html)
-        **Example 3:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        |              |          Grouping           ||
-        |First Header  | Second Header | Third Header |
-        | ------------ | :-----------: | -----------: |
-        |Content       |          *Long Cell*        ||
-        |Content       |   **Cell**    |         Cell |                                               
-        |New section   |     More      |[Data](https://google.com) |
-        |And more      | With an escaped '\|'       ||
-
-        [Table 3: Caption goes here.]
+        | Consumption | Dosage | Total pills per month | Total amount of active component (Child Variant) in g |  |
+        | ------  | --------- | ---------- | --- | --- |
+        | High consumption | 6 pills per month | 464999748 | 3347998.186 | 7672495.842 |
+        | Moderate consumption | 2 pills per month | 42077976 | 302961.4272 | 694286.604 |
+        | Low consumption| 1 pill per month | 90802634 | 653778.9648 | 1498243.461 |
+        || Note: Active component for in child variant 16mg and 30mg in adult variant |||||     
+        
+        [Table 1: Demand of Active Component.]
 
     :markdown-it(html)
 
-        # Definitions
+        # Survey 1
+        A survey was conducted to understand the level of awareness about methylmercury poisoning amongst the general public. We had **138 responses** and most of the people who filled the survey **did not have a background in biological sciences.**
 
-        <dfn>Term ~ Definition</dfn>
+        ### Awareness about methylmercury poisoning:
 
-        This can come <dfn>anywhere in ~ the text</dfn>.
+    .row
+        .col-md
+         - var imgpath = "" + require("../assets/img/HP--Sur1--1.png")["default"]
+         +image(7, imgpath, "", 100)
+    
+        .col-md
+         - var imgpath = "" + require("../assets/img/HP--Sur1--2.png")["default"]
+         +image(8, imgpath, "", 111)
 
-        # MathJax
+    .row    
+        .col-md
+         - var imgpath = "" + require("../assets/img/HP--Sur1--3.png")["default"]
+         +image(9, imgpath, "", 50)
 
-        $$\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$
+    :markdown-it(html)
+        ### Concern about GMOs:
 
-        $$-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$$
+    .row
+        .col-md
+         - var imgpath = "" + require("../assets/img/HP--Sur1--4.png")["default"]
+         +image(10, imgpath, "", 111)
+    
+        .col-md
+         - var imgpath = "" + require("../assets/img/HP--Sur1--5.png")["default"]
+         +image(11, imgpath, "", 100)
 
-        $$i\hbar\gamma^\mu\partial_\mu\psi = mc\psi$$
+    :markdown-it(html)
+        ### Willingness to consume probiotics:
+    - var imgpath = "" + require("../assets/img/HP--Sur1--6.png")["default"]
+    +image(12, imgpath, "", 60)
 
-        $$y_k = \frac{1}{\sqrt{N}}\sum_{n=0}^{N-1}x_n\omega_N^{kn}$$
+    :markdown-it(html)
+        # Survey 2
+        In order to have a better perception of the views of **doctors** and **pharmacists** about probiotics, we conducted a survey where we went to **clinics** and **drug stores** and requested them to do the same. Majority of the stakeholders were **in favour** of probiotics as shown
 
-        # Citations
+    - var imgpath = "" + require("../assets/img/HP--Sur2--1.png")["default"]
+    +image(13, imgpath, "", 60)
 
-        In text citation for a research article with a DOI. [Rosano et al., 2019](#citation2)
+    :markdown-it(html)
+        Using the survey we found out about the most common probiotics in the market - Darolac, Vivagut, Totalis, Bifilac, Enterogermina, Floristore, Vibact etc. Most of these probiotics are sold in **capsule form** enabling us to gain insight that it is the most **preferred method of delivery.** As you can see in the following figures, the preferences of our stakeholders are highly in the **favour of pills**. 
 
-        In text citation for another research article with a DOI. [Allen & Sheridan, 2015](#citation1)
+    .row
+        .col-md
+         - var imgpath = "" + require("../assets/img/HP--Sur2--2.png")["default"]
+         +image(14, imgpath, "", 110)
+    
+        .col-md
+         - var imgpath = "" + require("../assets/img/HP--Sur2--3.png")["default"]
+         +image(15, imgpath, "", 90)
 
-        In text citation for a book with no DOI. [Ingalls, 2013](#citation3)
+    :markdown-it(html)
+        Our probiotic pill is proposed as a **preventative measure** which would be recommended to be taken regularly. As shown, most of our stakeholders **would consider doing so**. As opposed to our first survey, Concerns about GMOs were few, which could also be due to the **lack of awareness** amongst their customers about what GMOs are. The most common concern was about the long term effects of GMOs. Our stakeholders themselves have a **mixed perception** of GMOs.
 
-        In text citation for a website with institutional author. [TNAU Agritech Portal, n.d.](#citation4)
+    .row
+        .col-md
+         - var imgpath = "" + require("../assets/img/HP--Sur2--4.png")["default"]
+         +image(16, imgpath, "", 90)
+    
+        .col-md
+         - var imgpath = "" + require("../assets/img/HP--Sur2--6.png")["default"]
+         +image(17, imgpath, "", 112)
 
-        In text citation for a website with an author. [Author, n.d.](#citation5)
+    .row    
+        .col-md
+         - var imgpath = "" + require("../assets/img/HP--Sur2--5.png")["default"]
+         +image(18, imgpath, "", 90)
+
+    :markdown-it(html)
+
+        In order to expand on the survey we also had an interview with **Dr. Sudha Somayaji**, _a gynaecologist and obstetrician practicing in Mangalore._ 
+
+        - **What is your general opinion about probiotics?**
+          
+          I highly recommend probiotics over other medication for the same problems as I believe it is extremely safe, effective and reliable. I also believe that it is safe for pregnant women.
+          
+        - **Do you or any of your patients express concerns about the contents of probiotics like GMOs?**
+          
+          My patients are not of the background who would know what the contents are. In India, most patients trust their doctors on the medications. My opinion of Genetically modified organisms is in favour of it for therapeutic purposes. 
+        - **Which is the most preferred method of consumption of probiotics for you?**
+          
+          Capsules would be preferred for adults. However, I am concerned about capsules for children as it can get stuck in the throat but if appropriate sizes are used, then I would prescribe it.
+        - **How often do you prescribe probiotics? Are the reactions positive?**
+          
+          I prescribe probiotics very often - Monthly about 1 box (100 capsules). The reactions are overwhelmingly positive, with some complaints about the capsule getting stuck in the throats for children.
+
+        # Conversations
+
+        In order to keep in check the **information and design** relevance of our project as well as make **improvements**, we consulted many experts. They helped in innumerable ways to shape our project from a problem statement to a solution. 
+        
+        #### Dr. Keyur Raval:
+        
+        Design of a bioreactor can make or break the effective implementation of a project. Hence, we sought advice from Dr. Keyur Raval, an associate professor in the Department of Chemical Engineering, National Institute of Technology, Karnataka. His knowledge and expertise in **scale-up of cell cultures, bioreactor design, bioprocess development and optimization** enabled us to understand the considerations involved in these areas.
+        
+        At first we had decided to **remove the antibiotic-resistance genes** from the final product considering the **safety aspects**. However, he said that the presence of antibiotic-resistance genes would create a **plasmid conservation pressure** during production which would ensure that **plasmid loss would not occur** as well as **prevent contamination of media.** Hence, we modified the final design of each plasmid to have a different antibiotic resistance gene in the final strain developed for production. 
+        
+        However, inclusion of such genes in the final strain design poses the threat of imparting **unnecessary antibiotic resistance** to the natural gut microbiome. When we voiced our concerns about this, he suggested the usage of **CRISPR Cas 9 technology** to integrate our design to the genome of the bacteria. However, we decided **against it** as the long term effects of this recent technology are not known. In addition, ___Escherichia coli_ Nissle 1917__ **cannot conjugate** and thus **cannot participate in Horizontal Gene Transfer** which made us more confident about the traditional method.
+        
+        Initially our media formulation used **glucose and tryptone** as the carbon source. However, he directed us towards the fact these components can be a source of food for **humans and animals** and tryptone would be too expensive on a large scale - thus increasing final product cost. Hence, we modified our media formulation as well as cryo and lyoprotectant composition to contain **glycerol** instead. Our nitrogen source was fixed to be only **yeast extract** at first, however, he asked us to consider the costs of doing so. He said that since the main cost driver of bioprocessing is incurred due to raw materials, different regions might prefer different nitrogen sources depending on **cost and availability**.
+        Hence, our media formulation was changed to be variable according to availability. He also suggested the use of **SCaBa impellers** as they are the current industry standard. 
+        
+        We also presented the design of SAUL to him. He noticed that **our retention time** in the device was too low as compared to the retention time of food in the gut. This enabled us to **improve** the **experimentation** aspects further. 
+        
+        #### Dr. Abdul Ajees:
+        
+        Due to the pandemic, the modelling aspects of our project became even more important. To visualize the structure of our protein and understand its aspects, we consulted **Dr. Abdul Ajees**, associate professor, Department of Atomic and Molecular Physics, Manipal Academy of Higher Education. He guided us about the various visualization techniques such as molecular dynamics. We wanted to see how **methylmercury** interacts with **alkylmercury lyase** and what are the conformational changes in the structure due to the interactions.
+        He suggested the use of the **Morph** command on the PyMol software which enabled us to do the same and guided us on what the changes suggested about the proteins. 
+        
+        #### Dr. Sudha Somayaji:
+        
+        As a therapeutic project, one of our most important stakeholders are doctors who would be prescribing the medicines, we interviewed Dr. Sudha Somayaji, Gynaecologist and Obstetrician practicing in Mangalore, Karnataka, India. Her concerns about **large capsules** being a difficult mode of delivery for children helped us to survey more and keep **two variants** of our product - for adults and for children.  
+        
+        #### Dr. Vytla Ramachandra Murty:
+        
+        At the beginning stages of designing a bioreactor, we were considering several options for the type of reactor to be chosen. We explained our project and needs to Dr. Vytla Ramachandra Murty, a professor in the Department of Biotechnology, Manipal Institute of Technology who recommended **stirred batch fermenters** as an appropriate choice.
+        
+        #### Ms. Archana Mahadev Rao:
+        
+        In order to develop a product, innumerable aspects have to be considered. To ensure we have done the same, Ms. Archana Mahadev Rao, professor in department of biotechnology, Manipal Institute of technology, gave us a good manufacturing practices checklist. She said that given a product and a desired annual production rate bioprocess design **endeavours to answer several questions**, them being
+        
+        - What are the required amounts of raw materials and utilities?
+        - What is the required size of process equipment and supporting utilities?
+        - What is the manufacturing cost?
+        - What is the optimum batch size?
+        - How long does a single batch take?
+        - How much product can be generated per year?
+        - What is the demand for resources in the course of a batch?
+        - What is the amount of resources consumed?
+        - Are there any bottlenecks?
+        
+        Following this, we were able to design **several preliminary experiments** (refer to iGEM MIT_MAHE Product Development Experiments Handbook) which we had not considered initially. 
+        
+        #### Dr. Saran Kumar:
+        In order to ensure that we have considered all possibilities during our design phase, we approached Dr. Saran Kumar, Postdoctoral fellow, Faculty of Medicine, Hebrew University of Jerusalem, Israel. He asked us innumerable questions of the various possibilities and ensured that we have chosen the best possible design. He expressed his concerns about the **plasmid length** which is also one of our concerns. Hence we designed an experiment which would measure the **rate of plasmid loss** due to length. 
 
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
-
-prepend citations
-    - var citations = [{"authors": "Allen, M. J., & Sheridan, S. C. (2015). ", "doi": "https://doi.org/10.1007/s00484-015-1117-4", "journal": "International Journal of Biometeorology", "numbers": "62(1), 57-67. ", "title": "Mortality risks during extreme temperature events (ETEs) using a distributed lag non-linear model.", "type": "article"}, {"authors": "Rosano, A., Bella, A., Gesualdo, F., Acampora, A., Pezzotti, P., Marchetti, S., ... & Rizzo, C. (2019). ", "doi": "https://doi.org/10.1016/j.ijid.2019.08.003", "journal": "International Journal of Infectious Diseases", "numbers": "88, 127-134. ", "title": "Investigating the impact of influenza on excess mortality in all ages in Italy during recent seasons (2013/14-2016/17 seasons).", "type": "article"}, {"Google_Books_URL": "https://books.google.co.in/books?id=OYr6AQAAQBAJ", "authors": "Ingalls, B. P.", "publisher": "MIT Press.", "title": "Mathematical modeling in systems biology: An introduction.", "type": "book", "year_published": "(2013)."}, {"details": "(March 15, 2019). Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}, {"authors": "Author Name. (n.d.).", "details": "Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}]
