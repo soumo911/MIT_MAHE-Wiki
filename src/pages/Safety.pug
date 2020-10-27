@@ -3,7 +3,7 @@ extends ../templates/contents.pug
 block headVars
     - var title = "Safety"
     - var tagline = "Safety considerations for our project."
-    - var requireMathJax = true
+    - var requireMathJax = false
 
 block article
 
@@ -175,6 +175,8 @@ block article
 
         # Handbook
         Please refer to the full safety handbook for all details.
+        
+        The Safety Handbook includes detailed and complete safety considerations of every reagent, process, experiment, device, equipment, etc described in the other handbooks as well as biosecurity and biosafety issues of our project.
 
     +pdf(require("../assets/docs/iGEM-MIT_MAHE-Safety-Handbook.pdf")['default'], "iGEM-MIT_MAHE-Safety-Handbook")
 

@@ -3,7 +3,7 @@ extends ../templates/contents.pug
 block headVars
     - var title = "Implementation"
     - var tagline = "This page outlines our proposed implementation of the project."
-    - var requireMathJax = true
+    - var requireMathJax = false
 
 block article
 
@@ -257,7 +257,8 @@ block article
 
         # Handbook
         You can read the full documentation on our ___Implementation Handbook.___
-        The implementation handbook consists information about the various upstream and downstream process involved in powder and capsule development, detailed design and working of our production bioreactor (entire bioprocess), packaging processes and materials, waste management and recycling methodologies as well as information about various nitrogen sources of different regions in India, market analysis and fish consumption analysis.
+        
+        The Implementation Handbook consists information about the various upstream and downstream process involved in powder and capsule development, detailed design and working of our production bioreactor (entire bioprocess), packaging processes and materials, waste management and recycling methodologies as well as information about various nitrogen sources of different regions in India, market analysis and fish consumption analysis.
 
     +pdf(require("../assets/docs/iGEM-MIT_MAHE-Product-Development-Handbook.pdf")['default'], "iGEM-MIT_MAHE-Product-Development-Handbook")
 

@@ -3,7 +3,7 @@ extends ../templates/contents.pug
 block headVars
     - var title = "Human Practices"
     - var tagline = "Science for Humans and Humans for science."
-    - var requireMathJax = true
+    - var requireMathJax = false
 
 block article
 
@@ -15,7 +15,7 @@ block article
         
         However, methylmercury and it's prevalence in seafood is a major deterrent. Hence, in an attempt to create awareness as well as celebrate different recipes from around the world we have curated **Something’s fishy.** 
 
-    +pdf(require("../assets/docs/iGEM-MIT_MAHE-SAUL-Handbook.pdf")['default'], "iGEM-MIT_MAHE-SAUL-Handbook")
+    +pdf(require("../assets/docs/Somethings-fishy-Cookbook.pdf")['default'], "Somethings-fishy-Cookbook")
     :markdown-it(html)
         # Taxonomy of Hanoi
         In order to spread the beauty of biology during the COVID-19 pandemic, we decided to develop a game. The game developed follows the concept of Tower of Hanoi, one of the most popular puzzles. The aim of the game is to transfer the tower of n disks from the first rack to the third (last) one.
@@ -26,6 +26,7 @@ block article
 
         # Newspaper Article
         In order to spread information about methylmercury poisoning: it's source, exposure, long term effects, treatment and its prevalence in fishes, we have written a newspaper article in the local language of Kannada which is to be published in a newspaper.
+
     +pdf(require("../assets/docs/Newspaper-Article.pdf")['default'], "Newspaper-Article")
     :markdown-it(html)
         # Data
