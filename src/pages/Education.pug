@@ -2,141 +2,49 @@ extends ../templates/contents.pug
 
 block headVars
     - var title = "Education"
-    - var tagline = "A sample page for the theme."
+    - var tagline = "This page outlines how we generated awareness amongst the public."
     - var requireMathJax = true
 
 block article
 
     :markdown-it(html)
 
-        # Headings
-        ## Level 2 Heading
-        ### Level 3 Heading
-        #### Level 4 Heading
+        # BIOSUMMIT
+        
+        The year **2030** marks the achievement of the **Sustainable Development Goals**, as proposed by the United Nations Organisation back in 2015. But given the current scenario, we are not even close to accomplishing even one of them.
+        
+        **iGEM MIT_MAHE (Manipal BioMachines), iGEM BITS Goa, and BITSMUN Goa** in association with **The Dais** conducted the first event of the **All India iGEM Meet 2020: iGEM India BIOSUMMIT 2020.** The idea behind the summit was to bring together iGEMers, including iGEM alumni across India to come and lead a **healthy discussion** revolving around the **targeted Sustainable Development Goals** for the event.
+        We focused on **8 SDGs:** Food and Health, Clean Water and Sanitation, Decent Work and Economic Growth, Industry, Innovation and Infrastructure, Reduced Inequalities, Responsible Consumption and Production, Climate Action and Peace, Justice and Strong Institutions.
+        It included **four** committees whose agenda were: (i) Ethics of terraforming: Making Mars suitable for human inhabitation, (ii) Health & Medical Data Privacy, (iii) Availability of Genetic Cosmetic treatment to the population based on the wealth distribution, and (iv) Prevention of bio-warfare and/or entomological warfare is possible for policy-making and Dual use of existing synthetic biology products. 
 
-        # Emphasis
-        This is regular text.
-
-        **This is bold text.**
-        __This is also bold text.__
-
-        *This is italic text.*
-        _This is also italix text.*
-
-        ***This text is bold and italic both.***
-        ___This text is bold and italic both.___
-
-        ~~Strikethrough~~
-
-        # Lists
-        1. This is item one.
-        1. This is item two.
-        1. It's okay to number every item as 1.
-            * This is a nested list.
-            * Use asterisk for an unordered list,
-            * Further nesting?
-            + Plus sign also works.
-            - And so does minus.
-        1. ~~Birds aren't real.~~
-
-        # Links
-        [Google](https://google.com)
-
-        [Text goes in square brackets](Link-goes-in-parenthesis)
-
-        # Blockquote
-
-        > This is a blockquote.
-        > This continues in the same paragraph.
-        >
-        > To change the paragraph, you have to leave a line.
-
-        > This is another blockquote.
-        > 
-        > **Pranav Ballaney, 2020**
-
-        # Images
-
-        This is a regular paragraph. 
-        #### This is a level 4 heading. 
-        [This is a link](google.com)
-
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
-    +image(1, imgpath, "Caption", 100)
+    - var imgpath = "" + require("../assets/img/Education--biosummit.png")["default"]
+    +image(1, imgpath, "iGEM India BIOSUMMIT Poster", 70)
 
     :markdown-it(html)
-        Back to regular text.
+        The **BIOSUMMIT** boasted **international judges** from the USA to Japan - including iGEM UN CBD 2018 delegates - Aiswarya Prasad and Janina Lüders and iGEM 2020 ambassadors - Varsha Jaisimha and Kaavya Ashok. We also had Georgios Kostakos as our chief guest, who served as the secretariat of the UN Secretary General's High-level panel on Global sustainability.
+        We had participants from **all over India** and each committee had **a fruitful discussion** on their respective agendas. All the participants contributed their opinions about various **technical** and **ethical** aspects of their agenda, **adding on** to each other, **identifying various problems** as well as **providing solutions** leading to a smooth exchange of ideas in a **collaborative manner.**
 
-        # Tables
+        # Research Society Webinar
+        **iGEM MIT_MAHE** (Manipal BioMachines) collaborated with **Research Society Manipal**, and conducted an **alumni webinar session**, with **Harish Narasimhan** as the speaker. He is currently pursuing his PhD in Immunology and graduated with a Master's degree in Biochemistry and Molecular Biology, from Johns Hopkins University.
+        Biotechnology is a vast field, and it can be daunting for undergraduates to pick a stream for higher studies. Mr. Narasimhan gave a beautiful talk on numerous aspects of this field. Almost a **100 undergraduate** students attended the webinar where he also debunked several myths about the novel coronavirus. **An interactive Q and A session** followed where several ideas were exchanged.
 
-        This is a regular paragraph, which precedes the table.
-        When you want to insert a table, indent one level back and specify the plugin.
-        Then indent inside again and start writing the table.
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | This is | the table | header row |
-        | ------  | --------- | ---------- |
-        | 1       | 2         | 3          |
-        | 4       | 5         | 6          |
-        [Table 1: Caption goes here.]
+    - var imgpath = "" + require("../assets/img/Collaborations--rsm.jpeg")["default"]
+    +image(2, imgpath, "Webinar Poster", 70)
 
     :markdown-it(html)
-        And when you're done, go back to the regular markdown filter.
+        # Cookbook
+        Most cookbooks provide recipes, and the occasional cookbook provides calorie count as well, but it is always **beneficial** to know about the **issues** that **certain ingredients** in a recipe can cause.
+        Apart from **celebrating the recipes**, the main aim of creating a cookbook which contains several recipes from around the globe, was to **educate people** on **methylmercury poisoning.** We believe that this would **encourage people** to know more about the issue since it affects their favorite recipes.
+    +pdf(require("../assets/docs/iGEM-MIT_MAHE-SAUL-Handbook.pdf")['default'], "iGEM-MIT_MAHE-SAUL-Handbook")
 
     :markdown-it(html)
-        **Example 2:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | Left aligned | Center aligned | Right aligned |
-        | :----------- | :------------: | ------------: |
-        | 1 | 2 | 3 |
-        | 4 | 5 | 6 |
-
+        # Newspaper Article
+        Our university is located in the coastal town of Manipal, Karnataka, where fish is regularly consumed. We will be **publishing an article** in the local language of **Kannada** in the local **newspapers** in order to spread awareness and educate the residents about **methylmercury poisoning**: it's source, exposure, long term effects, treatment and its prevalence in fishes.
+    +pdf(require("../assets/docs/Newspaper-Article.pdf")['default'], "Newspaper-Article")
     :markdown-it(html)
-        **Example 3:**
+        # Game
 
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        |              |          Grouping           ||
-        |First Header  | Second Header | Third Header |
-        | ------------ | :-----------: | -----------: |
-        |Content       |          *Long Cell*        ||
-        |Content       |   **Cell**    |         Cell |                                               
-        |New section   |     More      |[Data](https://google.com) |
-        |And more      | With an escaped '\|'       ||
+        **Taxonomy** is a method of classification of organisms based on their **biological ancestry**. It is also an essential knowledge for all **aspiring biologists**.
+        In order to teach children about the **different kingdoms, species** etc, we have designed a game which added a twist to the Tower of Hanoi. We hope that children would enjoy this **unison of mathematics and biology.**
 
-        [Table 3: Caption goes here.]
-
-    :markdown-it(html)
-
-        # Definitions
-
-        <dfn>Term ~ Definition</dfn>
-
-        This can come <dfn>anywhere in ~ the text</dfn>.
-
-        # MathJax
-
-        $$\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$
-
-        $$-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$$
-
-        $$i\hbar\gamma^\mu\partial_\mu\psi = mc\psi$$
-
-        $$y_k = \frac{1}{\sqrt{N}}\sum_{n=0}^{N-1}x_n\omega_N^{kn}$$
-
-        # Citations
-
-        In text citation for a research article with a DOI. [Rosano et al., 2019](#citation2)
-
-        In text citation for another research article with a DOI. [Allen & Sheridan, 2015](#citation1)
-
-        In text citation for a book with no DOI. [Ingalls, 2013](#citation3)
-
-        In text citation for a website with institutional author. [TNAU Agritech Portal, n.d.](#citation4)
-
-        In text citation for a website with an author. [Author, n.d.](#citation5)
-
-//- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
-
-prepend citations
-    - var citations = [{"authors": "Allen, M. J., & Sheridan, S. C. (2015). ", "doi": "https://doi.org/10.1007/s00484-015-1117-4", "journal": "International Journal of Biometeorology", "numbers": "62(1), 57-67. ", "title": "Mortality risks during extreme temperature events (ETEs) using a distributed lag non-linear model.", "type": "article"}, {"authors": "Rosano, A., Bella, A., Gesualdo, F., Acampora, A., Pezzotti, P., Marchetti, S., ... & Rizzo, C. (2019). ", "doi": "https://doi.org/10.1016/j.ijid.2019.08.003", "journal": "International Journal of Infectious Diseases", "numbers": "88, 127-134. ", "title": "Investigating the impact of influenza on excess mortality in all ages in Italy during recent seasons (2013/14-2016/17 seasons).", "type": "article"}, {"Google_Books_URL": "https://books.google.co.in/books?id=OYr6AQAAQBAJ", "authors": "Ingalls, B. P.", "publisher": "MIT Press.", "title": "Mathematical modeling in systems biology: An introduction.", "type": "book", "year_published": "(2013)."}, {"details": "(March 15, 2019). Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}, {"authors": "Author Name. (n.d.).", "details": "Retrieved on June 22, 2020. from ", "title": "Agriculture: Crop production: Sugarcane. TNAU Agritech Portal.", "type": "webpage", "url": "https://google.com"}]
+        [Download the Game](https://www.google.com)
