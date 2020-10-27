@@ -9,11 +9,11 @@ block article
 
     :markdown-it(html)
 
-        # Something’s fishy
-        Wake up! It's food o’ clock. Cooking is a lot more than just food, it brings people closer together. Throughout history, fish has been utilised by humans as a food source. Fishes are **integrated** into **many traditions** throughout the world being the traditional food for Rosh Hashanah, the Jewish New Year, or through fish festivals etc.
-        It plays a huge role in ceremonial traditions, creating important ties between families and individuals and embodying their symbolic ties to the environment in communities residing in coastlines. Many countries have fishes as a part of their **primary diet**.  
+        # Something's fishy
+        Wake up! It's food o' clock. Cooking is a lot more than just food, it brings people closer together. Throughout history, fish has been utilised by humans as a food source. Fishes are **integrated** into **many traditions** throughout the world being the traditional food for Rosh Hashanah, the Jewish New Year, or through fish festivals etc.
+        It plays a huge role in ceremonial traditions, creating important ties between families and individuals and embodying their symbolic ties to the environment in communities residing near coastlines. Many countries have fishes as a part of their **primary diet**.  
         
-        However, methylmercury and it's prevalence in seafood is a major deterrent. Hence, in an attempt to create awareness as well as celebrate different recipes from around the world we have curated **Something’s fishy.** 
+        However, methylmercury and its prevalence in seafood is a major deterrent. Hence, in an attempt to create awareness as well as celebrate different recipes from around the world we have curated **Something's fishy.** 
 
     +pdf(require("../assets/docs/Somethings-fishy-Cookbook.pdf")['default'], "Somethings-fishy-Cookbook")
     :markdown-it(html)
@@ -22,10 +22,10 @@ block article
         This has to be done by ensuring that while stacking the disks, a smaller disk is always placed over a larger disk. The reverse is forbidden. 
         Our version of the game tries to put out a fun twist to learning taxonomic ranks. The disks represent the rank. Young children can learn the taxonomic classifications for widely known creatures like humans, butterflies and lions.
 
-        [Download the game](https://www.google.com)
+        [Download the game](./assets/other/taxonomy-of-hanoi-v8a-release.rar)
 
         # Newspaper Article
-        In order to spread information about methylmercury poisoning: it's source, exposure, long term effects, treatment and its prevalence in fishes, we have written a newspaper article in the local language of Kannada which is to be published in a newspaper.
+        In order to spread information about methylmercury poisoning: its source, exposure, long term effects, treatment and its prevalence in fishes, we have written a newspaper article in the local language of Kannada which is to be published in a newspaper.
 
     +pdf(require("../assets/docs/Newspaper-Article.pdf")['default'], "Newspaper-Article")
     :markdown-it(html)
@@ -44,7 +44,7 @@ block article
          +image(2, imgpath, "Moderate Consumption", 100)
 
     - var imgpath = "" + require("../assets/img/HP--Low-Bar.png")["default"]
-         +image(3, imgpath, "Low Consumption", 80)
+    +image(3, imgpath, "Low Consumption", 80)
 
     :markdown-it(html)
         ### Complex Nitrogen sources
@@ -56,7 +56,7 @@ block article
     +image(4, imgpath, "Map of Complex Nitrogen Sources", 100)
 
     :markdown-it(html)
-        [Census 2011](https://censusindia.gov.in/2011census/population_enumeration.html)
+        [Population Enumeration Data - Census 2011](#citation1).
 
         ### Methylmercury and Fishes
         Rivers are a high risk source for methylmercury containing fishes due to the presence of industries, mines, etc near them. We have depicted some of the popular fishes in this ecosystem and their methylmercury content.
@@ -65,6 +65,8 @@ block article
     +image(5, imgpath, "Affected Ecosystems", 100)
 
     :markdown-it(html)
+        Figures from [Pal M. et al, 2012](#citation2).
+
         ### Estimation of production
 
         In order to design the bioreactor we conducted **a literature study as well as a survey** to estimate the production requirements.
@@ -75,7 +77,7 @@ block article
     +image(6, imgpath, "Map of expected consumption", 100)
 
     :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | Consumption | Dosage | Total pills per month | Total amount of active component (Child Variant) in g |  |
+        | Consumption | Dosage | Total pills per month | Total amount of active component (Child Variant) in g | Total amount of active component (Adult Variant) in g  |
         | ------  | --------- | ---------- | --- | --- |
         | High consumption | 6 pills per month | 464999748 | 3347998.186 | 7672495.842 |
         | Moderate consumption | 2 pills per month | 42077976 | 302961.4272 | 694286.604 |
@@ -181,7 +183,10 @@ block article
         In order to keep in check the **information and design** relevance of our project as well as make **improvements**, we consulted many experts. They helped in innumerable ways to shape our project from a problem statement to a solution. 
         
         #### Dr. Keyur Raval:
-        
+    - var imgpath = "" + require("../assets/img/HP--Keyur-Raval.jpg")["default"]
+    +image(19, imgpath, "Dr. Keyur Raval", 30)
+
+    :markdown-it(html)
         Design of a bioreactor can make or break the effective implementation of a project. Hence, we sought advice from Dr. Keyur Raval, an associate professor in the Department of Chemical Engineering, National Institute of Technology, Karnataka. His knowledge and expertise in **scale-up of cell cultures, bioreactor design, bioprocess development and optimization** enabled us to understand the considerations involved in these areas.
         
         At first we had decided to **remove the antibiotic-resistance genes** from the final product considering the **safety aspects**. However, he said that the presence of antibiotic-resistance genes would create a **plasmid conservation pressure** during production which would ensure that **plasmid loss would not occur** as well as **prevent contamination of media.** Hence, we modified the final design of each plasmid to have a different antibiotic resistance gene in the final strain developed for production. 
@@ -194,20 +199,32 @@ block article
         We also presented the design of SAUL to him. He noticed that **our retention time** in the device was too low as compared to the retention time of food in the gut. This enabled us to **improve** the **experimentation** aspects further. 
         
         #### Dr. Abdul Ajees:
-        
+    - var imgpath = "" + require("../assets/img/HP--Abdul-Ajees.jpg")["default"]
+    +image(20, imgpath, "Dr. Abdul Ajees", 30)
+
+    :markdown-it(html)
         Due to the pandemic, the modelling aspects of our project became even more important. To visualize the structure of our protein and understand its aspects, we consulted **Dr. Abdul Ajees**, associate professor, Department of Atomic and Molecular Physics, Manipal Academy of Higher Education. He guided us about the various visualization techniques such as molecular dynamics. We wanted to see how **methylmercury** interacts with **alkylmercury lyase** and what are the conformational changes in the structure due to the interactions.
         He suggested the use of the **Morph** command on the PyMol software which enabled us to do the same and guided us on what the changes suggested about the proteins. 
         
         #### Dr. Sudha Somayaji:
-        
+    - var imgpath = "" + require("../assets/img/HP--Sudha-Somayaji.jpg")["default"]
+    +image(21, imgpath, "Dr. Sudha Somayaji", 30)
+
+    :markdown-it(html)
         As a therapeutic project, one of our most important stakeholders are doctors who would be prescribing the medicines, we interviewed Dr. Sudha Somayaji, Gynaecologist and Obstetrician practicing in Mangalore, Karnataka, India. Her concerns about **large capsules** being a difficult mode of delivery for children helped us to survey more and keep **two variants** of our product - for adults and for children.  
         
         #### Dr. Vytla Ramachandra Murty:
-        
+    - var imgpath = "" + require("../assets/img/HP--V-Ramachandra-Murty.jpg")["default"]
+    +image(22, imgpath, "Dr. Vytla Ramachandra Murty", 30)
+
+    :markdown-it(html)
         At the beginning stages of designing a bioreactor, we were considering several options for the type of reactor to be chosen. We explained our project and needs to Dr. Vytla Ramachandra Murty, a professor in the Department of Biotechnology, Manipal Institute of Technology who recommended **stirred batch fermenters** as an appropriate choice.
         
         #### Ms. Archana Mahadev Rao:
-        
+    - var imgpath = "" + require("../assets/img/HP--Archana-Mahadev-Rao.jpg")["default"]
+    +image(23, imgpath, "Ms. Archana Mahadev Rao", 30)
+
+    :markdown-it(html)
         In order to develop a product, innumerable aspects have to be considered. To ensure we have done the same, Ms. Archana Mahadev Rao, professor in department of biotechnology, Manipal Institute of technology, gave us a good manufacturing practices checklist. She said that given a product and a desired annual production rate bioprocess design **endeavours to answer several questions**, them being
         
         - What are the required amounts of raw materials and utilities?
@@ -223,6 +240,34 @@ block article
         Following this, we were able to design **several preliminary experiments** (refer to iGEM MIT_MAHE Product Development Experiments Handbook) which we had not considered initially. 
         
         #### Dr. Saran Kumar:
+    - var imgpath = "" + require("../assets/img/HP--Saran-Kumar.jpg")["default"]
+    +image(24, imgpath, "Dr. Saran Kumar", 30)
+
+    :markdown-it(html)
         In order to ensure that we have considered all possibilities during our design phase, we approached Dr. Saran Kumar, Postdoctoral fellow, Faculty of Medicine, Hebrew University of Jerusalem, Israel. He asked us innumerable questions of the various possibilities and ensured that we have chosen the best possible design. He expressed his concerns about the **plasmid length** which is also one of our concerns. Hence we designed an experiment which would measure the **rate of plasmid loss** due to length. 
 
+        #### Dr. Subbalaxmi Selvaraj:
+    - var imgpath = "" + require("../assets/img/HP--Subbalaxmi-Selvaraj.jpg")["default"]
+    +image(25, imgpath, "Dr. Subbalaxmi Selvaraj", 30)
+
+    :markdown-it(html)
+        **Optimal media formulation** is one of the most essential steps in bioprocess design. In order to improve our design, we consulted Dr. Subbalaxmi Selvaraj, professor in the Department of Biotechnology, Manipal Institute of Technology.
+        She suggested we calculate the **respiratory** and **yield coefficient** as well as the **theoretical oxygen demand** to better understand our requirements.
+        She also asked us to formulate experiments to determine the **nitrogen content** in the nitrogen sources which would be used so that **optimal amounts** can be added. 
+
+        # Downloads
+
+        Raw Data about estimated demand, region-wise distrbution of complex nitrogen sources, fish consumption, and methylmercury content in fishes can be downloaded below.
+         
+    +pdf(require("../assets/docs/Demand--Estimation.pdf")['default'], "Demand--Estimation")
+
+    +pdf(require("../assets/docs/Nitrogen--sources.pdf")['default'], "Nitrogen--sources")
+
+    +pdf(require("../assets/docs/Fish--consumption.pdf")['default'], "Fish--consumption")
+
+    +pdf(require("../assets/docs/Methylmercury--and--fishes.pdf")['default'], "Methylmercury--and--fishes")
+
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
+
+prepend citations
+    - var citations = [{"details": "(October 9, 2020). Retrieved on October 11, 2020. from ", "title": "Visual Molecular Dynamics. Theoretical and computational biophysics group.", "type": "webpage", "url": "https://www.ks.uiuc.edu/Research/vmd/"}, {"authors": "Lafrance-Vanasse, J., Lefebvre, M., Di Lello, P., Sygusch, J., & Omichinski, J. G. (2008). ", "doi": "https://doi.org/10.1074/jbc.M807143200", "journal": "Journal of Biological Chemistry", "numbers": "284(2), 938-944. ", "title": "Crystal Structures of the Organomercurial Lyase MerB in Its Free and Mercury-bound Forms.", "type": "article"}, {"authors": "Parks, J. M., Guo, H., Momany, C., Liang, L., Miller, S. M., Summers, A. O., & Smith, J. C. (2009). Mechanism of Hg- C Protonolysis in the Organomercurial Lyase MerB. Journal of the American Chemical Society, 131(37), 13278-13285. ", "doi": "https://doi.org/10.1021/ja9016123", "journal": "Journal of the American Chemical Society", "numbers": "131(37), 13278-13285. ", "title": "Mechanism of Hg C Protonolysis in the Organomercurial Lyase MerB.", "type": "article"}, {"authors": "Ledwidge, R., Patel, B., Dong, A., Fiedler, D., Falkowski, M., Zelikova, J., ... & Miller, S. M. (2005). ", "doi": "https://doi.org/10.1021/bi050519d", "journal": "Biochemistry", "numbers": "44(34), 11402-11416. ", "title": "NmerA, the Metal Binding Domain of Mercuric Ion Reductase, Removes Hg2+from Proteins, Delivers It to the Catalytic Core, and Protects Cells under Glutathione-Depleted Conditions , .", "type": "article"}, {"authors": "Mathema, V. B., Thakuri, B. C., & Sillanp    , M. (2011). ", "doi": "https://doi.org/10.1007/s00203-011-0751-4", "journal": "Archives of Microbiology", "numbers": "193(12), 837-844. ", "title": "Bacterial mer operon-mediated detoxification of mercurial compounds: a short review.", "type": "article"}]

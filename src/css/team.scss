@@ -37,8 +37,13 @@ header {
 }
 
 main {
+  color: white;
   margin-top: 2rem;
-
+  
+  h1, h2, h3, h4 {
+    color: white;
+  }
+  
   .container {
     margin-top: 2.5rem;
   }

@@ -22,11 +22,11 @@ block article
         
         **Bioprocesses** involve growing the bacteria in a bioreactor. 
         
-        **Downstream processes** involves 
+        **Downstream processes** involve 
         - Separation: Separation of the API from other components.
         - Purification: Purification of the API to ensure there are no impurities or contaminants.
         - Manufacturing of the required capsule: For the drug delivery process. 
-        - Recycling and waste management:
+        - Recycling and waste management.
         
         Then the finished product is sent for packaging which involves covering our product with a packing material (cold form film in our case) to ensure the integrity of the product. 
         
@@ -37,20 +37,20 @@ block article
         - Packaging process. 
         - Recycling, waste management, and safety process.
 
-        > The best big idea is only going to be as good as its implementation
+        > The best big idea is only going to be as good as its implementation.
         > 
         > **Jay Samit**
 
         # Powder Design
         The strain development process involves the preparation and testing of recombinant plasmids in the _Escherichia coli_ Nissle 1917 with the insert described in the design part of the project. Initially, in order to ensure safety, we had proposed a design where the antibiotic resistance gene was removed from the bacteria so that any unnecessary resistances would not be imparted to the natural gut biota. 
 
-        However, **Dr. Keyur Raval** said that the presence of antibiotic-resistance genes would create a plasmid conservation pressure during production which would ensure that plasmid loss would not occur as well as prevent contamination of media.  Hence, each plasmid will have a different antibiotic resistance gene in the final strain developed for production. The final recombinant bacteria must be preserved using cryopreservation techniques. 
+        However, **Dr. Keyur Raval** said that the presence of antibiotic-resistance genes would create a plasmid conservation pressure during production which would ensure that plasmid loss does not occur, prevent contamination of media. Hence, each plasmid will have a different antibiotic resistance gene in the final strain developed for production. The final recombinant bacteria must be preserved using cryopreservation techniques. 
         
         However, inclusion of such genes in the final strain design poses the threat of imparting unnecessary antibiotic resistance to the natural gut microbiome. When we voiced our concerns about this, he suggested the usage of CRISPR-Cas-9 technology to integrate our design to the genome of the bacteria. However, we decided against it as the long term effects of this technology is not known. In addition, _Escherichia coli_ Nissle 1917 does not have the ability to undergo conjugation and thus cannot participate in Horizontal Gene Transfer which made us more confident about the traditional method. 
         
         Furthermore, he provided guidance on how we should formulate a **metabolic stoichiometric equation** as well as **design bioreactors** based on need and availability as opposed to keeping a restrictive approach. He helped us identify the different aspects that need to be looked into like media formulation, biomass equations, bioreactor design, etc.  Initially, we considered only yeast extract as our proposed nitrogen source. 
 
-        > The largest cost driver in any bioprocess are raw material costs. The cost and availability of nitrogen sources depends on the industries present in that area
+        > The largest cost driver in any bioprocess are raw material costs. The cost and availability of nitrogen sources depends on the industries present in that area.
         > 
         > **Dr. Keyur Raval**
         
@@ -204,7 +204,7 @@ block article
     +image(6, imgpath, "Empty Capsule Filling.", 100)
 
     :markdown-it(html)
-        An **automatic capsule filling machine** that can separate, fill, and bolt capsules sequentially has been proposed to ensure safe and efficient produce production as well as decrease labour costs. The seven internal steps involved in capsule filling are[Automatic capsule filling machine working principle - iPharmamachine](#citation6):
+        An **automatic capsule filling machine** that can separate, fill, and bolt capsules sequentially has been proposed to ensure safe and efficient produce production as well as decrease labour costs. The seven internal steps involved in capsule filling are [Automatic capsule filling machine working principle - iPharmamachine](#citation6):
 
         - Capsule rectification
         - Separation of capsules
@@ -225,7 +225,7 @@ block article
 
         # Packaging
 
-        The packaging material is an important aspect of the product development process as it helps protect the integrity of the product. Hence, we propose **cold form film** as the forming film to form a blister pack. Cold form film is a multi-layered film made using **PVC, aluminium foil**, and **polyamide like nylon** each of them layered on upon the other and fixed in place by using an adhesive layer in between each of them. The PVC side is on the inside in contact with the product.
+        The packaging material is an important aspect of the product development process as it helps protect the integrity of the product. Hence, we propose **cold form film** as the forming film to form a blister pack. Cold form film is a multi-layered film made using **PVC, aluminium foil**, and **polyamide-like nylon**, each of them layered on upon the other and fixed in place by using an adhesive layer in between each of them. The PVC side is on the inside in contact with the product.
         
         For the lidding material, a **paper** and **an aluminium foil** would be attached using an adhesive layer with the aluminium being the inner side. A layer of **heat seal coating** would be added to the region where the lidding material will be attached to the blisters to form a good seal.
     .row
@@ -253,8 +253,16 @@ block article
         # Challenges
         Even though the Escherichia coli Nissle 1917 does not have the ability to undergo conjugation, the safety aspects of presence antibiotic resistance gene in the final product would have to be considered. Dr Keyur Raval suggested the usage of CRISPR-Cas-9 technology, integrating our design to the genome of the bacteria. 
         
-        The recombinant plasmid size is expected to be about 16kB, which might have a significant genetic burden. Our team couldn’t conduct any studies regarding the same, and this might be a significant challenge while scaling-up the process. Future teams can try to estimate the loss of function with generation for our probiotic.
+        The recombinant plasmid size is expected to be about 16kB, which might have a significant genetic burden. Our team couldn't conduct any studies regarding the same, and this might be a significant challenge while scaling-up the process. Future teams can try to estimate the loss of function with generation for our probiotic.
 
+        # Downloads
+
+        Raw Data about estimated demand, and region-wise distribution of complex nitrogen sources can be downloaded below.
+
+    +pdf(require("../assets/docs/Demand--Estimation.pdf")['default'], "Demand--Estimation")
+
+    +pdf(require("../assets/docs/Nitrogen--sources.pdf")['default'], "Nitrogen--sources")
+    :markdown-it(html)
         # Handbook
         You can read the full documentation on our ___Implementation Handbook.___
         
