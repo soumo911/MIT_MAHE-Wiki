@@ -3,6 +3,10 @@ assets:
     link_URL: https://2020.igem.org/wiki/images/8/85/T--MIT_MAHE--docs--Newspaper-Article.pdf
     md5: 289a7647e08b6ceba351d45f0e70bb06
     upload_filename: T--MIT_MAHE--docs--Newspaper-Article.pdf
+  assets/docs/Somethings-fishy-Cookbook.pdf:
+    link_URL: https://2020.igem.org/wiki/images/f/ff/T--MIT_MAHE--docs--Somethings-fishy-Cookbook.pdf
+    md5: d3489c2570b6c514785f1b7fe87ed28b
+    upload_filename: T--MIT_MAHE--docs--Somethings-fishy-Cookbook.pdf
   assets/docs/iGEM-MIT_MAHE-Composite-Bio-Brick-1.pdf:
     link_URL: https://2020.igem.org/wiki/images/a/a9/T--MIT_MAHE--docs--iGEM-MIT_MAHE-Composite-Bio-Brick-1.pdf
     md5: ff94bee9a17e4fa18f6e2e0b062c6d04
@@ -632,58 +636,58 @@ css:
 html:
   Attributions/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Attributions
-    md5: 1d6236453e44923e88ffaf271845991e
+    md5: 56766e09b8c9ad6cf9f469d80b5b8c49
   Collaborations/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Collaborations
-    md5: 82834eec5eecb9296d3600513ebaf01c
+    md5: ab8cf648809c6af79c780012047eab36
   Contribution/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Contribution
-    md5: f5313b235221211bc33c0cfb48d9fafc
+    md5: 1821f511eb14fdd93df1df7ffc3d90ca
   Description/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Description
-    md5: ca5d5e155de0e6e9c78775a4072de52b
+    md5: 87ad2b15ae927f902a51ca2c2d5c680d
   Design/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Design
     md5: 92be7be3d3d8dc517a8956409e25f1be
   Education/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Education
-    md5: 926f8981672a230fc72be4092ffe3b0c
+    md5: db4ff2aae5d200b197435d450811a211
   Engineering/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Engineering
-    md5: a39cf0320372ccde06bffd407c6bd423
+    md5: 3a2d45dc02c5426f726edd6809877788
   Experimentation/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Experimentation
-    md5: 45f30dff7eb4bffa0a5fc6b8fc8c7ff6
+    md5: 47e9cea29a1dd5059ef482307b7b8a5d
   Hardware/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Hardware
-    md5: 7779305e7d8ab83e46fa2894b411f1ce
+    md5: 1fe8698b622ee1cf176de73257bd22bf
   Human_Practices/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Human_Practices
-    md5: 5eb66e999c5dc125077ba363e402958f
+    md5: e02ed3e31e2399bf650d9e511ca300bf
   Implementation/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Implementation
-    md5: d6ae2c782f316b6d8e932eb4482c293a
+    md5: 7c38b083403cb2e54833f72e87e5e26d
   Judging_Form/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Judging_Form
     md5: aa040b56e757870f54c4e538ec7537d8
   Medals/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Medals
-    md5: 9f2add170335c41ba1b13b5253d41a52
+    md5: 4f579dedabb227932a6b9f1ff01d4776
   Model/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Model
-    md5: 22ec8eb546a3d2309f9dcbe6210b2f14
+    md5: f9a9fc0abf1396d115674e2f398cd6da
   Parts/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Parts
-    md5: c2fa210e311ce2e38953a223da5e90ec
+    md5: fb58b51dbe0ad2d7e900cdb3467f2e54
   Safety/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Safety
-    md5: 3462fb5d709b522489777132091595e5
+    md5: 97972821b900ff7d03183fda3bc44840
   Sample/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Sample
     md5: 1a3edcac1e4cd71de265c0ba61d0c3f3
   Special_Prizes/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Special_Prizes
-    md5: 201ac48c697e4163cf69a9771c5f2282
+    md5: 92ff10f80fcf5f69ad5a41620bb2bfeb
   Team/index.html:
     link_URL: https://2020.igem.org/Team:MIT_MAHE/Team
     md5: 30975bf3c492922f13dc36ed78e6bb76
