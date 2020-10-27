@@ -7,7 +7,7 @@ contents = contents.replace('/assets/vid', './assets/vid')
 with open('dist/index.html', 'w') as file:
     file.write(contents)
 
-pages_with_videos = ["Model"]
+pages_with_videos = ["Model", "Design"]
 
 for page in pages_with_videos:
     with open(f'dist/{page}/index.html', 'r') as file:
