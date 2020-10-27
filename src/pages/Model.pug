@@ -21,34 +21,34 @@ block article
         ### Alkylmercury Lyase
         **Alkylmercury lyase** is encoded by the MerB gene and **breaks** the **carbon mercury bond** in the organometallic compound and transfers the resulting mercury ion (Hg<sup>2+</sup>) to mercury (II) reductase (MerA)[Lafrance-Vanasse, J. et al, 2009](#citation2)[Parks et al., 2009](#citation3).
 
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
-    +image(1, imgpath, "Alkylmercury lyase without organic mercury. New cartoons representation with residues highlighted in CPK.", 100)
+    - var imgpath = "" + require("../assets/img/Model--aml-wo-mercury.png")["default"]
+    +image(1, imgpath, "Alkylmercury lyase without organic mercury. New cartoons representation with residues highlighted in CPK.", 70)
 
     :markdown-it(html)
         The active site of this protein is **CYS-95** and **CYS-158**. Here we show only one chain of the dimer of the MerB complex. Searches for PDB files of MerB with an organometallic ligand were futile, therefore a carbon atom was inserted into the PDB file manually after calculating the distance between mercury and carbon in methylmercury compound.  
 
     video(controls width=720)
-      source(src= urlPrefix + require("../assets/vid/Home--bgvideo.mp4")['default'].substr(2), type='video/mp4')
+      source(src= urlPrefix + require("../assets/vid/Model--aml.mp4")['default'].substr(2), type='video/mp4')
 
     :markdown-it(html)
         <center>Video 1: Alkylmercury Lyase with organic mercury. New cartoons representation with residues highlighted in CPK.</center>
 
     video(controls width=720)
-      source(src= urlPrefix + require("../assets/vid/Home--bgvideo.mp4")['default'].substr(2), type='video/mp4')
+      source(src= urlPrefix + require("../assets/vid/Model--aml-w-mercury.mp4")['default'].substr(2), type='video/mp4')
 
     :markdown-it(html)
         <center>Video 2: Alkylmercury Lyase with organic mercury</center>
 
         ### Mercuric reductase
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
-    +image(2, imgpath, "Mercuric reductase without mercury. New cartoons representation with residues highlighted in CPK.", 100)
+    - var imgpath = "" + require("../assets/img/Model--mr--wo-mercury.png")["default"]
+    +image(2, imgpath, "Mercuric reductase without mercury. New cartoons representation with residues highlighted in CPK.", 70)
 
     :markdown-it(html)
         **Mercuric reductase**, as the name implies, reduces the Mercuric ion (Hg<sup>2+</sup>) to elemental mercury (Hg).
         The binding site for this protein is **CYS-10** and **CYS-13** [Ledwidge, R. et al, 2005](#citation4) [Mathema et al., 2011](#citation5).
 
     video(controls width=720)
-      source(src= urlPrefix + require("../assets/vid/Home--bgvideo.mp4")['default'].substr(2), type='video/mp4')
+      source(src= urlPrefix + require("../assets/vid/Model--mr.mp4")['default'].substr(2), type='video/mp4')
 
     :markdown-it(html)
         <center>Video 3: Mercuric reductase with mercuric ion. New cartoons representation with residues highlighted in CPK.</center>
@@ -75,8 +75,8 @@ block article
 
         We have used **Michaelis Menten Kinetics** to simulate the kinetics of our two enzymes **alkylmercury lyase** and **mercuric reductase.**
 
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
-    +image(4, imgpath, "Michaelis Menten kinetics-based enzyme reaction mechanism.", 100)
+    - var imgpath = "" + require("../assets/img/Model--mmeqn.png")["default"]
+    +image(4, imgpath, "Michaelis Menten kinetics-based enzyme reaction mechanism.", 40)
 
     :markdown-it(html)
         ___Assumptions to be considered:___
@@ -90,73 +90,82 @@ block article
         We have considered the optimal time range to be **6-7 hours** for complete conversion as the **retention time of food** in the small intestine is about the same.
 
         ### Observations
-        #### Enzyme Concentration **10<sup>-4</sup>**
-    .row
-        .col-md
-         - var imgpath = "" + require("../assets/img/Implementation--tank.png")["default"]
-         +image(1, imgpath, "Tank", 100)
-    
-        .col-md
-         - var imgpath = "" + require("../assets/img/Implementation--assembly.png")["default"]
-         +image(2, imgpath, "Assembly", 106)
+        We recorded the following observations.
 
-        .col-md
-         - var imgpath = "" + require("../assets/img/Implementation--baffles.png")["default"]
-         +image(3, imgpath, "Baffles", 79)
+        #### Enzyme Concentration **10<sup>-4</sup>**
+
+    - var imgpath = "" + require("../assets/img/Model--10-4--2.9uM.jpg")["default"]
+    +image(5, imgpath, "2.9 µM", 70)
+    
+
+    - var imgpath = "" + require("../assets/img/Model--10-4--1.55uM.jpg")["default"]
+    +image(6, imgpath, "1.55 µM", 70)
+
+
+    - var imgpath = "" + require("../assets/img/Model--10-4--0.0358nM.jpg")["default"]
+    +image(7, imgpath, "0.0358 nM", 70)
 
     :markdown-it(html)
-        <center>Graph for the activity for MerA and MerB at [CH<sub>3</sub>Hg] =2.9 µM, 1.55µM ,0.0358nM</center>
+        <center>Graphs for the activity for MerA and MerB at [CH<sub>3</sub>Hg] =2.9 µM, 1.55 µM, 0.0358 nM</center>
         
         #### Enzyme Concentration  **10<sup>-5</sup>**
-    .row
-        .col-md
-         - var imgpath = "" + require("../assets/img/Implementation--tank.png")["default"]
-         +image(1, imgpath, "Tank", 100)
+    - var imgpath = "" + require("../assets/img/Model--10-5--2.9uM.jpg")["default"]
+    +image(8, imgpath, "2.9 µM", 70)
     
-        .col-md
-         - var imgpath = "" + require("../assets/img/Implementation--assembly.png")["default"]
-         +image(2, imgpath, "Assembly", 106)
 
-        .col-md
-         - var imgpath = "" + require("../assets/img/Implementation--baffles.png")["default"]
-         +image(3, imgpath, "Baffles", 79)
+    - var imgpath = "" + require("../assets/img/Model--10-5--1.55uM.jpg")["default"]
+    +image(9, imgpath, "1.55 µM", 70)
+
+
+    - var imgpath = "" + require("../assets/img/Model--10-5--0.0358nM.jpg")["default"]
+    +image(10, imgpath, "0.0358 nM", 70)
 
     :markdown-it(html)
+        <center>Graphs for the activity for MerA and MerB at [CH<sub>3</sub>Hg] =2.9 µM, 1.55 µM, 0.0358 nM</center>
+
         #### Enzyme Concentration  **10<sup>-3</sup>**
-    .row
-        .col-md
-         - var imgpath = "" + require("../assets/img/Implementation--tank.png")["default"]
-         +image(1, imgpath, "Tank", 100)
+    - var imgpath = "" + require("../assets/img/Model--10-3--2.9uM.jpg")["default"]
+    +image(11, imgpath, "2.9 µM", 70)
     
-        .col-md
-         - var imgpath = "" + require("../assets/img/Implementation--assembly.png")["default"]
-         +image(2, imgpath, "Assembly", 106)
 
-        .col-md
-         - var imgpath = "" + require("../assets/img/Implementation--baffles.png")["default"]
-         +image(3, imgpath, "Baffles", 79)
+    - var imgpath = "" + require("../assets/img/Model--10-3--1.55uM.jpg")["default"]
+    +image(12, imgpath, "1.55 µM", 70)
+
+
+    - var imgpath = "" + require("../assets/img/Model--10-3--0.0358nM.jpg")["default"]
+    +image(13, imgpath, "0.0358 nM", 70)
 
     :markdown-it(html)
+        <center>Graphs for the activity for MerA and MerB at [CH<sub>3</sub>Hg] =2.9 µM, 1.55 µM, 0.0358 nM</center>
+
         We have chosen the **optimal order of enzyme concentration** to be **10<sup>-4</sup>** as the conversion rate falls within our time range.
         However, more experiments have to be performed to see whether **10<sup>-3</sup> concentration** can be utilized.
 
-        Aim: To describe the activity of the transport system.
+        ### Model 2
+        **Aim:** To describe the activity of the transport system.
         
-        Assumptions which were considered:
+        **Assumptions which were considered:**
         - The production of the proteins has already started due to a small amount of CH<sub>3</sub>Hg having diffused inside the cell prior and bound to MerR, initiating the transcription.
         - Amount of protein within the cell will remain constant. 
 
+        <center>
         CH<sub>3</sub>Hg<sub>out</sub> + MerC ⇔ CH<sub>3</sub>Hg<sub>in</sub> + MerC, (kf1,kr1)
-        
+        </center>
+        <center>
         CH<sub>3</sub>Hg<sub>out</sub> + MerP ⇔  MerP-CH<sub>3</sub>Hg  Complex, (kf2,kr2)
-        
+        </center>
+        <center>
         MerP-CH<sub>3</sub>Hg   Complex + MerT  ⇔ MerT-CH<sub>3</sub>Hg  Complex + MerP (kf3,kr3)
-        
+        </center>
+        <center>
         MerP-CH<sub>3</sub>Hg   Complex + MerE  ⇔ MerE-CH<sub>3</sub>Hg  Complex + MerP (kf4,kr4)
-        
+        </center>
+        <center>
         MerT-CH<sub>3</sub>Hg   Complex ⇔ CH<sub>3</sub>Hg<sub>in</sub> + MerT (kf5,kr5)
-        
+        </center>
+        <center>
         MerP-CH<sub>3</sub>Hg   Complex ⇔ CH<sub>3</sub>Hg<sub>in</sub> + MerE (kf6,kr6)
+        </center>
 
         #### Results
         The final ordinary differential equations were obtained.
