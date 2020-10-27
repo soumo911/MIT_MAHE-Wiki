@@ -2,142 +2,182 @@ extends ../templates/contents.pug
 
 block headVars
     - var title = "Model"
-    - var tagline = "A sample page for the theme."
+    - var tagline = "This page outlines our project models."
     - var requireMathJax = true
 
 block article
     
+    :markdown-it(html)
+
+        # Introduction
+        Biological systems are like poetry — mesmerizingly complex yet marvelously simple. Proteins are the words of this poem, giving it a **structure** and **function**.
+        The core components of our project are these molecules, enabling us to bring to life our problem statement. In order to use them effectively, understanding their complexity is necessary.
+        To do the same we have visualized and simulated our proteins dividing them to their core aspects: structure and function. 
+
+        # Structural Analysis
+        “Visual molecular dynamics” is a molecular visualization program used for display, animation, and analysis of large biomolecular systems using 3-D graphics and built-in scripting [Visual molecular dynamics - TCg](#citation1).
+        We have used this software to visualize our dual enzyme system **MerA** and **MerB**. A **CHARMM force-field** with additional entries in the topology and parameter files was used for the **mercury ion** and **cysteine (sulphur) interactions.** 
+
+        ### Alkylmercury Lyase
+        **Alkylmercury lyase** is encoded by the MerB gene and **breaks** the **carbon mercury bond** in the organometallic compound and transfers the resulting mercury ion (Hg<sup>2+</sup>) to mercury (II) reductase (MerA)[Lafrance-Vanasse, J. et al, 2009](#citation2)[Parks et al., 2009](#citation3).
+
+    - var imgpath = "" + require("../assets/img/Model--aml-wo-mercury.png")["default"]
+    +image(1, imgpath, "Alkylmercury lyase without organic mercury. New cartoons representation with residues highlighted in CPK.", 70)
+
+    :markdown-it(html)
+        The active site of this protein is **CYS-95** and **CYS-158**. Here we show only one chain of the dimer of the MerB complex. Searches for PDB files of MerB with an organometallic ligand were futile, therefore a carbon atom was inserted into the PDB file manually after calculating the distance between mercury and carbon in methylmercury compound.  
+
     video(controls width=720)
-      source(src= urlPrefix + require("../assets/vid/Home--bgvideo.mp4")['default'].substr(2), type='video/mp4')
+      source(src= urlPrefix + require("../assets/vid/Model--aml.mp4")['default'].substr(2), type='video/mp4')
 
     :markdown-it(html)
+        <center>Video 1: Alkylmercury Lyase with organic mercury. New cartoons representation with residues highlighted in CPK.</center>
 
-        # Headings
-        ## Level 2 Heading
-        ### Level 3 Heading
-        #### Level 4 Heading
-
-        # Emphasis
-        This is regular text.
-
-        **This is bold text.**
-        __This is also bold text.__
-
-        *This is italic text.*
-        _This is also italix text.*
-
-        ***This text is bold and italic both.***
-        ___This text is bold and italic both.___
-
-        ~~Strikethrough~~
-
-        # Lists
-        1. This is item one.
-        1. This is item two.
-        1. It's okay to number every item as 1.
-            * This is a nested list.
-            * Use asterisk for an unordered list,
-            * Further nesting?
-            + Plus sign also works.
-            - And so does minus.
-        1. ~~Birds aren't real.~~
-
-        # Links
-        [Google](https://google.com)
-
-        [Text goes in square brackets](Link-goes-in-parenthesis)
-
-        # Blockquote
-
-        > This is a blockquote.
-        > This continues in the same paragraph.
-        >
-        > To change the paragraph, you have to leave a line.
-
-        > This is another blockquote.
-        > 
-        > **Pranav Ballaney, 2020**
-
-        # Images
-
-        This is a regular paragraph. 
-        #### This is a level 4 heading. 
-        [This is a link](google.com)
-
-    - var imgpath = "" + require("../assets/img/Description--josh-withers.jpg")["default"]
-    +image(1, imgpath, "Caption", 100)
+    video(controls width=720)
+      source(src= urlPrefix + require("../assets/vid/Model--aml-w-mercury.mp4")['default'].substr(2), type='video/mp4')
 
     :markdown-it(html)
-        Back to regular text.
+        <center>Video 2: Alkylmercury Lyase with organic mercury</center>
 
-        # Tables
-
-        This is a regular paragraph, which precedes the table.
-        When you want to insert a table, indent one level back and specify the plugin.
-        Then indent inside again and start writing the table.
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | This is | the table | header row |
-        | ------  | --------- | ---------- |
-        | 1       | 2         | 3          |
-        | 4       | 5         | 6          |
-        [Table 1: Caption goes here.]
+        ### Mercuric reductase
+    - var imgpath = "" + require("../assets/img/Model--mr--wo-mercury.png")["default"]
+    +image(2, imgpath, "Mercuric reductase without mercury. New cartoons representation with residues highlighted in CPK.", 70)
 
     :markdown-it(html)
-        And when you're done, go back to the regular markdown filter.
+        **Mercuric reductase**, as the name implies, reduces the Mercuric ion (Hg<sup>2+</sup>) to elemental mercury (Hg).
+        The binding site for this protein is **CYS-10** and **CYS-13** [Ledwidge, R. et al, 2005](#citation4) [Mathema et al., 2011](#citation5).
+
+    video(controls width=720)
+      source(src= urlPrefix + require("../assets/vid/Model--mr.mp4")['default'].substr(2), type='video/mp4')
 
     :markdown-it(html)
-        **Example 2:**
-
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        | Left aligned | Center aligned | Right aligned |
-        | :----------- | :------------: | ------------: |
-        | 1 | 2 | 3 |
-        | 4 | 5 | 6 |
+        <center>Video 3: Mercuric reductase with mercuric ion. New cartoons representation with residues highlighted in CPK.</center>
 
     :markdown-it(html)
-        **Example 3:**
+        Our aim was to show the stability of our enzyme by determining Root Mean Square Deviation of the protein-ligand system.
+        We failed to do so due to the uncertainty about mercuric ion properties. The results we obtained at the time of submission were too unsatisfactory for us to proceed with the analysis.
 
-    :markdown-it(html plugins=['markdown-it-multimd-table'])
-        |              |          Grouping           ||
-        |First Header  | Second Header | Third Header |
-        | ------------ | :-----------: | -----------: |
-        |Content       |          *Long Cell*        ||
-        |Content       |   **Cell**    |         Cell |                                               
-        |New section   |     More      |[Data](https://google.com) |
-        |And more      | With an escaped '\|'       ||
+        # Functional Analysis
+        Functional analysis was modelled using MATLAB - SimBiology.
 
-        [Table 3: Caption goes here.]
+        ### Model 1
+        In order to assess the **order of concentration of enzymes** required for optimal conversion, we have designed an experiment (refer to iGEM MIT_MAHE Composite Bio-Brick 1 handbook for complete protocol). This experiment would provide three graphs
+
+        - Graph of mercury concentration vs time is obtained for constant concentration of enzyme
+        - Graph of enzyme concentration vs activity is obtained.
+        - Graph of no of cells vs enzyme concentration graph is obtained.
+
+        Using the graphs, estimation about the optimal enzyme concentration to enable optimum activity must be determined. Thus, the optimum CFU/mL to be used can be estimated.
+        
+        To provide a range of concentration of enzymes that can be used in order to attain the first graph, we have designed a MATLAB model. 
+
+        We have used **Michaelis Menten Kinetics** to simulate the kinetics of our two enzymes **alkylmercury lyase** and **mercuric reductase.**
+
+    - var imgpath = "" + require("../assets/img/Model--mmeqn.png")["default"]
+    +image(3, imgpath, "Michaelis Menten kinetics-based enzyme reaction mechanism.", 40)
 
     :markdown-it(html)
+        ___Assumptions to be considered:___
+        1. ES formation is much faster than E + P formation i.e. k1, k-1 >>> k2
+        2. Steady state condition (ES concentration is constant).
 
-        # Definitions
+        **Ordinary differential equations (ODEs) used:**
+        $$\[\frac{dCH_3Hg}{dt}=\frac{(-(V_{m1}.[CH_3Hg])}{(K_{m1}+[CH_3Hg])}\]$$
+        $$\[\frac{d[Hg^{2+}]}{dt}=\frac{(V_{m1}.[CH_3Hg]}{(K_{m1}+[CH_3Hg])}-\frac{(V_{m2}.[Hg^{2+}])}{(K_{m2}+[Hg^{2+}])}\]$$
 
-        <dfn>Term ~ Definition</dfn>
+        We have considered the optimal time range to be **6-7 hours** for complete conversion as the **retention time of food** in the small intestine is about the same.
 
-        This can come <dfn>anywhere in ~ the text</dfn>.
+        ### Observations
+        We recorded the following observations.
 
-        # MathJax
+        #### Enzyme Concentration **10<sup>-4</sup>**
 
-        $$\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$
+    - var imgpath = "" + require("../assets/img/Model--10-4--2.9uM.jpg")["default"]
+    +image(4, imgpath, "2.9 µM", 70)
+    
 
-        $$-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$$
+    - var imgpath = "" + require("../assets/img/Model--10-4--1.55uM.jpg")["default"]
+    +image(5, imgpath, "1.55 µM", 70)
 
-        $$i\hbar\gamma^\mu\partial_\mu\psi = mc\psi$$
 
-        $$y_k = \frac{1}{\sqrt{N}}\sum_{n=0}^{N-1}x_n\omega_N^{kn}$$
+    - var imgpath = "" + require("../assets/img/Model--10-4--0.0358nM.jpg")["default"]
+    +image(6, imgpath, "0.0358 nM", 70)
 
-        # Citations
+    :markdown-it(html)
+        <center>Graphs for the activity for MerA and MerB at [CH<sub>3</sub>Hg] =2.9 µM, 1.55 µM, 0.0358 nM</center>
+        
+        #### Enzyme Concentration  **10<sup>-5</sup>**
+    - var imgpath = "" + require("../assets/img/Model--10-5--2.9uM.jpg")["default"]
+    +image(7, imgpath, "2.9 µM", 70)
+    
 
-        In text citation for a research article with a DOI. [Rosano et al., 2019](#citation2)
+    - var imgpath = "" + require("../assets/img/Model--10-5--1.55uM.jpg")["default"]
+    +image(8, imgpath, "1.55 µM", 70)
 
-        In text citation for another research article with a DOI. [Allen & Sheridan, 2015](#citation1)
 
-        In text citation for a book with no DOI. [Ingalls, 2013](#citation3)
+    - var imgpath = "" + require("../assets/img/Model--10-5--0.0358nM.jpg")["default"]
+    +image(9, imgpath, "0.0358 nM", 70)
 
-        In text citation for a website with institutional author. [TNAU Agritech Portal, n.d.](#citation4)
+    :markdown-it(html)
+        <center>Graphs for the activity for MerA and MerB at [CH<sub>3</sub>Hg] =2.9 µM, 1.55 µM, 0.0358 nM</center>
 
-        In text citation for a website with an author. [Author, n.d.](#citation5)
+        #### Enzyme Concentration  **10<sup>-3</sup>**
+    - var imgpath = "" + require("../assets/img/Model--10-3--2.9uM.jpg")["default"]
+    +image(10, imgpath, "2.9 µM", 70)
+    
+
+    - var imgpath = "" + require("../assets/img/Model--10-3--1.55uM.jpg")["default"]
+    +image(11, imgpath, "1.55 µM", 70)
+
+
+    - var imgpath = "" + require("../assets/img/Model--10-3--0.0358nM.jpg")["default"]
+    +image(12, imgpath, "0.0358 nM", 70)
+
+    :markdown-it(html)
+        <center>Graphs for the activity for MerA and MerB at [CH<sub>3</sub>Hg] =2.9 µM, 1.55 µM, 0.0358 nM</center>
+
+        We have chosen the **optimal order of enzyme concentration** to be **10<sup>-4</sup>** as the conversion rate falls within our time range.
+        However, more experiments have to be performed to see whether **10<sup>-3</sup> concentration** can be utilized.
+
+        ### Model 2
+        **Aim:** To describe the activity of the transport system.
+        
+        **Assumptions which were considered:**
+        - The production of the proteins has already started due to a small amount of CH<sub>3</sub>Hg having diffused inside the cell prior and bound to MerR, initiating the transcription.
+        - Amount of protein within the cell will remain constant. 
+
+        <center>
+        CH<sub>3</sub>Hg<sub>out</sub> + MerC ⇔ CH<sub>3</sub>Hg<sub>in</sub> + MerC, (kf1,kr1)
+        </center>
+        <center>
+        CH<sub>3</sub>Hg<sub>out</sub> + MerP ⇔  MerP-CH<sub>3</sub>Hg  Complex, (kf2,kr2)
+        </center>
+        <center>
+        MerP-CH<sub>3</sub>Hg   Complex + MerT  ⇔ MerT-CH<sub>3</sub>Hg  Complex + MerP (kf3,kr3)
+        </center>
+        <center>
+        MerP-CH<sub>3</sub>Hg   Complex + MerE  ⇔ MerE-CH<sub>3</sub>Hg  Complex + MerP (kf4,kr4)
+        </center>
+        <center>
+        MerT-CH<sub>3</sub>Hg   Complex ⇔ CH<sub>3</sub>Hg<sub>in</sub> + MerT (kf5,kr5)
+        </center>
+        <center>
+        MerP-CH<sub>3</sub>Hg   Complex ⇔ CH<sub>3</sub>Hg<sub>in</sub> + MerE (kf6,kr6)
+        </center>
+
+        #### Results
+        The final ordinary differential equations were obtained.
+
+        $$\[CH_3Hg_{out} = ([MerP-CH_3Hg_{complex}].k_{r2} - \frac{C1.\exp(-t.([MerC].k_{f1} + [MerP].k_{f2})) + [CH_3Hg_{in}].[MerC].k_{r1})}{([MerC].k_{f1} + [MerP].k_{f2})}\]$$
+        $$\[CH_3Hg_{in} = ([MerE-CH_3Hg_{complex}].k_{f6} + [MerT-CH_3Hg_{complex}].k_{f5} - \frac{C1.\exp(-[MerC].k_{r1}.t) + [CH_3Hg_{out}].[MerC].k_{f1})}{([MerC].k_{r1})}\]$$
+
+        But due to lack of information about the activities of the protein further analysis could not be performed. Kinetic modelling of these proteins could be a future prospect to enable complete understanding of Mer operon. 
+        
+        # Handbook
+        _You can read the full documentation on our __iGEM MIT_MAHE Model Handbook.___
+        The model handbook has complete information about our MATLAB and VMD models including challenges which we had faced.
+
+    +pdf(require("../assets/docs/iGEM-MIT_MAHE-Model-Handbook.pdf")['default'], "iGEM-MIT_MAHE-Model-Handbook")
 
 //- DO NOT MODIFY THIS LINE AND ANYTHING BEYOND.
 
